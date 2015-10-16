@@ -1,0 +1,4 @@
+﻿.search { background: #cacaca; padding: 10px; overflow: hidden; }
+.search .form_row { float: left; clear: none; }
+.main_con .search .row_key { width: 90px; }
+.search .submit { padding: 4px; margin-left: 60px; }

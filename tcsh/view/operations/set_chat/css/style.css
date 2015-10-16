@@ -1,0 +1,165 @@
+.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+.wm_form { padding:20px 0; background:#FFF; border:1px solid #ccc; border-top:0; border-bottom:0;}
+.chat_con{
+	margin:0 60px 20px 60px;
+	padding:20px 10px 10px 10px;
+	border:1px solid #ccc;
+	position:relative;
+}
+.main_con .chat_con .form_txt{
+	width:150px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #ccc;
+} 
+.chat_con .form_row,.chat_con .form_row_img{
+	position:relative;
+	margin-bottom:10px;
+}
+.chat_con .form_row label{
+	display:inline-block;
+	width:60px;
+	padding-right:10px;
+	text-align:right;
+}
+.chat_con .form_row_img a.chat_img{
+	background:#e0e0e0;
+	color:#FFF;
+	display:inline-block;
+	border:1px solid #ccc;
+	font-size:90px;
+	line-height:60px;
+	width:498px;
+	height:78px;
+	vertical-align:middle;
+	text-align:center;
+	position:relative;
+}
+.form_row_img a.chat_img:hover{
+	text-decoration:none;
+}
+.chat_con .form_row_img a span{
+	font-size:12px;
+	display:block;
+	color:#343434;
+	line-height:20px;
+}
+.chat_con .form_row_img a em{
+	color:#f00;
+}
+.chat_con .form_row_img .form_file{
+	top:0;
+	left:0px;
+	width:500px;
+	height:80px;
+	cursor:pointer;
+}
+
+.form_row_img .chat_img img{
+	width:500px;
+	height:80px;
+	position:absolute;
+	top:0;
+	left:0px;
+	vertical-align:middle;
+	display:none;
+}
+.chat_btn{
+	position:absolute;
+	top:30px;
+	right:20px;
+}
+.chat_btn a{
+	color:#535353;
+	font-size:20px;
+	margin-right:15px;
+}
+.chat_btn a:hover{
+	text-decoration:none;
+}
+.chat_btn a:hover{
+	color:#f00;
+}
+.chat_con .form_row_img .img_operate{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	margin-left:20px;
+}
+.chat_con .form_row_img .img_operate a{
+	color:#787878;
+	display:block;
+}
+.fixed_box{
+	position:fixed;
+	top:240px;
+	left:1240px;
+	border:1px solid #ccc;
+	background:#fff;
+	width:50px;
+	height:50px;
+	line-height:44px;
+	text-align:center;
+}
+.fixed_box a.add_img{
+	color:green;
+	font-size:50px;
+}
+.fixed_box a.add_img:hover{
+	text-decoration:none;
+}
+.form_row_add{
+	margin-left:70px;
+}
+.form_row_add a.add_new_img{
+	color:#f60;
+}
+.save{
+	text-align:center;
+	margin:25px auto 15px auto;
+}
+.save span.ui_btn_txt{
+	font-weight:bold;
+	font-size:16px;
+	padding:0 20px 0 15px;
+}
+.del_mask{
+	background:#000;
+	opacity:0.7;
+	file:alpha(opacity=70);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.del_mask .cancel_del{
+	color:#f60;
+	font-size:16px;
+	font-weight:bold;
+}
+.del_mask span{
+	font-size:16px;
+	font-weight:normal;
+}
+.del_mask ul{
+	padding-top:20px;
+}
+.del_mask li{
+	padding-top:10px;
+}
+.del_mask_btn{
+	margin-left:-160px;
+}
+.del_mask .del_mask_btn a{
+	color:#F50;
+	font-weight:bold;
+	margin-right:10px;
+	font-size:14px;
+}

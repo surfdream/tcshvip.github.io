@@ -1,0 +1,191 @@
+﻿.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+.fixed_box { position: fixed; left: 1240px; border: 1px solid #ccc; padding: 10px; text-align: center; background: #fff; top: 200px; }
+.add_page, .add_page:link, .add_page:active, .add_page:visited { display: block; width: 30px; height: 30px; line-height: 22px; border: 1px solid #12ac01; font-size: 40px; color: #12ac01; font-weight: 700; float: left; text-decoration: none; text-align: center; font-family: 'Microsoft YaHei'; }
+
+.w620 { width: 620px!important; }
+.w160 { width: 160px!important; }
+.w100 { width: 100px!important; }
+.w80 { width: 80px!important; }
+.w50 { width: 50px!important; }
+
+.chkbox { cursor: default; padding: 4px 4px 2px 4px; border: 1px solid #ccc; background: #fff; color: #fff; border-radius: 6px; font-size: 12px; font-weight: 500; margin-right: 10px; }
+.curr .chkbox { color: #159f00; }
+
+
+.table_list { width: 100%; background: #fff; }
+.main_con .table_list th { background: #ccc; padding: 10px 0; }
+.main_con .table_list td { padding: 10px 0; border-bottom: 1px dashed #ccc; }
+.page_btn { background: #fff; padding: 20px 0 20px 10px; overflow: hidden; }
+.page_btn .ui_btn { margin-right: 14px; }
+.page_btn .ui_btn_txt .iconfont { margin-right: 4px; }
+
+.page_box, .model_box, .inv_default_skin { text-align: left; }
+.page_box .page_box_main, .model_box .model_box_main, .inv_default_skin .ids_main { width: 600px; }
+.page_box h3, .model_box h3, .inv_default_skin h3 { font-size: 16px; }
+.page_box .page_box_head, .model_box .model_box_head, .inv_default_skin .ids_head { padding: 10px; border-bottom: 1px solid #ccc; position: relative; }
+.page_box .page_box_head .close, .model_box .model_box_head .close, .inv_default_skin .ids_head .close { position: absolute; top: 0; right: 0; font-size: 22px; }
+.page_box .page_box_head .close:hover, .model_box .model_box_head .close:hover, .inv_default_skin .ids_head .close:hover { color: #e13436; text-decoration: none; }
+.page_box .page_box_con, .model_box .model_box_con, .inv_default_skin .ids_con { padding-top: 15px; }
+.page_box .wm_form .form_row, .model_box .wm_form .form_row, .inv_default_skin .wm_form .form_row { padding: 15px 0; }
+.page_box .wm_form .form_txt, .model_box .wm_form .form_txt, .inv_default_skin .wm_form .form_txt { padding: 5px; width: 280px; }
+.page_box .wm_form .row_key, .model_box .wm_form .row_key, .inv_default_skin .wm_form .row_key { width: 120px; }
+.page_box .btns .ui_btn, .model_box .btns .ui_btn, .inv_default_skin .btns .ui_btn { margin: 0 30px 0 0; }
+.page_box .btns .ui_btn_txt, .model_box .btns .ui_btn_txt, .inv_default_skin .btns .ui_btn_txt { font-size: 14px; }
+
+.search { background: #fff; padding: 10px; overflow: hidden; }
+.main_con .search .row_key { width: 60px; }
+.search .submit { padding: 4px; margin-left: 0; }
+.search .search_model_name { margin-right: 10px; }
+
+.competence_box { text-align: left; }
+.competence_box .competence_box_main { width: 680px; }
+.competence_box h3 { font-size: 16px; }
+.competence_box .competence_box_head { padding: 10px; border-bottom: 1px solid #ccc; position: relative; }
+.competence_box .competence_box_head .close { position: absolute; top: 0; right: 0; font-size: 22px; }
+.competence_box .competence_box_head .close:hover { color: #e13436; text-decoration: none; }
+.competence_box .wm_form { padding-top: 10px; }
+.competence_box .wm_form .row_key { width: 120px; }
+.competence_box .competence_list_box { height: 300px; overflow: auto; padding-bottom: 30px; }
+.competence_box .competence_list_box::-webkit-scrollbar { width: 5px; height: 5px; }
+.competence_box .competence_list_box::-webkit-resizer { background: #333333; }
+.competence_box .competence_list_box::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.competence_box .wm_form .form_txt { padding: 4px; background: #fff; border: 1px solid #ccc; }
+.competence_box .competence_list { width: 650px; margin: 0 auto; }
+.competence_box .form_row .add_competence { margin: 0; }
+.competence_box .competence_list th { background: #ccc; padding: 10px; }
+.competence_box .competence_list td { padding: 24px 10px 0 10px; }
+.competence_box .competence_list tr:hover td { }
+.competence_box .competence_list .btn_list { position: relative; float: left; padding: 0 5px; }
+.competence_box .competence_list .btn_list:hover ul { display: block; }
+.competence_box .competence_list .btn_list ul { display: none; position: absolute; top: 0; left: 0; background: #fff; width: 100%; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.25); }
+.competence_box .competence_list .btn_list ul a { display: block; text-decoration: none; padding: 2px 0 2px 5px; color: #0188cc; text-align: left; font-family: 'Microsoft YaHei'; border: 1px solid #ccc; border-bottom: 0; border-top: 0; }
+.competence_box .competence_list .btn_list ul li { padding: 0; height: 22px; float: none; }
+.competence_box .competence_list .btn_list ul a:hover { background: #f60; color: #fff; }
+.competence_box .competence_list .btn_list ul .btn_list_last a { -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; border-top: 1px solid #ccc; }
+.competence_box .competence_list .btn_list ul .btn_list_end a { -webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; border-bottom: 1px solid #ccc; }
+.competence_box .competence_list .btn_list .wm_ico { margin: 0 5px; }
+.competence_box .competence_list td .portal { line-height: 16px; display: block; color: #f47d15; margin: 0; }
+.competence_box .competence_list td .portal .ui_btn_txt { padding-right: 5px; }
+.competence_box .competence_list td .portal .jquery-ui { margin-top: -4px; }
+.competence_box .competence_list .edit_text { background: #fff; border: 1px solid #fff; padding: 4px; }
+.competence_box .competence_list .c_name { width: 90px; }
+.competence_box .competence_list .c_remark { width: 280px; }
+.competence_box .competence_list .edit_btns { display: none; }
+.competence_box .competence_list .edit .edit_text { border-color: #ccc; }
+.competence_box .competence_list .edit .btn_list { display: none; }
+.competence_box .competence_list .edit .edit_btns { display: block; }
+.competence_box .btns { float: right; padding: 15px 15px 10px 0; }
+
+
+.model_list { }
+.main_con .model_list th, .main_con .model_list td { text-align: left; padding-left: 20px; }
+
+
+.chk_model { text-align: left; }
+.chk_model .chk_model_main { width: 600px; }
+.chk_model h3 { font-size: 16px; }
+.chk_model .chk_model_head { padding: 10px; border-bottom: 1px solid #ccc; position: relative; }
+.chk_model .chk_model_head .close { position: absolute; top: 0; right: 0; font-size: 22px; }
+.chk_model .chk_model_head .close:hover { color: #e13436; text-decoration: none; }
+.chk_model .chk_model_con { padding-top: 15px; }
+.chk_model .chk_model_list { max-height: 400px; overflow: auto; padding: 20px 0 0 20px; }
+.chk_model .chk_model_list::-webkit-scrollbar { width: 5px; height: 5px; }
+.chk_model .chk_model_list::-webkit-resizer { background: #333333; }
+.chk_model .chk_model_list::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.chk_model .chk_model_list .chk_model_item { float: left; margin: 0 10px 10px 0; clear: none; padding: 0; }
+.chk_model .wm_form .btns { text-align: right; }
+.chk_model .wm_form .btns .ui_btn_txt { font-size: 12px; }
+.chk_model .retrieval .search_model_name { padding: 4px; }
+
+
+.nav_tree { float: left; max-height: 800px; max-width: 20%; overflow: auto; background: #fff; margin: 10px 0 10px 10px; }
+.nav_tree a, .nav_tree a:link, .nav_tree a:active, .nav_tree a:visited, .nav_tree a:hover { white-space: nowrap; text-decoration: none; }
+.nav_tree .curr { background: #666; color: #fff; }
+.nav_tree .iconfont { font-size: 18px; font-weight: 500; padding: 0 4px; }
+.nav_tree dt { font-weight: 700; padding: 8px 0; }
+.nav_tree dt a { font-size: 14px; }
+.nav_tree dl dd { margin-left: 24px; height: 32px; overflow: hidden; white-space: nowrap; padding-right: 20px; min-width: 110px; }
+.nav_tree .show_sub_dd { height: auto; overflow: visible; }
+.nav_tree .f5_tree { font-size: 16px; }
+
+
+.nav_list { overflow: hidden; border: 1px solid #999; background: #fff; border-top: none; border-bottom: none; }
+.nav_list .set_nav_tree { width: 79%; float: left; margin: 10px 0; border-left: 1px dashed #ccc; }
+.nav_list .set_nav_tree h3 { padding: 10px 0 10px 10px; font-size: 16px; border-bottom: 1px dashed #ccc; }
+.nav_list .node_btns { padding: 10px 0 20px 10px; }
+.nav_list .node_btns .iconfont { font-size: 20px; margin-right: 5px; }
+.nav_list .node_btns a { margin-right: 10px; }
+.nav_list .set_nav_tree .row_key { width: 130px; }
+.nav_list .set_nav_tree .form_row { padding: 15px 0; }
+.nav_list .set_nav_tree .form_txt { width: 150px; margin-right: 10px; }
+.nav_list .set_nav_tree .node_remark { width: 98%; line-height: 26px; margin: 4px auto; border: 1px solid #ffcc7f; background-color: #ffffe5; padding: 5px; }
+.nav_list .set_nav_tree .save { float: right; margin-right: 30px; }
+.nav_list .set_nav_tree .save .ui_btn_txt { font-size: 16px; letter-spacing: 6px; padding-left: 10px; }
+
+.tree_node_box { }
+.tree_node_box .remark { width: 400px; height: 18px; overflow: hidden; }
+.tree_node_box .complete { height: 120px; overflow: auto; }
+.tree_node_box .wm_form .page_name { width: 230px; }
+
+.chk_model_page { }
+.chk_model_page .ids_main { width: 860px; }
+.chk_model_page .btns { float: right; }
+.chk_model_page .btns .ui_btn_txt { font-size: 12px; }
+.chk_model_page .nav_tree { height: 400px; }
+.chk_model_page .cmp_page_list_box, .chk_model_page .cmp_submodel_list_box { height: 420px; margin-bottom: 20px; overflow-y: auto; overflow-x: hidden; }
+.chk_model_page .cmp_submodel_list_box li { float: left; margin: 24px; }
+.chk_model_page .cmp_submodel_list_box .sub_model_item { display: block; padding: 6px 10px; background; }
+.chk_model_page .cmp_submodel_list_box .sub_model_item, .chk_model_page .cmp_submodel_list_box .sub_model_item:link, .chk_model_page .cmp_submodel_list_box .sub_model_item:active, .chk_model_page .cmp_submodel_list_box .sub_model_item:visited { border: 1px solid #09c; background-color: #d1ebfe; border-radius: 4px; padding: 4px 10px; display: block; }
+.chk_model_page .cmp_submodel_list_box .sub_model_item:hover, .chk_model_page .cmp_submodel_list_box .curr, .chk_model_page .cmp_submodel_list_box .curr:link, .chk_model_page .cmp_submodel_list_box .curr:active, .chk_model_page .cmp_submodel_list_box .curr:visited, .chk_model_page .cmp_submodel_list_box .curr:hover { background: #09c; color: #fff; text-decoration: none; }
+.chk_model_page .cmp_page_list_box h3, .chk_model_page .cmp_submodel_list_box h3 { font-size: 16px; padding: 10px 0 0 14px; height: 14px; }
+.chk_model_page .cmp_page_list { width: 640px; margin: 10px 0 0 10px; float: left; }
+.chk_model_page .cmp_page_list th, .chk_model_page .cmp_page_list td { padding: 14px 0 10px 10px; text-align: left; }
+.chk_model_page .cmp_page_list th { background: #ccc; }
+.chk_model_page .sub_model_item { }
+.user_group_list { }
+.main_con .user_group_list th, .main_con .user_group_list td { text-align: left; padding-left: 20px; }
+
+.user_role { }
+.main_con .user_role_list th, .main_con .user_role_list td { text-align: left; padding-left: 20px; }
+.tree_node_box .remark { width: 400px; height: 18px; overflow: hidden; }
+.tree_node_box .complete { height: 120px; overflow: auto; }
+
+
+.role_to_competence_box { }
+.role_to_competence_box .wm_form { overflow: hidden; }
+.role_to_competence_box .wm_form .form_row { padding: 4px 0; }
+.role_to_competence_box .nav_tree { height: 300px; width: 550px; overflow: auto; background: #fff; margin: 0 auto 20px auto; border: 1px solid #999; float: none; max-width: none; border-top: none; }
+.role_to_competence_box dd { margin-left: 24px; height: 32px; overflow: hidden; white-space: nowrap; padding-right: 20px; min-width: 110px; }
+.role_to_competence_box .competence_name, .role_to_competence_box .competence_remark { display: block; float: left; padding-right: 20px; cursor: default; }
+.role_to_competence_box .chkbox { padding: 4px 4px 2px 4px; }
+.role_to_competence_box .sectionchkbox .chkbox, .role_to_competence_box .allchkbox .chkbox { border-color: #ccc; color: #159f00; background: #fff; }
+.role_to_competence_box .competence_item { width: 420px; margin-left:50px}
+.role_to_competence_box .competence_item .chkbox { float: left; height: 20px; margin-left: 2px; }
+.role_to_competence_box .sectionchkbox .chkbox { padding: 4px; }
+.role_to_competence_box .role_remark { width: 540px; line-height: 26px; margin: 4px auto; border: 1px solid #ffcc7f; background-color: #ffffe5; padding: 5px; }
+.role_to_competence_box .btns { float: right; }
+
+
+.group_set_role, .group_to_acc { }
+.group_set_role .role_list_box, .group_to_acc .group_list_box { overflow: hidden; }
+.group_set_role .role_list_box .box_head, .group_to_acc .group_list_box .box_head { overflow: hidden; background: #ccc; font-size: 16px; font-weight: 700; }
+.group_set_role .role_list_box .box_head li, .group_to_acc .group_list_box .box_head li { float: left; padding: 10px; }
+.group_set_role .role_list_box .role_list, .group_to_acc .group_list_box .group_list { max-height: 400px; overflow: auto; }
+.group_set_role .role_list_box .role_list ul, .group_to_acc .group_list_box .group_list ul { overflow: hidden; padding: 10px 0 0 0; border-bottom: 1px dashed #ccc; }
+.group_set_role .role_list_box .role_list li, .group_to_acc .group_list_box .group_list li { float: left; padding: 10px; }
+.group_set_role .role_list_box .btns, .group_to_acc .group_list_box .btns { float: right; margin-top: 20px; }
+
+.main_con .user_list th, .main_con .user_list td { text-align: left; padding: 10px 0 10px 10px; }
+.main_con .user_list th .chkbox { border-color: #999; }
+.user_list .btn_list { z-index: 10; }
+.user_list .btn_list:hover { z-index: 11; }
+.main_con .user_list tfoot td { border-top: none; }
+.user_list_search { background: #fff; border-bottom: 1px solid #ccc; }
+.user_list_search .wm_form { overflow: hidden; padding: 10px 0 10px 20px; }
+.user_list_search .wm_form .form_row { float: left; clear: none; padding: 10px 0; }
+.user_list_search .wm_form .row_key { width: 70px; }
+.user_list_search .wm_form .form_txt { width: 100px; }
+.user_list_search .wm_form .btn { clear: both; }
+.user_list_search .wm_form .submit { padding: 4px 10px; }

@@ -1,0 +1,46 @@
+﻿.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+.fixed_box { position: fixed; left: 1240px; border: 1px solid #ccc; padding: 10px; text-align: center; background: #fff; top: 200px; }
+.add_type, .add_type:link, .add_type:active, .add_type:visited { display: block; width: 30px; height: 30px; line-height: 22px; border: 1px solid #12ac01; font-size: 40px; color: #12ac01; font-weight: 700; float: left; text-decoration: none; text-align: center; font-family: 'Microsoft YaHei'; }
+
+.set_collect { background: #fff; }
+.set_collect .type_list .form_txt { margin-bottom: 15px; }
+.set_collect .type_list { padding: 20px 0; }
+.set_collect .type_list li { padding: 20px 0 10px 0; overflow: hidden; border-bottom: 1px dashed #ccc; position: relative; margin-top: 18px; }
+.set_collect .type_list .row_key { width: 120px; line-height: 30px; }
+.set_collect .floatleft { float: left; width: 660px; margin-left: 130px; }
+.set_collect .type_list .type_name { padding: 5px; display: block; }
+.set_collect .type_list .contain { float: left; line-height: 30px; font-family: SimSun; font-size: 12px; max-width: 560px; max-height: 100px; overflow-y: auto; }
+.set_collect .type_list .contain span { display: block; float: left; line-height: 20px; padding-right: 20px; white-space: nowrap; }
+.set_collect .type_list .edit { float: right; line-height: 30px; }
+.set_collect .save .ui_btn_txt { letter-spacing: 20px; font-size: 20px; padding-left: 25px; }
+.set_collect .remove { position: absolute; top: 0; right: 30px; color: #e13436; font-size: 22px; }
+.set_collect .remove:hover { text-decoration: none; }
+
+
+.set_shopping_view { background: #fff; }
+.set_shopping_view .type_list .form_txt { margin-bottom: 15px; }
+.set_shopping_view .type_list { padding: 20px 0; }
+.set_shopping_view .type_list li { padding: 20px 0 10px 0; overflow: hidden; border-bottom: 1px dashed #ccc; }
+.set_shopping_view .type_list .row_key { width: 120px; line-height: 30px; }
+.set_shopping_view .floatleft { float: left; width: 660px; margin-left: 130px; }
+.set_shopping_view .type_list .type_name { padding: 5px; display: block; }
+.set_shopping_view .type_list .type_item_btns { position: absolute; top: 20px; right: 30px; }
+.set_shopping_view .type_list .type_item_btns .iconfont { font-size: 20px; padding: 2px 5px; }
+.set_shopping_view .type_list .type_item_btns .iconfont:hover { color: #f47d15; text-decoration: none; }
+.set_shopping_view .type_list .type_item_btns .del_type_item, .set_shopping_view .type_list .type_item_btns .del_type_item:hover { color: #e13436; }
+.set_shopping_view .type_list .del_type_item { }
+.set_shopping_view .type_list .contain { float: left; line-height: 30px; font-family: SimSun; font-size: 12px; width: 635px; max-height: 100px; overflow-y: auto; padding-bottom: 10px; }
+.set_shopping_view .type_list .contain::-webkit-scrollbar { width: 5px; height: 5px; }
+.set_shopping_view .type_list .contain::-webkit-resizer { background: #333333; }
+.set_shopping_view .type_list .contain::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.set_shopping_view .type_list .contain a { margin-right:10px}
+.set_shopping_view .type_list .contain span, .set_shopping_view .sub_contain span { display: block; float: left; line-height: 20px; padding-right: 20px; white-space: nowrap; }
+.set_shopping_view .type_list .edit, .set_shopping_view .type_list .edit_sub_contain, .set_shopping_view .type_list .del_sub_contain, .set_shopping_view .type_list .sub_contain_btns { float: right; line-height: 30px; width: 34px; }
+.set_shopping_view .sub_recommend { width: 680px; margin-right: 10px; float: right; padding-top: 15px; border-left: 1px solid #ccc; position: relative; margin-bottom: 10px; }
+.set_shopping_view .sub_recommend .floatleft { width: 590px; margin-left: 80px; }
+.set_shopping_view .sub_recommend .row_key { width: 70px; }
+.set_shopping_view .sub_contain { float: left; line-height: 30px; font-family: SimSun; font-size: 12px; max-width: 500px; max-height: 62px; overflow-y: auto; }
+.set_shopping_view .save .ui_btn_txt { letter-spacing: 20px; font-size: 20px; padding-left: 25px; }
+.set_shopping_view .add_sub_recommend, .set_shopping_view .add_sub_recommend:link, .set_shopping_view .add_sub_recommend:active, .set_shopping_view .add_sub_recommend:visited { color: #ff4400; }

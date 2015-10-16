@@ -1,0 +1,237 @@
+.main_con{
+	background:#FFF;
+	min-height:1010px;
+}
+.busi_search{
+	padding:0 0 40px 10px;
+}
+.search_form .search_key{
+	display:inline-block;
+	width:80px;
+	text-align:right;
+	color:#5d5e5e;
+	font-size:14px;
+}
+.search_form .search_txt{
+	width:120px;
+	height:16px;
+	line-height:16px;
+	padding:4px;
+	margin-right:10px;
+}
+.ml10{
+	margin-left:10px;
+}
+.search_form .search_slt{
+	width:100px;
+	height:24px;
+	line-height:24px;
+	padding:0 4px;
+}
+.search_form .search_row{
+	margin-top:20px;
+}
+.time_txt{
+	width:30px;
+	height:24px;
+	line-height:24px;
+	padding:0 4px;
+	margin-left:5px;
+}
+.search_sub{
+	padding:4px 25px;
+	color:#323232;
+}
+.table_show{
+	border:0;
+	font-size:14px;
+	font-family:"Simsun";
+	color:#646464;
+	width:100%;
+	border-collapse:collapse;
+	margin-top:-20px;
+}
+.table_show th{
+	color:#f37d14;
+	text-align:center;
+	background:#eaeaea;
+	font-weight:normal;
+	height:40px;
+	line-height:40px;
+	margin:0 10px;
+}
+.table_show td{
+	text-align:center;
+	height:40px;
+	line-height:40px;
+}
+.table_show tr.even{
+	background:#eaeaea;
+}
+.table_show tr.odd{
+	background:#f2f2f2;
+}
+.table_show td a{
+	color:#03F;
+}
+
+/* 待审核  */
+.main_con .seg{
+	height: auto;
+	width:780px;
+	line-height: 26px;
+	padding:0 20px;
+	font-weight:700;
+	font-size:14px;
+	font-family:"Simsun";
+	color:#5d5d5c;
+}
+.apply_status{
+	float:left;
+}
+.apply_status .reason_content{
+	display:block;
+}
+.apply_time{
+	float:right;
+	font-weight:normal;
+}
+.account_con{
+	font-size:14px;
+	font-family:"Simsun";
+	padding-bottom:30px;
+	margin:0 10px;
+	border-bottom:1px dashed #d7d7d7;	
+}
+.account_con h3{
+	color:#5c5c5c;
+	border-bottom:1px solid #c7c7c6;
+	padding:10px;
+}
+.account_infor{
+	position:relative;
+	padding-bottom:40px;
+}
+.account_infor .bank_logo{
+	*display:inline;
+	*zoom:1;
+}
+.account_infor li{
+	margin:20px 0 0 18px;
+	font-size:14px;
+	color:#5d5e5e;
+}
+.account_infor span{
+	display:inline-block;
+	width:360px;
+}
+.accredit_infor{
+	padding:30px 10px 10px 10px;
+	font-size:14px;
+	font-family:"Simsun";
+}
+.accredit_infor h3{
+	color:#5c5c5c;
+	padding:0 0 40px 20px;
+}
+.photo_infor,.photo_infor img{
+	width:200px;
+	height:300px;
+	margin:0 auto;
+}
+.photo_infor a{
+	position:relative;
+	display:block;
+}
+.photo_infor .big_photo{
+	position:absolute;
+	top:0;
+	left:0;
+	color: #FFF;
+	background: rgba(000,000,000,0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');
+	width:200px;
+	height:300px;
+	line-height:300px;
+	text-align:center;
+	font-size:86px;
+	display:none;
+}
+.photo_infor span.big_photo_hover{
+	display:block;
+}
+.check_btn{
+	margin-top:30px;
+	text-align:center;
+}
+.check_btn a,.check_btn a:link,.check_btn a:active,.check_btn a:visited{
+	width:100px;
+	height:35px;
+	line-height:35px;
+	display:inline-block;
+	color:#FFF;
+	font-size:14px;
+	font-weight:700;
+	background:#c7c7c7;
+	margin:0 20px;
+	border-radius:4px;
+}
+.accredit_infor .check_btn a.pass{
+	background:#f37c14;
+}
+.check_btn a:hover{
+	text-decoration:none;
+}
+
+/* 未通过弹窗 */
+.nopass_reason{
+	padding:0 20px;
+}
+.nopass_reason h3{
+	color:#343434;
+	padding:10px;
+	border-bottom:1px solid #c7c7c7;
+	margin-bottom:20px;
+}
+.nopass_reason .reason_con{
+	width:400px;
+	height:150px;
+	padding:10px;
+	resize:none;
+}
+.nopass_reason p{
+	text-align:center;
+	margin-top:20px;
+}
+.nopass_reason p a,.nopass_reason p a:link,.nopass_reason p a:active,.nopass_reason p a:visited{
+	display:inline-block;
+	margin:0 10px;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	color:#FFF;
+	font-weight:700;
+	border-radius:4px;
+	background:#c5c5c5;
+	font-size:14px;
+}
+.nopass_box .nopass_reason p a.sure_btn{
+	background:#f37c14;
+}
+.nopass_reason .fork7{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.nopass_reason p a:hover{
+	text-decoration:none;
+}
+
+.order_page{
+	padding:10px;
+	margin:40px 0 20px 0;
+	text-align:center;
+}
+.order_page a,.order_page b, .order_page a:hover { padding: 6px 10px; height: 12px; line-height: 12px; background: #fff; color: #828282;  border: 1px solid #dbdbdb; font-size:14px; text-decoration:none; margin-left:5px; font-family:"Simsun"; }
+.order_page span {font-size:14px; color:#828282;}
+.order_page b { color: #fff; font-weight: 500; background: #e97813; }

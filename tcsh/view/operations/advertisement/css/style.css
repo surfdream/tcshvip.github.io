@@ -1,0 +1,54 @@
+﻿.red { color: #d60000; }
+.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+.wm_form { padding: 20px 0; background: #fff; }
+.wm_form .no_wrap { float: left; clear: none; width: 300px; }
+.wm_form .btns { padding: 10px; margin-bottom: 10px; position: relative; overflow: hidden; text-align: center; }
+.wm_form .btns .add { display: inline-block; width: 30px; height: 30px; line-height: 22px; border: 1px solid #12ac01; font-size: 40px; color: #12ac01; font-weight: 700; float: left; text-decoration: none; text-align: center; font-family: 'Microsoft YaHei'; }
+.wm_form .btns .ui_btn_txt { letter-spacing: 20px; font-size: 20px; padding-left: 25px; }
+.wm_form .sub_ad_item { height: 40px; overflow: hidden; border-bottom: 1px dashed #ccc; border-top: 1px dashed #ccc; margin-top: -1px;position:relative }
+.wm_form .sub_ad_item:hover { background: #fff; }
+.wm_form .update { float: right; font-size: 28px; margin-right: 60px; display: block; width: 36px; text-align: center; }
+.wm_form .update:hover { text-decoration: none; color: #ff4400; }
+.sub_location_list { overflow: hidden; border-top: 1px solid #d2d2d2; min-height: 70px; width: 85%; margin: 0 auto; }
+.sub_location_list .sub_location_item { list-style-type: decimal; float: left; width: 659px; padding-top: 5px; position: relative; border: 1px solid #ccc; border-top: none; padding: 20px 0; }
+.sub_location_list .sub_location_item ul { float: left; }
+.sub_location_list .sub_location_item .row_key { width: 100px; }
+.sub_location_list .sub_location_item .hide { display: none; }
+.sub_location_list .sub_location_item:hover { background: #fff; }
+.sub_location_list .sub_location_item:hover .hide, .sub_location_list .sub_location_item_hover .hide { display: block; }
+.sub_location_list .default_img { display: block; margin-top: 10px; }
+.sub_location_list .btns { position: absolute; right: 0; top: 5px; background: #fff; }
+.sub_location_list .del_sub_location_item { position: absolute; font-size: 20px; top: 10px; right: 120px; color: #d60000; }
+.sub_location_list .del_sub_location_item:hover { text-decoration: none; color: #f00; }
+.wm_form .form_txt { margin-right: 5px; }
+.wm_form .row_key { font-weight: 700; }
+
+.channel_list { background: #fff; }
+.channel_list .w520 { width: 520px; }
+.channel_list th, .channel_list td { text-align: center; padding: 10px; font-size: 14px; font-family: SimSun; min-width: 220px; }
+.channel_list tr:hover td { background: #f2f2f2; }
+
+.ad_audit_list_select { }
+.main_con .ad_audit_list_select .row_key { padding-right: 0; }
+.main_con .ad_audit_list_select .form_txt, .ad_audit_list_select .form_sel { margin: 0 5px; padding: 5px; }
+.ad_audit_list_select .ui_btn .ui_btn_txt { font-size: 14px; letter-spacing: 10px; padding-left: 16px; font-weight: 700; font-family: simsun; }
+.ad_audit_list { width: 100%; background: #fff; }
+.ad_audit_list td, .ad_audit_list th { background: #f2f2f2; }
+.ad_audit_list th { border-bottom: 2px solid #ccc; padding: 20px 0; font-size: 14px; }
+.ad_audit_list td { text-align: center; padding: 10px; border-bottom: 1px dashed #ccc; max-width: 80px; font-size: 12px; }
+.ad_audit_list tr:hover td { background: #fff; }
+.ad_audit_list a, .ad_audit_list a:link, .ad_audit_list a:active, .ad_audit_list a:visited { color: #3296d2; }
+.wm_page_box { overflow: hidden; margin: 30px 0; }
+.wm_page { float: right; }
+
+.ad_audit_details { }
+.ad_audit_details .ad_img { max-width: 550px; }
+.ad_audit_details .show_precision { margin-left: 10px; }
+.ad_audit_details .date_list { font-size: 30px; width: 550px; background: #ccc; overflow: hidden; padding: 10px; }
+.ad_audit_details .date_list li { margin: 10px; float: left; }
+.ad_audit_details .date_list span { font-size: 14px; vertical-align: top; }
+.ad_audit_details .ad_audit_details_btns { margin: 40px 0 20px 0; }
+.ad_audit_details .ad_audit_details_btns .ui_btn { margin-right: 20px; }
+.ad_audit_details .ad_audit_details_btns .ui_btn .ui_btn_txt { font-size: 14px; }

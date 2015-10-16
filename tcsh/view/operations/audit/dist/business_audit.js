@@ -1,0 +1,1 @@
+define(function(require,exports,module){var f=require("domains");var b=require("jquery"),a=require("brand_box"),d=require("lib");var e=function(){c()};var c=function(){var g=b("#page");g.on("click",".set_brand",function(){var i=b(this),h=i.data("brand_box");if(!h){h=a.Create(function(j){alert("id = "+j.id)})}h.show();return false})};e()});

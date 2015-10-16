@@ -1,0 +1,12 @@
+﻿.main_con .seg { height: 20px; margin: 10px 0; width: 100%; background: #cacaca; }
+
+.main_con .user_data {background:#535353;height:80px;padding:5px;color:#fff}
+.main_con .user_data .user_img { display:block;padding:2px;background:#fff;float:left}
+.main_con .user_data .user_img img { width:70px;height:70px}
+.main_con .user_data .user_data_item { float:left;font-size:14px;font-family:SimSun;padding:10px 0 0 20px;width:320px;line-height:14px;}
+.main_con .user_data .go_privilege {width: 100px;height:15px;background:#F37D14;display:block;float:right;padding:5px 10px;color:#fff;line-height:14px;font-size:14px;margin-top:-5px}
+.main_con .user_data .user_data_btns {float:left;padding:20px  0 0  20px;width:660px}
+.main_con .user_data .user_data_btns a{ color:#fff;font-size:12px;font-family:SimSun;}
+.main_con .user_data .user_data_btns .ui_btn { float:right;margin:0 5px}
+
+

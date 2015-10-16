@@ -1,0 +1,21 @@
+﻿.face_box { background: #fff; overflow: hidden; padding: 20px 0; }
+.face_box .add_face, .face_box .add_face:link, .face_box .add_face:active, .face_box .add_face:visited { border-radius: 6px; margin: 6px; border: 1px dashed #666; background: #ccc; color: #333; display: block; width: 50px; height: 50px; line-height: 50px; text-align: center; font-size: 46px; font-family: SimHei; }
+.face_box .add_face:hover { text-decoration: none; border-style: solid; }
+.face_box .face_list { overflow: hidden; }
+.face_box .face_list li { float: left; width: 70px; text-align: center; position: relative; cursor: pointer; margin: 10px; }
+.face_box .face_list li .img_bg { background: #fff; border: 1px solid #ccc; display: block; width: 50px; height: 50px; margin: 6px 10px; line-height: 48px; }
+.face_box .face_list li img { vertical-align: middle; width: 40px; height: 40px; }
+.face_box .face_list li .remove_face, .face_box .face_list li .remove_face:link, .face_box .face_list li .remove_face:active, .face_box .face_list li .remove_face:visited { position: absolute; top: 0; right: 0; font-size: 14px; display: none; color: #e13436; background: #fff; }
+.face_box .face_list li:hover .remove_face { display: block; text-decoration: none; }
+
+.af_box { }
+.af_box .afb_head { color: #999; overflow: hidden; padding: 6px 0; border-bottom: 1px solid #999; }
+.af_box .afb_head h3 { float: left; }
+.af_box .afb_head .close, .af_box .afb_head .close:link, .af_box .afb_head .close:active, .af_box .afb_head .close:visited { float: right; }
+.af_box .afb_head .close:hover { text-decoration: none; color: #e13436; }
+.af_box .afb_main { padding: 20px; width: 320px; }
+.af_box .afb_main .form_txt { padding: 6px; }
+.af_box .afb_main .form_file { height: 50px; width: 200px; }
+.af_box .afb_main .btns { width: 140px; margin: 0 auto; padding: 16px 0 0 0; overflow: hidden; }
+.af_box .afb_main .btns .submit { float: left; padding: 6px 10px; margin-right: 10px; }
+.af_box .afb_main .btns .close { line-height: 32px; height: 32px; }

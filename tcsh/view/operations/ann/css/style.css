@@ -1,0 +1,19 @@
+﻿.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+.ann_form { background: #fff; }
+.ann_form ul { padding: 20px 0 20px 20px; }
+.ann_form .form_row { margin: 5px; overflow: hidden; }
+.ann_form .btns { text-align: center; }
+.ann_form .btns .ui_btn_h47yellow14 { padding-left: 25px; }
+.ann_form .btns .ui_btn_txt { letter-spacing: 20px; font-size: 20px; }
+.main_con .ann_form .row_key { width: 66px; }
+.ann_form .form_row .form_txt { padding: 5px; width: 80%; font-size: 14px; }
+
+#myEditor { width: 80%; float: left; height: 400px; position: relative; }
+.ann_list { text-align: center; }
+.ann_list th { background: #fff; color: #666; font-size: 14px; padding: 10px; }
+.ann_list td { padding: 8px; border-bottom: 1px dashed #ccc; }
+.ann_list .tl { text-align: left; }
+.ann_list .ann_title { width: 520px; overflow: hidden; display: block; text-overflow: ellipsis; white-space: nowrap; }
+.wm_page { float:right}

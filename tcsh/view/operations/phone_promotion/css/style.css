@@ -1,0 +1,65 @@
+﻿.page_btn { background: #fff; padding: 20px 0 20px 10px; overflow: hidden; }
+.page_btn .ui_btn { margin-right: 14px; }
+.page_btn .ui_btn_txt .iconfont { margin-right: 4px; }
+
+.inset_mail { }
+.inset_mail .inset_head { padding: 0 0 10px 0; border-bottom: 1px solid #666; position: relative; }
+.inset_mail .inset_head h3 { font-size: 16px; color: #333; }
+.inset_mail .inset_head .close, .inset_mail .inset_head .close:link, .inset_mail .inset_head .close:active, .inset_mail .inset_head .close:visited { font-size: 16px; position: absolute; right: 0; top: 0; }
+.inset_mail .inset_head .close:hover { text-decoration: none; color: #e13436; }
+.inset_mail .inset_main { padding: 20px 20px 0 20px; }
+.inset_mail .ipt_mail { padding: 8px; width: 250px; }
+.inset_mail .btns { overflow: hidden; padding: 10px 0 0 0; }
+.inset_mail .btns a, .inset_mail .btns a:link, .inset_mail .btns a:active, .inset_mail .btns a:visited { display: block; float: right; line-height: 30px; padding: 0px 12px; }
+.inset_mail .btns .submit { background: #f60; color: #fff; border-radius: 4px; }
+
+.markbox { width:400px}
+.markbox .inset_head { padding: 0 0 10px 0; border-bottom: 1px solid #666; position: relative; }
+.markbox .inset_head h3 { font-size: 16px; color: #333; }
+.markbox .inset_head .close, .markbox .inset_head .close:link, .markbox .inset_head .close:active, .markbox .inset_head .close:visited { font-size: 16px; position: absolute; right: 0; top: 0; }
+.markbox .inset_head .close:hover { text-decoration: none; color: #e13436; }
+.markbox .inset_main { padding: 20px 20px 0 20px; }
+.markbox .form_sel { margin:0 10px 0 0}
+.markbox .btns { overflow: hidden; padding: 10px 0 0 0; }
+.markbox .btns a, .markbox .btns a:link, .markbox .btns a:active, .markbox .btns a:visited { display: block; float: right; line-height: 30px; padding: 0px 12px; }
+.markbox .btns .submit { background: #f60; color: #fff; border-radius: 4px; }
+
+.w70 { width: 70px!important; }
+.w80 { width: 80px!important; }
+.w350 { width: 350px!important; }
+.user_list_search { background: #fff; border-bottom: 1px solid #ccc; }
+.user_list_search .wm_form { overflow: hidden; padding: 10px 0 10px 20px; }
+.user_list_search .wm_form .form_row { float: left; clear: none; padding: 10px 0; height: 30px; min-width: 210px; }
+.user_list_search .wm_form .row_key { width: 70px; }
+.user_list_search .wm_form .form_txt { width: 100px; }
+.user_list_search .wm_form .s_date { margin:0 10px 0 0}
+.user_list_search .wm_form .e_date { margin:0 0 0 10px}
+.user_list_search .wm_form .btn { clear: both; }
+.user_list_search .wm_form .submit { padding: 4px 10px; }
+
+.main_con .user_list { width: 100%; background: #fff; position:relative;z-index:1}
+.main_con .user_list th, .main_con .user_list td { text-align: left; padding: 10px 0 10px 20px; color: #333; max-width: 220px; }
+.main_con .user_list th { background: #ccc; border: none; }
+.main_con .user_list td { border-bottom: 1px dashed #999; }
+.main_con .user_list td p { max-height: 20px; overflow: hidden; line-height: 20px; }
+.main_con .user_list tbody tr:hover td { background: #ededed; }
+.user_list .btn_list { z-index: 10; }
+.user_list .btn_list:hover { z-index: 11; }
+.main_con .user_list tfoot td { border-top: none; }
+.main_con .user_list .iconfont { color: #666; color: #666; font-size: 20px; margin-right: 6px; }
+.main_con .user_list .haslink .haslink { color: #ff6a00; }
+.main_con .user_list .haslink .haslink .iconfont { color: #ff6a00; }
+
+.user_data_box { background: #fff; }
+.user_data_list, .link_data { padding: 22px 0; }
+.main_con .user_data_list .row_key, .main_con .link_data .row_key { font-size: 14px; font-family: 'Microsoft YaHei'; }
+.user_data_list b, .link_data b { color: #e13436; }
+.user_data_box .page_btn { padding-left: 280px; }
+.link_data { overflow: hidden; width: 720px; margin: 0 auto; border: 1px solid #ccc; }
+.link_data .form_row { float: left; clear: none; width: 330px; }
+.link_data .link_details_list { clear: both; padding: 18px 0 0 30px; }
+.link_data .link_details_list li { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.link_data legend { margin: 0 8px; padding: 0 10px; color: #666; font-size: 14px; font-family: 'Microsoft YaHei'; }
+.link_data .ldl_phone { width:700px}
+.link_data .ldl_phone b { margin:0 10px}
+.link_data .ldl_phone li { padding:5px 0}

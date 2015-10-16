@@ -1,0 +1,59 @@
+﻿.page_btn { background: #fff; padding: 20px 0 20px 10px; overflow: hidden; }
+.page_btn .ui_btn { margin-right: 14px; }
+.page_btn .ui_btn_txt .iconfont { margin-right: 4px; }
+
+.gifts_box { width: 700px; }
+.gifts_box .gifts_box_head { padding: 0 0 10px 0; border-bottom: 1px solid #666; position: relative; }
+.gifts_box .gifts_box_head h3 { font-size: 16px; color: #333; }
+.gifts_box .gifts_box_head .close, .gifts_box .gifts_box_head .close:link, .gifts_box .gifts_box_head .close:active, .gifts_box .gifts_box_head .close:visited { font-size: 16px; position: absolute; right: 0; top: 0; }
+.gifts_box .gifts_box_head .close:hover { text-decoration: none; color: #e13436; }
+.gifts_box .gifts_box_main { padding: 20px 20px 0 20px; max-height: 400px; overflow-y: auto; }
+.gifts_box .btns { overflow: hidden; padding: 10px 0 0 0; }
+.gifts_box .btns a, .gifts_box .btns a:link, .gifts_box .btns a:active, .gifts_box .btns a:visited { display: block; float: right; line-height: 30px; padding: 0px 12px; }
+.gifts_box .btns .submit { background: #f60; color: #fff; border-radius: 4px; float: right; border: none; padding: 6px 12px; }
+.gifts_box .wm_form .row_key { width: 100px; }
+.gifts_box fieldset { border: 1px solid #ccc; padding: 0 0 10px 0; }
+.gifts_box legend { padding: 0 10px; margin: 0 10px; }
+.gifts_box .promotion_list { width: 500px; margin: 0 auto; padding: 10px 0; }
+.gifts_box .promotion_item { padding: 6px 0; }
+.gifts_box .promotion_list a, .gifts_box .promotion_list a:link, .gifts_box .promotion_list a:active, .gifts_box .promotion_list a:visited { margin: 0 10px; }
+.gifts_box .promotion_list .remove_item, .gifts_box .promotion_list .remove_item:link, .gifts_box .promotion_list .remove_item:active, .gifts_box .promotion_list .remove_item:visited { font-size: 20px; float: right; }
+.gifts_box .promotion_list .remove_item:hover { text-decoration: none; color: #e13436; }
+.gifts_box .add_promotion, .gifts_box .add_promotion:link, .gifts_box .add_promotion:active, .gifts_box .add_promotion:visited, .gifts_box .add_promotion:hover { border: 1px solid #55a2fb; color: #55a2fb; text-decoration: none; margin-left: 60px; display: block; width: 100px; height: 24px; line-height: 24px; background: #fff; border-radius: 4px; vertical-align: top; text-align: center; font-size: 12px; }
+.gifts_box .add_promotion:hover { background: #55a2fb; color: #fff; }
+
+.w80 { width: 80px!important; }
+.w100 { width: 100px!important; }
+.w350 { width: 350px!important; }
+.gifts_list_search { background: #fff; border-bottom: 1px solid #ccc; }
+.gifts_list_search .wm_form { overflow: hidden; padding: 10px 0 10px 20px; }
+.gifts_list_search .wm_form .form_row { float: left; clear: none; padding: 10px 0; }
+.gifts_list_search .wm_form .row_key { width: 90px; }
+.gifts_list_search .rad_key, .gifts_list_search .chk_key { font-family: SimSun; font-size: 12px; }
+.gifts_list_search .wm_form .form_txt { width: 100px; }
+.gifts_list_search .wm_form .btn { clear: both; }
+.gifts_list_search .wm_form .submit { padding: 4px 10px; }
+
+.main_con .gifts_list { width: 100%; background: #fff; }
+.main_con .gifts_list th, .main_con .gifts_list td { text-align: left; padding: 10px 0 10px 20px; color: #333; max-width: 220px; }
+.main_con .gifts_list th { background: #ccc; border: none; }
+.main_con .gifts_list td { border-bottom: 1px dashed #999; }
+.main_con .gifts_list td p { line-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 350px; }
+.main_con .gifts_list tbody tr:hover td { background: #ededed; }
+.gifts_list .btn_list { z-index: 10; }
+.gifts_list .btn_list:hover { z-index: 11; }
+.main_con .gifts_list tfoot td { border-top: none; }
+.main_con .gifts_list .iconfont { color: #666; color: #666; font-size: 20px; margin-right: 6px; }
+.main_con .gifts_list .haslink .haslink { color: #ff6a00; }
+.main_con .gifts_list .haslink .haslink .iconfont { color: #ff6a00; }
+
+.gifts_data_box { background: #fff; }
+.gifts_data_list, .link_data { padding: 22px 0; }
+.main_con .gifts_data_list .row_key, .main_con .link_data .row_key { font-size: 14px; font-family: 'Microsoft YaHei'; }
+.gifts_data_list b, .link_data b { color: #e13436; }
+.gifts_data_box .page_btn { padding-left: 280px; }
+.link_data { overflow: hidden; width: 720px; margin: 0 auto; border: 1px solid #ccc; }
+.link_data .form_row { float: left; clear: none; width: 330px; }
+.link_data .link_details_list { clear: both; padding: 18px 0 0 30px; }
+.link_data .link_details_list li { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.link_data legend { margin: 0 8px; padding: 0 10px; color: #666; font-size: 14px; font-family: 'Microsoft YaHei'; }

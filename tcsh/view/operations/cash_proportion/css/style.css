@@ -1,0 +1,14 @@
+﻿.class_list { width: 100%; background: #fff; }
+.class_list a { color: #4fa2d6; padding: 0 10px; }
+.class_list .head { overflow: hidden; }
+.class_list .w580 { width: 580px!important; }
+.class_list .proportion { float: right; padding: 5px; width: 30px; /*border: 1px solid #fff;*/ }
+/*.class_list .proportion:hover { border: 1px solid #c0c0c0; }*/
+.class_list .head li { float: left; font-weight: 700; padding: 10px 0 10px 30px; font-size: 14px; }
+.class_list .no1_list { overflow: hidden; border-bottom: 1px dashed #c0c0c0; padding-bottom: 20px; }
+.class_list .no1_list p { padding: 20px 0; font-size: 14px; }
+.class_list .no1_list .no1_item { float: left; width: 90%; padding: 0 30px; /*height: 20px;*/ }
+.class_list .no1_list .no2_list, .class_list .no1_list .no3_list { padding: 0 20px 20px 20px; overflow: hidden; border: 1px solid #c0c0c0; display: none; }
+.class_list .no1_list .no3_list p { border-bottom: 1px dashed #ccc; margin-bottom: -1px; }
+.class_list .showno2 .no2_list, 
+.class_list .showno3 .no3_list { display:block}

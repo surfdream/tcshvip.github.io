@@ -1,0 +1,94 @@
+﻿.fixed_box { position: fixed!important; }
+.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+
+.priority_shop, .priority_forimg, .set_nav { border: 1px solid #ccc; background: #fff; min-height: 100px; border-top: 0; }
+.priority_shop .p_shop_list, .priority_forimg .p_forimg_list, .set_nav .nav_list { padding: 20px; position: relative; }
+.priority_shop .p_shop_list li, .priority_forimg .p_forimg_list li, .set_nav .nav_list li { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; position: relative; overflow: hidden; }
+.priority_shop .txt_index, .priority_forimg .txt_index { padding: 5px; width: 30px; margin-right: 10px; }
+.priority_forimg .txt_index, .set_nav .txt_index { margin-bottom: 10px; }
+.priority_shop .btns, .priority_forimg .btns { text-align: center; overflow: hidden; }
+.priority_shop .btns .ui_btn_txt, .priority_forimg .btns .ui_btn_txt { padding-right: 10px; }
+.priority_shop .del_item { float: right; cursor: pointer; display: none; }
+.priority_forimg .del_item { position: absolute; right: 10px; top: 10px; cursor: pointer; display: none; }
+.priority_forimg .show { position: absolute; right: 42px; top: 10px; cursor: pointer; display: none; }
+.priority_shop .p_shop_list li:hover .del_item, .priority_forimg .p_forimg_list li:hover .del_item, .priority_forimg .p_forimg_list li:hover .show { display: block; }
+.priority_shop .btns .add, .priority_forimg .btns .add, .set_nav .btns .add { display: inline-block; width: 30px; height: 30px; line-height: 22px; border: 1px solid #12ac01; font-size: 40px; color: #12ac01; font-weight: 700; float: left; text-decoration: none; }
+.priority_forimg .upimg { z-index: 0; position: relative; border: 1px solid #ccc; background: #e0e0e0; width: 500px; height: 168px; display: block; font-size: 150px; line-height: 146px; text-align: center; color: #fff; text-decoration: none; }
+.priority_forimg .upimg span { position: absolute; font-size: 12px; color: #333; line-height: 24px; top: 130px; width: 100%; display: block; z-index: -1; left: 0; }
+.priority_forimg .upimg span b { color: #f60; font-weight: 500; }
+.priority_forimg .upimg img { display: none; width: 500px; height: 168px; position: absolute; top: 0; left: 0; }
+.priority_forimg .form_file { width: 500px; height: 168px; top: 0; left: 0; cursor: pointer; }
+.main_con .p_forimg_list .form_row, .main_con .nav_list .form_row { border: 0; margin-bottom: 0; }
+.main_con .p_forimg_list .row_key { width: 60px; }
+.main_con .nav_list .row_key { width: 80px; }
+.main_con .nav_list .edit_ico { font-size: 16px; float: left; display: block; width: 20px; height: 20px; }
+.main_con .nav_list .up_ico { width: 40px; left: 100px; top: 10px; }
+.main_con .nav_list .edit_ico:hover { color: #f47d15; text-decoration: none; }
+.set_nav .bg_color { border: 1px solid #999; width: 16px; height: 16px; display: inline-block; margin: 0 10px; }
+.set_nav .form_chk { margin-right: 10px; }
+
+.set_nav .sub_list { margin-top: 10px; width: 700px; }
+.set_nav .sub_list .form_txt { margin-right: 2px; }
+
+.set_nav .sub_list label { display: block; }
+.set_nav .sub_list .sub_list { width: 670px; }
+.set_nav .sub_list .sub_list li { display: inline-block; margin: 5px 0 0 5px; }
+.set_nav .emphasis { display: inline-block; vertical-align: top; font-weight: 500; color: red; padding: 0 10px; }
+.set_nav .showhide { position: absolute; right: 10px; top: 10px; cursor: pointer; }
+
+.set_nav .edit_class, .set_nav .edit_class:link, .set_nav .edit_class:active, .set_nav .edit_class:visited { font-size: 20px; }
+.set_nav .edit_class:hover { text-decoration: none; }
+.set_nav .sub_class_item { float: left; width: 350px; border: 1px solid #ccc; margin: -1px 0 0-1px; padding: 14px 0; position: relative; z-index: 0; }
+.set_nav .sub_class_item:hover { border-color: red; z-index: 2; }
+.set_nav .sub_class_item .form_txt { width: 200px; }
+.set_nav .sub_class_item .row_key { width: 100px; }
+.set_nav .up_img { width: 100%; left: 0; top: 0; height: 100%; }
+.set_nav .sub_class_item .up_img { width: 70px; height: 44px; left: 110px; }
+.set_nav .sub_class_item .remove_sub_class_item {position: absolute;
+top: 12px;
+right: 2px;
+font-size: 26px; }
+.set_nav .sub_class_item .remove_sub_class_item:hover { text-decoration:none;color:#c50303}
+
+.set_nav .floatleft { position: relative; }
+
+@keyframes hide_item {
+    from { border: 1px solid #ccc; float: left; position: relative; padding: 5px 15px; margin: 0 15px 15px 0; height: 18px; line-height: 18px; width: 115px; white-space: nowrap; text-overflow: ellipsis; }
+    to { border: 1px solid #ccc; float: left; position: relative; 0; margin: 0; padding: 5px 0; height: 18px; line-height: 18px; width: 0; white-space: nowrap; text-overflow: ellipsis; }
+}
+/* Firefox */
+@-moz-keyframes hide_item {
+    from { border: 1px solid #ccc; float: left; position: relative; padding: 5px 15px; margin: 0 15px 15px 0; height: 18px; line-height: 18px; width: 115px; white-space: nowrap; text-overflow: ellipsis; }
+    to { border: 1px solid #ccc; float: left; position: relative; padding: 0; margin: 0; padding: 5px 0; height: 18px; line-height: 18px; width: 0; white-space: nowrap; text-overflow: ellipsis; }
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes hide_item {
+    from { border: 1px solid #ccc; float: left; position: relative; padding: 5px 15px; margin: 0 15px 15px 0; height: 18px; line-height: 18px; width: 115px; white-space: nowrap; text-overflow: ellipsis; }
+    to { border: 1px solid #ccc; float: left; position: relative; padding: 0; margin: 0; padding: 5px 0; height: 18px; line-height: 18px; width: 0; white-space: nowrap; text-overflow: ellipsis; }
+}
+/* Opera */
+@-o-keyframes hide_item { from; from;
+{ border: 1px solid #ccc; float: left; position: relative; padding: 5px 15px; margin: 0 15px 15px 0; height: 18px; line-height: 18px; width: 115px; white-space: nowrap; text-overflow: ellipsis; }
+to { border: 1px solid #ccc; float: left; position: relative; padding: 0; margin: 0; padding: 5px 0; height: 18px; line-height: 18px; width: 0; white-space: nowrap; text-overflow: ellipsis; }
+}
+#shop_box { }
+#shop_box .shop_main { width: 680px; padding: 10px 15px; }
+#shop_box .curr_list { overflow: hidden; padding: 10px 0; margin-bottom: 10px; max-height: 120px; overflow-y: scroll; }
+#shop_box .curr_list .curr_item { border: 1px solid #ccc; float: left; position: relative; padding: 5px 15px; margin: 0 15px 15px 0; height: 18px; line-height: 18px; width: 115px; white-space: nowrap; text-overflow: ellipsis; }
+#shop_box .shop_name { display: block; width: 115px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; cursor: pointer; }
+#shop_box .curr_list .curr_item .remove_item { position: absolute; top: -5px; right: -5px; }
+#shop_box .curr_list .curr_item_remove { margin: 0; padding: 0; width: 0; overflow: hidden; animation: hide_item 0.3s; -moz-animation: hide_item 0.3s; /* Firefox */ -webkit-animation: hide_item 0.3s; /* Safari 和 Chrome */ -o-animation: hide_item 0.3s; /* Opera */ }
+#shop_box .shop_main .msg { padding-bottom: 10px; border-bottom: 1px dotted #ccc; margin-bottom: 10px; }
+#shop_box .shop_list { overflow: hidden; margin-top: 20px; max-height: 180px; overflow-y: scroll; }
+#shop_box .shop_list .shop_item { border: 1px solid #ccc; float: left; position: relative; padding: 5px 15px; margin: 1px 15px 15px 1px; cursor: pointer; }
+#shop_box .shop_list .shop_item .hook3 { position: absolute; bottom: 0; right: 0; display: none; }
+#shop_box .shop_list .shop_item:hover, #shop_box .shop_list .curr { border: 2px solid #c50303; margin: 0 14px 14px 0; }
+#shop_box .shop_list .shop_item:hover .hook3, #shop_box .shop_list .curr .hook3 { display: block; }
+#shop_box .wmBox-botton { padding-right: 20px; }
+#shop_box .wmBox-botton a { margin: 0 5px; }
+#shop_box .wm_page { text-align: center; padding-top: 20px; }
+#shop_box .wm_page a, #shop_box .wm_page b, #shop_box .wm_page span { display: inline-block; float: none; *zoom: 1; }
+
+

@@ -1,0 +1,10 @@
+﻿.agreement_form { background: #fff; }
+.agreement_form ul { padding: 20px 0 20px 20px; }
+.agreement_form .form_row { margin: 5px; overflow: hidden; }
+.agreement_form .btns { text-align: center; }
+.agreement_form .btns .ui_btn_h47yellow14 { padding-left: 25px; }
+.agreement_form .btns .ui_btn_txt { letter-spacing: 20px; font-size: 20px; }
+.main_con .agreement_form .row_key { width: 90px; }
+.agreement_form .form_row .form_txt { padding: 5px; width: 80%; font-size: 14px; }
+
+#myEditor { width: 80%; float: left; height: 400px; position: relative; }

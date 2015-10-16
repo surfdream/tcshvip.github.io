@@ -1,0 +1,17 @@
+﻿.tab_link { background: #cacaca; overflow: hidden; padding-left: 20px; }
+.tab_link .tab_key { margin-bottom: -5px; display: inline-block; height: 36px; line-height: 36px; vertical-align: middle; margin-right: 20px; font-size: 14px; font-family: SimSun; }
+.tab_link .ui_btn_h36white3 .ui_btn_txt { color: #f47d15; font-size: 14px; font-family: SimSun; }
+.wm_form { padding-top: 20px; }
+.form_row:hover { background: #fff; }
+.main_con .wm_form .form_txt, .wm_form .form_sel { margin: 0 5px; }
+.wm_form .floatleft { width: 600px; }
+.save { float: right; }
+.short_term { padding: 10px 0 0 0; }
+.frequency { float: right; padding-right: 5px; }
+.main_con .wm_form .nickname { width: 200px; margin-bottom: 10px; }
+.long, .short { float: left; display: none; }
+.wm_form .form_sel { float: left; clear: both; }
+.wm_form .form_row { padding: 10px 0; }
+.main_con .wm_form .row_key { padding: 0; width: 70px; }
+fieldset { width: 700px; margin: 8px auto; }
+fieldset legend { margin: 0 10px; padding: 0 5px; }
