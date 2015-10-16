@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../../view/public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../view/public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../wmtips/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        #page { padding: 20px; }
+        .wmv_msg { font-size: 12px; }
+        .wmv_error { color: #e13436; }
+        .wmv_success { color: #333; }
+        .wmv_success .wm_ico, .wmv_error .wm_ico { margin: 0 5px; }
+    </style>
+</head>
+<body>
+    <div id="page">
+
+        <form class="wm_form">
+            <ul>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="text" class="form_txt">
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="text" class="form_txt">
+                    <span class="wmv_msg wmv_error"><i class="wm_ico fork2"></i>xxxxxx不能为空！</span>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="text" class="form_txt">
+                    <span class="wmv_msg wmv_success"><i class="wm_ico hook2"></i>正确！</span>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="text" class="form_txt">
+                    <a href="#" class="btn25_25">+</a>
+                    <a href="#" class="btn25_25">-</a>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="text" class="form_txt"><a href="#" class="form_file_btn">浏览</a>
+                    <input type="file" class="form_file">
+                </li>
+                <li class="">
+                    <label class="row_key">&nbsp;</label>
+                    <span class="wmv_msg wmv_error"><i class="wm_ico fork2"></i>请上传xxxxxx</span>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="radio" name="xx" id="radio1"><label class="rad_key" for="radio1">item1</label>
+                    <input type="radio" name="xx" id="radio2"><label class="rad_key" for="radio2">item2</label>
+                    <input type="radio" name="xx" id="radio3"><label class="rad_key" for="radio3">item3</label>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <input type="checkbox" name="xx" id="checkbox1"><label class="chk_key" for="checkbox1">item1</label>
+                    <input type="checkbox" name="xx" id="checkbox2"><label class="chk_key" for="checkbox2">item2</label>
+                    <input type="checkbox" name="xx" id="checkbox3"><label class="chk_key" for="checkbox3">item3</label>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <select class="form_sel">
+                        <option>11111111111111</option>
+                        <option>222</option>
+                        <option>333</option>
+                        <option>444</option>
+                    </select>
+                </li>
+                <li class="form_row">
+                    <label class="row_key">xxxxx：</label>
+                    <textarea class="form_textarea"></textarea>
+                </li>
+                <li class="form_row form_btns">
+                    <a href="#" class="ui_btn ui_btn_h40red1">
+                        <input type="submit" class="ui_btn_txt"></a>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="wm_tips red1" style="left: 275px; display: block; top: 19px;">
+        <div class="wm_tips_per rc">
+            <div class="tips_arrow ">
+                <em>◆</em>
+                <span>◆</span>
+            </div>
+            <div class="wm_tips_con">
+                <p>xxxxxx不能为空！</p>
+            </div>
+            <div class="close">
+                <a href="#">×</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

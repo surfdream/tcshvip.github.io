@@ -1,0 +1,23 @@
+﻿/*reset*/
+html { overflow-x: auto; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, select { padding: 0; margin: 0; list-style: none; }
+/*global*/
+body { font: 12px/18px "Arial","sans-serif",HELVETICA; display: table; width: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+input, select, textarea { outline: none; }
+a, a:link, a:active, a:visited { text-decoration: none; color: #505050; font-size: 12px; outline: none; }
+
+.multipledate_box {  overflow: hidden; position: relative; }
+.multipledate_box .week_data { overflow: hidden; }
+.multipledate_box .week_data span { float: left; display: block; width: 20px; height: 20px; line-height: 20px; text-align: center; margin: 3px; }
+.multipledate_box .change_btn { position: absolute; font-size: 50px; top: 50%; width: 40px; height: 40px;margin-top: -20px; }
+.multipledate_box .prev { left: 0; }
+.multipledate_box .next { right: 10px; }
+.multipledate_box .select_ym { margin: 15px auto; width: 180px; text-align: center; }
+.multipledate_box .select_ym select { padding: 4px; margin: 0 5px; }
+.multipledate_box .multipledate_list { overflow: hidden; }
+.multipledate_box .multipledate_item { float: left; width: 184px; padding: 15px; height: 230px; }
+.multipledate_box .ym_data { font-size: 14px; font-weight: 700; text-align: center; }
+.multipledate_box .mid_item { float: left; display: block; width: 20px; height: 20px; line-height: 20px; text-align: center; border: 1px solid #999; margin: 2px; }
+.multipledate_box .multipledate_main { position: relative; height: 260px; width: 520px; }
+.multipledate_box .multipledate_limit { height: 260px; width: 425px; overflow: hidden; position: relative; margin: 0 auto; }

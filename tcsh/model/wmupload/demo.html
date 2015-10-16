@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../../view/public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../view/public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../wmtips/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <style type="text/css">
+        #page { padding: 20px; }
+        .wmv_msg { font-size: 12px; display: none; }
+        .wmv_error { color: #e13436; display: inline; }
+        .wmv_success { color: #333; display: inline; }
+        .wmv_success .wm_ico, .wmv_error .wm_ico { margin: 0 5px; }
+    </style>
+</head>
+<body>
+    <form class="wm_form">
+        <ul>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <input type="text" class="form_txt" name="x1" wmv="empty|char" wmvmsg="xxx不能为空|xxx只能输入字符">
+                <span class="wmv_msg" for="x1"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <input type="text" class="form_txt" name="x2" wmv="empty|numer" wmvmsg="xxx不能为空|xxx只能输入数值">
+                <span class="wmv_msg" for="x2"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">包含：</label>
+                <input type="text" class="form_txt" name="x123" wmv="empty|contain:[z,d,f,g,h,j,k,1,2,3]" wmvmsg="xxx不能为空|必须包含z,d,f,g,h,j,k,1,2,3这些字符">
+                <span class="wmv_msg" for="x123"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">范围：</label>
+                <input type="text" class="form_txt" name="x10" wmv="empty|size:[1,2]" wmvmsg="xxx不能为空|只能输入1到2个字符，数字，中文">
+                <span class="wmv_msg" for="x10"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">最大值：</label>
+                <input type="text" class="form_txt" name="x6" wmv="empty|max:5" wmvmsg="xxx不能为空|最大只能输入5个">
+                
+            </li>
+            <li class="form_row">
+                <label class="row_key">最小值：</label>
+                <input type="text" class="form_txt" name="x16" wmv="empty|min:5" wmvmsg="xxx不能为空|至少输入5个">
+               
+            </li>
+            <li class="form_row">
+                <label class="row_key">密码：</label>
+                <input type="password" class="form_txt" name="password" id="password" wmv="empty" wmvmsg="密码不能为空">
+                
+            </li>
+            <li class="form_row">
+                <label class="row_key">重复密码：</label>
+                <input type="password" class="form_txt" name="password2" wmv="empty|same:password" wmvmsg="xxx不能为空|2次密码输入不相同！">
+                <span class="wmv_msg" for="password2"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">自定义1：</label>
+                <input type="text" class="form_txt" name="x3" wmv="nima" wmvmsg="至少存在3个数字和9个字符，或者5个中文">
+                
+            </li>
+            <li class="form_row">
+                <label class="row_key">自定义2：</label>
+                <input type="text" class="form_txt" name="x323" wmv="nima2:[1]" wmvmsg="自定义验证不通过">
+                <span class="wmv_msg" for="x323"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <input type="text" class="form_txt">
+                <a href="#" class="btn25_25">+</a>
+                <a href="#" class="btn25_25">-</a>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <input type="text" class="form_txt" name="x4" wmv="empty" wmvmsg="请上传文件"><a href="#" class="form_file_btn">浏览</a>
+                <input type="file" class="form_file">
+            </li>
+            <li class="">
+                <label class="row_key">&nbsp;</label>
+                <span class="wmv_msg" for="x4"></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <input type="radio" name="xx" id="radio1"><label class="rad_key" for="radio1">item1</label>
+                <input type="radio" name="xx" id="radio2"><label class="rad_key" for="radio2">item2</label>
+                <input type="radio" name="xx" id="radio3"><label class="rad_key" for="radio3">item3</label>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <input type="checkbox" name="xx" id="checkbox1"><label class="chk_key" for="checkbox1">item1</label>
+                <input type="checkbox" name="xx" id="checkbox2"><label class="chk_key" for="checkbox2">item2</label>
+                <input type="checkbox" name="xx" id="checkbox3"><label class="chk_key" for="checkbox3">item3</label>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <select class="form_sel">
+                    <option>11111111111111</option>
+                    <option>222</option>
+                    <option>333</option>
+                    <option>444</option>
+                </select>
+            </li>
+            <li class="form_row">
+                <label class="row_key">xxxxx：</label>
+                <textarea class="form_textarea"></textarea>
+            </li>
+            <li class="form_row form_btns">
+                <a href="#" class="ui_btn ui_btn_h40red1 xx">
+                    <input type="submit" class="ui_btn_txt"></a>
+            </li>
+        </ul>
+    </form>
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../wmverification' });
+            seajs.use('src/wmverification.js', function (wmv) {
+                //添加新规则
+                wmv.addRule(
+                    [
+                    {
+                        key: "nima", fun: function (val) {
+                            return true;
+                        }
+                    },
+
+                    {
+                        key: "nima2", fun: function (obj, key) {
+                            return false;
+                        }
+                    }
+                    ]);
+                wmv.init();
+                $(".xx").click(function () {
+                    wmv.verify();
+                    return false;
+                });
+            });
+        });
+    </script>
+</body>
+</html>

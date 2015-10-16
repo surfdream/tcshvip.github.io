@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        #page { padding: 20px; }
+    </style>
+</head>
+<body>
+    <a class="x" style="position: absolute; top: 100px; left: 150px">显示tip显示tip</a>
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../wmtips' });
+            seajs.use('src/wmtips.js', function (tips) {
+                var x_tips = new tips({
+                    ele: '.x',
+                    con: '密码错误<br>密码错误密码错误密码错误密码错误密码错误密码错误<br>密码错误密码错误<br>密码错误',
+                    close:false,
+                    direction: 'lc'
+                });
+                $(".x").click(function () {
+                    if (x_tips.isShow) {
+                        x_tips.colse();
+                    } else {
+                        x_tips.setCon("xxxxxxxxxxxx");
+                        x_tips.show();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

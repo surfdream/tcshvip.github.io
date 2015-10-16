@@ -1,0 +1,5 @@
+﻿.wm_page { font-family: SimSun; overflow: hidden; }
+.wm_page a, .wm_page b, .wm_page span { background: #fff; display: block; float: left; line-height: 20px; height: 20px; padding: 3px 10px; border: 1px solid #dbdbdb; text-align: center; margin-right: 5px; text-decoration: none; }
+.wm_page span { border: 1px solid transparent; padding: 3px 0; background: transparent; _border: 0 solid #fff; }
+.wm_page a:hover, .wm_page b { border-color: #e13436; color: #e13436; }
+.wm_page input { width: 30px; float: left; text-align: center; margin: 3px 2px 5px 0; }

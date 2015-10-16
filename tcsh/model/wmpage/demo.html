@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        #page { padding: 20px; }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="wm_page">
+            <span>共100页</span>
+            <a href="javascript:void(0);"><</a>
+            <b>1</b>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <span class="ellipsis">……</span>
+            <a href="#">></a>
+            <span>跳转至</span>
+            <input type="text" class="page_txt" />
+            <span>页</span>
+            <input type="button" value="确定" />
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <div class="wm_page">
+            <span>共100页</span>
+            <a href="#"><</a>
+            <a href="#">1</a>
+            <b>2</b>
+
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <span class="ellipsis">……</span>
+            <a href="#">></a>
+            <span>跳转至</span>
+            <input type="text" class="page_txt" />
+            <span>页</span>
+            <input type="button" value="确定" />
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <div class="wm_page">
+            <span>共200页</span>
+            <a href="#"><</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <span class="ellipsis">……</span>
+            <b>100</b>
+            <a href="#">101</a>
+            <a href="#">102</a>
+            <span class="ellipsis">……</span>
+            <a href="#">></a>
+            <span>跳转至</span>
+            <input type="text" class="page_txt" />
+            <span>页</span>
+            <input type="button" value="确定" />
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <div class="wm_page jsdemo"></div>
+        <table>
+            <tr>
+                <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+            <tr>
+                <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+            <tr>
+                <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+            <tr>
+                <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+            <tr>
+                <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+        </table>
+        <div class="wm_page jsdemo"></div>
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <br />
+        <div class="wm_page x"></div>
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <br />
+        <div class="wm_page x2"></div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../wmpage' });
+            seajs.use('src/wmpage.js', function (page) {
+                var _page = page.Create({
+                    url: 'http://www.baidu.com',
+                    element: ".jsdemo",
+                    index: 5,
+                    sum: 7,
+                    size:1,
+                    front: true,
+                    param: {
+                        a: 1,
+                        b: 2
+                    },
+                    async: true,
+                    success: function (data) {
+                       
+                        _page.setIndex(this.index);
+                    },
+                    error: function () {
+                        
+                        _page.setIndex(this.index);
+                    }
+                });
+                _page.setIndex(1);
+                var _page2 = page.Create({
+                    url: 'http://www.baidu.com',
+                    element: ".x",
+                    index: 5,
+                    sum: 5000,
+                    front: true,
+                    showItemLength:10,
+                    async: true,
+                    param: {
+                        a: 1,
+                        b: 2
+                    },
+                    success: function (data) {
+                        alert("success，demo是不可能进入这里的！");
+                        _page2.setIndex(this.index);
+                    },
+                    error: function () {
+                        alert("这里是error，demo肯定到这里！")
+                        _page2.setIndex(this.index);
+                    }
+                });
+                _page2.setIndex(10);
+                var _page3 = page.CreateStartPage({
+                    url: 'http://www.baidu.com',
+                    element: ".x2",
+                    start: 2444,
+                    size:60,
+                    sum: 5000,
+                    pagekey: 'start',
+                    param: {
+                        a: 1,
+                        b:2
+                    },
+                    front: true,
+                    showItemLength: 10
+                    
+                });
+            });
+        });
+    </script>
+</body>
+</html>

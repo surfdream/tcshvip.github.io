@@ -1,0 +1,4 @@
+﻿.wmv_msg { font-size: 12px; display: none; }
+.wmv_error { color: #e13436; display: inline; }
+.wmv_success { color: #333; display: inline; }
+.wmv_success .wm_ico, .wmv_error .wm_ico { margin: 0 5px; }

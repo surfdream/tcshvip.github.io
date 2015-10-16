@@ -1,0 +1,75 @@
+﻿.wm_tips { position: absolute;display:none }
+.wm_tips .wm_tips_per { padding: 2px; position: relative; }
+.wm_tips .wm_tips_per .wm_tips_con { padding: 5px 15px; }
+.wm_tips .close { position: absolute; width: 10px; height: 10px; line-height: 10px; text-align: center; }
+.wm_tips .close a, .wm_tips .close a:hover.wm_tips .close a:active, .wm_tips .close a:visited, .wm_tips .close a:link { text-decoration: none; }
+/* --箭头定位-- */
+
+.wm_tips .tips_arrow { position: absolute; }
+.br .tips_arrow { top: -7px; left: 10px; }
+.bc .tips_arrow { top: -7px; left: 50%; margin-left: -7px; }
+.bl .tips_arrow { top: -7px; right: 24px; }
+.rt .tips_arrow { top: 7px; left: -4px;_left:-6px }
+.rc .tips_arrow { top: 50%; margin-top: -7px; left: -4px; }
+.rb .tips_arrow { bottom: 27px; left: -4px; }
+.lt .tips_arrow { top: 7px; right: 9px; }
+.lc .tips_arrow { top: 50%; margin-top: -7px; right: 9px; }
+.lb .tips_arrow { bottom: 27px; right: 9px; }
+.tr .tips_arrow { bottom: 12px; left: 10px; }
+.tc .tips_arrow { bottom: 12px; left: 50%; margin-left: -7px; }
+.tl .tips_arrow { bottom: 12px; right: 24px; }
+.br .close,
+.bc .close,
+.tr .close,
+.tc .close,
+.tl .close,
+.rt .close,
+.rc .close,
+.rb .close { right: 5px; top: 5px; }
+.lt .close,
+.lc .close,
+.lb .close,
+.bl .close { left: 5px; top: 5px; }
+
+.wm_tips .tips_arrow em, .wm_tips .tips_arrow span { position: absolute; font-family: SimSun,Hiragino; font-style: normal; line-height: 21px; z-index: 10; font-size: 14px; }
+.br .tips_arrow span,
+.bc .tips_arrow span,
+.bl .tips_arrow span { top: 1px; }
+.tr .tips_arrow span,
+.tc .tips_arrow span,
+.tl .tips_arrow span { bottom: -20px; left: 0; }
+.rt .tips_arrow span,
+.rc .tips_arrow span,
+.rb .tips_arrow span { top: 0; left: 1px; }
+.lt .tips_arrow span,
+.lc .tips_arrow span,
+.lb .tips_arrow span { top: 0; right: -13px; }
+
+/* --皮肤-- */
+.yellow1 { }
+.yellow1 .wm_tips_per { background: #fafafa; }
+.yellow1 .wm_tips_per .wm_tips_con { border: 1px solid #ffbb76; background: #fffcef; color: #db7c22; }
+.yellow1 .tips_arrow em, .yellow .tips_arrow span { color: #ffbb76; }
+.yellow1 .tips_arrow span { color: #fffcef; }
+.yellow1 .close a { color: #db7c22; }
+
+.red1 { }
+.red1 .wm_tips_per { background: #ffebeb; }
+.red1 .wm_tips_per .wm_tips_con { border: 1px solid #e13436; background: #ff7c7e;color:#fff }
+.red1 .tips_arrow em, .red1 .tips_arrow span { color: #e13436; }
+.red1 .tips_arrow span { color: #ff7c7e; }
+.red1 .close a { color: #fff; }
+
+.red2 { }
+.red2 .wm_tips_per { background: #ffebeb; }
+.red2 .wm_tips_per .wm_tips_con { border: 1px solid #e13436; background: #fbd1d1;color:#e13436 }
+.red2 .tips_arrow em, .red2 .tips_arrow span { color: #e13436; }
+.red2 .tips_arrow span { color: #fbd1d1; }
+.red2 .close a { color: #e13436; }
+
+.white1 { }
+.white1 .wm_tips_per { background: #ffebeb; }
+.white1 .wm_tips_per .wm_tips_con { border: 1px solid #fb4f4f; background: #fff;color:#ff0000 }
+.white1 .tips_arrow em, .white1 .tips_arrow span { color: #fb4f4f; }
+.white1 .tips_arrow span { color: #fff; }
+.white1 .close a { color: #ff0000; }

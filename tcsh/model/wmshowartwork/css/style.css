@@ -1,0 +1,5 @@
+﻿.artwork_box { }
+.artwork_box .wmBox-content { margin:2px!important}
+.artwork_box .artwork_con { display:block;overflow:hidden;position:relative}
+.artwork_box .artwork_con img { display:block;margin:0 auto;}
+.close_btn { position:absolute;top:0;right:0}

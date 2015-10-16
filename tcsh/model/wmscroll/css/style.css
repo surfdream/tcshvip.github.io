@@ -1,0 +1,6 @@
+﻿.wm_scroll_box { position: relative; }
+.wm_scroll_box .scroll_con_main { }
+.wm_scroll_box .scroll_main { position: absolute; top: 0; right: 0; background: #ccc; width: 6px; height: 100%; }
+.wm_scroll_box .scroll_main .slider { width: 100%; background: #999; left: 0!important; border-radius: 6px; }
+.wm_scroll_box .scroll_main:hover { background: #999; }
+.wm_scroll_box .scroll_main:hover .slider { background: #333; }

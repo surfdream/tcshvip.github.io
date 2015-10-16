@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../view/public/font-face/css/font-face.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+    <div class="multipledate_box" style="width: 530px; display: none">
+        <div class="select_ym">
+            <select class="select_y">
+                <!--<option>2015</option>
+                <option>2014</option>
+                <option selected="selected">2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>-->
+            </select>
+            <select class="select_m">
+                <!--<option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>-->
+            </select>
+        </div>
+        <div class="multipledate_main">
+            <a href="#" class="iconfont change_btn prev">&#xf016e;</a>
+            <a href="#" class="iconfont change_btn next">&#xf016d;</a>
+            <ul class="multipledate_list">
+                <li class="multipledate_item">
+                    <div class="ym_data">2014年1月</div>
+                    <p class="week_data">
+                        <span>一</span>
+                        <span>二</span>
+                        <span>三</span>
+                        <span>四</span>
+                        <span>五</span>
+                        <span>六</span>
+                        <span>日</span>
+                    </p>
+                    <div class="mid_data">
+                        <ul class="mid_list">
+                            <!--<li class="mid_item"><a href="#">1</a></li>
+                            <li class="mid_item"><a href="#">2</a></li>
+                            <li class="mid_item"><a href="#">3</a></li>
+                            <li class="mid_item"><a href="#">4</a></li>
+                            <li class="mid_item"><a href="#">5</a></li>
+                            <li class="mid_item"><a href="#">6</a></li>
+                            <li class="mid_item"><a href="#">7</a></li>
+                            <li class="mid_item"><a href="#">8</a></li>
+                            <li class="mid_item"><a href="#">9</a></li>
+                            <li class="mid_item"><a href="#">10</a></li>
+                            <li class="mid_item"><a href="#">11</a></li>
+                            <li class="mid_item"><a href="#">12</a></li>
+                            <li class="mid_item"><a href="#">13</a></li>
+                            <li class="mid_item"><a href="#">14</a></li>
+                            <li class="mid_item"><a href="#">15</a></li>
+                            <li class="mid_item"><a href="#">16</a></li>
+                            <li class="mid_item"><a href="#">17</a></li>
+                            <li class="mid_item"><a href="#">18</a></li>
+                            <li class="mid_item"><a href="#">19</a></li>
+                            <li class="mid_item"><a href="#">20</a></li>
+                            <li class="mid_item"><a href="#">21</a></li>
+                            <li class="mid_item"><a href="#">22</a></li>
+                            <li class="mid_item"><a href="#">23</a></li>
+                            <li class="mid_item"><a href="#">24</a></li>
+                            <li class="mid_item"><a href="#">25</a></li>
+                            <li class="mid_item"><a href="#">26</a></li>
+                            <li class="mid_item"><a href="#">27</a></li>
+                            <li class="mid_item"><a href="#">28</a></li>
+                            <li class="mid_item"><a href="#">29</a></li>
+                            <li class="mid_item"><a href="#">30</a></li>
+                            <li class="mid_item"><a href="#">31</a></li>-->
+                        </ul>
+                    </div>
+                </li>
+                <li class="multipledate_item">
+                    <div class="ym_data">2014年1月</div>
+                    <p class="week_data">
+                        <span>一</span>
+                        <span>二</span>
+                        <span>三</span>
+                        <span>四</span>
+                        <span>五</span>
+                        <span>六</span>
+                        <span>日</span>
+                    </p>
+                    <div class="mid_data">
+                        <ul class="mid_list">
+                            <li class="mid_item"><a href="#">1</a></li>
+                            <li class="mid_item"><a href="#">2</a></li>
+                            <li class="mid_item"><a href="#">3</a></li>
+                            <li class="mid_item"><a href="#">4</a></li>
+                            <li class="mid_item"><a href="#">5</a></li>
+                            <li class="mid_item"><a href="#">6</a></li>
+                            <li class="mid_item"><a href="#">7</a></li>
+                            <li class="mid_item"><a href="#">8</a></li>
+                            <li class="mid_item"><a href="#">9</a></li>
+                            <li class="mid_item"><a href="#">10</a></li>
+                            <li class="mid_item"><a href="#">11</a></li>
+                            <li class="mid_item"><a href="#">12</a></li>
+                            <li class="mid_item"><a href="#">13</a></li>
+                            <li class="mid_item"><a href="#">14</a></li>
+                            <li class="mid_item"><a href="#">15</a></li>
+                            <li class="mid_item"><a href="#">16</a></li>
+                            <li class="mid_item"><a href="#">17</a></li>
+                            <li class="mid_item"><a href="#">18</a></li>
+                            <li class="mid_item"><a href="#">19</a></li>
+                            <li class="mid_item"><a href="#">20</a></li>
+                            <li class="mid_item"><a href="#">21</a></li>
+                            <li class="mid_item"><a href="#">22</a></li>
+                            <li class="mid_item"><a href="#">23</a></li>
+                            <li class="mid_item"><a href="#">24</a></li>
+                            <li class="mid_item"><a href="#">25</a></li>
+                            <li class="mid_item"><a href="#">26</a></li>
+                            <li class="mid_item"><a href="#">27</a></li>
+                            <li class="mid_item"><a href="#">28</a></li>
+                            <li class="mid_item"><a href="#">29</a></li>
+                            <li class="mid_item"><a href="#">30</a></li>
+                            <li class="mid_item"><a href="#">31</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../wmmultipledate' });
+            seajs.use('src/multipledate.js', function (multipledate) {
+                multipledate.show({
+                    ele: "body",
+                    length: 120,
+                    offset: {
+                        left: -100
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

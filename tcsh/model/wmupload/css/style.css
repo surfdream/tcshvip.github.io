@@ -1,0 +1,2 @@
+﻿.up_loading { width: 70px; height: 70px; border: 1px dashed #999; position: fixed;_position:absolute; bottom: -100px; color: #fff; right: 20px; background: #003366; font-size: 12px; font-weight: 700; line-height: 70px;overflow:hidden;z-index:500 }
+.up_loading img { width: 70px; height: 70px; position: absolute; bottom: -80px; }
