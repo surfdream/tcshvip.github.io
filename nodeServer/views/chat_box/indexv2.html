@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>小菜的玩具，边玩边提高</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" charset="utf-8" src="src/ueditor/ueditor.config.js?t=635261572251028559"></script>
+    <script type="text/javascript" charset="utf-8" src="src/ueditor/ueditor.all.js"></script>
+</head>
+<body>
+    <div id="page">
+        <div class="box">
+            <div class="head">
+                <h1 title="小菜的玩具"></h1>
+                <div class="user_data">
+                    <a href="#" class="login" title="登录"></a>
+                    <!--<a href="#" class="user_name">chaiyining007</a>-->
+                </div>
+            </div>
+            <div class="main">
+                <div class="chat_window"></div>
+                <div class="inst_box">
+                    <div id="myEditor"></div>
+                </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+
+    </div>
+   <script src="dist/socket.io.min.js"></script>
+    <script type="text/javascript">
+        //初始化编辑器
+        editor.render("myEditor");
+        $("#add1").click(function () {
+            $.ajax({
+                url: 'push?',
+                type: "GET",
+                data: {
+                    uname: $("#name").val() || "无名先生",
+                    quantity: 1,
+                    text: ""
+                },
+                dataType: "text",
+                cache: false,
+                success: function (xxx) {
+                    //alert(xxx);
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        });
+        $("#add500").click(function () {
+            $.ajax({
+                url: 'push?',
+                type: "GET",
+                data: {
+                    uname: $("#name").val() || "无名先生",
+                    quantity: 20,
+                    text: ""
+                },
+                dataType: "text",
+                cache: false,
+                success: function (xxx) {
+                    //alert(xxx);
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        });
+        $("#submit").click(function () {
+            $.ajax({
+                url: 'push?',
+                type: "GET",
+                data: {
+                    uname: $("#name").val() || "无名先生",
+                    quantity: 0,
+                    text: $.trim($("#text").val())
+                },
+                dataType: "text",
+                cache: false,
+                success: function (xxx) {
+                    //alert(xxx);
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        });
+        //简单队列
+        var queue = function () {
+            var self = this;
+            this.list = [];
+            this.add = function (data, cb) {
+                self.list.push(data);
+                cb && cb();
+            };
+            this.get = function () {
+                return self.list.shift();
+            };
+        };
+        //刷屏队列
+        var scraperQueue = new queue()
+        //开启刷屏
+        , openScraper
+        //新数据队列
+        , newDataQueue = new queue()
+        //新数据添加回调
+        , newDataAddCallBack
+        //单例队列（这个队列预留考虑到后期刷屏疯狂的情况下是否要控制步长，不控制的情况下，现在就以满足）
+        , singletonMsgQueue = new queue()
+        //用户送花总数存住对象
+        , userData = {}
+        , $chat_box = $("#chat_box")
+        ;
+        //开始按步长刷屏
+        openScraper = function (_item) {
+            var _setInterval, i = 0;
+            _setInterval = setInterval(function () {
+                i++;
+                userData[_item.userName] = (userData[_item.userName] || 0) + 1;
+                $chat_box.append('<p>' + _item.msg + '共' + userData[_item.userName] + '朵</p>').scrollTop(10000);
+                $chat_box.find('p').length > 50 && $chat_box.find('p:eq(0)').remove();
+                if (i == _item.scraperMax) {
+                    clearInterval(_setInterval);
+                }
+            }, 200);
+        };
+        newDataAddCallBack = function () {
+            var _item = newDataQueue.get();
+            if (!_item) return;
+            //是否需要刷屏
+            if (_item.isScraper) {
+                openScraper(_item);
+                return;
+            }
+            else {
+                $chat_box.append('<p>' + _item.msg + '</p>').scrollTop(10000);
+                $chat_box.find('p').length > 50 && $chat_box.find('p:eq(0)').remove();
+                return;
+            }
+        };
+        //获取推送信息
+        var socket = io.connect('http://10.0.0.246:7758');
+        //这边就是获取推送信息的递归了，只要把推送来的数据放到，队列里面就可以了
+        socket.on('chat_box', function (data) {
+            newDataQueue.add(data, function () {
+                newDataAddCallBack();
+            });
+        });
+
+    </script>
+
+</body>
+</html>
+
