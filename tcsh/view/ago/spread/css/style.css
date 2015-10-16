@@ -1,0 +1,35 @@
+﻿#page .content { background: #fff; margin-bottom: 20px; }
+.content_main { overflow: hidden; }
+.content_main .content_left, .content_main .content_right { float: left; }
+.content_main .content_right { width: 410px; padding: 60px 0 0 60px; }
+.content_main .content_right_title { line-height: 55px; font-size: 20px; color: #e13436; }
+.content_main .error_msg { line-height: 35px; font-size: 14px; }
+.content_main .content_right_head { position: relative; }
+.content_main .content_right_msg1 { position: absolute; display: block; width: 395px; height: 63px; background: url('../img/msg_bg.png') no-repeat; top: -83px; color: #3c3c3c; font-size: 14px; line-height: 25px; padding: 10px 5px 10px 15px; }
+.content_main .content_right_msg2 { position: absolute; display: block; width: 395px; height: 90px; background: url('../img/msg_bg.png') 0 -100px no-repeat; top: -100px; *top: -120px; color: #3c3c3c; font-size: 14px; line-height: 25px; padding: 10px 5px 10px 15px; }
+.content_main .content_right_msg1 b, .content_main .content_right_msg2 b { color: #e13436; }
+.content_main .wm_form { border-bottom: 1px dashed #999; padding-bottom: 20px; }
+.wm_form li { padding: 10px 0; }
+.wm_form label { color: #3c3c3c; display: inline-block; height: 100%; vertical-align: top; line-height: 24px; }
+.wm_form input { padding: 2px; }
+.wm_form textarea { width: 300px; height: 90px; }
+.wm_form select { padding: 2px 5px; }
+.wm_form .wm_form_btns { text-align: center; padding-top: 20px; }
+.wm_form .ui_btn_h46red8 { }
+.wm_form .ui_btn_h46red8 .ui_btn_txt { font-size: 16px; font-family: SimHei; width: 90px; text-align: center; }
+.wm_form .wm_form_msg { padding-left: 55px; color: #828282; }
+.wm_form .wm_ico { margin-right: 10px; }
+.wm_form .fun_title { font-size: 14px; color: #666; line-height: 30px; display: block; padding: 20px 0 10px 0; }
+.wm_form .exclusive_link { line-height: 25px; border: 1px solid #aaa; width: 400px; padding: 15px; color: #999; margin: 10px 0; }
+.content_main .remark { padding-top: 20px; color: #595959; }
+.content_main .remark b { display: block; font-size: 14px; line-height: 30px; color: #323232; }
+.content_main .remark ol { padding-left: 15px; }
+.content_main .remark li { list-style: decimal; line-height: 22px; }
+.content_main .remark a { color: #e13436; }
+
+#roleBox { }
+#roleBox .wmBox-botton {padding:30px 10px 10px 0 }
+#roleBox .again_login { }
+#roleBox .again_login .ui_btn_txt { font-size:14px}
+#roleBox .returnindex {background:#fff }
+#roleBox .returnindex .ui_btn_txt { background:#fff;color:#3c3c3c}

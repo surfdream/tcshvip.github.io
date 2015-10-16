@@ -1,0 +1,49 @@
+﻿@CHARSET "UTF-8";
+.content_left { width: 695px; float: left; padding-top: 20px; }
+.content_left .content_left_item { margin-bottom: 40px; width: 700px; overflow: hidden; }
+.content_right { float: left; width: 280px; /*_width: 267px; _overflow: hidden;*/ padding-top: 20px; }
+.content_right_item { margin-bottom: 20px; _width: 280px; overflow: hidden; }
+.content_right_item_con { overflow: hidden; }
+.content_lef_head { padding-bottom: 10px; height: 25px; line-height: 25px; }
+.content_right_head { overflow: hidden; padding-bottom: 5px; height: 25px; }
+.content_left_title { color: #DB1E1F; font-family: 'Microsoft YaHei'; font-size: 18px; font-weight: 700; float: left; padding-left: 30px; line-height: 25px; }
+.content_right_title { color: #333; font-family: 'Microsoft YaHei'; font-size: 14px; font-weight: 700; float: left; padding-left: 15px; }
+.wumei100 { font-family: 'Microsoft YaHei'; color: #F37D15; font-size: 14px; font-weight: 700; float: left; padding-right: 10px; margin-left: 40px; }
+.new_test .new_test_con li:hover, .new_test .new_test_con li_hover { border: #f6c2c2 2px solid; }
+
+
+.seg { background: #f2f2f2; margin: 10px 0 10px -15px; height: 11px; overflow: hidden; }
+.seg i { height: 11px; background: url("../../public/img/seg_red1.png") 0 0 #f2f2f2; display: inline-block; width: 100%; vertical-align: middle; }
+
+.new_sell .new_sell_con { }
+.new_sell .new_sell_con .img_bg { width: 310px; height: 310px; text-align: center; display: block; line-height: 310px; }
+.new_sell .new_sell_con img { display: inline-block; max-height: 310px; max-width: 310px; vertical-align: middle; *width: 310px; *height: 310px; }
+.new_sell .new_sell_con li { position: relative; float: left; margin: 0 10px 10px 0; background: #fff; padding: 3px; border: 1px solid #d6cdcd; }
+.new_sell .new_sell_con li:hover { background: #e13436; border: 1px solid #f2f2f2; }
+.new_sell .new_sell_con .new_sell_main { position: relative; height: 420px; background: #fff; width: 330px; }
+.new_sell .new_sell_con .new_sell_main_bg { padding: 10px; }
+.new_sell_con li .new_sell_preferential { float: left; width: 50px; padding-left: 10px; line-height: 20px; padding-top: 5px; color: #414141; }
+.new_sell_con li .new_sell_preferential b { color: #f47c13; font-weight: 500; font-size: 14px; }
+.new_sell_con li .new_sell_sales { line-height: 45px; float: right; padding-right: 15px; }
+.new_sell_con li .new_sell_sales b { color: #E03335; font-size: 14px; }
+.new_sell_con li .ui_btn_h28red19 { position: absolute; bottom: 60px; right: 12px; }
+.new_sell_con li .ui_btn .ui_btn_txt { padding-right: 10px; }
+.new_sell_con li .ui_btn .ui_btn_txt .triangle6 { margin-left: 5px; }
+.new_sell_con li .ui_btn_h28red19:hover { background-position: 0 -2460px; }
+.new_sell_con li .ui_btn_h28red19:hover .ui_btn_txt { background-position: right -2460px; }
+.new_sell_con li .bott_data { clear: both; height: 40px; line-height: 40px; padding: 5px 10px 0 5px; vertical-align: text-bottom; }
+.new_sell_con li .bott_data .purchase_price { font-size: 36px; color: #e13436; }
+.new_sell_con li .bott_data .through { padding-left: 10px; text-decoration: line-through; }
+.new_sell_con li .bott_data .purchase_number { float: right; line-height: 50px; height: 20px;font-size:14px }
+.new_sell_con li .bott_data .purchase_number b { color:#e13436;font-weight:500}
+.beautiful_gather_rank { padding: 10px; }
+.beautiful_gather_rank li { background: #fff; margin-bottom: 10px; padding: 5px 0 5px 135px; position: relative; height: 120px; }
+.beautiful_gather_rank img { width: 120px; height: 120px; position: absolute; top: 5px; left: 5px; }
+.beautiful_gather_rank h3 { font-size: 12px; padding: 5px 0 10px 0; }
+.beautiful_gather_rank .bgr_price { line-height: 20px; }
+.beautiful_gather_rank .bgr_price b { color: #e13436; }
+.beautiful_gather_rank .bgr_btns { padding-top: 14px; vertical-align: middle; }
+.beautiful_gather_rank .ui_btn { margin-right: 10px; _margin-right: 5px; }
+
+.content_right .brands_list li { float: left; width: 130px; height: 65px; padding: 0 10px 10px 0; _padding: 0 5px 5px 0; display: inline; _zoom: 1; }
+.content_right .brands_list li img { width: 130px; height: 65px; _margin-top: 2px; }

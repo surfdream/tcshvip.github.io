@@ -1,0 +1,30 @@
+﻿.head_top .link_list { margin: 0 15px; }
+.head_top .user_data { position: relative; }
+.head_top .user_data:hover { }
+.head_top .user_data .user_data_name, .head_top .user_data .user_data_name:link, .head_top .user_data .user_data_name:active, .head_top .user_data .user_data_name:visited { padding: 0 14px; position: relative; z-index: 2; color: #333; display: block; border: 1px solid #f7f5f0; border-bottom: none; border-top: none; height: 31px; _width: 100px; }
+.head_top .user_data .user_data_name:hover, .head_top .user_data_hover .user_data_name, .head_top .user_data:hover .user_data_name { color: #ff6a00; text-decoration: none; background: #fff; border: 1px solid #EB6769; border-bottom: none; border-top: none; }
+.head_top .user_data .user_data_name .iconfont, .head_top .user_msg .iconfont, .head_top .class_list .iconfont { font-size: 12px; margin: 0 10px; color: #333; }
+.head_top .user_data .user_data_ka {; display: none; position: absolute; z-index: 1; width: 270px; height: 140px; left: 0px; overflow: hidden; top: 30px; background: #fff; border: 1px solid #EB6769; }
+.head_top .user_data:hover .user_data_ka, .head_top .user_data_hover .user_data_ka { display: block; }
+.head_top .user_data .user_data_ka .udk_user_img, .head_top .user_data .user_data_ka .udk_user_img:link, .head_top .user_data .user_data_ka .udk_user_img:active, .head_top .user_data .user_data_ka .udk_user_img:visited { position: absolute; top: 20px; left: 20px; display: block; width: 90px; height: 90px; overflow: hidden; border-radius: 90px; padding: 0!important; border: 1px solid #ccc; background: #fff; }
+.head_top .user_data .user_data_ka .udk_user_img img { width: 90px; height: 90px; }
+.head_top .user_data .user_data_ka .udk_user_img .udk_user_img_bg { display: block; width: 84px; height: 84px; overflow: hidden; border-radius: 90px; padding: 0; border: 1px solid #ccc; margin: 2px 0 0 2px; }
+.head_top .user_data .user_data_ka .user_data_list { padding-left: 135px; }
+.head_top .user_data .user_data_ka .user_data_list b { padding: 0; }
+.head_top .user_data .user_data_ka .ka_op { text-align: right; padding-top: 5px; }
+.head_top .user_data .user_data_ka .ka_op a, .head_top .user_data .user_data_ka .ka_op a:link, .head_top .user_data .user_data_ka .ka_op a:active, .head_top .user_data .user_data_ka .ka_op a:visited { margin-right: 10px; color: #505050; }
+.head_top .sub_head_top .user_msg { float: left; position: relative; margin-right: 0; }
+.head_top .sub_head_top .user_msg .idea { display: inline; float: none; }
+.head_top .top_data_item { float: left; margin: 0 0 0 20px; }
+.head_top .top_data_item b { font-weight: 500; color: #e13436; }
+.head_top .top_data_item .iconfont { font-size: 22px; margin-right: 5px; line-height: 16px; }
+.head_top .registration { }
+.head_top .registration:hover { color: #e13436; text-decoration: none; }
+.head_top .class_list .idea { display: block; padding: 0 10px; border-top: none; border-bottom: none; height: 32px; position: relative; z-index: 2; border: 1px solid #f7f5f0; border-top: none; border-bottom: none; _width: 100px; }
+.head_top .class_list .idea:hover { text-decoration: none; }
+.head_top .class_list { float: right; position: relative; }
+.head_top .class_list .class_list_main { position: absolute; background: #fff; width: 400px; right: 0; display: none; overflow: hidden; padding: 14px 0; border: 1px solid #e13436; top: 31px; z-index: 1; }
+.head_top .class_list:hover .idea, .head_top .class_list_hover .idea { background: #fff; border: 1px solid #e13436; border-top: none; border-bottom: none; }
+.head_top .class_list:hover .class_list_main, .head_top .class_list_hover .class_list_main { display: block; }
+.head_top .class_list .class_list_main li { float: left; padding: 8px 15px; }
+.head_top .class_list .class_list_main li img { float: left; width: 20px; height: 20px; }

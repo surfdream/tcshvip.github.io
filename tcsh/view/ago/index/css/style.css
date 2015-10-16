@@ -1,0 +1,107 @@
+/* --全局懒加载-- */
+.lazyload { background: #fff url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 55px 55px no-repeat; }
+/* --头部大广告-- */
+.big_ads { width: 980px; position: relative; }
+.big_ads .wm_forimg_list { height: 350px; overflow: hidden; }
+.big_ads .indexBox { position: absolute; right: 35px; bottom: 10px; }
+.big_ads .indexBox .index_item { float: left; display: block; width: 20px; height: 15px; line-height: 15px; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99FFFFFF', endColorstr='#99FFFFFF'); background: rgba(255,255,255,0.7); text-align: center; margin-right: 5px; cursor: pointer; }
+.big_ads .indexBox .curr { background: #B40B06; color: #fff; filter: none; }
+.big_ads .big_ads_wings { position: absolute; top: 0; filter: alpha(opacity=30); opacity: 0.3; }
+.big_ads .big_ads_left { left: -980px; }
+.big_ads .big_ads_right { right: -980px; }
+.big_ads .big_ads_btns { position: absolute; top: 150px; right: 0; left: 0; _width: 100%; }
+.big_ads .big_ads_btns a { float: left; text-decoration: none; display: none; _float: left; text-align: center; font-family: SimSun; width: 50px; height: 50px; line-height: 50px; color: #fff; font-size: 50px; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background: rgba(000,000,000,0.6); *zoom: 1; }
+.big_ads:hover .big_ads_btns a, .big_ads_hover .big_ads_btns a { display: inline-block; }
+.big_ads .big_ads_btns .to_right { float: right; }
+
+.content_main { padding-top: 25px; }
+.content_left { width: 695px; float: left; }
+.content_right { float: left; width: 280px; _width: 267px; _overflow: hidden; }
+.content_lef_head { padding-bottom: 10px; height: 25px; }
+.content_left_title { color: #DC1E20; font-family: 'Microsoft YaHei'; font-size: 18px; line-height: 18px; font-weight: 700; float: left; *padding-top: 5px; }
+.content_left_title .horometer1 { margin-right: 10px; }
+.wumei100 { font-family: 'Microsoft YaHei'; color: #F37D15; font-size: 14px; font-weight: 700; }
+
+
+.brands_box { padding-bottom: 30px; width: 695px; }
+.brands_box .brands_for_box { float: left; padding-left: 30px; line-height: 20px; }
+.brands_box .wumei100 { float: right; padding-right: 15px; }
+/*.brands_box .b_item_left .lazyload { background:#fff url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 75px 30px no-repeat; }
+.brands_box .b_item_right .lazyload { background: #fff url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 240px 70px no-repeat; }*/
+
+.countdown_box { width: 695px; }
+.countdown_box .wumei100 { float: right; padding-right: 15px; }
+.countdown_box .countdown_end_date { display: inline-block; width: 220px; padding-left: 20px; }
+/*.countdown_box .lazyload {background:#fff url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 160px 80px no-repeat;}*/
+
+.content_right { padding-left: 5px; }
+.content_right_head { padding: 0 0 10px 15px; }
+.content_right_item { padding-bottom: 20px; }
+
+.content_right .follow_box { }
+.content_right .follow_box .follow_head { padding-bottom: 20px; *padding-bottom: 15px; }
+.content_right .follow_box .follow_con { background: #fff; height: 120px; padding: 5px 0 0 5px; }
+.follow_con .dimensional_code { float: left; }
+.follow_con .dimensional_code img { width: 115px; height: 115px; }
+.follow_con .follow_list { float: left; padding-top: 5px; }
+.follow_con .follow_list a { line-height: 20px; display: block; width: 155px; _width: 145px; text-overflow: ellipsis; height: 20px; overflow: hidden; white-space: nowrap; }
+.follow_con .follow_list a:hover { color: #E03335; }
+
+.content_right .contact_wm_box { }
+.content_right .contact_wm_box .contact_wm_con { background: #fff; }
+.contact_wm_con .link_list { padding: 10px; }
+.contact_wm_con .customer_service { padding: 0 10px 10px 10px; }
+.contact_wm_con .link_list .ui_btn { margin: 5px 5px; }
+.contact_wm_con .customer_service { position: relative; height: 55px; }
+.contact_wm_con .customer_service .customer_service_img { position: absolute; top: 0; }
+.contact_wm_con .customer_service p { padding-left: 60px; line-height: 25px; }
+.contact_wm_con .customer_service p b { font-size: 18px; color: #E03335; }
+.contact_wm_con .customer_service .ui_btn { margin-right: 10px; }
+
+
+.content_right .ready_publish_box { }
+.content_right .ready_publish_box .ready_publish_item { background: #fff; position: relative; height: 65px; margin-bottom: 10px; }
+.content_right .ready_publish_box .ready_publish_item img { position: absolute; top: 7px; left: 7px; width: 110px; height: 50px; border-right: 1px dashed #ccc; }
+.ready_publish_box .ready_publish_item .ready_publish_item_data { padding-left: 125px; padding-top: 5px; }
+.ready_publish_item .ready_publish_item_data span { display: block; line-height: 18px; color: #333; }
+.ready_publish_item .ready_publish_item_data span b { color: #C50303; }
+.content_right .ready_publish_box .ready_publish_item .lazyload { background: #fff url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 40px 10px no-repeat; }
+
+.content_right .coming_end_box { width: 295px; overflow: hidden; }
+.content_right .coming_end_box .coming_end_item { width: 140px; height: 245px; overflow: hidden; float: left; margin: 0 5px 5px 0; background: #E9E9E9; }
+.coming_end_box .coming_end_item img { width: 100%; height: 140px; overflow: hidden; display: block; }
+.coming_end_box .coming_end_item .brands_name { font-size: 14px; color: #333; line-height: 30px; padding-left: 10px; }
+.coming_end_box .coming_end_item .brands_price { padding-left: 10px; }
+.coming_end_box .coming_end_item .brands_price b { width: 50px; overflow: hidden; color: #C50303; }
+.coming_end_box .coming_end_item .coming_end_item_btns { padding: 7px 0 0 10px; }
+.coming_end_box .coming_end_item .coming_end_item_btns a { line-height: 22px; display: inline-block; vertical-align: middle; }
+.coming_end_box .coming_end_item .coming_end_item_btns .ui_btn_txt { padding: 0 5px 0 2px; *line-height: 20px; }
+
+
+.content_right .new_single_sun_box { width: 295px; overflow: hidden; }
+.content_right .new_single_sun_box .new_single_sun_head { height: 20px; }
+.content_right .new_single_sun_box .new_single_sun_head h3 { float: left; width: 180px; }
+.content_right .new_single_sun_box .new_single_sun_head .go_single_sun { font-size: 14px; color: #F47B13; }
+.content_right .new_single_sun_box .new_single_sun_item { width: 140px; height: 230px; overflow: hidden; float: left; margin: 0 5px 5px 0; background: #E9E9E9; line-height: 18px; }
+.new_single_sun_box .new_single_sun_item img { width: 100%; height: 140px; overflow: hidden; display: block; }
+.new_single_sun_box .new_single_sun_item .single_sun_name { font-size: 14px; color: #333; line-height: 20px; padding-left: 10px; display: block; white-space: nowrap; width: 120px; overflow: hidden; text-overflow: ellipsis; }
+.new_single_sun_box .new_single_sun_item .user_nick { padding-left: 10px; }
+.new_single_sun_box .new_single_sun_item .gift_money { padding-left: 10px; }
+.new_single_sun_box .new_single_sun_item .gift_money b { color: #C50303; }
+.new_single_sun_box .new_single_sun_item .new_single_sun_btns { padding: 5px 0 0 10px; }
+.new_single_sun_box .new_single_sun_item .new_single_sun_btns a { line-height: 20px; }
+.new_single_sun_box .new_single_sun_item .new_single_sun_btns .ui_btn_txt { padding: 0 5px 0 3px; line-height: 20px; *line-height: 22px; }
+
+/*.block_for_280_170_box { }
+.block_for_280_170_box .lazyload { background: #fff url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 120px 65px no-repeat; }*/
+
+.friend_link { overflow: hidden; height: 40px; }
+.friend_link a { display: inline-block; }
+
+/* --A计划活动-- */
+.ajihua { display: block; height: 100px; margin-top: 32px; _margin-top: 0; }
+.ajihua .ajihua_main { display: block; width: 980px; margin-left: -490px; left: 50%; height: 100px; position: absolute; top: 32px; }
+.ajihua .ajihua_left_bg { background: url('../img/ajihua_left_bg.jpg') 0 0 repeat; display: block; height: 100px; width: 40%; float: left; }
+.ajihua .ajihua_right_bg { background: url('../img/ajihua_right_bg.jpg') 0 0 repeat; display: block; height: 100px; width: 40%; float: right; }
+.head_sub .head_con { padding-top: 0; }
+.head_con .cwmw { top: 18px; }

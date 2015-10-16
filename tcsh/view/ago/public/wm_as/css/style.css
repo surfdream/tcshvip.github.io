@@ -1,0 +1,6 @@
+﻿.wm_as_pit { }
+.wm_as_mask { display:none;position: absolute; top: 0; left: 0; bottom: 0; right: 0; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background: rgba(000,000,000,0.6); }
+.wm_as_pit:hover .wm_as_mask{ display:block}
+.wm_as_mask  .nail {display:block}
+.halo {z-index:1001 }
+.halo:hover { border:10px solid #f00;margin:-10px 0 0 -10px;z-index:2000}

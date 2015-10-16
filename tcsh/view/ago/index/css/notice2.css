@@ -1,0 +1,7 @@
+﻿.notice_box { display: none; position: fixed; _position: absolute; width: 300px; height: 70px; bottom: 15px; right: 15px; background: #fff; -moz-box-shadow: 0px 0px 9px #0095B3; -webkit-box-shadow: 0px 0px 9px #0095B3; box-shadow: 0px 0px 9px #0095B3; border: 1px solid #0095B3; border-radius: 6px; z-index: 500; }
+.notice_box .notice_main_left { overflow: hidden; float: left; border-right: 1px solid #ccc; }
+.notice_box .notice_main_right { float: left; padding: 0 0 0 10px; width: 210px; }
+.notice_box .sigh2 { display: block; float: left; margin: 20px 10px; }
+.notice_box .notice_title { display: block; line-height: 24px; font-weight: 700; color: #999; height: 24px; width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.notice_box .close_notice { position: absolute; top: -10px; right: -10px; top: -8px; right: -8px; -moz-box-shadow: 0px 0px 9px #0095B3; -webkit-box-shadow: 0px 0px 9px #0095B3; box-shadow: 0px 0px 9px #0095B3; border-radius: 10px; }
+.notice_box p { color: #333; }

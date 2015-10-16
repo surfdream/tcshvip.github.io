@@ -1,0 +1,25 @@
+﻿@keyframes show {
+    from { height: 0; display: none; }
+    to { height: 80px; display: block; }
+}
+/* Firefox */
+@-moz-keyframes show {
+    from { height: 0; display: none; }
+    to { height: 80px; display: block; }
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes show {
+    from { height: 0; display: none; }
+    to { height: 80px; display: block; }
+}
+/* Opera */
+@-o-keyframes show { from;
+{ height: 0; display: none; }
+to { height: 80px; display: block; }
+}
+
+.notice_box { overflow:hidden;width: 980px; height: 0; display: none; position: fixed; _position: absolute; top: 32px; left: 50%; margin-left: -490px; background: #f7f5f0; z-index: 500; border: 1px solid #ebe4d7; border-top: 0; }
+.notice_box_show { height: 80px; display: block;animation: show 0.2s; -moz-animation: show 0.2s; /* Firefox */ -webkit-animation: show 0.2s; /* Safari 和 Chrome */ -o-animation: show 0.2s; /* Opera */ }
+.notice_box p { color: #00860b; font-size: 30px; line-height: 80px; height: 80px; width: 634px; margin: 0 auto; font-family: 'Microsoft YaHei'; }
+.notice_box .close_notice { position: absolute; font-size: 30px; font-weight: 700; bottom: 20px; right: 20px; }
+.notice_box .close_notice:hover { color: #DC1E20; text-decoration: none; }

@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/css/bank.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/pay.css" />
+    <script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="pay"></script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_sub">
+                <span class="user_name">同城生活账户号：<b>chaiyining007</b></span>
+                <span class="wm_pay_logo"></span><em></em><span class="logo_aid">我的收银台</span>
+            </div>
+            <span class="bgfff"></span>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="pay_data">
+                    <span class="user_img">
+                        <img src="img/user_img.jpg" /></span>
+                    <span class="pay_data_msg">您正在使用同城生活购物平台进行交易</span>
+                    <p class="commodity_name">新款韩版情侣装长袖衬衫灯芯绒情侣衬衣小碎花拼接男士<span>店铺名称：杭州同城生活科技有限公司</span></p>
+                    <span class="pay_money"><a href="#">刷新</a><b>￥999.99</b></span>
+                </div>
+                <div class="pay_main">
+                    <p class="pl30"><b>同城生活账户（</b>yuzhonghua-10@163.com<b>）</b>  可用余额：<b>289.78</b>元</p>
+                    <p class="money_data">
+                        <input type="checkbox" class="balance_pay" id="balance_pay"  />
+                        <label class="floatleft" for="balance_pay">账户余额：<b>￥289.78</b></label>
+                        <span class="floatright">支付：<span class="cred">￥289.78</span></span>
+                    </p>
+                    <form class="wm_form wm_balance">
+                        <ul>
+                            <li class="form_row">
+                                <label class="row_key">同城生活账户余额支付密码：</label>
+                                <input type="password" class="form_txt w200 "><a href="#" class="go_get_pw">忘记密码</a>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">&nbsp;</label>
+                                <input type="submit" class="submit" value="确认付款" />
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="bank_box internet_banking">
+                        <div class="bank_tab_keys">
+                            <!--<a href="#" class="ui_btn ui_btn_h33gray15 paypal"><span class="ui_btn_txt">支付宝支付 >></span></a>-->
+                            <span class="bank_msg">您可以使用其他方式付款：</span>
+                            <a href="#" class="bank_tab_key left250 curr" tab_key_val="internet_banking">网上银行</a>
+                            <a href="#" class="bank_tab_key " tab_key_val="credit_card">信用卡</a>
+                            <a href="#" class="bank_tab_key " tab_key_val="paypal">支付平台</a>
+                        </div>
+                        <form class="tab_main internet_banking">
+                            <ul>
+                                <li class="bank_item curr">
+                                    <input type="radio" name="x" class="bank_item_chk" checked="checked" title="工商银行" id="x987546321" /><label for="x987546321" class="lablefor"><span title="ICBC" class="bank_logo ICBC"></span><span class="bank_name">工商银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="中国银行" id="x8797987897" /><label for="x8797987897" class="lablefor"><span title="BOC" class="bank_logo BOC"></span><span class="bank_name">中国银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="招商银行" id="x451231685748" /><label for="x451231685748" class="lablefor"><span title="CMB" class="bank_logo CMB"></span><span class="bank_name">招商银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="建设银行" id="x787895613" /><label for="x787895613" class="lablefor"><span title="CCB" class="bank_logo CCB"></span><span class="bank_name">建设银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="交通银行" id="x7897845" /><label for="x7897845" class="lablefor"><span title="COMM" class="bank_logo COMM"></span><span class="bank_name">交通银行</span></label>
+                                </li>
+                                <li class="btns">
+                                    <a href="#" class="next_btn">下一步</a>
+                                </li>
+                            </ul>
+                            <input type="hidden" class="is_balance_pay" name="xxx" />
+                        </form>
+                        <form class="tab_main credit_card">
+                            <ul>
+                                <li class="bank_item curr">
+                                    <input type="radio" name="x" class="bank_item_chk" checked="checked" title="工商银行" id="x3445653451" /><label for="x3445653451" class="lablefor"><span title="ICBC" class="bank_logo ICBC"></span><span class="bank_name">工商银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="中国银行" id="x32455634" /><label for="x32455634" class="lablefor"><span title="BOC" class="bank_logo BOC"></span><span class="bank_name">中国银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="招商银行" id="x23445634" /><label for="x23445634" class="lablefor"><span title="CMB" class="bank_logo CMB"></span><span class="bank_name">招商银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="建设银行" id="x456556465" /><label for="x456556465" class="lablefor"><span title="CCB" class="bank_logo CCB"></span><span class="bank_name">建设银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="交通银行" id="x5466544" /><label for="x5466544" class="lablefor"><span title="COMM" class="bank_logo COMM"></span><span class="bank_name">交通银行</span></label>
+                                </li>
+                                <li class="btns">
+                                    <a href="#" class="next_btn">下一步</a>
+                                </li>
+                            </ul>
+                            <input type="hidden" class="is_balance_pay" name="xxx" />
+                        </form>
+                        <form class="tab_main paypal">
+                            <ul>
+                                <li class="bank_item curr">
+                                    <input type="radio" name="x" class="bank_item_chk" checked="checked" title="支付宝" id="x5456432454265" /><label for="x5456432454265" class="lablefor"><span title="支付宝" class="pay_platform Alipay"></span><span class="bank_name">工商银行</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="财付通" id="x23445634465" /><label for="x23445634465" class="lablefor"><span title="财付通" class="pay_platform Tenpay"></span><span class="bank_name">财付通</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="银联在线支付" id="x35241535" /><label for="x35241535" class="lablefor"><span title="银联在线支付" class="pay_platform Nnionpay"></span><span class="bank_name">银联在线支付</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="微信支付" id="x435545634" /><label for="x435545634" class="lablefor"><span title="微信支付" class="pay_platform WXpay"></span><span class="bank_name">微信支付</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="手机支付" id="x6575567465" /><label for="x6575567465" class="lablefor"><span title="手机支付" class="pay_platform Cmpay10086"></span><span class="bank_name">手机支付</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="快钱" id="x2156546324" /><label for="x2156546324" class="lablefor"><span title="快钱" class="pay_platform Bill"></span><span class="bank_name">快钱</span></label>
+                                </li>
+                                <li class="bank_item">
+                                    <input type="radio" name="x" class="bank_item_chk" title="翼支付" id="x4364556" /><label for="x4364556" class="lablefor"><span title="翼支付" class="pay_platform Bestpay"></span><span class="bank_name">翼支付</span></label>
+                                </li>
+                                <li class="btns">
+                                    <a href="#" class="next_btn">下一步</a>
+                                </li>
+                            </ul>
+                            <input type="hidden" class="is_balance_pay" name="xxx" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="link_list">
+                    <div class="link_item">
+                        <span>服务保障</span>
+                        <ul>
+                            <li><a href="#">正品保障</a></li>
+                            <li><a href="#">7天无条件退货</a></li>
+                            <li><a href="#">7*15小时服务</a></li>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>购物指南</span>
+                        <ul>
+                            <li><a href="#">导购演示</a></li>
+                            <li><a href="#">订单操作</a></li>
+                            <li><a href="#">用户指南</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">购物参考</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>支付方式</span>
+                        <ul>
+                            <li><a href="#">网银支付币</a></li>
+                            <li><a href="#">支付平台</a></li>
+                            <li><a href="#">信用卡</a></li>
+                            <li><a href="#">同城生活金币</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>配送方式</span>
+                        <ul>
+                            <li><a href="#">配送服务</a></li>
+                            <li><a href="#">配送范围和运费</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>售后服务</span>
+                        <ul>
+                            <li><a href="#">退换货政策</a></li>
+                            <li><a href="#">退换货流程</a></li>
+                            <li><a href="#">退款方式和时效</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item end">
+                        <span>同城生活模式</span>
+                        <ul>
+                            <li><a href="#">聚合式品牌特卖</a></li>
+                            <li><a href="#">同城生活成长基金</a></li>
+                            <li><a href="#">推手规则</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+
+                    <a href="#">
+                        <img src="../../public/img/internetPolice.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/putOnRecord.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/internetBusiness.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/siteCredits.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/trusty.png" />
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

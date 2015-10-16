@@ -1,0 +1,81 @@
+﻿@CHARSET "UTF-8";
+.content_left { width: 695px; float: left; padding-top: 20px; }
+.content_left .content_left_item { margin-bottom: 20px; width: 680px; overflow: hidden; }
+.content_right { padding-top: 5px; float: left; width: 280px; /*_width: 267px; _overflow: hidden;*/ }
+.content_right_item { margin-bottom: 20px; _width: 280px; overflow: hidden; }
+.content_right_item_con { overflow: hidden; }
+.content_lef_head { padding-bottom: 10px; height: 25px; line-height: 25px; }
+.content_right_head { overflow: hidden; padding-bottom: 5px; height: 25px; }
+.content_left_title { color: #DB1E1F; font-family: 'Microsoft YaHei'; font-size: 18px; font-weight: 700; float: left; padding-left: 30px; line-height: 25px; }
+.content_right_title { color: #333; font-family: 'Microsoft YaHei'; font-size: 14px; font-weight: 700; float: left; padding-left: 15px; }
+.wumei100 { font-family: 'Microsoft YaHei'; color: #F37D15; font-size: 14px; font-weight: 700; float: right; padding-right: 10px; }
+.new_sell .new_sell_con li:hover, .new_sell .new_sell_con li_hover, .new_test .new_test_con li:hover, .new_test .new_test_con li_hover { border: #f6c2c2 2px solid; }
+
+
+.big_ads { position: relative; height: 345px; }
+.big_ads:hover .big_ads_btns a { display: inline-block; font-family: SimSun; text-align: center; }
+.big_ads .wm_forimg_list { }
+.big_ads .for_img_item { position: absolute; top: 0; left: 0; }
+.big_ads .for_img_item .big_ads_inbtns1 { position: absolute; z-index: 0; left: 48%; top: 240px; }
+.big_ads .for_img_item .big_ads_inbtns1 .ui_btn { margin-right: 30px; }
+.big_ads .for_img_item .big_ads_inbtns1 .ui_btn .ui_btn_txt { font-size: 14px; font-family: 'Microsoft YaHei'; }
+.big_ads .for_img_item .big_ads_inbtns2 { position: absolute; z-index: 10; left: 39%; top: 200px; top: 220px; height: 30px; width: 230px; }
+.big_ads .for_img_item .big_ads_inbtns2 .ui_btn1, .big_ads .for_img_item .big_ads_inbtns2 .ui_btn2 { display: block; float: left; height: 30px; }
+.big_ads .for_img_item .big_ads_inbtns2 .ui_btn1 { width: 80px; }
+.big_ads .for_img_item .big_ads_inbtns2 .ui_btn2 { margin-left: 36px; width: 110px; }
+.big_ads .indexBox { position: absolute; left: 49%; bottom: 20px; }
+.big_ads .indexBox .index_item { float: left; display: block; width: 20px; height: 15px;line-height:15px; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99FFFFFF', endColorstr='#99FFFFFF'); background: rgba(255,255,255,0.7); text-align: center; margin-right: 5px; cursor: pointer; }
+.big_ads .indexBox .curr { background: #B40B06; color: #fff; filter: none; }
+.big_ads .big_ads_btns { padding-top: 130px; width: 960px; margin: 0 auto; position: relative; height: 50px; }
+.big_ads .big_ads_btns a { text-decoration: none; display: none; _float: left; width: 50px; height: 50px; line-height: 50px; background: #000; color: #fff; font-size: 50px; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#ff000000', endColorstr='#ff000000'); background: rgba(000,000,000,0.7); }
+.big_ads .big_ads_btns .to_right { float: right; }
+
+
+
+.new_test .b_main_price b { font-weight: 500; }
+.new_test .b_main .b_main_btns { padding: 0 20px 0 10px; text-align: left; font-size: 12px; line-height: 22px; }
+.new_test .b_main .b_main_btns a { float: right; }
+.new_test .ui_btn_h25red3 { float: left; }
+
+.content_right .content_right_item ul { border-top: 2px #000 solid; background: #fff; padding: 0 5px 20px 5px;height:250px;overflow:hidden }
+.content_right .content_right_item li { padding: 0 5px; border-bottom: #ccc dashed 1px; line-height: 22px; color: #494949; overflow:hidden}
+.content_right .content_right_item li p { padding:5px 0}
+
+
+
+.activity_return { position: relative; }
+.activity_return .content_right_head { padding-top: 20px; }
+.activity_return .activity_return_msg { position: absolute; top: 7px; left: 80px; }
+.activity_return .activity_return_msg .ui_btn { z-index: 0; }
+.activity_return .activity_return_msg .ui_btn .ui_btn_txt { font-size: 12px; }
+.activity_return .activity_return_msg .triangle1 { z-index: 0; position: absolute; left: -7px; top: 10px; }
+.activity_return .activity_return_list li b { color: #E03335; font-weight: 500; }
+.activity_return .activity_return_list li .user_name { color: #494949; font-weight: 700; }
+
+
+.content_right .qa { }
+.content_right .qa li { padding: 8px 5px 3px 5px; line-height: 14px; }
+.qa .qa_submit_box { background: #fff; padding-left: 5px; }
+.qa .qa_submit_box .submit_txt_bg { background: url(../img/qf_bg.png) 0 0 no-repeat; width: 241px; height: 95px; padding: 10px; }
+.qa .qa_submit_box textarea { line-height: 18px; width: 220px; height: 75px; border: 0; resize: none; padding: 10px; }
+.qa .qa_submit_box .qa_btns { padding: 15px 20px; text-align: right; }
+
+.ship_shopping_box { }
+.ship_shopping_box .ship_shopping_main { padding: 30px 50px 10px 50px; width: 500px; }
+.ship_shopping_box .ship_shopping_main .ship_shopping_head { color: #303030; border-bottom: 1px dashed #303030; overflow: hidden; padding-bottom: 5px; margin-bottom: 20px; }
+.ship_shopping_box .ship_shopping_head h3 { color: #303030; float: left; padding-right: 20px; }
+.ship_shopping_box .ship_shopping_head span { color: #bbb; }
+.ship_shopping_box .fun_list { }
+.ship_shopping_box .fun_list h3 { font-weight: 500; }
+.ship_shopping_box .fun_list .exclusive_link { line-height: 25px; border: 1px solid #aaa; width: 420px; padding: 15px; color: #999; margin: 10px 0; display:block}
+.ship_shopping_box .fun_list .fun_item { padding:20px;margin:30px 0;border:1px solid #999}
+.ship_shopping_box .fun_list legend { padding:0 10px;font-size:14px}
+.ship_shopping_box .min_blog_list { }
+.ship_shopping_box .min_blog_list .min_blog { margin-right:10px}
+
+.roleBox { }
+.roleBox .wmBox-botton {padding:30px 10px 10px 0 }
+.roleBox .again_login { }
+.roleBox .again_login .ui_btn_txt { font-size:14px}
+.roleBox .returnindex {background:#fff }
+.roleBox .returnindex .ui_btn_txt { background:#fff;color:#3c3c3c}

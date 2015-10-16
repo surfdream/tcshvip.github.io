@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+.process{
+	width:815px;
+	margin:100px auto 80px auto;
+	position:relative;
+}
+.schedule{
+	background:url(http://s.tcsh.me/tcsh/view/public/img/pipes4.png) 0 0 repeat-x;
+	height:33px;
+	margin-left:106px;
+}
+.con2{
+	width:115px;
+}
+.con3{
+	width:312px;
+}
+.con4{
+	width:511px;
+}
+.con5{
+	width:709px;
+}
+.schedule div{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	position:absolute;
+	top:0;
+	text-align:center;
+}
+.schedule div span{
+	display:block;
+	position:absolute;
+}
+.schedule .step_title{
+	top:-30px;
+	width:110px;
+	margin-left:-40px;
+	color:#535353;
+}
+.schedule .step_time{
+	top:50px;
+	margin-left:-25px;
+	width:100px;
+	color:#969696;
+}
+.number{
+	left:0;
+	top:0;
+	background:url(http://s.tcsh.me/tcsh/view/public/img/pipes4.png) 0 -140px repeat-x;
+	height:33px;
+	margin-left:106px;
+	width:708px;
+}
+.number .step_num{
+	font-size:24px;
+	color:#FFF;
+	font-weight:bold;
+	top:8px;
+}
+.number .i1{
+	left:-98px;
+}
+.number .i2{
+	left:91px;
+}
+.number .i3{
+	left:290px;
+}
+.number .i4{
+	left:487px;
+}
+.number .i5{
+	left:686px;
+}
+.schedule .len1{
+	width:0px;
+}
+.schedule .len2{
+	width:189px;
+}
+.schedule .len3{
+	width:387px;
+}
+.schedule .len4{
+	width:585px;
+}
+.schedule .len5{
+	width:708px;
+}
+.one{
+	background:url(http://s.tcsh.me/tcsh/view/public/img/pipes4.png) 0 -190px no-repeat;
+	width:106px;
+	height:33px;
+	left:0;
+}
+.two{
+	left:195px;
+}
+.three{
+	left:395px;
+}
+.four{
+	left:585px;
+}
+.five{
+	left:785px;
+}

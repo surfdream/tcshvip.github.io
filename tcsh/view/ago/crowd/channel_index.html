@@ -1,0 +1,1153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>频道首页</title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??ago/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css,ago/public/wm_block/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/ago/crowd/config.js" data-init="index"></script>
+
+    <script type="text/javascript">
+        var global_setting = {}
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <!--后端同步开始-->
+            <div class="head_top">
+                <div class="head_top_bb1f">
+                    <div class="sub_head_top">
+                        <div class="user_login">
+                            <span>欢迎加入同城生活：</span>
+                            <a href="#">登录</a>
+                            <em>|</em>
+                            <a href="#">免费注册</a>
+                        </div>
+                        <div class="pull_btns w115 followwm">
+                            <a href="#" class="idea w115 "><i class="wm_ico heart1"></i>关注同城生活<span class="pull_arrow "><em>◆</em><span>◆</span></span></a>
+                            <ul class="pull_list w115">
+                                <li>
+                                    <a href="#" class="pull_link"><i class="wm_ico heart1"></i>关注同城生活</a><span class="pull_arrow "><em>◆</em><span>◆</span></span>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link"><i class="social_icon sina_wb"></i>新浪微博</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link"><i class="social_icon tx_wb"></i>腾讯微博</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link"><i class="social_icon netease"></i>网易微博</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">同城生活党</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--后端同步结束-->
+            <!--其他角色登录开始-->
+            <div class="head_top">
+                <div class="head_top_bb1f">
+                    <div class="sub_head_top">
+                        <div class="user_data">
+                            <span>欢迎加入同城生活帮：</span>
+                            <a href="http://sell.tcsh.me" style="color: #e13436">shangjiazhanghao</a>
+                            <a href="http://www.tcsh.me/logout" style="color: #e13436; margin-left: 10px; font-family: SimSun">[退出]</a>
+                        </div>
+                        <div class="pull_btns">
+                            <a href="#" class="idea">专场推荐<span class="pull_arrow "><em>◆</em><span>◆</span></span></a>
+                            <ul class="pull_list">
+                                <li>
+                                    <a href="#" class="pull_link">专场推荐</a><span class="pull_arrow "><em>◆</em><span>◆</span></span>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">家纺专场</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">户外专场</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">成人专场</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">母婴专场</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">婚庆专场</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--其他角色登录结束-->
+            <div class="head_sub">
+                <div class="head_con">
+                    <h1 class="wm_logo">
+                        <a href="http://www.tcsh.me/" title="同城生活" class="iconfont">&#xe624;</a>
+                    </h1>
+                    <div class="logo_msg">
+                        <em>同城生活</em>
+                        <span>HU DONG GOU WU</span>
+                    </div>
+                    <div class="head_search">
+                        <form class="search_form">
+                            <div class="search_type">
+                                <ul>
+                                    <li data_action="1"><a href="#" class="search_type_item">商品</a></li>
+                                    <li data_action="2"><a href="#" class="search_type_item">店铺</a></li>
+                                </ul>
+                                <span class="pull_arrow iconfont">&#xf0170;</span>
+                            </div>
+                            <input type="text" class="search_txt" />
+                            <input type="submit" class="submit" value="查询" />
+                        </form>
+                    </div>
+                    <div class="link_list">
+                        <a href="#"><span class="iconfont">&#x3437;</span>登录</a>
+                        <a href="#"><span class="iconfont">&#xf00bb;</span>个人注册</a>
+                        <a href="#"><span class="iconfont">&#xf00e4;</span>商家入驻</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page_nav">
+            <div class="page_main">
+                <!--类目导航开始-->
+                <div class="class_nav">
+                    <h3 class="class_nav_head">全部商品分类</h3>
+                    <ul class="class_list"></ul>
+                </div>
+                <!--类目导航结束-->
+                <ul class="page_nav_list">
+                    <li class="page_nav_item">
+                        <a href="#" class="curr">首页</a>
+                    </li>
+                    <li class="page_nav_item">
+                        <a href="#">品牌馆</a>
+                    </li>
+                    <li class="page_nav_item">
+                        <a href="#">限时购</a>
+                    </li>
+                    <li class="page_nav_item">
+                        <a href="#">美推手</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main clearfix">
+            <div class="main_con clearfix">
+                <div class="main_con_left clearfix">
+                   <div class="master clearfix">
+                        <div class="master_infor friend" data_id="11">
+                            <h3 class="master_title">
+                                <span>意见领袖</span>
+                                <i></i><i></i><i></i>
+                            </h3>
+                            <div class="master_con">
+                                <p class="master_img"><img src="img/head_img.jpg" /></p>
+                                <p class="master_name"><a href="#">亚里士多德</a></p>
+                                <p class="popular">1023人关注 | <a href="#" class="master_focus m_focus"><span>关注一下</span><span class="cancel dis_none">取消关注</span></a></p>
+                                <p  class="commune_name"><a href="#">公社名称</a></p>
+                                <p class="commune_intr">公社简介：清爽简洁既能内搭也能外穿，不挑季节适合各种场合亦能清爽简洁既能内搭也能外穿，不挑季节适合各种场合亦能清爽简洁既能内搭也能外穿，不挑季节适合各种场合亦能清爽简洁既能内搭也能外穿，不挑季节适合各种场合亦能</p>
+                            </div>
+                        </div>
+                        <div class="other_master">
+                            <div class="other_master_con friend" data_id="1">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="2">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="3">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="4">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="5">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="6">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="7">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                            <div class="other_master_con friend" data_id="8">
+                                <div href="#" class="other_master_infor">
+                                <a href="#" class="omi_item omi_img"><img src="img/head_img.jpg" /></a>
+                                <a href="#" class="omi_item omi_master_name">亚里士多德</a>
+                                <a href="#" class="omi_item omi_commune_name">公社名称</a>
+                                <a href="#" class="omi_item omi_focus"><span class="omi_focus_show"><i class="focus_num">1023</i>人关注</span><span class="omi_focus_hover m_focus"><span>+ 关注一下</span><span class="cancel dis_none">取消关注</span></span></a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="commune_tab clearfix">
+                       <div class="commune_tab_title">
+                           <span class="commune_tab_title_item tab_item_cur">社会角色</span>
+                           <span class="commune_tab_title_item">消费水平</span>
+                           <span class="commune_tab_title_item">体型</span>
+                           <span class="commune_tab_title_item">吃货</span>
+                           <span class="commune_tab_title_item">爱好</span>     
+                       </div>
+                       <div class="commune_tab_box">
+                           <div class="commune_tab_con clearfix">
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img_200_160.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="commune_tab_con clearfix">
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="commune_tab_con clearfix">
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="commune_tab_con clearfix">
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="commune_tab_con clearfix">
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                               <div class="commune_tab_item">
+                                   <div class="commune_tab_item_con clearfix">
+                                        <a href="#" class="commune_tab_img"><img src="img/img.jpg" /></a>
+                                        <div class="tab_infor_con">
+                                            <h3 class="tab_infor_name"><a href="#">杭州骑行俱乐部</a> </h3>
+                                            <span class="tab_infor_num"><b class="iconfont">&#xf00e4;</b>323</span>
+                                            <p class="tab_infor_intr">公社简介：公社简介公社简介公社简介公社简介公社简介公社简介公社简介公社简介</p>
+                                        </div>
+                                        <p class="commune_tab_btns">
+                                            <a href="#" class="tab_btn commune_detail_infor">公社资料</a><a href="#" class="tab_btn commune_join">加入公社</a>
+                                        </p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="commune_goods clearfix">
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                       <span class="commune_goods_item">
+                           <a href="#" class="commune_goods_img"><img src="img/img_270_270.jpg" /></a>
+                           <p class="commune_goods_intr">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</p>
+                           <i class="commune_goods_price">￥208</i>
+                       </span>
+                   </div>
+                </div>
+                <div class="main_con_right">
+                    <div class="commune_do">
+                        <a href="#" class="creat_commune commune_do_btn">创建公社</a>
+                        <a href="#" class="join_commune commune_do_btn">加入公社</a>
+                    </div>
+                    <div class="commune_block good_commune">
+                        <h3>好公社</h3>
+                        <ul class="good_commune_list">
+                            <li class="good_commune_item">
+                                <span class="gci_sub gci_title">社会角色</span>
+                                <span class="gci_sub gci_con">
+                                    <a href="#" class="gci_con_kinds">童男童女</a>
+                                    <a href="#" class="gci_con_kinds">靓哥靓妹</a>
+                                    <a href="#" class="gci_con_kinds">辣爸辣妈</a>
+                                    <a href="#" class="gci_con_kinds">家庭妇女</a>
+                                    <a href="#" class="gci_con_kinds">潮爷潮奶</a>
+                                </span>
+                            </li>
+                            <li class="good_commune_item">
+                                <span class="gci_sub gci_title">爱好</span>
+                                <span class="gci_sub gci_con">
+                                    <a href="#" class="gci_con_kinds">摄影空</a>
+                                    <a href="#" class="gci_con_kinds">数码发烧友</a>
+                                    <a href="#" class="gci_con_kinds">驴友</a>
+                                    <a href="#" class="gci_con_kinds">运动族</a>
+                                    <a href="#" class="gci_con_kinds">文艺范</a>
+                                    <a href="#" class="gci_con_kinds">动漫一族</a>
+                                    <a href="#" class="gci_con_kinds">收藏家</a>
+                                    <a href="#" class="gci_con_kinds">苗条淑女</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="commune_block good_master">
+                        <h3>好社长</h3>
+                        <ul class="good_master_list">
+                            <li class="good_master_item friend" data_id="21">
+                                <a href="#" class="gmi_img"><img src="img/img_200_160.jpg" /></a>
+                                <div class="gmi_con">
+                                    <span class="gmi_con_item gmi_master_name"><a href="#">林亚泉林亚泉林亚泉林亚泉</a></span>
+                                    <span class="gmi_con_item gmi_commune_name"><a href="#">该社长的公社名称该社长的公社名称该社长的公社名称</a></span>
+                                    <span class="gmi_con_item gmi_con_btns">
+                                        <a href="#" class="gmi_btn_item focus m_focus"><span>+ 关注</span><span class="cancel dis_none">取消关注</span></a>
+                                        <a href="#" class="gmi_btn_item letter"><span class="iconfont">&#xf0165;</span> 私信</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="good_master_item friend" data_id="22">
+                                <a href="#" class="gmi_img"><img src="img/img_200_160.jpg" /></a>
+                                <div class="gmi_con">
+                                    <span class="gmi_con_item gmi_master_name"><a href="#">林亚泉</a></span>
+                                    <span class="gmi_con_item gmi_commune_name"><a href="#">该社长的公社名称</a></span>
+                                    <span class="gmi_con_item gmi_con_btns">
+                                        <a href="#" class="gmi_btn_item focus m_focus"><span>+ 关注</span><span class="cancel dis_none">取消关注</span></a>
+                                        <a href="#" class="gmi_btn_item letter"><span class="iconfont">&#xf0165;</span> 私信</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="good_master_item friend" data_id="23">
+                                <a href="#" class="gmi_img"><img src="img/img_200_160.jpg" /></a>
+                                <div class="gmi_con">
+                                    <span class="gmi_con_item gmi_master_name"><a href="#">林亚泉</a></span>
+                                    <span class="gmi_con_item gmi_commune_name"><a href="#">该社长的公社名称</a></span>
+                                    <span class="gmi_con_item gmi_con_btns">
+                                        <a href="#" class="gmi_btn_item focus m_focus"><span>+ 关注</span><span class="cancel dis_none">取消关注</span></a>
+                                        <a href="#" class="gmi_btn_item letter"><span class="iconfont">&#xf0165;</span> 私信</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="good_master_item friend" data_id="24">
+                                <a href="#" class="gmi_img"><img src="img/img_200_160.jpg" /></a>
+                                <div class="gmi_con">
+                                    <span class="gmi_con_item gmi_master_name"><a href="#">林亚泉</a></span>
+                                    <span class="gmi_con_item gmi_commune_name"><a href="#">该社长的公社名称</a></span>
+                                    <span class="gmi_con_item gmi_con_btns">
+                                        <a href="#" class="gmi_btn_item focus m_focus"><span>+ 关注</span><span class="cancel dis_none">取消关注</span></a>
+                                        <a href="#" class="gmi_btn_item letter"><span class="iconfont">&#xf0165;</span> 私信</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="good_master_item friend" data_id="25">
+                                <a href="#" class="gmi_img"><img src="img/img_200_160.jpg" /></a>
+                                <div class="gmi_con">
+                                    <span class="gmi_con_item gmi_master_name"><a href="#">林亚泉</a></span>
+                                    <span class="gmi_con_item gmi_commune_name"><a href="#">该社长的公社名称</a></span>
+                                    <span class="gmi_con_item gmi_con_btns">
+                                        <a href="#" class="gmi_btn_item focus m_focus"><span>+ 关注</span><span class="cancel dis_none">取消关注</span></a>
+                                        <a href="#" class="gmi_btn_item letter"><span class="iconfont">&#xf0165;</span> 私信</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="good_master_item friend" data_id="26">
+                                <a href="#" class="gmi_img"><img src="img/img_200_160.jpg" /></a>
+                                <div class="gmi_con">
+                                    <span class="gmi_con_item gmi_master_name"><a href="#">林亚泉</a></span>
+                                    <span class="gmi_con_item gmi_commune_name"><a href="#">该社长的公社名称</a></span>
+                                    <span class="gmi_con_item gmi_con_btns">
+                                        <a href="#" class="gmi_btn_item focus m_focus"><span>+ 关注</span><span class="cancel dis_none">取消关注</span></a>
+                                        <a href="#" class="gmi_btn_item letter"><span class="iconfont">&#xf0165;</span> 私信</a>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="commune_block shopping">
+                        <h3>购物经</h3>
+                        <ul class="shopping_list">
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                            <li class="shopping_item"><a href="#">购物经购物经购物经购物经</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="w900m">
+                    <div class="link_list">
+                        <div class="link_item">
+                            <span>服务保障</span>
+                            <ul>
+                                <li><a href="#">正品保障</a></li>
+                                <li><a href="#">7天无条件退货</a></li>
+                                <li><a href="#">7*15小时服务</a></li>
+                                <li><a href="#">关于我们</a></li>
+                                <li><a href="#">联系我们</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>购物指南</span>
+                            <ul>
+                                <li><a href="#">导购演示</a></li>
+                                <li><a href="#">订单操作</a></li>
+                                <li><a href="#">用户指南</a></li>
+                                <li><a href="#">账号管理</a></li>
+                                <li><a href="#">购物参考</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>支付方式</span>
+                            <ul>
+                                <li><a href="#">网银支付币</a></li>
+                                <li><a href="#">支付平台</a></li>
+                                <li><a href="#">信用卡</a></li>
+                                <li><a href="#">同城生活金币</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>配送方式</span>
+                            <ul>
+                                <li><a href="#">配送服务</a></li>
+                                <li><a href="#">配送范围和运费</a></li>
+                                <li><a href="#">验货与签收</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>售后服务</span>
+                            <ul>
+                                <li><a href="#">退换货政策</a></li>
+                                <li><a href="#">退换货流程</a></li>
+                                <li><a href="#">退款方式和时效</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item end">
+                            <span>同城生活模式</span>
+                            <ul>
+                                <li><a href="#">聚合式品牌特卖</a></li>
+                                <li><a href="#">同城生活成长基金</a></li>
+                                <li><a href="#">推手规则</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>
+                        <a href="#">关于我们</a><em>|</em>
+                        <a href="#">联系我们</a><em>|</em>
+                        <a href="#">品牌入驻</a><em>|</em>
+                        <a href="#">隐私条款</a><em>|</em>
+                        <a href="#">隐私条款</a><em>|</em>
+                        <a href="#">网站地图</a><em>|</em>
+                        <a href="#">友情链接</a><em>|</em>
+                        <a href="#">用户体验提升计划</a>
+                    </p>
+                    <p class="friend_link"><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a></p>
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+
+                    <a href="#">
+                        <img src="../../public/img/internetPolice.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/putOnRecord.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/internetBusiness.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/siteCredits.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/trusty.png" />
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

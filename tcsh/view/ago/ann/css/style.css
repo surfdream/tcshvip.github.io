@@ -1,0 +1,37 @@
+﻿@CHARSET "UTF-8";
+.content_main { padding-top: 10px; position: relative; }
+.site_map { height: 30px; line-height: 30px; background: #fff; padding: 0 10px; font-size: 12px; margin-bottom: 10px; }
+.main_left { width:220px;float:left;overflow:hidden;position:relative}
+.main_right { width:745px;float:left;overflow:hidden;margin-left:15px}
+.main_butt { clear:both;padding-top:30px}
+.brand_box { width:185px;border:1px solid #e7e7e7 ;background:#fff;padding:15px 15px 0 15px;position:relative}
+.brand_box .brand_head { padding:0 0 5px 5px;border-bottom:1px solid #c8c8c8;color:#535353;font-size:14px}
+.brands_list { padding :15px 0;overflow:hidden;zoom:1;position:relative}
+.brands_list li { float: left;_float:none; width: 90px; height: 45px; padding: 0 2px 10px 0; display: inline;zoom:1;overflow:hidden;_position:relative; }
+.brands_list li .corner {  width: 90px; height: 45px;_position:relative;}
+.brands_list li img { width: 90px; height: 45px; }
+.hover_logo2 .corner .cover_top { height: 1px; width: 78px; top: -1px; left: 6px; }
+.hover_logo2 .corner .cover_bott { height: 1px; width: 78px; bottom: -1px; left: 6px; _bottom: -2px; }
+.hover_logo2 .corner .cover_left { height: 32px; width: 1px; top: 7px; left: -1px; }
+.hover_logo2 .corner .cover_right { height: 32px; width: 1px; top: 6px; right: -1px; }
+
+.ann_box { background:#fff;border:1px solid #e7e7e7 ;padding:50px}
+.ann_box .ann_head { width:640px;text-align:center;}
+.ann_box .ann_head h3 {white-space:nowrap;width:620px;text-overflow:ellipsis;overflow:hidden;padding-bottom:5px;margin-bottom:5px;border-bottom:1px solid #d2d2d2;color:#535353}
+.ann_box .ann_head .ann_date { color:#787878;font-family:SimSun}
+.ann_box .ann_main { padding:60px 0 0 0}
+
+.recommend_box { border: 1px solid #e1e1e1; _zoom: 1;background:#fff }
+.recommend_box .recommend_list_head { padding: 20px 0 0 30px; color: #535353; }
+.recommend_box .recommend_list { overflow: hidden; padding: 20px 0 20px 20px; font-size: 12px; font-family: SimSun; line-height: 20px; }
+.recommend_box .recommend_list .recommend_item { float: left; margin-right: 8px; }
+.recommend_box .recommend_list .recommend_item span { display: block; padding-top: 5px; }
+.recommend_box .recommend_list .recommend_item a { display: block; width: 110px; }
+.recommend_box .recommend_list .recommend_item a b { color: #e13436; font-weight: 500; }
+.recommend_box .recommend_commodity_name { width: 110px; height: 110px; display: block; }
+.recommend_box .recommend_commodity_name img { width: 110px; height: 110px; }
+
+.ann_list { background:#fff;border:1px solid #e7e7e7 ;padding:20px}
+.ann_list li {overflow:hidden;border-bottom:1px dashed #ccc}
+.ann_list li a,.ann_list li a:link,.ann_list li a:visited,.ann_list li a:active { width:620px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding: 5px 0;display:block;float:left }
+.ann_list li span { float:right;padding: 5px 0;}

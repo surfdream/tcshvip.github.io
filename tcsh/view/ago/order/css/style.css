@@ -1,0 +1,44 @@
+.colred { color:#e13436}
+.textright { text-align: right; font-family: SimSun; color: #535353; }
+.pt20b10 { padding-top: 20px; padding-bottom: 10px; }
+.textcenter { text-align: center; }
+.w810 { width:810px;margin:10px auto}
+#page .head { background: #A40101; }
+.head_sub .head_con { height: 115px; }
+.head .head_sub .head_search { float: right; margin: 10px 30px 0 0; }
+.head_con .wm_logo a, .head_con .wm_logo a:link, .head_con .wm_logo a:active, .head_con .wm_logo a:visited, .head_con .wm_logo a:hover { _background: url('http://s.tcsh.me/tcsh/view/ago/public/img/wmlogos/logo_1_ie6.png') 0 0 no-repeat; }
+.head_con .logo_msg { background: url('../img/logo_msg.png') 0 0 no-repeat; width: 113px; height: 29px; display: block; _background: url('../img/logo_msg_ie6.png'); }
+.head_con .cwmw { background: url('../img/cwmw.png'); }
+.b_c { font-family: simsun; padding: 20px 10px 10px 10px; }
+.b_c a { margin: 0 5px 0 5px; }
+.seg { background: #CBCBCB; width: 980px; height: 10px; }
+.pipes_box { width: 730px; margin: 80px auto 90px auto; }
+.pipes_box .down_msg { margin-left: -35px; }
+.pipes_box .down_msg span { display: block; }
+.order_status { background: #fff; border: 1px solid #C8C8C8; padding: 50px 0 50px 200px; width: 610px; margin: 35px auto; }
+.order_status h3 { margin-left: -45px; }
+.order_status h3 .sigh2 { margin-right: 14px; }
+.order_status .logistics_base { padding-top: 20px; overflow: hidden; }
+.order_status .logistics_base li { float: left; width: 170px; color: #535353; }
+.logistics_list { padding-top: 20px; }
+.logistics_list li { color: #535353; line-height: 24px; overflow: hidden;_zoom:1 }
+.logistics_list li span { float: left; }
+.logistics_list li b { font-weight: 500; color: #F37B15; padding-left: 10px; float: left; width: 380px; }
+.order_user_data { background: #fff; border: 1px solid #C8C8C8; width: 810px; margin: 35px auto; }
+.order_user_data .oud_head { padding: 5px 15px; background: #E1E1E1; color: #535353; }
+.order_user_data ul { width: 660px; margin: 20px auto; background: #fff; }
+.order_user_data li { line-height: 30px; color: #777777; overflow: hidden; }
+.order_user_data li .data_key { display: block; float: left; width: 85px; text-align: right; }
+.order_user_data li .data_main { display: block; float: left; width: 500px; color: #535353; }
+.order_user_data li .data_main a { display: inline-block; vertical-align: middle; margin-left: 10px; line-height: 12px; }
+
+.comm_list { width: 810px; border: 1px solid #b4b4b4; color: #535353; margin: 35px auto; }
+.comm_list th, .comm_list td { width: 90px; padding: 10px; }
+.comm_list td { background:#fff}
+.comm_list td { border: 1px solid #f0f0f0; border-top: 0; border-left: 0; text-align: center; }
+.comm_list .textleft { text-align: left; }
+.comm_list th { background: #e1e1e1; color: #535353; }
+.comm_list .w120 { width: 120px; }
+.comm_list img { width: 80px; height: 80px; }
+.comm_list .displayblock { display: block; }
+

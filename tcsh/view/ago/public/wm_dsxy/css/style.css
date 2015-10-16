@@ -1,0 +1,28 @@
+﻿.pactbox { }
+.pactbox .pact_mian { padding: 30px; color: #666565; width: 510px; height: 430px; overflow-y: scroll; }
+.pactbox .pact_mian li { padding-bottom: 30px; }
+.pactbox .pact_mian li h3 { color: #3c3c3c; font-size: 12px; font-weight: 500; padding-bottom: 10px; }
+.pactbox .pact_mian li p { }
+.pactbox .wmBox-botton { padding: 20px 20px 0 0; }
+.pactbox .business_mian { padding: 30px; color: #666565; width: 510px; height: 430px; overflow-y: scroll; }
+.pactbox .business_mian li { padding-bottom: 30px; }
+.pactbox .business_mian li h3 { color: #3c3c3c; font-size: 12px; font-weight: 500; padding-bottom: 10px; }
+.pactbox .business_mian li p { }
+.pactbox .wmBox-botton { padding: 20px 20px 0 0; }
+
+#fwxy { border: 5px solid #4a4a4a; box-shadow: none; border-radius: 0; }
+#fwxy .wmBox-head { background: #d1d1d1; border-bottom: 1px solid #a3a6a6; }
+#fwxy .wmBox-head .wmBox-title { color: #323232; }
+#fwxy .wmBox-head .close, #fwxy .wmBox-head .hide { color: #323232; }
+#fwxy .wmBox-botton { text-align: center; padding: 20px; }
+#fwxy .wmBox-content {margin: 10px 10px 30px 10px; }
+.fwxy_box { width: 770px; margin: 0 auto; color: #535353; height: 400px; overflow-y: scroll; }
+.fwxy_box .fwxy_title { padding: 10px; }
+.fwxy_box .fwxy_title h3 { color: #E03335; font-family: 'Microsoft YaHei'; font-size: 20px; }
+.fwxy_box .fwxy_title .remark { float: right; font-size: 14px; }
+.fwxy_box table { width: 100%; margin: 10px 0; border-bottom: 1px solid #000000; border-right: 1px solid #000000; }
+.fwxy_box table td { text-align: center; padding: 10px; border: 1px solid #000000; border-bottom: none; border-right: none; min-width: 160px; }
+.fwxy_box table b { display: block; }
+.fwxy_box li {; text-align: left; font-size: 14px; line-height: 26px; list-style-type: decimal; margin-left: 30px; }
+.fwxy_box .class_list { }
+.fwxy_box .class_list li { float: left; padding-right: 10px; }

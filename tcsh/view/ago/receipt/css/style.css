@@ -1,0 +1,468 @@
+.mt20{
+	margin-top:20px;
+}
+.after_process{
+	width:450px;
+}
+.after_process1{
+	width:600px;
+}
+.after_order{
+	width:100%;
+	height:100%;
+	min-height:280px;
+	margin-right:0;
+}
+.after_order_status{
+	width:530px;
+	margin:0 auto;
+}
+.after_order_status li{
+	color:#535353;
+}
+.after_order_status li.address{
+	padding-top:10px;
+}
+.after_order_status .status{
+	font-size:14px;
+	padding-bottom:30px;
+}
+.after_order_status .wuliu{
+	padding-top:10px;
+}
+.after_order_status .wuliu span{
+	padding-right:40px;
+}
+.order_infor_con .after_order_status .order_infor_btn a,.order_infor_con .after_order_status .order_infor_btn a:link,.order_infor_con .after_order_status .order_infor_btn a:active,.order_infor_con .after_order_status .order_infor_btn a:visited{
+	margin:30px 30px 0 0;
+}
+.after_order_status a.request,.after_order_status a.request:link,.after_order_status a.request:active,.after_order_status a.request:visited{
+	color:#208fd7;
+	background:none;
+	font-weight:normal;
+	font-size:12px;
+}
+.after_order_status .order_infor_btn a.request:hover{
+	text-decoration:underline
+}
+.after_order_status .order_infor_btn b{
+	color:#535353;
+	font-size:14px;
+	padding-left:15px;
+}
+.after_order_status .warning1{
+	color:#787878;
+	background:none;
+	padding:0 0 0 20px;
+	width:180px;
+}
+.after_detail .payment{
+	margin-bottom:20px;
+}
+
+/* 鍞悗鐢宠淇℃伅 */
+.aftermarket_infor{
+	padding-bottom:20px;
+	height:100%;
+}
+.aftermarket_infor_con{
+	border:1px solid #d5d5d4;
+	float:left;
+	width:455px;
+}
+.aftermarket_infor_con1{
+	float:right;
+	width:520px;
+	min-height:250px;
+}
+.aftermarket_infor_detail{
+	width:320px;
+	padding:20px 40px;
+}
+.aftermarket_infor_detail li{
+	color:#535353;
+	padding-bottom:20px;
+}
+.aftermarket_infor_item .item_title{
+	display:inline-block;
+	width:80px;
+	text-align:right;
+	vertical-align:top;
+}
+.aftermarket_infor_item span.reason{
+	display:inline-block;
+	vertical-align:top;
+	width:230px;
+	line-height:20px;
+}
+.aftermarket_infor_item span.proof{
+	display:inline-block;
+	width:235px;
+	width:234px\9;
+}
+.aftermarket_infor_item span.proof1{
+	width:350px;
+}
+.proof a{
+	display:inline-block;
+	position:relative;
+	border:1px solid #d4d4d4;
+	width:100px;
+	height:100px;
+	padding:2px;
+	margin:0 10px 10px 0;
+	overflow:hidden;
+}
+.proof1 a{
+	margin:0 6px 10px 0;
+}
+.proof a img{
+	width:100px;
+	height:100px;
+}
+.proof a .look_proof{
+	position:absolute;
+	top:2px;
+	left:2px;
+	color:#FFF;
+	background:rgba(000,000,000,0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');
+	width:100px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	font-size:42px;
+	display:none;
+	padding-top:0;
+}
+.proof a:hover{
+	text-decoration:none;
+}
+.proof a:hover .look_proof{
+	display:block;
+}
+.proof a span.look_proof_hover{
+	display:block;
+}
+.no_record{
+	line-height:220px;
+	width:250px;
+	margin:0 auto;
+}
+.busi_agree{
+	padding:20px 40px 50px 60px;
+	color:#787878;
+}
+.busi_agree p span{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:8px;
+	line-height:20px;
+}
+.busi_agree p span.return_reason{
+	width:340px;
+}
+.busi_agree p .item_title{
+	width:60px;
+	text-align:right;
+}
+.busi_agree li{
+	position:relative;
+	margin-top:30px;
+	color:#535353;
+}
+.busi_agree li span.busi_agree_time{
+	position:absolute;
+	top:0;
+	right:20px;
+	color:#787878;
+	
+}
+.sure_return{
+	padding:60px 0 0 0;
+	_padding:30px 0 0 0;
+	width:340px;
+	margin:0 auto;
+}
+.sure_return1{
+	padding:40px 0 0 0;
+}
+.sure_return li.status,.sure_return1 li.status{
+	padding-bottom:10px;
+}
+.sure_return .prompt{
+	color:#787878;
+}
+.sure_return1 .prompt{
+	color:#787878;
+	padding-bottom:20px;
+}
+
+/* 濉啓鐗╂祦淇℃伅寮圭獥鏍峰紡  */
+body .invBox{
+	padding-bottom:0!important;
+	box-shadow:0 0 8px #000;
+}
+.wuliu_box{
+	position:relative;
+}
+.wuliu_box .aftermarket_infor_detail{
+	width:100%;
+}
+.wuliu_box input,.wuliu_box textarea{
+	vertical-align:middle;
+}
+.wuliu_box label{
+	vertical-align:top;
+	display:inline-block;
+}
+.wuliu_box .aftermarket_infor_item span.proof{
+	width:400px;
+}
+.wuliu_box .img_msg{
+	color:#787878;
+	margin-top:-20px;
+}
+.wuliu_box .wuliu_txt{
+	width:166px;
+	height:16px;
+	padding:4px;
+	border:1px solid #d5d5d5;
+	vertical-align: top;
+}
+.wuliu_box .wuliu_tar{
+	width:330px;
+	height:100px;
+	padding:4px;
+	border:1px solid #d5d5d5;
+	resize:none;
+}
+.box_btn{
+	padding-top:10px;
+}
+.cancel_infor .box_btn a,.wmBox .box_btn a{
+	display:inline-block;
+	width:80px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	font-size:14px;
+	background:#787878;
+	margin-right:10px;
+}
+.box_btn a:hover{
+	text-decoration:none;
+}
+.box_btn a.bgred{
+	background:#e13436;
+}
+.wuliu_box .fork7,.cancel_box .fork7{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.wuliu_box .change_file,.refuse_refund_box .change_file{
+	width:70px;
+	vertical-align:text-bottom;
+}
+.proof .wuliu_img .look_proof{
+	font-size:14px;
+}
+.wuliu_box{
+	width:600px;
+}
+.wuliu_box .aftermarket_infor_item span.wuliu_proof,.refuse_refund_box .aftermarket_infor_item span.wuliu_proof{
+	max-height:110px;
+	overflow:hidden;
+}
+.aftermarket_infor_item .must{
+	color:#e13436;
+	font-size:26px;
+	vertical-align:middle;
+	margin-right:-10px;
+}
+.aftermarket_infor_item .wmv_msg{
+	margin-left:10px;
+}
+.aftermarket_infor_item .wmv_msg .wm_ico{
+	display:none;
+}
+
+/* 鍙栨秷閫�鏍峰紡 */
+.cancel_box{
+	position:relative;
+}
+.cancel_infor{
+	padding:70px;
+}
+.cancel_infor b{
+	color:#525252;
+	font-size:14px;
+	margin-bottom:20px;
+	display:block;
+}
+
+/* 閫夋嫨鐗╂祦寮瑰眰鏍峰紡 */
+body .change_wuliu_box .wmBox-content{
+	margin:0;
+}
+/*.change_wuliu h2{
+	background:#e3f0e0;
+	padding:15px 20px;
+	color:#45a62b;
+}*/
+.change_wuliu{
+	margin-top:30px;
+}
+.change_wuliu .wuliu_list{
+	padding:0px 0 20px 50px;
+	height:410px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	margin-top:5px;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.wuliu_list::-webkit-scrollbar { width: 5px; height: 5px; }
+.wuliu_list::-webkit-resizer { background: #333333; }
+.wuliu_list::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.wuliu_list li{
+	margin-top:10px;
+	width:750px;
+	overflow:hidden;
+}
+.wuliu_con{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:680px;
+}
+.wuliu_con .wuliu_name{
+	display:inline-block;
+	padding:6px 12px;
+	border:1px solid #FFF;
+	cursor:pointer;
+	margin-left:15px;
+	color:#323232;
+	font-size:14px;
+}
+.wuliu_list .wuliu_kinds{
+	font-weight:bold;
+	font-size:16px;
+	display:inline-block;
+	padding:6px 0 5px 0;
+	float:left;
+	font-family:"Microsoft YaHei";
+	color:#323232;
+}
+.wuliu_con .wuliu_name_click{
+	/*border:1px solid #F30;*/
+	background:#979797;
+	color:#FFF;
+}
+.change_wuliu_box .change_wuliu .change_wuliu_btn{
+	text-align:right;
+	margin:0px 40px 30px 0;
+	width:760px;
+}
+.change_wuliu_btn a{
+	margin-right:20px;
+}
+.wuliu_btn{
+	height:24px;
+	line-height:22px;
+	margin-left:10px;
+	width:100px;
+	text-align:center;	
+}
+
+/* 鍚屾剰閫�鐢宠 寮瑰眰 鏍峰紡  */
+.agree_con,.refuse_con,.refuse_con1{
+	padding:60px 80px;
+}
+.agree_con .fork7,.refuse_con .fork7,.refuse_con1 .fork7{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.agree_con p{
+	margin:10px 0 20px 0;
+}
+
+.refuse_con{
+	width:520px;
+}
+.refuse_con li{
+	margin-bottom:15px;
+	color:#545454;
+}
+.refuse_con li b{
+	font-size:14px;
+	color:#535353;
+	padding-left:15px;
+}
+.refuse_refund_box .aftermarket_infor_item .proof{
+	width:360px;
+}
+.proof a.refund_img{
+	margin:0 10px 0 0;
+}
+.refuse_refund_box .img_msg{
+	color:#787878;
+	margin-top:-10px;
+}
+.refuse_refund_box .refund_tar{
+	width:300px;
+	height:100px;
+	padding:4px;
+	border:1px solid #d5d5d5;
+	resize:none;
+	vertical-align:text-bottom;
+}
+
+/* 鍚屾剰閫�揣寮瑰眰鏍峰紡 */
+.agree_returns_box .refuse_con{
+	width:600px;
+}
+.address{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.agree_returns_box .radio{
+	vertical-align:middle;
+	margin-right:8px;
+}
+.add_address{
+	font-size:26px;
+	color:#1c8cd4;
+	vertical-align:text-bottom;
+	padding-right:8px;
+}
+.address_item a,.address_item a:link,.address_item a:active,.address_item a:visited{
+	color:#1e8dd4;
+}
+
+body .wmBox .wmBox-head{
+	
+	background:none;
+}
+body .wmBox .wmBox-head .close{
+	background: url('http://s.tcsh.me/tcsh/view/public/img/ico.png') 0 -2230px no-repeat;
+	display:inline-block;
+	width:36px;
+	font-size:0;
+	margin:0;
+}
+
+#page .bottom { width: 1190px; margin: 30px auto; border-top: 1px solid #d8d8d8; padding: 15px 0 0 0; text-align: center; box-shadow:none;}
+#page .bottom .bott_sub{
+	padding-top:0;
+}
+#page .bottom .put_on_record p{
+	height:30px;
+	line-height:30px;
+}
+

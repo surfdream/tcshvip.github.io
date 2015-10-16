@@ -1,0 +1,126 @@
+﻿.head_sub .head_con { padding: 0 15px; }
+.head_top .sub_head_top { width: 1190px; }
+.head_top .pull_btns { margin-right: 15px; }
+.head .head_sub { width: 1190px; padding-top: 30px; }
+.head_con .wm_logo { padding-left: 0; }
+
+.head .head_sub .head_search { margin: 46px 0 0 170px; width: 500px; height: 34px; background: #d60000; padding: 2px 0 0 2px;_margin-left:120px }
+.head_sub .head_search .search_form { background: #fff; height: 32px; }
+.head_sub .head_search .search_form .search_type { position: relative; float: left; width: 73px; border-right: 1px dashed #c9c9c9; height: 100%; background: #f0f0f0; cursor: pointer; }
+.head_sub .head_search .search_form ul { border: 1px solid #f0f0f0; border-top: none; height: 31px; overflow: hidden; }
+.head_sub .head_search .showsearch_type ul { height: 64px; border: 1px solid #f0f0f0; border-top: none; background: #fff; }
+.head_sub .head_search .search_form .search_type a, .head_sub .head_search .search_form .search_type a:link, .head_sub .head_search .search_form .search_type a:visited, .head_sub .head_search .search_form .search_type a:active { font-size: 12px; color: #787878; font-family: SimSun; padding-left: 16px; line-height: 32px; height: 32px; width: 46px; background: transparent; }
+.head_sub .head_search .search_form .search_type a:hover { background: #f6f6f6; }
+.head_sub .head_search .search_form .search_type .pull_arrow { position: absolute; right: 12px; top: 8px; text-decoration: none; font-size: 8px; font-weight: 500; color: #787878; }
+.head .head_sub .head_search .search_txt { padding: 7px; width: 320px; }
+.head .head_sub .head_search .submit { cursor: pointer; letter-spacing: 5px; width: 90px; background: #d60000; float: right; height: 100%; *height: 32px; text-align: center; padding: 0; color: #fff; font-family: SimSun; font-size: 14px; font-weight: 700; padding-left: 5px; }
+.head_con .link_list { width: 360px; padding-top: 32px; }
+.head_con .link_list a, .head_con .link_list a:link, .head_con .link_list a:active, .head_con .link_list a:visited { background: #f3f3f3; display: block; float: left; padding: 16px 22px; border-radius: 2px; margin-right: 4px; font-size: 14px; font-family: 'Microsoft YaHei'; }
+.head_con .link_list a:hover { text-decoration: none; }
+.head_con .link_list .iconfont { margin-right: 6px; }
+.page_nav { width: 100%; height: 40px; background: #e13436; border-bottom: 3px solid #b30004; position: relative; z-index: 30; }
+.page_nav .page_main { width: 1200px; margin: 0 auto; height: 40px; position: relative; _overflow:hidden}
+.page_nav .page_nav_list { float: left; margin-left: 260px; }
+.page_nav .page_nav_item { float: left;_width:150px }
+.page_nav .page_nav_item a, .page_nav .page_nav_item a:link, .page_nav .page_nav_item a:active, .page_nav .page_nav_item a:visited { display: block; height: 40px; line-height: 40px; padding: 0 40px; color: #fff; font-size: 14px; font-weight: 700; }
+.page_nav .page_nav_item a:hover, .page_nav .page_nav_item .curr, .page_nav .page_nav_item .curr:link, .page_nav .page_nav_item .curr:active, .page_nav .page_nav_item .curr:visited, .page_nav .page_nav_item .curr:hover { background: #b30004; text-decoration: none; }
+.page_nav .class_nav { width: 260px; position: absolute; left: 0; top: 0; }
+.page_nav .class_nav_head { line-height: 43px; height: 43px; text-align: center; color: #fff; }
+
+.main { background: #efefef; }
+.main_con { background: none; width: 1190px; margin: 0 auto; float: none; padding: 20px 0; position: relative; }
+.friend .dis_none { display: none; }
+.main_con_left { float: left; width: 865px; margin-right: 50px;_overflow:hidden }
+.master { border-radius: 2px; *float: left; }
+.master_infor { float: left; width: 238px; height: 370px; padding: 30px 20px 20px 20px; border: 1px solid #e0e0e0; position: relative; background: #FFF; }
+.master_title span { position: absolute; background: #FFF; left: 100px; top: 25px; font-size: 18px; font-family: "Microsoft YaHei"; color: #333333; font-weight: normal;*line-height:26px;padding:0 6px }
+.master i { border-top: 1px solid #efefef; display: block; padding: 2px 0; }
+.master .master_img, .master .master_img img { width: 120px; height: 120px; border-radius: 120px; text-align: center; margin: 10px auto 0 auto; }
+.master .master_name { text-align: center; margin: 25px auto 0 auto; width: 210px; height: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.master .master_name a { font-family: "Microsoft YaHei"; font-size: 16px; color: #333; }
+.master .master_name a:hover { text-decoration: none; color: #e5393b; }
+.popular { color: #999999; margin: 10px 0; text-align: center; }
+.popular .master_focus, .popular .master_focus:link, .popular .master_focus:active, .popular .master_focus:visited { color: #e5393b; }
+.master_con .commune_name a { text-align: center; color: #666666; display: block; font-size: 16px; font-family: "Microsoft YaHei"; }
+.master_con .commune_name a:hover { text-decoration: none; color: #e5393b; }
+.master_con .commune_intr { margin: 10px 0 0 0; color: #999999; height: 104px; line-height: 25px; overflow: hidden; }
+.other_master { float: left; width: 584px; font-size: 0; }
+.other_master_con { float: left; width: 145px; height: 210px; border: 1px solid #e0e0e0; position: relative; background: #fff; margin: -1px 0 0 -1px; z-index: 1; }
+.other_master_con:hover { z-index: 2; }
+.other_master .other_master_infor { width: 124px; padding: 20px 10px 15px 10px; text-align: center; display: block; background: #FFF; height: 174px; }
+.other_master .other_master_infor:hover { width: 130px; padding: 20px 10px 25px 10px; box-shadow: 0 1px 2px 2px #dddddd; position: absolute; z-index: 1; border: 1px solid #ececec; top: -5px; left: -5px; *zoom: 1; }
+.other_master .omi_item { display: block; }
+.other_master .omi_img img { width: 100px; height: 100px; border-radius: 100px; }
+.other_master .omi_master_name { color: #3c3c3c; font-size: 14px; font-family: "MIcrosoft YaHei"; height: 20px; line-height: 20px; overflow: hidden; }
+.other_master .omi_commune_name { color: #a9a9a9; font-family: "MIcrosoft YaHei"; font-size: 12px; height: 20px; line-height: 20px; overflow: hidden; margin-bottom: 6px; }
+.other_master .omi_master_name:hover, .other_master .omi_commune_name:hover { text-decoration: none; color: #e5393b; }
+.other_master .omi_focus .omi_focus_show, .other_master .omi_focus .omi_focus_hover { border: 1px solid #e2e2e2; border-radius: 20px; padding: 0 4px; height: 20px; line-height: 20px; color: #e5393b; font-size: 12px; display: inline-block; }
+.other_master .omi_focus i { font-style: normal; display: inline; border: 0; }
+.other_master .omi_focus .omi_focus_hover { color: #FFF; background: #f51f21; display: none; }
+.other_master .omi_focus:hover .omi_focus_hover { display: inline-block; }
+.other_master .friend .omi_focus_hover .cancel { padding: 0 5px; }
+.other_master .omi_focus:hover .omi_focus_show { display: none; }
+
+.commune_tab { margin-top: 20px; border-radius: 4px; *float: left; }
+.commune_tab .commune_tab_title { border-bottom: 1px solid #e0e0e0; background: #FFF; }
+.commune_tab .commune_tab_title .commune_tab_title_item { display: inline-block; font-size: 18px; font-family: "Microsoft YaHei"; color: #333; width: 168px; text-align: center; padding: 15px 0; cursor: pointer; }
+.commune_tab .commune_tab_title .tab_item_cur { background: #e13436; color: #FFF; }
+.commune_tab_con { width: 870px;display:none}
+.commune_tab_item { width: 288px; height: 186px; float: left; background: #FFF; border: 1px solid #eee; margin: -1px 0 0 -1px; position: relative;z-index:1 }
+.commune_tab_item:hover { z-index:2}
+.commune_tab_item_con { padding: 20px 10px 0 15px; background: #fff; height: 166px; }
+.commune_tab_item_con:hover { width: 270px; position: absolute; z-index: 1; top: -5px; left: -5px; box-shadow: 0 1px 2px 2px #dbdbdb; border: 1px solid #eee;height:174px }
+.commune_tab_item_con .commune_tab_img { display: inline-block; width: 100px; height: 100px; float: left; margin-right: 10px; }
+.commune_tab_item_con .commune_tab_img img { width: 100px; height: 100px; }
+.commune_tab_item_con .tab_infor_con { width: 145px; float: left; }
+.commune_tab_item_con .tab_infor_con .tab_infor_name a { color: #333; font-family: "Microsoft YaHei"; font-size: 14px; }
+.commune_tab_item_con .tab_infor_con .tab_infor_name a:hover { text-decoration: none; color: #f05555; }
+.commune_tab_item_con .tab_infor_con .tab_infor_num { color: #cdcdcd; margin: 5px 0; display: inline-block; }
+.commune_tab_item_con .tab_infor_con .tab_infor_num .iconfont { font-size: 16px; color: #cdcdcd; margin-right: 5px; font-weight: normal; }
+.commune_tab_item_con .tab_infor_con .tab_infor_intr { color: #cdcdcd; width: 145px; height: 55px; overflow: hidden; }
+.commune_tab_btns { padding-top: 15px; clear: both;*padding:0 }
+.commune_tab_btns .tab_btn { display: inline-block; border: 1px solid #e2e2e2; border-radius: 4px; color: #999999; font-size: 16px; font-family: "Microsoft YaHei"; margin: 0 10px; width: 105px; height: 26px; line-height: 26px; text-align: center; }
+.commune_tab_btns .tab_btn:hover { text-decoration: none; border: 1px solid #ff3939; color: #ff3939; }
+
+.commune_goods { margin-top: 30px; }
+.commune_goods .commune_goods_item { margin: 0 4px 30px 10px; display: inline-block; background: #FFF; width: 270px; padding: 1px; position: relative; }
+.commune_goods .commune_goods_item .commune_goods_img, .commune_goods .commune_goods_item .commune_goods_img img { display: inline-block; width: 270px; height: 270px; }
+.commune_goods .commune_goods_item .commune_goods_intr { color: #777777; height: 40px; line-height: 20px; overflow: hidden; padding: 0 15px; margin: 8px 0; }
+.commune_goods .commune_goods_item .commune_goods_price { position: absolute; right: 1px; bottom: 62px; background: rgba(168,163,148,0.5); filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99a8a394', endColorstr='#99a8a394'); font-style: normal; display: block; font-size: 14px; font-family: "Microsoft YaHei"; color: #FFF; padding: 2px 3px; }
+
+.main_con_right { float: left; width: 275px; }
+.main_con_right .commune_do { background: #fff; padding: 10px; text-align: center; box-shadow: 0 0 2px 2px #dbdbdb; margin-bottom: 20px; }
+.main_con_right .commune_do .commune_do_btn { display: inline-block; color: #666666; font-size: 16px; font-family: "Microsoft YaHei"; border: 1px solid #e8e8e8; border-radius: 4px; background: #FFF; width: 108px; height: 40px; line-height: 40px; margin: 0 6px; }
+.main_con_right .commune_do .commune_do_btn:hover { text-decoration: none; border: 1px solid #ff2323; color: #ff2323; }
+.commune_block { background: #FFF; box-shadow: 0 2px 2px 2px #dbdbdb; padding: 0 5px; }
+.commune_block h3 { border-bottom: 1px solid #e2e2e1; color: #3c3c3c; font-size: 18px; font-family: "Microsoft YaHei"; padding: 12px 10px; font-weight: normal; }
+.good_commune_list { padding: 0 15px 15px 15px; }
+.good_commune_item { border-bottom: 1px dashed #e8e8e8; padding: 10px 5px 5px 5px; }
+.good_commune_item .gci_sub { display: block; }
+.good_commune_item .gci_title { color: #747474; font-size: 14px; font-family: "Microsoft YaHei"; margin-bottom: 10px; }
+.good_commune_item .gci_con .gci_con_kinds { display: inline-block; border: 1px solid #dfdfdf; border-radius: 10px; padding: 0 8px; max-width: 74px;*width:74px ;height: 22px; line-height: 22px; color: #777777; overflow: hidden; margin: 0 2px 8px 4px; }
+.good_commune_item .gci_con .gci_con_kinds:hover { text-decoration: none; color: #ff3939; border: 1px solid #ff3939; }
+.good_master { margin-top: 20px; }
+.good_master_list { padding: 20px 10px 10px 15px; }
+.good_master_item { margin-bottom: 12px; font-size: 0; }
+.good_master_item .gmi_img { display: inline-block; width: 70px; height: 70px; border-radius: 70px; margin-right: 20px; }
+.good_master_item .gmi_img img { width: 70px; height: 70px; border-radius: 70px; }
+.good_master_item .gmi_con { font-size: 12px; display: inline-block; *display: inline; *zoom: 1; vertical-align: top; }
+.good_master_item .gmi_con .gmi_con_item { display: block; margin-bottom: 6px; width: 137px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.good_master_item .gmi_con .gmi_master_name a { font-family: "SimHei"; color: #3c3c3c; font-size: 14px; }
+.good_master_item .gmi_con .gmi_commune_name a { color: #999; }
+.good_master_item .gmi_con .gmi_master_name a:hover, .good_master_item .gmi_con .gmi_commune_name a:hover { text-decoration: none; color: #ff3939; }
+.good_master_item .gmi_con .gmi_btn_item { display: inline-block; margin: 0 5px; color: #FFF; background: #ff3c3c; border-radius: 4px; width: 55px; height: 22px; line-height: 22px; text-align: center; padding: 0; }
+.good_master_item .gmi_con .gmi_btn_item:hover { text-decoration: none; }
+.good_master_item .gmi_con .gmi_btn_item .iconfont { color: #FFF; font-size: 14px; vertical-align: middle; }
+.shopping { margin-top: 20px; }
+.shopping_list { padding: 20px 20px 10px 20px; }
+.shopping_item { margin-bottom: 5px; }
+.shopping_item a, .shopping_item a:link, .shopping_item a:active, .shopping_item a:visited { color: #535353; font-size: 14px; width: 225px; height: 25px; line-height: 25px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; }
+.shopping_item a:hover { text-decoration: none; color: #ff3939; }
+
+
+
+
+#page .bottom { box-shadow: none; }
+#page .bottom .bott_sub { width: 1190px; padding: 0; border-top: 1px solid #cccccc; padding-top: 30px; }

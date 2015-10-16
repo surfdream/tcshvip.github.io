@@ -1,0 +1,222 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#page { background: #f2f2f2; min-width:1190px}
+#page .head { background: #f2f2f2; }
+#page .content .con_sub { border: 1px solid #ccc; background: #fff; }
+.head_sub .head_con { height: 90px; }
+.head_con .wm_logo { padding-top: 24px; }
+.message_tree { }
+.cheaper_title { padding-bottom: 10px; }
+.cheaper_title h3 { color: #323232; padding-bottom: 10px; }
+.cheaper_intr, .cheaper_intr a { color: #787878; }
+.cheaper_con { padding: 15px 0; border-bottom: 1px dashed #dadada; }
+.cheaper_con .goods_img { display: inline-block; border: 2px solid #cdcdcd; margin-right: 10px; vertical-align: top; }
+.cheaper_con .goods_img_hover { border: 2px solid #fcd8b8; }
+.cheaper_con .goods_intr { display: inline-block; *display: inline; *zoom: 1; width: 800px; }
+.cheaper_con .goods_intr li { color: #535353; height: 22px; line-height: 22px; }
+.cheaper_con .goods_intr a, .cheaper_con .goods_intr a:link, .cheaper_con .goods_intr a:active, .cheaper_con .goods_intr a:visited { color: #535353; }
+.cheaper_con .goods_intr a:hover, .car_cheaper .cheaper_con .goods_intr a.a_hover { color: #f57d13; text-decoration: none; }
+.cheaper_con .selected_goods_infor { color: #787878; padding-right: 20px; }
+.cheaper_con em { color: #e13436; font-style: normal; }
+.cheaper_con em.cheaper_price { font-weight: bold; font-size: 14px; }
+.last_one { border-bottom: 0; }
+.hr_line { height: 1px; border-top: 1px solid #cdcdcd; margin: 20px 0 30px 0; }
+
+.letter_head { padding: 26px 0 0 0; background: #e13436;*padding-top:14px }
+.letter_head .ll_box_tab { padding-left: 30px;width:800px }
+.letter_head .ll_box_tab .ll_box_tab_item { float: left; padding: 10px 20px; }
+.letter_head .ll_box_tab .ll_box_tab_item a, .letter_head .ll_box_tab .ll_box_tab_item a:link, .letter_head .ll_box_tab .ll_box_tab_item a:active, .letter_head .ll_box_tab .ll_box_tab_item a:visited { display: block; font-size: 14px; color: #fff; }
+.letter_head .ll_box_tab .ll_box_tab_item a:hover { text-decoration: none; color: #333; }
+.letter_head .ll_box_tab .ll_box_tab_item:hover { background: #fff; }
+.letter_head .ll_box_tab .ll_box_tab_item:hover a { color: #fff; color: #333; }
+.letter_head .ll_box_tab .curr { background: #fff; }
+.letter_head .ll_box_tab .curr a, .letter_head .ll_box_tab .curr a:link, .letter_head .ll_box_tab .curr a:active, .letter_head .ll_box_tab .curr a:visited { color: #333; }
+.letter_head .send_letter { position: absolute; right: 10px; top: 8px; }
+.letter_head .send_letter .ui_btn_txt { font-size: 22px; letter-spacing: 10px; }
+.letter_head .send_letter .iconfont { font-size: 26px; }
+
+/*无内容*/
+.car_cheaper .nocontent { width: 330px; height: 90px; margin: 15px 0; }
+.cheaper_nocon { background: url(../img/nogoods.png) no-repeat 0 -180px; }
+.cheaper_nocon_hover { background: url(../img/nogoods.png) no-repeat 0 -280px; }
+.cheaper_nocon1 { background: url(../img/nogoods.png) no-repeat 0 0; }
+.cheaper_nocon1_hover { background: url(../img/nogoods.png) no-repeat 0 -90px; }
+
+/*私信列表*/
+.letter_list_box { position: relative; overflow: hidden; }
+.letter_list_box .letter_list { margin: 60px 0 0 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; overflow: hidden; }
+.letter_list_box .letter_item { padding: 20px; border-top: 1px dashed #999; position: relative; margin-top: -1px; }
+.letter_list_box .letter_item:hover { background: #fef5f5; }
+.letter_list_box .other_side { color: #666; }
+.letter_list_box .other_side .vat { vertical-align: top; display: inline-block; margin: 0 5px; }
+.letter_list_box .other_side .other_side_img { width: 80px; height: 80px; }
+.letter_list_box .new_msg { position: absolute; top: 50px; left: 146px; display: block; height: 38px; width: 690px; overflow: hidden; }
+.letter_list_box .not_look { font-weight: 700; }
+.letter_list_box .btns { position: absolute; right: 30px; top: 28px; }
+.letter_list_box .remark { display: block; color: #999; padding-top: 10px; }
+.letter_list_box .wm_page { font-family: SimSun; overflow: hidden; float: right; margin-top: 18px; }
+.letter_list_box .wm_page a, .letter_list_box .wm_page b, .letter_list_box .wm_page span, .letter_list_box .wm_page a:hover { padding: 4px 6px; height: 12px; line-height: 12px; background: #f6f6f6; color: #444; border-radius: 2px; border: 1px solid #dbdbdb; }
+.letter_list_box .wm_page .ellipsis, .letter_list_box .wm_page span { background: #fff; border: 1px solid #fff; }
+.letter_list_box .wm_page b { background: #fff; font-weight: 500; background: #E1E1E1; }
+
+/*发信*/
+.sned_msg_box { min-height: 630px; position: relative; }
+.sned_msg_box .form_row { padding: 5px 0 20px 0; }
+.sned_msg_box .mt35 { margin-top: 35px; }
+.sned_msg_box .w900 { width: 900px; }
+.sned_msg_box .sned_msg_tab { border-bottom: 2px solid #e13436; padding-left: 30px; }
+.sned_msg_box .sned_msg_tab .smt_item { float: left; padding: 10px 20px; }
+.sned_msg_box .sned_msg_tab .smt_item a, .sned_msg_box .sned_msg_tab .smt_item a:link, .sned_msg_box .sned_msg_tab .smt_item a:active, .sned_msg_box .sned_msg_tab .smt_item a:visited { display: block; font-size: 14px; }
+.sned_msg_box .sned_msg_tab .smt_item a:hover { text-decoration: none; }
+.sned_msg_box .sned_msg_tab .smt_item:hover { background: #e13436; }
+.sned_msg_box .sned_msg_tab .smt_item:hover a { color: #fff; background: #e13436; }
+.sned_msg_box .sned_msg_tab .curr { background: #e13436; }
+.sned_msg_box .sned_msg_tab .curr a, .sned_msg_box .sned_msg_tab .curr a:link, .sned_msg_box .sned_msg_tab .curr a:active, .sned_msg_box .sned_msg_tab .curr a:visited { color: #fff; }
+.sned_msg_box .receive_user_list { min-height: 30px; border: 1px solid #ccc; padding: 10px 0 10px 10px; width: 790px; position: relative; }
+.sned_msg_box .receive_user_list .receive_user_item { position: relative; margin: 0 10px 10px 0; zoom: 1; }
+.sned_msg_box .receive_user_list .receive_user_item .ui_btn_txt { padding-right: 28px; max-width: 155px; overflow: hidden; _line-height: 16px; _height: 16px; _width: 145px; _text-align: left; }
+.sned_msg_box .receive_user_list .remove_user, .sned_msg_box .receive_user_list .remove_user:link, .sned_msg_box .receive_user_list .remove_user:active, .sned_msg_box .receive_user_list .remove_user:visited { font-size: 12px; position: absolute; top: -1px; *top: 5px; right: 14px; }
+.sned_msg_box .receive_user_list .remove_user:hover { text-decoration: none; color: #e13436; }
+.sned_msg_box .receive_user_list .add_send_user { position: absolute; right: 10px; bottom: 10px; }
+.sned_msg_box .receive_user_list .curr_list { padding-right: 30px; overflow: hidden; }
+.sned_msg_box .receive_user_list .curr_list li { position: relative; display: inline; line-height: 12px; _zoom: 1; }
+.sned_msg_box .add_user_name, .sned_msg_box .add_user_name:link, .sned_msg_box .add_user_name:active, .sned_msg_box .add_user_name:visited { color: #0d9802; font-size: 16px; }
+.sned_msg_box .add_user_name:hover { text-decoration: none; }
+/*.sned_msg_box .add_user_name { width: 582px; padding: 5px; margin-right: 10px; }*/
+/*.sned_msg_box .add_user_name:hover { border:1px solid #ccc}*/
+.sned_msg_box .remark { font-size: 12px; display: block; margin-left: 30px; }
+.sned_msg_box .remark b { color: #f57d13; margin: 0 3px; }
+.sned_msg_box .remark_list .remark b { font-weight: 500; }
+.sned_msg_box .remark .bulb1 { vertical-align: text-bottom; margin-right: 5px; }
+.sned_msg_box .friend_list_box { position: absolute; right: 0; top: 100px; width: 260px; border: 1px solid #e5e5e5; border-top: none; }
+.sned_msg_box .friend_list_box .friend_img { width: 30px; height: 30px; }
+.sned_msg_box .friend_list { height: 500px; overflow-y: auto; overflow-x: hidden; margin: 5px 0; position: relative; }
+.sned_msg_box .friend_list::-webkit-scrollbar { width: 5px; height: 5px; }
+.sned_msg_box .friend_list::-webkit-resizer { background: #333333; }
+.sned_msg_box .friend_list::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.sned_msg_box .friend_list_title { padding: 10px; border-bottom: 1px solid #e5e5e5; background: url(../img/bg.png) 0 0 repeat-x; }
+.sned_msg_box .friend_list_title .iconfont { float: left; margin-right: 5px; }
+.sned_msg_box .friend_item { padding: 5px 10px; }
+.sned_msg_box .friend_item .friend_img, .sned_msg_box .friend_item .friend_name, .sned_msg_box .friend_item .signature { float: left; line-height: 30px; }
+.sned_msg_box .friend_item .friend_name, .sned_msg_box .friend_item .signature { line-height: 16px; margin-left: 10px; width: 140px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.sned_msg_box .friend_item .signature { color: #999; }
+.sned_msg_box .friend_item a, .sned_msg_box .friend_item a:link, .sned_msg_box .friend_item a:active, .sned_msg_box .friend_item a:visited { display: block; width: 210px; border: 1px solid #fff; padding: 10px; border-radius: 5px; position: relative; overflow: hidden; background: #fff; }
+.sned_msg_box .friend_item a:hover { border: 1px solid #e13436; text-decoration: none; }
+.sned_msg_box .friend_item a .curr_key { position: absolute; right: 10px; top: 18px; font-size: 26px; color: #0d9802; display: none; }
+.sned_msg_box .curr a, .sned_msg_box .curr a:link, .sned_msg_box .curr a:active, .sned_msg_box .curr a:visited { border-color: #0d9802; }
+.sned_msg_box .curr a .curr_key { display: block; }
+.sned_msg_box .send_msg_con_box { width: 802px; float: left; }
+.send_msg_con_box .send_msg_title { height: 40px; background: url(../img/bg.png) 0 0 repeat-x; border-left: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5; line-height: 40px; padding: 0 15px; }
+.send_msg_con_box .send_msg_title .count { float: right; }
+.sned_msg_box .send_msg_con { width: 790px; height: 200px; border: 1px solid #e5e5e5; border-top: none; color: #333; }
+/*.sned_msg_box .sned_btn { float: right; margin-right: 15px; }
+.sned_msg_box .sned_btn .ui_btn_txt { font-size: 14px; letter-spacing: 5px; padding-left: 15px; }
+.sned_msg_box .sned_btn .ui_btn_txt .iconfont { font-size: 30px; line-height: 52px; margin-right: 5px; }*/
+.sned_msg_box .sned_btn, .sned_msg_box .sned_btn:link, .sned_msg_box .sned_btn:active, .sned_msg_box .sned_btn:visited, .sned_msg_box .sned_in_btn { font-family: 'Microsoft YaHei'; float: right; margin-right: 30px; background: #e13436; color: #fff; padding: 10px 15px 10px 10px; line-height: 12px; border-radius: 5px; font-size: 14px; text-shadow: 2px 2px 2px #333; }
+.sned_msg_box .sned_btn:hover { text-decoration: none; }
+.sned_msg_box .sned_in_btn { background: #999; color: #fff; cursor: default; }
+.sned_msg_box .sned_btn .iconfont, .sned_msg_box .sned_in_btn .iconfont { font-size: 30px; line-height: 26px; vertical-align: middle; margin: 0 10px 0 5px; height: 22px; display: inline-block; }
+.error_mask { position: absolute; top: 0; left: 0; width: 100%; height: 64px; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background: rgba(000,000,000,0.8); color: #fff; text-align: center; padding-top: 18px; font-size: 16px; font-family: 'Microsoft YaHei'; }
+.error_mask a, .error_mask a:link, .error_mask a:active, .error_mask a:visited { display: block; color: #f57d13; font-weight: 700; }
+#send_in_box { }
+#send_in_box .send_in_msg { line-height: 60px; font-size: 20px; font-family: 'Microsoft YaHei'; text-align: center; padding-right: 10px; color: #333; }
+#send_in_box .send_in_msg .iconfont { font-size: 32px; vertical-align: middle; padding: 0 14px; }
+#send_in_box .countdown_link { font-size: 12px; font-family: SimSun; }
+/*发私信*/
+.letter_title { padding: 0 10px; height: 35px; line-height: 35px; background: #f8f8f8; border: 1px solid #dedede; }
+.letter_title a { font-size: 14px; }
+.letter_title a:hover { text-decoration: none; }
+.letter_title a.return_list { float: left; }
+.letter_title .iconfont { font-size: 14px; margin-right: 5px; color: #999; vertical-align: top; }
+.letter_title .change_letter_bg .iconfont { margin-right: 10px; }
+.letter_title a.del_list { float: right; margin-left: 20px; }
+.letter_title a.change_letter_bg { float: right; }
+.letter_title a.del_list .del { margin-right: 5px; }
+
+.space_user { height: 150px; background: url(../img/img_2000_150.jpg) no-repeat; margin-bottom: 20px; position: relative; }
+.space_user_con { padding: 20px; }
+.space_user_img { float: left; margin-right: 15px; }
+.space_user_img a { display: inline-block; width: 100px; height: 100px; }
+.space_user_img img { width: 100px; height: 100px; }
+.space_user_infor { float: left; }
+.space_user_infor li { margin-bottom: 10px; width: 400px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.space_user_infor li span { margin-right: 20px; color: #545454; }
+.space_user_infor em { font-style: normal; margin-left: 10px; }
+.infor_item a.user_name { font-size: 14px; color: #FF5D22; font-weight: 700; }
+.infor_item_con { display: inline-block; background: #FFF; border: 1px solid #ccc; padding: 2px 0; border-radius: 4px; cursor: pointer; position: absolute; bottom: 20px; left: 135px; }
+.infor_item_con span { margin-right: 5px; color: #787878; }
+.infor_item_con em.shield { margin: 0 5px; }
+
+.letter_list_title .ll_box_tab { margin-left: 0; }
+
+.letter_content { position: relative; }
+.letter { width: 800px; overflow: hidden; min-height: 360px; margin-bottom: 50px; float: left; margin-right: 30px; padding-left: 30px; }
+.letter_area { border: 1px solid #ccc; }
+.letter_area h3 { color: #787878; background: #f8f8f8; border-bottom: 1px solid #ccc; height: 35px; line-height: 35px; padding: 0 10px; position: relative; }
+.letter_area h3 span.word_num { position: absolute; right: 20px; top: 0; font-weight: normal; }
+.letter_area h3 span.word_num em { font-style: normal; }
+.word_content { width:778px; border: 0; resize: none; padding: 10px; display: block; }
+.send_word { text-align: right; margin-top: 20px; }
+.send_word .ui_btn .ui_btn_txt { font-size: 14px; padding: 0 15px 0 10px; }
+.send_word i.iconfont { font-style: normal; font-size: 26px; vertical-align: middle; margin-right: 8px; }
+.talk_list li { margin-top: 30px;overflow:hidden }
+.talk_list_right { text-align: right; }
+.talk_list_right .user_img { float: right; margin-left: 10px; }
+.user_img a { display: inline-block; }
+.user_img img { width: 50px; height: 50px; }
+.talk_box { max-width: 480px; position: relative; font-size: 14px; color: #666; line-height: 24px; }
+.talk_list_right .talk_box { float: right; }
+.arrow { position: absolute; top: 10px; _top: 13px; width: 8px; height: 13px; }
+.talk_del { position: absolute; top: 15px; display: none; _display: block; width: 12px; height: 12px; line-height: 12px; text-align: center; }
+.talk_box:hover .talk_del { display: block; }
+.talk_list_right .talk_del { left: 10px; }
+.talk_list_left .talk_del { right: 10px; }
+.talk_list_right .allow1 { right: 0; background: url(../img/allow1.jpg) no-repeat; }
+.talk_list_right .talk_box1 { background: url(../img/bubble-bg2.png) no-repeat right top; padding-right: 30px; _width: 460px; }
+.talk_list_right .talk_box2 { background: url(../img/bubble-bg2.png) no-repeat left top; padding-top: 10px; }
+.talk_list_right .talk_box3 { background: url(../img/bubble-bg2.png) no-repeat right bottom; padding: 0 30px 0 0; margin-right: -30px; }
+.talk_list_right .talk_box4 { background: url(../img/bubble-bg2.png) no-repeat left bottom; padding: 0 0 10px 30px; text-align: left; }
+.talk_list_left .user_img { float: left; margin-right: 10px; }
+.talk_list_left .talk_box { float: left; }
+.talk_list_left .allow2 { left: 0; background: url(../img/allow2.jpg) no-repeat; }
+.talk_list_left .talk_box1 { background: url(../img/bubble-bg1.png) no-repeat right top; padding-right: 30px; _width: 460px; }
+.talk_list_left .talk_box2 { background: url(../img/bubble-bg1.png) no-repeat left top; padding-top: 10px; }
+.talk_list_left .talk_box3 { background: url(../img/bubble-bg1.png) no-repeat right bottom; padding: 0 30px 0 0; margin-right: -30px; }
+.talk_list_left .talk_box4 { background: url(../img/bubble-bg1.png) no-repeat left bottom; padding: 0 0 10px 30px; }
+
+/* 私信分页 */
+.letter .wm_page { font-family: SimSun; overflow: hidden; float: right; margin-top: 18px; }
+.letter .wm_page a, .letter .wm_page b, .letter .wm_page span, .letter .wm_page a:hover { display: inline-block; padding: 5px 8px; height: 12px; line-height: 12px; background: #f6f6f6; color: #444; border-radius: 2px; border: 1px solid #dbdbdb; }
+.letter .wm_page .ellipsis, .letter .wm_page span { background: #fff; border: 1px solid #fff; color: #535353; }
+.letter .wm_page b { background: #fff; font-weight: 500; background: #E1E1E1; }
+
+/*好友列表*/
+.left_nav_skin2_right .letter_list_title { min-height: 60px; padding: 20px 0 0 0; _margin-bottom: 20px; }
+.friends_list { position: fixed; width: 250px; border: 1px solid #cdc9c9; display: none;background:#fff }
+.friends_list h2 { background: #f8f8f8; padding: 0 20px; height: 35px; line-height: 35px; border-bottom: 1px solid #cdc9c9; color: #898989; }
+.friends_list h2 span { margin-right: 5px; }
+.friends_list ul { padding: 15px 20px; height: 300px; overflow-x: hidden; overflow-y: auto; margin: 5px 0; }
+.friends_list ul::-webkit-scrollbar { width: 5px; height: 5px; }
+.friends_list ul::-webkit-resizer { background: #333333; }
+.friends_list ul::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.friends_list_item { margin-bottom: 20px; width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.friends_list_item a.friends_infor { display: block; color: #535353; }
+.friends_list_item img { vertical-align: middle; margin-right: 5px; width: 30px; height: 30px; }
+.friends_list_item a.friends_infor:hover { text-decoration: none; color: #e13436; }
+.setting { float: right; width: 30px; padding: 0 10px; bordeR: 1px solid #dedede; text-align: center;  }
+.setting a.iconfont { display: block; color: #9c9c9c; margin: 25px 0; font-size: 28px; }
+.setting a:hover { text-decoration: none; color: #535353; }
+
+body .wmBox { max-width: 750px; }
+.bg_content { padding: 10px 30px; _padding-top: 20px; height: 520px; overflow-y: auto; }
+.bg_content::-webkit-scrollbar { width: 5px; height: 5px; }
+.bg_content::-webkit-resizer { background: #333333; }
+.bg_content::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.bg_content a { display: inline-block; margin: 10px 10px 0 10px; border: 2px solid #ccc; height: 70px; position: relative; }
+.bg_content a:hover { border: 2px solid #f60; }
+.bg_content a.a_current { border: 2px solid #f60; }
+.bg_content a span.iconfont { color: #f00; font-size: 48px; position: absolute; top: -8px; right: -10px; display: none; height: 40px; line-height: 40px; }
+.bg_content a.a_current span { display: block; }
+.bg_content a img { width: 300px; height: 70px; }
+.bg_content .bg_content_item { margin-bottom: 40px; }
+.bg_content .bg_name { color: #c60; font-weight: 700; background: #fec; padding: 5px 10px; font-size: 14px; border: 1px solid #fdc; margin-bottom: 10px; }

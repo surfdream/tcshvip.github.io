@@ -1,0 +1,1206 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+
+    <title>同城生活--首页</title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/ago/public/css/global_v2.css" />
+	<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/css/ico.css" />
+	<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/ago/public/wm_block/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/ago/index/css/style_v6.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/ago/index/config.js" data-init="index_v1"></script>
+    <script type="text/javascript">
+        var global_setting = {};
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <!--后端同步开始-->
+            <div class="head_top">
+                <div class="head_top_bb1f">
+                    <div class="sub_head_top">
+                        <div class="user_login">
+                            <span>欢迎加入同城生活：</span>
+                            <a href="http://s.tcsh.me/tcsh/view/ago/user_entrance/login.html">登录</a>
+                            <em>|</em>
+                            <a href="#">免费注册</a>
+                        </div>
+                        <div class="pull_btns w115 followwm">
+                            <a href="#" class="idea w115 "><i class="wm_ico heart1"></i>关注同城生活<span class="pull_arrow "><em>◆</em><span>◆</span></span></a>
+                            <ul class="pull_list w115">
+                                <li>
+                                    <a href="#" class="pull_link"><i class="wm_ico heart1"></i>关注同城生活</a><span class="pull_arrow "><em>◆</em><span>◆</span></span>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link"><i class="social_icon sina_wb"></i>新浪微博</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link"><i class="social_icon tx_wb"></i>腾讯微博</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link"><i class="social_icon netease"></i>网易微博</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="pull_link">同城生活党</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            
+            <!--其他角色登录结束-->
+            <div class="head_sub">
+                <div class="head_con">
+                    <h1 class="wm_logo">
+                        <a href="http://www.tcsh.me/" title="同城生活" class="iconfont">&#xe624;</a>
+                    </h1>
+                    <div class="logo_msg">
+                        <em>同城生活</em>
+                        <span>SHENG HUO</span>
+                    </div>
+                    <div class="head_search">
+                        <form class="search_form">
+                            <div class="search_type">
+                                <ul>
+                                    <li data_action="1"><a href="#" class="search_type_item">商品</a></li>
+                                    <li data_action="2"><a href="#" class="search_type_item">店铺</a></li>
+                                </ul>
+                                <span class="pull_arrow iconfont">&#xf0170;</span>
+                            </div>
+                            <input type="text" class="search_txt" />
+                            <input type="submit" class="submit" value="查询" />
+                        </form>
+                    </div>
+                    <div class="link_list">
+                        <a href="http://s.tcsh.me/tcsh/view/ago/user_entrance/login.html"><span class="iconfont">&#x3437;</span>登录</a>
+                        <a href="#"><span class="iconfont">&#xf00bb;</span>个人注册</a>
+                        <a href="#"><span class="iconfont">&#xf00e4;</span>商家入驻</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="page_nav">
+                <div class="page_main">
+                    <!--类目导航开始-->
+                    <div class="class_nav">
+                        <h3 class="class_nav_head">全部商品分类</h3>
+                        <ul class="class_list"></ul>
+                    </div>
+                    <!--类目导航结束-->
+                    <ul class="page_nav_list">
+                        <li class="page_nav_item">
+                            <a href="#" class="curr">首页</a>
+                        </li>
+                        <li class="page_nav_item">
+                            <a href="#">品牌街</a>
+                        </li>
+                        <li class="page_nav_item">
+                            <a href="#">购实惠</a>
+                        </li>
+                        <li class="page_nav_item">
+                            <a href="#">二手市场</a>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+            <script type="text/template" id="adv_1920_480" class="actual_advertisement_model">
+                <li class="for_img_item">
+                    <a href="${item.url}" target="_blank">
+                        <img src="${item.img}" class="adv_1920_480_img"></a>
+                </li>
+            </script>
+            <div class="wm_forimg_box adv_1920_480 wm_as_pit" data_as_pit_key="adv_1920_480">
+                <div class="hide_box">
+                    <ul class="wm_forimg_list actual_advertisement_liat">
+                        
+                    </ul>
+                </div>
+                <ul class="indexBox"></ul>
+            </div>
+            <div class="con_row clearfix ann">
+                <div class="con_row_main">
+                    <div class="wm_forimg_box ann_for_box">
+                        <div class="hide_box">
+                            <div class="ann_head"><span class="iconfont">&#xe615;</span>通知公告：<span></span></div>
+                            <ul class="wm_forimg_list">
+                                <li class="for_img_item">
+                                    <a href="#">同城生活公共同城生活公共同城生活公共同城生活公共同城生活公共同城生活公共</a>
+                                </li>
+                                <li class="for_img_item">
+                                    <a href="#">同城生活公共</a>
+                                </li>
+                                <li class="for_img_item">
+                                    <a href="#">同城生活公共</a>
+                                </li>
+                                <li class="for_img_item">
+                                    <a href="#">同城生活公共</a>
+                                </li>
+                                <li class="for_img_item">
+                                    <a href="#">同城生活公共</a>
+                                </li>
+                                <li class="for_img_item">
+                                    <a href="#">同城生活公共</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="con_row clearfix hot_comm">
+                <div class="con_row_main">
+                    <div class="cr_head">
+                        <h3>热卖单品<i>HOT PRODUCTS</i></h3>
+                    </div>
+                    <div class="wm_forimg_box adv_190_240">
+                        <div class="hide_box">
+                            <ul class="wm_forimg_list">
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                                <li class="for_img_item">
+                                    <img src="img/index_v4_b2.jpg">
+                                    <p><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+                                    <p><span class="price">￥<b>99999</b></span>月销量<b>999</b></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btns"><a href="#" class="iconfont prev">&#xf0007;</a><a href="#" class="iconfont next">&#xf0006;</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="con_row clearfix week_sales">
+                <div class="con_row_main">
+                    <div class="cr_head">
+                        <h3>精品推荐<i>Top10</i></h3>
+                    </div>
+                    <ul class="top_list">
+                        <script type="text/template" id="top_item_300_470" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_300_470 wm_as_pit" data_as_pit_key="top_item_300_470" data_w="300" data_h="470">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_210_160_1" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_210_160_1 wm_as_pit" data_as_pit_key="top_item_210_160_1" data_w="210" data_h="160">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_210_160_2" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_210_160_2 wm_as_pit" data_as_pit_key="top_item_210_160_2" data_w="210" data_h="160">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_210_330" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_210_330 wm_as_pit" data_as_pit_key="top_item_210_330" data_w="210" data_h="330">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_210_230_1" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_210_230_1 wm_as_pit" data_as_pit_key="top_item_210_230_1" data_w="210" data_h="230">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_260_290" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_260_290 wm_as_pit" data_as_pit_key="top_item_260_290" data_w="260" data_h="290">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_420_140" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_420_140 wm_as_pit" data_as_pit_key="top_item_420_140" data_w="420" data_h="140">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_210_230_2" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_210_230_2 wm_as_pit" data_as_pit_key="top_item_210_230_2" data_w="210" data_h="230">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_120_170_1" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_120_170_1 wm_as_pit" data_as_pit_key="top_item_120_170_1" data_w="128" data_h="170">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                        <script type="text/template" id="top_item_120_170_2" class="actual_advertisement_model">
+                            <a href="${item.url}" target="_blank">
+                                <img src="${item.img}">
+                            </a>
+                        </script>
+                        <li class="top_item top_item_120_170_2 wm_as_pit" data_as_pit_key="top_item_120_170_2" data_w="128" data_h="170">
+                            <span class="actual_advertisement_liat"></span>
+                        </li>
+                    </ul>
+                    <script type="text/template" id="adv_1210_90_1" class="actual_advertisement_model">
+                        <a href="${item.url}" target="_blank">
+                            <img src="${item.img}">
+                        </a>
+                    </script>
+                    <div class="adv_1210_90_1 wm_as_pit" data_as_pit_key="adv_1210_90_1">
+                        <span class="actual_advertisement_liat"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="con_row clearfix popular_class">
+                <div class="con_row_main">
+                    <div class="cr_head">
+                        <h3>同城生活潮流街<i>WU MEI TREND OF THE STREET</i></h3>
+                    </div>
+                    <div class="wm_forimg_box class_list">
+                        <div class="hide_box">
+                            <ul class="wm_forimg_list">
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="for_img_item" style="background: #f9e9eb">
+                                    <div class="limit">
+                                        <div class="class_left">
+                                            <a href="#" class="class_min_img">
+                                                <img src="img/index_v4_b3.jpg" width="200" height="200" />
+                                            </a>
+                                            <a href="#" class="class_title">服饰、箱包</a>
+                                            <ul class="sub_class">
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                                <li class="sub_class_item">
+                                                    <a href="#">女士上衣</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="class_right">
+                                            <a href="#" class="class_max_img">
+                                                <img src="img/index_v4_b3.jpg" />
+                                                <span class="arrow">◆</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btns"><a href="#" class="iconfont prev">&#xf0007;</a><a href="#" class="iconfont next">&#xf0006;</a></div>
+                </div>
+            </div>
+            <div class="con_row clearfix new_comm">
+                <div class="con_row_main">
+                    <div class="cr_head">
+                        <h3>上新推荐<i>THT NEW RECOMMENDATIONS</i></h3>
+                    </div>
+                    <script type="text/template" id="adv_360_430" class="actual_advertisement_model">
+                        <li class="brand_item for_img_item" data_id="${item.merchantId}">
+                            <div class="brand_data">
+                                <a href="http://item.tcsh.me/merchant/list/${item.merchantId}" target="_blank" class="brand_img">
+                                    <img src="${item.logo}">
+                                </a>
+                                <a href="http://item.tcsh.me/merchant/list/${item.merchantId}" target="_blank" class="brand_name" data_name="${item.merchantName}">${item.merchantName}</a>
+                            </div>
+                            <a href="${item.url}" class="adv_img" target="_blank" title="${item.msg}"><img src="${item.img}"></a>
+                        </li>
+                    </script>
+                    <div class="hide_box adv_360_430 wm_as_pit" data_as_pit_key="adv_360_430">
+                        <ul class="brand_list wm_forimg_list actual_advertisement_liat"></ul>
+                    </div>
+                    <script type="text/template" id="adv_1210_90_2" class="actual_advertisement_model">
+                        <a href="#" target="_blank">
+                            <img src="${item.img}">
+                        </a>
+                    </script>
+                    <div class="adv_1210_90_2 wm_as_pit" data_as_pit_key="adv_1210_90_2">
+                        <span class="actual_advertisement_liat"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="con_row clearfix rec_brand">
+                <div class="con_row_main">
+                    <div class="cr_head">
+                        <h3>猜您喜欢的店铺</h3>
+                    </div>
+                    <ul class="brand_list">
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                        <li class="brand_item">
+                            <a href="#">
+                                <img src="img/index_v4_b3.jpg">
+                                <span class="brand_name">品牌名称</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="con_row clearfix brand_link">
+                <div class="con_row_main">
+                    <div class="cr_head">
+                        <h3>厂家直销</h3>
+                    </div>
+                    <div class="brand_link_list">
+                        <a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a>
+                        <a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a>
+                        <a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a>
+                        <a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a><a href="#">品牌名称</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="w900m">
+                    <div class="link_list">
+                        <div class="link_item">
+                            <span>服务保障</span>
+                            <ul>
+                                <li><a href="#">正品保障</a></li>
+                                <li><a href="#">7天无条件退货</a></li>
+                                <li><a href="#">7*15小时服务</a></li>
+                                <li><a href="#">关于我们</a></li>
+                                <li><a href="#">联系我们</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>购物指南</span>
+                            <ul>
+                                <li><a href="#">导购演示</a></li>
+                                <li><a href="#">订单操作</a></li>
+                                <li><a href="#">用户指南</a></li>
+                                <li><a href="#">账号管理</a></li>
+                                <li><a href="#">购物参考</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>支付方式</span>
+                            <ul>
+                                <li><a href="#">网银支付币</a></li>
+                                <li><a href="#">支付平台</a></li>
+                                <li><a href="#">信用卡</a></li>
+                                <li><a href="#">同城生活金币</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item">
+                            <span>配送方式</span>
+                            <ul>
+                                <li><a href="#">配送服务</a></li>
+                                <li><a href="#">配送范围和运费</a></li>
+                                <li><a href="#">验货与签收</a></li>
+                            </ul>
+                        </div>
+                        <div class="link_item end">
+                            <span>售后服务</span>
+                            <ul>
+                                <li><a href="#">退换货政策</a></li>
+                                <li><a href="#">退换货流程</a></li>
+                                <li><a href="#">退款方式和时效</a></li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>
+                        <a href="#">关于我们</a><em>|</em>
+                        <a href="#">联系我们</a><em>|</em>
+                        <a href="#">品牌入驻</a><em>|</em>
+                        <a href="#">隐私条款</a><em>|</em>
+                        <a href="#">隐私条款</a><em>|</em>
+                        <a href="#">网站地图</a><em>|</em>
+                        <a href="#">友情链接</a><em>|</em>
+                        <a href="#">用户体验提升计划</a>
+                    </p>
+                    <p class="friend_link"><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a><a href="#">友情链接</a></p>
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        global_setting = global_setting || {};
+        global_setting.serviceTicks = new Date().getTime();
+
+    </script>
+</body>
+</html>
+

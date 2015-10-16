@@ -1,0 +1,7 @@
+﻿@CHARSET "UTF-8";
+.schedule { background: url('../img/quality.png') 0 0 no-repeat; display:block;float:left;cursor:pointer;margin:2px}
+.schedule em { background: url('../img/quality.png') 0 -20px no-repeat;display:block;float:left; }
+
+/* --五个五角型-- */
+.quality_bg { height: 17px; width: 121px; }
+.quality_bg em { height: 17px; }

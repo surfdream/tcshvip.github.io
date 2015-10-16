@@ -1,0 +1,46 @@
+﻿/*.disabled,.disabled *{ filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); -webkit-filter: grayscale(1); }*/
+#page .content { background: url("../img/bg.jpg") no-repeat #f2f2f2; }
+.timeline { padding-top: 30px; position: relative; }
+.timeline .timeline_minor { background: #fff; width: 976px; height: 130px; box-shadow: 0px 0px 5px #676767; position: absolute; }
+.timeline .timeline_minor .timeline_minor_head { background: #fdecdc; height: 40px; line-height: 40px; }
+.timeline .fixed { position: fixed; _position: absolute; top: 31px; z-index: 100; }
+.timeline_minor .timeline_minor_title { float: left; padding-left: 30px; font-size: 18px; font-family: 'Microsoft YaHei'; color: #2e0809; }
+.timeline_minor .timeline_minor_title b { color: #e13436; }
+.timeline_minor .timeline_minor_title .horometer1 { margin-right: 10px; }
+.timeline_minor .timeline_minor_msg { float: right; font-size: 14px; font-family: SimSun; padding-right: 30px; }
+.timeline_minor .timeline_minor_con { position: relative; height: 100%; }
+.timeline_minor .timeline_minor_con img { position: absolute; bottom: 50px; height: 50px; }
+.timeline_minor .timeline_minor_con .point_red1 { bottom: 82px; position: absolute; left: 5px; }
+
+.timeline .timeline_axis { margin-top: 145px; _margin-top: 180px; padding: 15px 0 15px 15px; background: #fff; }
+.timeline_axis .axis_item_head { margin-right: 15px; background: #ebebeb; height: 35px; line-height: 35px; }
+.timeline_axis .axis_item_head .axis_item_title { background: #e13436; float: left; width: 180px; color: #fff; text-align: center; font-weight: 500; }
+.timeline_axis .axis_item_head .axis_item_msg { background: #c8c8c8; float: right; width: 260px; text-align: center; font-size: 14px; _padding-top: 7px; _height: 28px; }
+.axis_item_head .axis_item_msg .horometer2 { margin-right: 10px; }
+
+.timeline_axis .axis_item_con { overflow: hidden; padding-top: 10px; _zoom: 1; }
+.timeline_axis .axis_item_con ul { overflow: hidden; }
+.timeline_axis .axis_item_con img { *width: 230px; *height: 230px; display:inline-block; max-height: 230px; max-width: 230px; vertical-align: middle; }
+.timeline_axis .axis_item_con li { position: relative; float: left; margin: 0 10px 10px 0; background: #f2f2f2; }
+.timeline_axis .axis_item_con li p { color: #fff; padding-left: 15px; height: 25px; line-height: 25px; background: #e99394; margin-top: 5px; *width: 215px; }
+.timeline_axis .axis_item_con .axis_item_price { padding: 0 20px; line-height: 35px; display: block; text-align: right; }
+.timeline_axis .axis_item_con .axis_item_price b { color: #c50303; float: left; font-size: 14px; }
+.timeline_axis .axis_item_con .axis_item_btns { padding: 0 20px 0 10px; text-align: right; line-height: 25px; padding-bottom: 2px; }
+.axis_item_con .axis_item_btns .ui_btn { float: left; }
+
+.timeline_axis .time_itme { }
+.timeline_axis .time_itme .axis_seg { background: #f2f2f2; margin: 10px 0 10px -15px; height: 20px; padding-top: 5px; }
+.timeline_axis .time_itme .axis_seg i { height: 11px; background: url("../../public/img/seg_red1.png") 0 0 #f2f2f2; display: inline-block; width: 100%; vertical-align: middle; _background-position: 0 2px; }
+.timeline_axis .time_itme .loading_bg { width: 230px; height: 230px; display: block; line-height: 230px; text-align: center; }
+
+.disabled .ui_btn_h26yellow16 { background-position: 0 -1540px; height: 26px; line-height: 26px; }
+.disabled .ui_btn_h26yellow16 .ui_btn_txt { background-position: right -1540px; line-height: 26px; }
+.disabled .axis_item_head .axis_item_title { background: #c8c8c8; }
+.disabled .axis_item_con li p { background: #c8c8c8; }
+
+.minor { position: fixed; background: #fff; width: 3px; box-shadow: 0px 0px 5px #333333; _position: absolute; }
+.minor a { width: 80px; height: 40px; display: block; text-decoration: none; }
+.minor a b { display: block; width: 3px; height: 40px; background: #fff; float: left; }
+.minor a:hover b, .minor a.hover b { background: #E13335; }
+.minor a span { display: block; padding-left: 5px; width: 50px; display: block; line-height: 40px; color: #323232; text-align: center; margin-left: 10px; cursor: pointer; float: left; }
+.minor a.hover span { color: #E13335; font-weight: 700; font-size: 14px; }

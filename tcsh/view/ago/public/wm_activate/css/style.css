@@ -1,0 +1,66 @@
+﻿/*-- 推广用户激活弹窗 --*/
+.puab { width: 680px; overflow: hidden; }
+.puab .puab_head { overflow: hidden; position: relative; }
+.puab .puab_head h3 { float: left; font-size: 60px; color: #e13436; display: block; line-height: 60px; }
+.puab .puab_head .logo_msg { position: absolute; bottom: 0; left: 76px; }
+.puab .puab_head .logo_msg em, .puab .puab_head .logo_msg span { display: block; color: #e13436; font-style: normal; font-family: 'Microsoft YaHei'; }
+.puab .puab_head .logo_msg em { font-weight: 700; font-size: 24px; }
+.puab .puab_head .logo_msg span { padding-top: 8px; }
+.puab .puab_head .box_remark { color: #999; position: absolute; left: 200px; top: 40px; }
+.puab .puab_head .close { position: absolute; right: 0; top: 0; }
+.puab .activate_msg { font-size: 14px; line-height: 50px; color: #666; padding: 0 0 0 10px; margin: 10px 0; border: 1px solid #ffcc7f; background-color: #ffffe5; }
+.puab .activate_msg .iconfont { font-size: 22px; color: #ffcc7f; margin-right: 12px; }
+.puab .activate_msg b { color: #e13436; max-width: 130px; padding: 0 10px; display: inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; vertical-align: bottom;height:50px;*height:20px;*line-height:20px }
+.puab .activate_msg .remark { display: block; color: #999; font-size: 12px; padding: 0 0 0 32px; line-height: 36px; margin: -20px 0 0 0; }
+.puab .wm_form { padding: 10px 0; position: relative; }
+.puab .wm_form .form_sel { padding: 4px; margin-right: 10px; }
+.puab .wm_form .form_row { padding: 10px 0; line-height: 25px; overflow: hidden; clear: both; position: relative; }
+.puab .wm_form .row_key { display: block; float: left; width: 80px; text-align: right; padding-right: 10px; font-size: 14px; color: #666; }
+.puab .wm_form .form_txt { padding: 6px; }
+.puab .wm_form .remark { display: block; padding-left: 90px; color: #999; font-size: 12px; line-height: 28px; }
+.puab .wm_form .form_must { font-weight: 500; color: #e13436; padding: 0 5px; }
+.puab .wm_form .btns { position: absolute; right: 24px; top: 0; padding: 58px 0 50px 56px; }
+.puab .wm_form .btns .ui_btn_txt { font-size: 18px; padding-left: 70px; padding-right: 16px; }
+.puab .activate_btn { position: relative; }
+.puab .activate_btn .packs { position: absolute; top: -66px; z-index: 10; left: -50px; }
+.puab .gifts_list { position: relative; overflow-y: auto; height: 330px; }
+.puab .gifts_item { float: left; border: 1px solid #ccc; margin: 10px; padding: 10px; height: 120px; position: relative; }
+.puab .gifts_item .show_gifts { display: block; width: 278px; overflow: hidden; color: #666; }
+.puab .gifts_item img { float: left; max-width: 120px; max-height: 120px; }
+.puab .gifts_item .gifts_name { float: left; width: 140px; margin: 4px 0 0 10px; max-height: 36px; overflow: hidden; }
+.puab .gifts_item .commodity_name { float: left; width: 140px; margin: 4px 0 0 10px; max-height: 36px; overflow: hidden; }
+.puab .gifts_item .gifts_btns { position: absolute; bottom: 10px; left: 140px; width: 140px; }
+.puab .gifts_item .gifts_btns .receive_btn { float: left; }
+.puab .gifts_item .gifts_btns .gifts_details { float: right; line-height: 24px; }
+.puab .chk_attr_box, .puab .chk_ad_box { position: absolute; top: 68px; width: 660px; height: 334px; left: 680px; background: #fff; z-index: 10; padding-top: 15px; }
+.puab .return_btn, .puab .return_btn:link, .puab .return_btn:active, .puab .return_btn:visited { font-size: 14px; display: block; border: 1px solid #ccc; padding: 6px 10px 6px 6px; background: #efefef; color: #666; float: left; border-radius: 4px; }
+.puab .return_btn:hover { text-decoration: none; background: #959595; color: #fff; box-shadow: 0 0 2px #BBBBBB;; border-color: #777; }
+.puab .return_btn .iconfont { margin-right: 10px; }
+.puab .post_gifts_form, .puab .post_ad_form { clear: both; height: 270px; padding-top: 20px; }
+.puab .post_gifts_form .row_key { width: 120px; }
+.puab .post_gifts_form .options_list { width: 520px; overflow: hidden; float: left; }
+.puab .post_gifts_form .options_list li { float: left; }
+.puab .post_gifts_form .options_list li img { max-width: 50px; max-height: 50px; line-height: 50px; vertical-align: middle; }
+.puab .post_gifts_form .options_list li a, .puab .post_gifts_form .options_list li a:link, .puab .post_gifts_form .options_list li a:active, .puab .post_gifts_form .options_list li a:visited { margin: 2px 14px 14px 2px; padding: 0 10px; border: 1px solid #ccc; display: block; position: relative;*zoom:1;white-space: nowrap; }
+.puab .post_gifts_form .options_list li a:hover, .buy_con .options_list li a.curr { border: 2px solid #c50303!important; border: 2px solid #e13436; margin-top: 0; margin-left: 0;; _zoom: 1; text-decoration: none; }
+.puab .post_gifts_form .options_list li a .wm_ico { position: absolute; right: -2px; bottom: -2px; display: none; _zoom: 1; }
+.puab .post_gifts_form .options_list li .curr .hook3 { display: block; }
+.puab .post_gifts_form .options_list .curr, .puab .post_gifts_form .options_list .curr:link, .puab .post_gifts_form .options_list .curr:active, .puab .post_gifts_form .options_list .curr:visited, .puab .post_gifts_form .options_list .curr:hover { border: 2px solid #e13436; margin-top: 0; margin-left: 0; }
+.puab .post_gifts_form .attr_box_head { border-bottom: 1px solid #ccc; overflow: hidden; padding-bottom: 10px; margin-bottom: 6px; }
+.puab .post_gifts_form .attr_box_head h3, .puab .post_gifts_form .attr_box_head .close { font-size: 16px; }
+.puab .post_gifts_form .attr_box_head h3 { float: left; }
+.puab .post_gifts_form .attr_box_head .close { float: right; }
+.puab .post_gifts_form .btns, .puab .post_ad_form .btns { position: absolute; padding: 0; bottom: 0; top: auto; width: 100%; right: 0; text-align: center; }
+.puab .post_gifts_form .btns .ui_btn_txt, .puab .post_ad_form .btns .ui_btn_txt { font-size: 14px; padding-left: 8px; padding-right: 16px; }
+.puab .post_ad_form .row_key { width: 190px; }
+.puab .post_ad_form .form_row { padding: 6px 0; }
+.puab .post_gifts_form .wmv_msg { font-size: 12px; display: none; }
+.puab .post_gifts_form .wmv_error { color: #e13436; display: inline; }
+.puab .post_gifts_form .wmv_success { color: #333; display: inline; }
+.puab .post_gifts_form .wmv_success .wm_ico, .wmv_error .wm_ico { margin: 0 5px; }
+
+.puab .success_box { width: 260px; margin: 20px auto; }
+.puab .success_box .success_title { font-size: 16px; color: #666; padding: 0 10px; line-height: 40px; }
+.puab .success_box .success_mark { font-size: 16px; color: #666; margin: 20px 0; }
+.puab .success_box .success_mark .iconfont { color: #1ba800; margin-right: 10px; font-size: 28px; font-weight: 700; }
+.puab .success_box p { line-height: 20px; padding: 0 10px; color: #999; }

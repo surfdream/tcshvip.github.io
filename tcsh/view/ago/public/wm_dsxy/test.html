@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??ago/public/css/global.css,public/css/ico.css,public/font-face/css/font-face.css,public/wm_btn/css/style.css,ago/public/wm_block/css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+</head>
+<body>
+    <a href="#" class="dsxy">电商协议</a>
+    <br />
+    <a href="#" class="fwxy">服务协议</a>
+    
+    <script type="text/javascript">
+        seajs.use("http://s.tcsh.me/tcsh/model/lib/jquery/seajs-jquery-1.8.3.min.js", function ($) {
+            $(function () {
+                seajs.use('http://s.tcsh.me/tcsh/view/ago/public/wm_dsxy/dist/dsxy.js', function (x) {
+                    $(".dsxy").click(function () {
+                        x.show();
+                        return false;
+                    });
+                });
+                seajs.use('http://s.tcsh.me/tcsh/view/ago/public/wm_dsxy/dist/fwxy.js', function (x) {
+                    $(".fwxy").click(function () {
+                        x.show();
+                        return false;
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+

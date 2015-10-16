@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_block/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="order_confirm"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <div class="user_data">
+                        <span>欢迎加入同城生活帮：</span>
+                        <span>柴逸宁</span>
+                    </div>
+                    <div class="user_login">
+                        <span>欢迎加入同城生活帮：</span>
+                        <a href="#">登录</a>
+                        <em>|</em>
+                        <a href="#">免费注册</a>
+                    </div>
+                    <div class="link_list">
+                        <a href="#">订单管理</a><em>|</em>
+                        <a href="#">心愿面板</a><em>|</em>
+                        <a href="#">推广同城生活</a><em>|</em>
+                        <a href="#">成长基金</a><em>|</em>
+                        <a href="#">帮助中心</a>
+                    </div>
+                    <div class="follow_wm">
+                        <a href="#"><i class="wm_ico heart1"></i>关注同城生活</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="head_sub">
+
+                <div class="head_con">
+                    <div class="wm_logo">
+                        <img src="../../public/img/wm_logo.png" width="180" height="80" />
+                    </div>
+                    <div class="logo_msg">
+                        <span class="ui_btn ui_btn_h22red10"><span class="ui_btn_txt"><i>嗅嗅品牌的味道</i></span></span>
+                        <em class="wm_ico triangle1">&nbsp;</em>
+                    </div>
+                    <div class="head_search brands">
+                        <div class="head_search_tab">
+                            <a class="tab_item tab_item_brands" href="#" parent_key="brands">品牌</a><a class="tab_item tab_item_commodity" href="#" parent_key="commodity">商品</a>
+                        </div>
+                        <div class="head_search_form">
+                            <form>
+                                <input type="text" placeholder="李宁/耐克/乔丹" name="brands" class="search_brands" />
+                                <input type="text" placeholder="羽毛球/篮球/足球" name="brands" class="search_commodity" />
+                                <a href="#" class="search_btn">搜 索<i class="wm_ico magnifier1"></i></a>
+                                <input type="hidden" name="search_type" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="link_list">
+                        <div class="link_item">
+                            <a href="#">
+                                <img src="../public/img/pptm.png" />
+                            </a>
+                            <a href="#">品牌特卖</a>
+
+                        </div>
+                        <div class="link_item">
+                            <a href="#">
+                                <img src="../public/img/rqjh.png" /></a>
+                            <a href="#">人气聚合</a>
+                        </div>
+                        <div class="link_item">
+                            <a href="#">
+                                <img src="../public/img/syjf.png" /></a>
+                            <a href="#">收益均分</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="head_nav">
+                <div class="sub_head_nav">
+                    <div class="all_nav_item">
+                        所有品类目录
+                    </div>
+                    <div class="sub_nav">
+                        <ul>
+                            <li class="sub_nav_item curr"><a href="#">首页</a><em class="wm_ico dashed1"></em></li>
+                            <li class="sub_nav_item"><a href="#">品牌馆</a><em class="wm_ico dashed1"></em></li>
+                            <li class="sub_nav_item"><a href="#">现实购</a><em class="wm_ico dashed1"></em></li>
+                            <li class="sub_nav_item"><a href="#">集美社</a><em class="wm_ico dashed1"></em></li>
+                            <li class="sub_nav_item end"><a href="#">美推手</a><em class="wm_ico dashed1"></em><i></i></li>
+                        </ul>
+                    </div>
+                    <div class="wumeibang">
+                        <a href="#"><i class="wm_ico wumeibang_ico"></i>同城生活帮</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="pay_process">
+                    <ul>
+                        <li>
+                            <span class="process_bg curr">
+                                <span class="process_index">1</span>
+                                <span class="process_txt">购买/结算</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="process_bg">
+                                <span class="process_index">2</span>
+                                <span class="process_txt">信用付款</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="process_bg">
+                                <span class="process_index">3</span>
+                                <span class="process_txt">确认收货</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="process_bg">
+                                <span class="process_index">4</span>
+                                <span class="process_txt">评价</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content_mian">
+                    <div class="pay_box da_list">
+                        <div class="pay_head ">
+                            <h3>选择收货地址</h3>
+                        </div>
+                        <div class="da_item curr" title="单击选择" data_id="1024">
+                            <ul class="da_item_head">
+                                <li>
+                                    <h3>浙江杭州<b>(柴逸宁&nbsp;收)</b></h3>
+                                </li>
+                            </ul>
+                            <ul class="da_data">
+                                <li>
+                                    <span>地&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;址：</span>
+                                    <b>浙江省杭州市西湖区望月公寓8栋3单元202号室</b>
+                                </li>
+                                <li>
+                                    <span>联系电话：</span>
+                                    <b>18268067844</b>
+                                </li>
+                                <li>
+                                    <span>邮&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;编：</span>
+                                    <b>315300</b>
+                                </li>
+                            </ul>
+                            <div class="btns">
+                                <span class="set_default">默认地址</span>
+                                <a class="wm_ico fork1 deladitem" href="#" title="删除"></a><a class="wm_ico pen1 upaditem" href="#" title="编辑"></a>
+                            </div>
+                        </div>
+                        <div class="da_item" title="单击选择" data_id="2048">
+                            <ul class="da_item_head">
+                                <li>
+                                    <h3>浙江杭州<b>(柴逸宁&nbsp;收)</b></h3>
+                                </li>
+                            </ul>
+                            <ul class="da_data">
+                                <li>
+                                    <span>地&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;址：</span>
+                                    <b>浙江省杭州市西湖区望月公寓8栋3单元202号室</b>
+                                </li>
+                                <li>
+                                    <span>联系电话：</span>
+                                    <b>18268067844</b>
+                                </li>
+                                <li>
+                                    <span>邮&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;编：</span>
+                                    <b>315300</b>
+                                </li>
+                            </ul>
+                            <div class="btns">
+                                <a href="#" class="set_default">设为默认</a>
+                                <a class="wm_ico fork1 deladitem" href="#" title="删除"></a><a class="wm_ico pen1 upaditem" href="#" title="编辑"></a>
+                            </div>
+                        </div>
+                        <div class="da_item" title="单击选择" data_id="7758">
+                            <ul class="da_item_head">
+                                <li>
+                                    <h3>浙江杭州浙江杭州浙江杭州浙江杭州浙江杭州<b>(柴逸宁&nbsp;收)</b></h3>
+                                </li>
+                            </ul>
+                            <ul class="da_data">
+                                <li>
+                                    <span>地&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;址：</span>
+                                    <b>浙江省杭州市</b>
+                                </li>
+                                <li>
+                                    <span>联系电话：</span>
+                                    <b>18268067844</b>
+                                </li>
+                                <li>
+                                    <span>邮&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;编：</span>
+                                    <b>315300</b>
+                                </li>
+                            </ul>
+                            <div class="btns">
+                                <a href="#" class="set_default">设为默认</a>
+                                <a class="wm_ico fork1 deladitem" href="#" title="删除"></a><a class="wm_ico pen1 upaditem" href="#" title="编辑"></a>
+                            </div>
+                        </div>
+                        <div class="hideda_list">
+                            <div class="da_item" title="单击选择" data_id="258">
+                                <ul class="da_item_head">
+                                    <li>
+                                        <h3>浙江杭州浙江杭州浙江杭州浙江杭州浙江杭州<b>(柴逸宁&nbsp;收)</b></h3>
+                                    </li>
+                                </ul>
+                                <ul class="da_data">
+                                    <li>
+                                        <span>地&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;址：</span>
+                                        <b>浙江省杭州市西湖区望月公寓8栋3单元202号室</b>
+                                    </li>
+                                    <li>
+                                        <span>联系电话：</span>
+                                        <b>18268067844</b>
+                                    </li>
+                                    <li>
+                                        <span>邮&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;编：</span>
+                                        <b>315300</b>
+                                    </li>
+                                </ul>
+                                <div class="btns">
+                                    <a href="#" class="set_default">设为默认</a>
+                                    <a class="wm_ico fork1 deladitem" href="#" title="删除"></a><a class="wm_ico pen1 upaditem" href="#" title="编辑"></a>
+                                </div>
+                            </div>
+                            <div class="da_item" title="单击选择" data_id="259">
+                                <ul class="da_item_head">
+                                    <li>
+                                        <h3>浙江杭州<b>(柴逸宁&nbsp;收)</b></h3>
+                                    </li>
+                                </ul>
+                                <ul class="da_data">
+                                    <li>
+                                        <span>地&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;址：</span>
+                                        <b>浙江省杭州市西湖区望月公寓8栋3单元202号室</b>
+                                    </li>
+                                    <li>
+                                        <span>联系电话：</span>
+                                        <b>18268067844</b>
+                                    </li>
+                                    <li>
+                                        <span>邮&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;编：</span>
+                                        <b>315300</b>
+                                    </li>
+                                </ul>
+                                <div class="btns">
+                                    <a href="#" class="set_default">设为默认</a>
+                                    <a class="wm_ico fork1 deladitem" href="#" title="删除"></a><a class="wm_ico pen1 upaditem" href="#" title="编辑"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="da_list_btns">
+                            <a href="#" class="ui_btn ui_btn_h33yellow4 addadbtn"><span class="ui_btn_txt"><i>+</i>使用新地址</span></a>
+                            <a href="#" class="showall">显示全部</a>
+                        </div>
+                    </div>
+                    <div class="pay_box order_list">
+                        <div class="pay_head ">
+                            <h3>选择收货地址</h3>
+                        </div>
+                        <div class="tabs">
+                            <a href="#" class="ui_btn ui_btn_h35yellow9"><span class="ui_btn_txt">现有订单</span></a>
+                            <a href="#" class="ui_btn ui_btn_h35gray4"><span class="ui_btn_txt">我的购物车</span></a>
+                        </div>
+                        <form>
+                            <table cellpadding="0" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th class="wid120">商品图</th>
+                                        <th class="wid120">属性</th>
+                                        <th class="wid80">单价</th>
+                                        <th class="wid80">数量</th>
+                                        <th class="wid140">定单说明</th>
+                                        <th class="wid120">价格</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="odd">
+                                        <td class="pd">
+                                            <img src="img/x.png" />
+                                        </td>
+                                        <td class="tl">
+                                            <a class="comm_name" href="#">韩国帅气美女连衣裙韩国帅气美女连衣衣裙韩国帅气美女连衣裙</a>
+                                            <span class="block">颜色: 深蓝色</span>
+                                            <span class="block">尺码: 32</span>
+                                        </td>
+                                        <td>￥12.0
+                                        </td>
+                                        <td>
+                                            <div class="amount_box">
+                                                <a href="#" class="changetxt_btn fs30" basesum="-1">-</a>
+                                                <input type="text" value="1" class="amount" name="amount" />
+                                                <a href="#" class="changetxt_btn fs26" basesum="1">+</a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <textarea placeholder="亲，这里可以给卖家留言哦！" name="remark"></textarea>
+                                        </td>
+                                        <td class="red">￥20.0<span class="block">(含邮费20.00)</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="summary">
+                                <!--<label for="invoice">发票抬头：</label><input type="text" id="invoice" name="invoice" />-->
+                                <span>实际付款：<b>￥180.0</b></span>
+                                <br />
+                                <input type="checkbox" id="is_anonymous" name="anonymous" value="1" /><label for="is_anonymous">匿名购买</label>
+                            </div>
+                            <div class="btns">
+                                <span class="ui_btn ui_btn_h33yellow4 submit_order">
+                                    <input type="submit" class="ui_btn_txt" value="现在结算 >>" /></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="link_list">
+                    <div class="link_item">
+                        <span>服务保障</span>
+                        <ul>
+                            <li><a href="#">正品保障</a></li>
+                            <li><a href="#">7天无条件退货</a></li>
+                            <li><a href="#">7*15小时服务</a></li>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>购物指南</span>
+                        <ul>
+                            <li><a href="#">导购演示</a></li>
+                            <li><a href="#">订单操作</a></li>
+                            <li><a href="#">用户指南</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">购物参考</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>支付方式</span>
+                        <ul>
+                            <li><a href="#">网银支付币</a></li>
+                            <li><a href="#">支付平台</a></li>
+                            <li><a href="#">信用卡</a></li>
+                            <li><a href="#">同城生活金币</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>配送方式</span>
+                        <ul>
+                            <li><a href="#">配送服务</a></li>
+                            <li><a href="#">配送范围和运费</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>售后服务</span>
+                        <ul>
+                            <li><a href="#">退换货政策</a></li>
+                            <li><a href="#">退换货流程</a></li>
+                            <li><a href="#">退款方式和时效</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item end">
+                        <span>同城生活模式</span>
+                        <ul>
+                            <li><a href="#">聚合式品牌特卖</a></li>
+                            <li><a href="#">同城生活成长基金</a></li>
+                            <li><a href="#">推手规则</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+
+                    <a href="#">
+                        <img src="../../public/img/internetPolice.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/putOnRecord.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/internetBusiness.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/siteCredits.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/trusty.png" />
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        var global_setting = {};
+    </script>
+</body>
+</html>
