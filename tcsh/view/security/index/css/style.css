@@ -1,0 +1,13 @@
+﻿@CHARSET "UTF-8";
+.main_con .botred .box_head .linkitem{ color:#505050;font-family:SimSun;padding:0}
+.main_con .botred .box_head .curr { font-weight:700}
+.box_head em {font:12px/18px "Arial","sans-serif",HELVETICA;padding:0 10px }
+.security_server { width: 778px; margin: 0 auto; border: 1px solid #d3d3d3; margin-top:40px;border-bottom:0;font-family:SimSun;color:#535353}
+.security_server .textright { text-align:right}
+.security_server .pl20 { padding-left:20px}
+.security_server a { color: #4fa2d6;}
+.security_server th { padding: 15px 40px;text-align:left;background:#fff3e1;font-size:14px ;border-bottom:1px solid #d3d3d3}
+.security_server td { padding: 15px 15px 15px 0px; border-bottom:1px solid #d3d3d3}
+.security_server .remark { font-weight:500;padding-left:30px}
+.security_server .ui_btn .ui_btn_txt { letter-spacing:10px;padding-left:15px}
+

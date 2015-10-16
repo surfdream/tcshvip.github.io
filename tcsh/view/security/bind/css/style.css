@@ -1,0 +1,57 @@
+﻿@CHARSET "UTF-8";
+.head_con .wm_logo { padding: 48px 0 0 15px;}
+.head_con .t34 {padding-top:34px }
+.main_con .botred .box_head .linkitem{ color:#505050;font-family:SimSun;padding:0}
+.main_con .botred .box_head .curr { font-weight:700}
+.box_head em {font:12px/18px "Arial","sans-serif",HELVETICA;padding:0 10px }
+.main_con .red { color:#e13436}
+.main_con .fs14 { font-size:14px;font-family:SimSun}
+.main_con .pl95 { padding-left:95px} 
+.bind_phone_form { padding:25px}
+.bind_phone_form .form_row { padding:10px 0}
+.bind_phone_form .row_key { width:150px}
+.bind_phone_form .form_txt { margin-right:15px;padding:5px}
+.bind_phone_form .btns .ui_btn_txt { letter-spacing:10px;padding-left:15px}
+
+.bind_phone_success {padding-bottom:50px }
+.bind_phone_success h3 { padding:50px 0 10px 50px}
+.bind_phone_success h3 i { margin-right:20px}
+.bind_phone_success .remark {padding-left:95px;display:block;padding-bottom:10px}
+.bind_phone_success .remark a { color:#4fa2d6}
+
+.bind_mail_form { padding:25px}
+.bind_mail_form .form_row { padding:10px 0}
+.bind_mail_form .row_key { width:150px}
+.bind_mail_form .form_txt { padding:5px}
+.bind_mail_form .btns .ui_btn_txt { letter-spacing:10px;padding-left:15px}
+
+.bind_mail_success {padding-bottom:50px }
+.bind_mail_success h3 { padding:50px 0 10px 50px}
+.bind_mail_success h3 i { margin-right:20px}
+.bind_mail_success .remark { padding-left:95px;display:block;padding-bottom:10px}
+.bind_mail_success .remark a { color:#4fa2d6}
+.bind_mail_success .btns { padding:20px 0 0 95px}
+.bind_mail_success .btns .ui_btn_txt { }
+
+.pay_password { padding:25px}
+.pay_password .form_row { padding:10px 0;line-height:40px}
+.pay_password .row_key { width:150px;line-height:40px}
+.pay_password .form_txt { margin-right:15px;padding:10px;width:200px}
+.pay_password .getphonevc_box { margin-left:10px}
+.pay_password .btns .ui_btn_txt { letter-spacing:10px;padding-left:15px}
+
+.uppassmsg { }
+.uppassmsg .wmBox-botton, .err_box_msg .wmBox-botton { text-align: center!important; padding-bottom: 35px; }
+.uppassmsg .wmBox-botton .mrl, .err_box_msg .wmBox-botton .mrl { margin-left: 30px!important; margin-right: 30px!important; }
+.uppassmsg .wmBox-botton .ui_btn_txt { padding: 0 15px 0 20px; letter-spacing: 10px; }
+.uppassmsg .wmBox-botton .ui_btn_txt, .err_box_msg .wmBox-botton .mrl { font-size: 18px; }
+
+.bmsr .success_msg { border: 1px solid #f79326; width: 780px; margin: 0 auto; padding: 60px 0; text-align: center; font-size: 14px; }
+.bmsr .success_msg b { color: #e13436; font-weight: 500; }
+.bmsr .success_msg .wm_ico { margin: 0 10px; }
+
+.msg { }
+.msg .wmBox-botton, .err_box_msg .wmBox-botton { text-align: center!important; padding-bottom: 35px; }
+.msg .wmBox-botton .mrl, .err_box_msg .wmBox-botton .mrl { margin-left: 30px!important; margin-right: 30px!important; }
+.msg .wmBox-botton .ui_btn_txt { padding: 0 15px 0 20px; letter-spacing: 10px; }
+.msg .wmBox-botton .ui_btn_txt, .err_box_msg .wmBox-botton .mrl { font-size: 18px; }

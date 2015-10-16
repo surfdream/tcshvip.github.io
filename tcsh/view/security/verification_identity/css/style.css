@@ -1,0 +1,63 @@
+﻿@CHARSET "UTF-8";
+.head_top .head_top_bb1f { border-bottom: 1px solid #fff; }
+.head_top .link_list { float: right; height: 100%; position:relative;right:0}
+.head_top .link_list .link_item { float: right; }
+.head_top .link_list b { font-weight: 500; color: #e13436; padding: 0 5px; }
+.head_top .pull_btns { float: right; width: 80px; text-align: left; position: relative; margin: 0 1px; padding-left: 15px; }
+.head_top .pull_btns .idea { border: 1px solid #f7f5f0; display: block; float: left; width: 80px; border-top: 0; position: relative; }
+.head_top .pull_btns .pull_list { position: absolute; top: 0; left: 0; background: #fff; width: 80px; text-align: left; padding-left: 15px; display: none; border: 1px solid #eb6769; border-top: 0; padding-bottom: 5px; z-index: 3; }
+.head_top .pull_btns .p10 { padding: 0 10px; }
+.head_top .pull_btns .heart1, .head_top .pull_btns .social_icon, .head_top .pull_btns .wumeibang_ico { padding-right: 8px; }
+.head_top .pull_btns .heart1 { _position: absolute; left: 0; }
+.head_top .pull_btns .pull_list .heart1 { _position: relative; }
+.head_top .pull_btns:hover .pull_list, .head_top .pull_btns_hover .pull_list { display: block; _zoom: 1; }
+.head_top .w115 { width: 105px!important; }
+.head_top .followwm .idea { _padding-left: 24px; _width: 85px!important; }
+.head_top .followwm .pull_list li { _padding: 5px 0; }
+
+.head_top .pull_arrow { position: absolute; right: 15px; top: -4px; text-decoration: none; }
+.head_top .pull_arrow em, .head_top .pull_arrow span { font-family: Tahoma; font-style: normal; padding: 0; position: absolute; right: 0; width: auto; }
+.head_top .pull_arrow em { top: 0; color: #f7f5f0; z-index: 1; }
+.head_top .pull_arrow span { top: 2px; color: #787878; z-index: 0; }
+
+.head_top .pull_btns .pull_list .pull_arrow em { top: 6px; color: #fff; }
+.head_top .pull_btns .pull_list .pull_arrow span { top: 4px; }
+.sub_head_top .user_login a, .sub_head_top .user_data a { color: #b10000; }
+
+.head_sub .head_con { }
+.head_con .wm_logo { padding-top: 32px; }
+.title h3 { font-size: 22px; color: #999; padding: 14px 0 0 32px; line-height: 22px; }
+.pipes_box { width: 758px; margin: 0 auto; margin-top: 40px; }
+.verification_identity { }
+.verification_identity .red { color: #e13436; }
+.verification_identity .wm_form { padding: 40px 40px; position: relative; }
+.verification_identity .wm_form .form_row { padding: 10px 0; }
+.verification_identity .wm_form .form_txt { padding: 5px; }
+.verification_identity .wm_form .row_key { width: 180px; }
+.verification_identity .wm_form a { color: #4fa2d6; }
+.verification_identity .wm_form .btns .ui_btn_txt { padding: 0 15px 0 15px; letter-spacing: 5px; }
+.verification_identity .wm_form .form_head { border-bottom: 1px dotted #b4b4b4; margin-bottom: 30px; }
+.verification_identity .wm_form .remark { font-size: 12px; padding-left: 10px; }
+.verification_identity .wm_form .remark .wm_ico { margin: 0 5px 0 10px; }
+.verification_identity .customer_service { width: 730px; margin: 0 auto; padding: 40px; border: 1px solid #e4e4e4; background: #fff3cd; }
+.verification_identity .customer_service p { padding: 10px 0; }
+.verification_identity .customer_service a { display: inline-block; vertical-align: middle; margin-right: 10px; }
+.verification_identity .pw_format { position: absolute; top: 80px; left: 630px; font-size: 12px; }
+.verification_identity .pw_format li { list-style: decimal; padding-bottom: 10px; }
+.verification_identity .pw_format .sigh1 { position: absolute; left: -40px; top: 2px; }
+.verification_identity .success_msg { border: 1px solid #f79326; width: 780px; margin: 0 auto; padding: 60px 0; text-align: center; font-size: 14px; }
+.verification_identity .success_msg b { color: #e13436; font-weight: 500; }
+.verification_identity .success_msg .wm_ico { margin: 0 10px; }
+.verification_identity .security_server { width: 780px; margin: 0 auto; border: 1px solid #d3d3d3; margin-top: 40px; border-bottom: 0; font-family: SimSun; color: #535353; }
+.verification_identity .security_server .textright { text-align: right; }
+.verification_identity .security_server a { color: #4fa2d6; }
+.verification_identity .security_server th { padding: 15px 40px; text-align: left; background: #fff3e1; font-weight: 500; font-size: 14px; border-bottom: 1px solid #d3d3d3; }
+.verification_identity .security_server td { padding: 15px 40px; border-bottom: 1px solid #d3d3d3; }
+
+.msg { }
+.msg .wmBox-botton, .err_box_msg .wmBox-botton { text-align: center!important; padding-bottom: 35px; }
+.msg .wmBox-botton .mrl, .err_box_msg .wmBox-botton .mrl { margin-left: 30px!important; margin-right: 30px!important; }
+.msg .wmBox-botton .ui_btn_txt { padding: 0 15px 0 20px; letter-spacing: 10px; }
+.msg .wmBox-botton .ui_btn_txt, .err_box_msg .wmBox-botton .mrl { font-size: 18px; }
+
+.head_con .wm_logo a, .head_con .wm_logo a:link, .head_con .wm_logo a:active, .head_con .wm_logo a:visited, .head_con .wm_logo a:hover { float: left; padding: 0; overflow: hidden; display: block; height: inherit; width: inherit; background: none; _background: none; }
