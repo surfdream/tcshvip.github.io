@@ -1,0 +1,11 @@
+﻿@CHARSET "UTF-8";
+.qq_srever_box { padding-bottom: 15px; position: fixed; min-width: 110px; -moz-box-shadow: 0px 0px 8px #333333; -webkit-box-shadow: 0px 0px 8px #333333; box-shadow: 0px 0px 8px #333333; right: 35px; top: 200px; background: #fff; _display:none}
+.qq_srever_box .qq_srever_head { background: url('../img/qq_server_bg.png') 0 0; height: 43px; line-height: 43px; }
+.qq_srever_box .qq_srever_head h3 { color: #fff; font-size: 14px; padding-left: 14px; }
+.qq_srever_box .qq_srever_con { }
+.qq_srever_box .qq_list { padding: 10px 0 0 0; }
+.qq_srever_box .qq_list li { text-align: center; padding: 5px 0; }
+.qq_srever_box .qq_list li img { vertical-align: middle; }
+.qq_srever_box .link_phone { }
+.qq_srever_box .link_phone li { padding: 5px 0 5px 14px; color: #dd1717; font-size: 14px; font-family: SimSun; }
+.qq_srever_box .link_phone .title { padding: 10px 10px 10px 14px; color: #3f3f3f; }

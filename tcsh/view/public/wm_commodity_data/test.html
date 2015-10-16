@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title></title>
+
+    <script type="text/javascript" src="../../../model/lib/jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../../../view/public/wm_commodity_data' });
+            seajs.use('src/commodity_data.js', function (x) {
+                x.getSpecification(function (data) {
+                    $("body").append(this.$buy_attr_box);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+

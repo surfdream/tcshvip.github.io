@@ -1,0 +1,17 @@
+﻿@CHARSET "UTF-8";
+.complaintsBox { }
+.complaintsBox .complaints_con { padding: 0 10px; }
+.complaintsBox textarea { width: 410px; height: 150px; resize: none; padding: 5px; }
+.complaintsBox h3 { font-weight: 500; line-height: 26px; padding-bottom: 10px; }
+.complaintsBox .complaints_btns { text-align: center; padding-top: 10px; }
+.evaluate_box { }
+.evaluate_box .wmBox-content { margin:30px 40px!important}
+.evaluate_box .wmBox-botton { padding-bottom:10px}
+.evaluate_box .alink { background: none;padding-right:30px }
+.evaluate_box .ui_btn_h46red8 .ui_btn_txt { font-size: 18px; padding: 0 25px 0 30px; letter-spacing: 10px; }
+.evaluate_box .alink .ui_btn_txt { background: none; color: #666; }
+.evaluate_box label { width: 65px; display: block; float: left; text-align: right; padding-right: 5px; color: #323232; }
+.evaluate_box .inset_comment { padding: 20px 40px;  overflow: hidden; width: 560px; margin: 20px auto; }
+.evaluate_box .inset_comment li { overflow: hidden; margin-right: 10px; padding: 7px 0; }
+.evaluate_box .inset_comment .quality_remark { font-size: 14px; color: #c50303; }
+.evaluate_box .inset_comment textarea { resize: none; width: 450px; height: 150px; padding: 5px; }

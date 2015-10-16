@@ -1,0 +1,57 @@
+﻿@CHARSET "UTF-8";
+.wm_friends_box { }
+.wm_friends_box .freinds_search { margin: 20px 10px 0 20px; }
+.wm_friends_box .freinds_search label { font-size: 16px; color: #353535; font-family: "SimHei"; }
+.wm_friends_box .freinds_search .friends_txt { border: 1px solid #ccc; height: 16px; line-height: 16px; padding: 10px 5px; width: 490px; }
+.wm_friends_box .friends_list { padding: 20px 10px 0 10px; width: 575px; }
+.wm_friends_box .friends_list .friends_item, .wm_friends_box .friends_list .friends_item:link, .wm_friends_box .friends_list .friends_item:active, .wm_friends_box .friends_list .friends_item:visited { display: inline-block; width: 75px; text-align: center; color: #666666; margin: 0 20px 20px 20px; position: relative; }
+.wm_friends_box .friends_list .friends_item .user_name { display: inline-block; width: 75px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wm_friends_box .friends_list .friends_item .hook12 { position: absolute; top: 2px; right: 2px; display: none; }
+.wm_friends_box .friends_list .friends_item_click .hook12 { display: block; }
+.wm_friends_box .friends_list img { width: 73px; height: 73px; border: 1px solid #FFF; }
+.wm_friends_box .friends_list .friends_item:hover img, .wm_friends_box .friends_list .friends_item_click img { border: 1px solid #e9573f; }
+.wm_friends_box .friends_list .friends_item:hover { text-decoration: none; }
+
+.wm_friends_box .save_btns { text-align: right; margin-right: 20px; }
+.wm_friends_box .save_btns .sure_btn, .wm_friends_box .save_btns .sure_btn:link, .wm_friends_box .save_btns .sure_btn:active, .wm_friends_box .save_btns .sure_btn:visited { display: inline-block; border-radius: 4px; color: #FFF; background: #fc6e51; font-size: 14px; font-weight: 700; width: 80px; height: 35px; line-height: 35px; text-align: center; }
+.wm_friends_box .save_btns a:hover { text-decoration: none; }
+
+
+.focus,.focus:link,.focus:active,.focus:visited {  
+	background: #ff8967;
+	padding: 3px;
+	color: #FFF;
+	border-radius: 2px;  
+}
+.focus:hover{
+	text-decoration:none;
+}
+.del_focus,.del_focus:link,.del_focus:active,.del_focus:visited{
+	background:#c7c7c7;
+	color:#FFF;
+	padding: 3px;
+	border-radius: 2px;
+}
+.del_focus:hover{
+	text-decoration:none;
+}
+.friends_focus{
+	position:absolute;
+	right:8px;
+	top:8px;
+	padding: 3px;
+	color: #FFF;
+	border-radius: 2px;
+}
+.friends_focus:hover{
+	text-decoration:none;
+}
+
+.already_focus,.each_focus{
+	background:#c7c7c7;
+}
+.wm_page{
+	width:320px;
+	margin:0 auto;
+	color:#343434;
+}

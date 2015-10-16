@@ -1,0 +1,43 @@
+﻿@CHARSET "UTF-8";
+#points_promotion_box { font-family: SimSun; padding: 10px; }
+#points_promotion_box .wmBox-content { word-wrap: normal; }
+#points_promotion_box .points_promotion_main { width: 700px; background: #fdf5e6; overflow: hidden; position: relative; }
+#points_promotion_box .points_promotion_tab_key { border-left: 1px solid #eee2d7; overflow: hidden; background: #fff; height: 38px; z-index: 10; float: left; width: 100%; border-bottom: 1px solid #eee2d7; }
+#points_promotion_box .pptk_item { border: 1px solid #eee2d7; float: left; height: 37px; border-left: none; border-bottom: none; width: 60px; }
+#points_promotion_box .chked { border-bottom: 1px solid #fdf5e6; }
+#points_promotion_box .today { width: 100px; }
+#points_promotion_box .pptk_item a, #points_promotion_box .pptk_item a:link, #points_promotion_box .pptk_item a:active, #points_promotion_box .pptk_item a:visited { display: block; padding: 10px 0; width: 60px; text-align: center; }
+#points_promotion_box .pptk_item a:hover { background: #fdf5e6; color: #000000; text-decoration: none; font-weight: 700; }
+#points_promotion_box .today a, #points_promotion_box .today a:link, #points_promotion_box .today a:active, #points_promotion_box .today a:visited { width: 100px; }
+#points_promotion_box .chked a, #points_promotion_box .chked a:link, #points_promotion_box .chked a:active, #points_promotion_box .chked a:visited { position: absolute; top: 1px; z-index: 100; background: #fdf5e6; color: #000000; text-decoration: none; font-weight: 700; }
+#points_promotion_box .ppm_con { border: 1px solid #eee2d7; height: 240px;margin-top:-1px;_height:200px }
+#points_promotion_box .ppm_con .ppb_title { position: absolute; width: 102px; top: 66px; }
+#points_promotion_box .ppm_con .ppb_date_data, #points_promotion_box .ppm_con .beneficial { display: block; font-size: 14px; display: block; font-size: 12px; line-height: 51px; padding: 0 0 0 30px; color: #6d6d6d; }
+#points_promotion_box .ppm_con .ppb_month, #points_promotion_box .ppm_con .ppb_week { line-height: 22px; }
+#points_promotion_box .ppm_con .beneficial { width: 100px; font-weight: 700; line-height: 12px; padding-top: 20px; }
+#points_promotion_box .ppm_con .beneficial b { font-weight: 500; color: #5e9e0a; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: inline-block; width: 74px; vertical-align: top; }
+#points_promotion_box .ppm_con .ppb_day { font-size: 50px; font-weight: 700; font-family: 'Microsoft YaHei'; color: #eb0a0a; }
+#points_promotion_box .set_box { position: absolute; right: 60px; top: 10px; color: #787878; }
+#points_promotion_box #not_subscription { vertical-align: middle; margin: 0 5px; }
+#points_promotion_box .ppm_con_list { position: absolute; top: 60px; left: 166px; }
+#points_promotion_box .ppm_con_msg_list { }
+#points_promotion_box .ppm_con_msg_list li { background: url('../img/bg.png') 0 0 no-repeat; width: 160px; height: 160px; float: left; overflow: hidden; }
+#points_promotion_box .ppm_con_item { width:480px}
+#points_promotion_box .ppm_con_item .change_btn, #points_promotion_box .ppm_con_item .change_btn:link, #points_promotion_box .ppm_con_item .change_btn:active, #points_promotion_box .ppm_con_item .change_btn:visited { position: absolute; top:50px; font-size: 40px;line-height:46px }
+#points_promotion_box .ppm_con_item .change_btn:hover { text-decoration: none; }
+#points_promotion_box .ppm_con_item .prev { left: -50px; }
+#points_promotion_box .ppm_con_item .next { right: -38px; }
+#points_promotion_box .ppm_con_item_limit { width: 480px; height: 160px; overflow: hidden; position: relative; }
+#points_promotion_box .corner { width: 27px; height: 27px; position: absolute; left: 0; bottom: 0; background: url('../img/bg.png') 0 -160px; }
+#points_promotion_box .ppm_con_msg_item .ppm_con_msg_title { cursor: default; margin: 9px 24px 0 12px; border-bottom: 1px dashed #f3e0b9; padding-bottom: 2px; }
+#points_promotion_box .ppm_con_msg_item .ppm_con_msg_title .ppm_con_msg_title_txt { background: #f3e0b9; width: 110px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding: 4px 7px 0 8px; line-height: 30px; display: block; }
+#points_promotion_box .ppm_con_msg_item:hover .ppm_con_msg_title { border-bottom-color: #accf81; }
+#points_promotion_box .ppm_con_msg_item:hover .ppm_con_msg_title .ppm_con_msg_title_txt { background: #accf81; }
+#points_promotion_box .ppm_con_msg_item .data_time, #points_promotion_box .ppm_con_msg_item .get_name, #points_promotion_box .ppm_con_msg_item .get_sum { display: block; padding-left: 26px; color: #6e6d6d; }
+#points_promotion_box .ppm_con_msg_item .get_name { color: #535353; padding-top: 20px; }
+#points_promotion_box .ppm_con_msg_item .get_sum { color: #535353; overflow: hidden; padding-top: 5px; }
+#points_promotion_box .ppm_con_msg_item .get_sum b { color: #eb0a0a; font-size: 18px; font-family: 'Microsoft YaHei'; float: right; margin-right: 32px; }
+#points_promotion_box .ppm_con_msg_item .recommend_commodity { width: 110px; height: 110px; margin: 16px 0 0 20px; text-align: center; line-height: 110px; display: block; position: relative; }
+#points_promotion_box .ppm_con_msg_item .recommend_commodity img { display: inline-block; vertical-align: middle; max-width:100px;max-height:100px}
+#points_promotion_box .ppm_con_msg_item .recommend_commodity_name { filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background: rgba(000,000,000,0.5); position: absolute; bottom: 0; width: 100px; height: 22px; padding: 0 5px; line-height: 22px; color: #fff; left: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+#points_promotion_box .close { position: absolute; top: 5px; right: 5px; }

@@ -1,0 +1,17 @@
+﻿@CHARSET "UTF-8";
+.shareBox { }
+.shareBox .share_con { width: 190px; height: 370px;padding:0 20px }
+.shareBox .friendlist { height: 255px; overflow:auto;padding:10px 15px;border:1px solid #999;width:160px }
+.shareBox .friendlist li input, .shareBox .friendlist li label { display:inline-block;vertical-align:middle;}
+.shareBox .friendlist li input { margin-right:10px}
+.shareBox .friendlist li label { width:115px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+.shareBox .share_head { padding-bottom:5px}
+.shareBox .share_head span { display:inline-block;_float:left;_zoom:1;line-height:26px;font-size:14px;vertical-align:middle}
+.shareBox .share_head .right { float:right}
+.shareBox .share_head input, .shareBox .share_head label { display:inline-block;vertical-align:middle;font-size:14px;padding-left:5px}
+.shareBox .share_btns { text-align:center;padding:20px 0}
+.shareBox .share_btns .ui_btn_txt { font-size:14px}
+.shareBox .social_list { }
+.shareBox .social_list ul,.shareBox .social_list span { float:left}
+.shareBox .social_list li { float:left;padding:0 5px}
+.shareBox .social_list li .social_icon { vertical-align:top}

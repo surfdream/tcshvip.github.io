@@ -1,0 +1,226 @@
+@CHARSET "UTF-8";
+/* --小图标-- */
+.wm_ico { display: inline-block; vertical-align: middle; background: url('http://s.tcsh.me/tcsh/view/public/img/ico.png') 0 0 no-repeat; }
+/* --心形-- */
+.heart1 { background-position: 0 0; width: 16px; height: 14px; line-height: 20px; }
+.heart2 { background-position: right 0; width: 16px; height: 14px; line-height: 20px; }
+/* --三角形-- */
+.triangle1 { background-position: 0 -25px; width: 17px; height: 11px; }
+.triangle2 { background-position: 0 -290px; width: 10px; height: 10px; }
+.triangle3 { background-position: 0 -2020px; width: 12px; height: 12px; }
+.triangle4 { background-position: right -2020px; width: 12px; height: 12px; }
+.triangle5 { background-position: 0 -2040px; width: 12px; height: 12px; }
+.triangle6 { background-position: right -2040px; width: 12px; height: 12px; }
+
+/* --五角型-- */
+.pentagonal1 { background-position: 0 -330px; width: 22px; height: 22px; }
+
+
+/* --折角-- */
+.horn { background-position: 0 -2310px; width: 27px; height: 27px; }
+
+
+/* --放大镜-- */
+.magnifier1 { background-position: 0 -40px; width: 19px; height: 19px; }
+.magnifier2 { background-position: right -40px; width: 19px; height: 19px; }
+.magnifier3 { background-position: 0 -1990px; width: 19px; height: 19px; }
+.magnifier4 { background-position: right -1990px; width: 19px; height: 19px; }
+
+/* --虚线-- */
+.dashed1 { background-position: 0 -60px; width: 2px; height: 22px; }
+.dashed2 { background-position: -20px -60px; width: 2px; height: 17px; }
+
+/* --同城生活帮-- */
+.wumeibang_ico { background-position: 0 -90px; width: 18px; height: 18px; }
+.bang_ico { background-position: 0 -2840px; width: 23px; height: 23px; line-height: 23px; text-align: center; }
+
+/* --钟-- */
+.horometer1 { background-position: 0 -120px; width: 24px; height: 26px; }
+.horometer2 { background-position: 0 -200px; width: 17px; height: 21px; }
+
+/* --点-- */
+.point_white1 { background-position: 0 -160px; width: 10px; height: 10px; }
+.point_yellow1 { background-position: 0 -180px; width: 10px; height: 10px; }
+.point_red1 { background-position: 0 -260px; width: 18px; height: 18px; }
+.point_red2 { background-position: 0 -1510px; width: 28px; height: 28px; }
+.point_gray1 { background-position: 0 -1550px; width: 28px; height: 28px; }
+.point_yellow2 { background-position: 0 -1630px; width: 28px; height: 28px; }
+/* --箭头-- */
+.arrow1up { background-position: right -230px; width: 10px; height: 13px; }
+.arrow1down { background-position: left -230px; width: 10px; height: 13px; }
+
+.arrow2up { background-position: right -310px; width: 16px; height: 13px; }
+.arrow2down { background-position: left -310px; width: 16px; height: 13px; }
+
+.arrow2up_disabled { background-position: right -740px; width: 16px; height: 13px; }
+.arrow2down_disabled { background-position: left -740px; width: 16px; height: 13px; }
+
+.arrow3up { background-position: right -400px; width: 10px; height: 10px; }
+.arrow3down { background-position: left -400px; width: 10px; height: 10px; }
+
+.arrow4up { background-position: right -720px; width: 11px; height: 7px; }
+.arrow4down { background-position: left -720px; width: 11px; height: 7px; }
+
+.arrow5up { background-position: right -740px; width: 16px; height: 13px; }
+.arrow5down { background-position: left -740px; width: 16px; height: 13px; }
+
+.arrow6up { background-position: left -870px; width: 7px; height: 4px; }
+.arrow6down { background-position: right -870px; width: 7px; height: 4px; }
+
+.arrow7up { background-position: left -890px; width: 7px; height: 4px; }
+.arrow7down { background-position: right -890px; width: 7px; height: 4px; }
+
+.arrow8up { background-position: left -910px; width: 7px; height: 4px; }
+.arrow8down { background-position: right -910px; width: 7px; height: 4px; }
+
+.arrow9up { background-position: left -930px; width: 7px; height: 4px; }
+.arrow9down { background-position: right -930px; width: 7px; height: 4px; }
+
+.arrow10 { background-position: left -1010px; width: 12px; height: 45px; }
+.arrow11 { background-position: left -1060px; width: 12px; height: 45px; }
+
+.arrow12up { background-position: right -1120px; width: 10px; height: 13px; }
+.arrow12down { background-position: left -1120px; width: 10px; height: 13px; }
+
+.arrow13up { background-position: right -1150px; width: 8px; height: 8px; }
+.arrow13down { background-position: left -1150px; width: 8px; height: 8px; }
+
+.arrow14up { background-position: left -1210px; width: 40px; height: 12px; }
+.arrow14down { background-position: left -1170px; width: 40px; height: 12px; }
+.arrow14up:hover { background-position: left -1230px; }
+.arrow14down:hover { background-position: left -1190px; }
+
+.arrow15up { background-position: left -1230px; width: 40px; height: 12px; }
+.arrow15down { background-position: left -1190px; width: 40px; height: 12px; }
+
+.arrow16up { background-position: right -1330px; width: 18px; height: 18px; }
+.arrow16down { background-position: left -1330px; width: 18px; height: 18px; }
+.arrow16left { background-position: right -1300px; width: 18px; height: 18px; }
+.arrow16right { background-position: left -1300px; width: 18px; height: 18px; }
+
+.arrow17up { background-position: left -2060px; width: 10px; height: 10px; }
+.arrow17down { background-position: right -2060px; width: 10px; height: 10px; }
+
+.arrow18up { background-position: right -2080px; width: 13px; height: 13px; }
+.arrow18down { background-position: left -2080px; width: 13px; height: 13px; }
+
+.arrow19up { background-position: left -2110px; width: 15px; height: 15px; }
+.arrow19down { background-position: right -2110px; width: 15px; height: 15px; }
+.arrow19left { background-position: right -2130px; width: 15px; height: 15px; }
+.arrow19right { background-position: left -2130px; width: 15px; height: 15px; }
+.arrow20grey:hover { background-position: left -2400px; width: 10px; height: 10px; }
+.arrow20grey:visited { background-position: right -2400px; width: 10px; height: 10px; }
+
+/* --水滴型-- */
+.drop1 { background-position: 0 -360px; width: 17px; height: 27px; }
+
+/* --勾，叉，编辑-- */
+.hook1 { background-position: 0 -490px; width: 21px; height: 21px; }
+.hook1:hover { background-position: 0 -460px; }
+.hook2 { background-position: 0 -640px; width: 16px; height: 16px; }
+.hook3 { background-position: 0 -760px; width: 12px; height: 12px; }
+.hook4 { background-position: 0 -960px; width: 40px; height: 40px; }
+.hook5 { background-position: 0 -1260px; width: 25px; height: 25px; }
+.hook6 { background-position: 0 -1600px; width: 18px; height: 18px; }
+.hook7 { background-position: 0 -1740px; width: 16px; height: 15px; }
+.hook8 { background-position: 0 -1850px; width: 31px; height: 31px; }
+.hook9 { background-position: 0 -2190px; width: 30px; height: 30px; }
+.hook10 { background-position: 0 -2370px; width: 24px; height: 24px; }
+.hook10:hover { background-position: 0 -2340px; }
+.hook11{background-position: 0 -2910px; width:18px; height:18px;}
+.hook12,.hook11:hover{background-position: right -2910px;width:18px; height:18px;}
+.hook13 { background-position: 0 -2940px; width: 30px; height: 30px; }
+.hook13:hover {background-position: 0 -2190px; width: 30px; height: 30px;  }
+
+.fork1 { background-position: 0 -550px; width: 21px; height: 21px; }
+.fork1:hover { background-position: 0 -520px; }
+.fork2 { background-position: right -640px; width: 16px; height: 16px; }
+.fork3 { background-position: 0 -660px; width: 16px; height: 16px; }
+.fork4 { background-position: right -660px; width: 16px; height: 16px; }
+.fork5 { background-position: 0 -1940px; width: 17px; height: 17px; }
+.fork5:hover { background-position: 0 -1960px; }
+.fork6 { background-position: 0 -1960px; width: 17px; height: 17px; }
+.fork7 { background-position: 0 -2230px; width: 36px; height: 36px; }
+.fork7:hover { background-position: 0 -2270px; }
+.fork8 { background-position: 0 -2570px; width: 6px; height: 6px; }
+.fork8:hover { background-position: 0 -2590px; width: 12px; height: 12px; }
+.fork9 { background-position: right -2570px; width: 6px; height: 6px; }
+.fork9:hover { background-position: right -2590px; width: 12px; height: 12px; }
+
+.pen1 { background-position: 0 -610px; width: 21px; height: 21px; }
+.pen1:hover { background-position: 0 -580px; }
+.pen2 { background-position: 0 -690px; width: 15px; height: 19px; }
+.pen2:hover { background-position: right -690px; }
+
+/* --灯泡-- */
+.bulb1 { background-position: 0 -840px; width: 16px; height: 16px; }
+/* --遮罩-- */
+.mask1 { background-position: 0 -790px; height: 40px; width: 40px; }
+
+.loading18_18_1 { background: url('http://s.tcsh.me/tcsh/view/public/img/loading/loading18_18_1.gif') 0 0 no-repeat; width: 18px; height: 18px; display: inline-block; vertical-align: middle; }
+.loading32_32_1 { background: url('http://s.tcsh.me/tcsh/view/public/img/loading/loading18_18_1.gif') 0 0 no-repeat; width: 32px; height: 32px; display: inline-block; vertical-align: middle; }
+/* --感叹号-- */
+.sigh1 { background-position: 0 -1670px; width: 14px; height: 14px; }
+.sigh2 { background-position: 0 -1770px; width: 31px; height: 31px; }
+
+/* --问号-- */
+.ask1 { background-position: 0 -1810px; width: 31px; height: 31px; }
+/* --显示列表-- */
+.show_list_1 { background-position: 0 -1700px; width: 19px; height: 17px; }
+/* --显示全部-- */
+.show_all_1 { background-position: 0 -1720px; width: 19px; height: 17px; }
+/* --禁止-- */
+.ban1 { background-position: 0 -1890px; width: 31px; height: 31px; }
+
+/* --16*16社交类icon-- */
+.social_icon { display: inline-block; width: 16px; height: 16px; background: url('http://s.tcsh.me/tcsh/view/public/img/social_icon.png') 0 0 no-repeat; vertical-align: middle; }
+.tx_qq { background-position: 0 0; }
+.tx_wb { background-position: 0 -60px; }
+.tx_wb32_32 { background: url('http://s.tcsh.me/tcsh/view/public/img/ico.png') 0 -1420px no-repeat; width: 32px; height: 32px; }
+.tx_wb_notactive { background-position: 0 -80px; }
+.tx_qzone { background-position: 0 -340px; }
+.tx_qzone32_32 { background: url('http://s.tcsh.me/tcsh/view/public/img/ico.png') 0 -1460px no-repeat; width: 32px; height: 32px; }
+.tx_qzone_notactive { background-position: 0 -360px; }
+.tx_wx { background-position: 0 -570px; }
+.sina { background-position: 0 -180px; }
+.sina_wb { background-position: 0 -30px; }
+.sina_wb32_32 { background: url('http://s.tcsh.me/tcsh/view/public/img/ico.png') 0 -1380px no-repeat; width: 32px; height: 32px; }
+.sina_wb2 { background-position: 0 -380px; }
+.sina_wb2_notactive { background-position: 0 -400px; }
+.renren { background-position: 0 -420px; }
+.renren_notactive { background-position: 0 -440px; }
+.paypal { background-position: 0 -120px; }
+.netease { background-position: 0 -140px; }
+.baidu_tieba { background-position: 0 -510px; }
+.mop { background-position: 0 -530px; }
+.i139 { background-position: 0 -200px; }
+.boc { background-position: 0 -220px; }
+.ccb { background-position: 0 -250px; }
+.tianya { background-position: 0 -280px; }
+.kaixin { background-position: 0 -310px; }
+.kaixin2 { background-position: 0 -470px; }
+.kaixin2_notactive { background-position: 0 -490px; }
+.douban { background-position: 0 -550px; }
+.pengyou { background-position: 0 -590px; }
+.wumeibang { background-position: 0 -610px; }
+.close_ico { background: url('http://s.tcsh.me/tcsh/view/public/img/closes.png') 0 0 no-repeat; display: inline-block; vertical-align: middle; }
+.close_80_80_1 { background-position: 0 -100px; width: 80px; height: 80px; }
+.close_80_80_1:hover { background-position: 0 0; }
+
+.go_top, .go_top:link, .go_top:active, .go_top:visited { height: 0; padding-top: 70px; overflow: hidden; background: url('http://s.tcsh.me/tcsh/view/public/img/go_top.png') 0 0 no-repeat; width: 50px; display: block; position: fixed; top: 100px; right: 50px; text-decoration: none; _position: absolute; z-index: 500; }
+.go_top:hover { background-position: 0 -70px; }
+
+.admin { background-position: 0 -2420px; width: 18px; height: 52px; }
+
+.good_ico{background-position: 0 -2870px; width: 28px; height: 29px; line-height:25px;text-align:center;}
+
+/* 垃圾桶 */
+.trash { background-position: 0 -2610px; width: 15px; height: 20px; vertical-align: text-bottom; }
+.trash:hover { background-position: right -2650px; width: 15px; height: 20px; }
+/*屏蔽*/
+.shield { background-position: 0 -2650px; width: 12px; height: 12px; }
+.infor_item_conCur .shield, .shield_red { background-position: right -2650px; width: 12px; height: 12px; }
+
+/* --礼包-- */
+.packs { display: inline-block; vertical-align: middle; background: url('http://s.tcsh.me/tcsh/view/public/img/packs.png') 0 0 no-repeat; }
+.packs_130_130_1 { width: 130px; height: 130px; background-position: 0 0; }

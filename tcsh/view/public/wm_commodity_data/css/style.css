@@ -1,0 +1,13 @@
+﻿@CHARSET "UTF-8";
+.options_box { _padding-bottom: 30px; }
+.options_box img { width: 25px; height: 25px; margin: 3px; }
+.options_box li { overflow: hidden; _zoom: 1; }
+.options_box li label { line-height: 40px; text-align: left; }
+.options_box .options_list { overflow: hidden; _display: inline; _zoom: 1; _position: relative; }
+.options_box .options_list li { float: left; *float: none; margin: 0 5px 5px 0; padding: 1px; display: inline; zoom: 1; }
+.options_box .options_list li a, .options_box .options_list li a:link, .options_box .options_list li a:visited, .options_box .options_list li a:active { position: relative; display: inline; float: left; height: 31px; text-decoration: none; text-align: center; line-height: 31px; padding: 0 12px; border: 1px solid #b8b7bd; white-space: nowrap; margin: 0; outline: none; }
+.options_box .options_list li a .wm_ico { position: absolute; right: -2px; bottom: -2px; display: none; _zoom: 1; }
+.options_box .options_list li .disabled, .options_box .options_list li .disabled:hover { border: 1px #ccc dashed!important; cursor: not-allowed; margin: 0!important; color: #bbb; }
+.options_box .options_list li .disabled .disabled_mask { display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+.options_box .options_list li .curr .hook3 { display: block; }
+.options_box .options_list li a:hover, .options_box .options_list li a.curr { border: 2px solid #c50303!important; margin: -1px!important; _zoom: 1; }

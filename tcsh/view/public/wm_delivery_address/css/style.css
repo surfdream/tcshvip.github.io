@@ -1,0 +1,9 @@
+﻿@CHARSET "UTF-8";
+.ad_box { }
+.ad_box .plr10 { padding-left: 10px; padding-right: 10px; }
+.ad_box .wm_form { padding-right: 50px; font-size: 12px; }
+.ad_box .wm_form .row_key { width: 126px; font-size: 12px; }
+.ad_box .wm_form .form_sel { margin-right: 10px; }
+.ad_box .wm_form .w440 { width: 426px; }
+.ad_box .wm_form .ui_btn { margin-right: 20px; }
+.ad_box .wm_form .ui_btn_txt { font-size: 18px; padding: 0 30px 0 25px; font-family: 'Microsoft YaHei'; }

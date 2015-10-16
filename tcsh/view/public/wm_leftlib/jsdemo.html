@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??ago/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css,ago/public/wm_block/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/jquery/jquery-1.8.3.min.js"></script>
+</head>
+<body style="height:10000000px">
+    <div style="width: 200px; margin: 10px auto">
+        <input type="button" id="x1" value="买家用户" />
+        <input type="button" id="x2" value="卖家用户" />
+        <a href="http://www.tcsh.me/Login" target="_blank">登录</a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+
+            seajs.config({ base: 'http://s.tcsh.me/tcsh/' });
+            seajs.use('view/public/wm_leftlib/src/leftlib.js');
+            seajs.use('model/lib/dist/lib.js', function (lib) {
+                $("#x1").click(function () {
+                    lib.cookie('wm.user.data', 1);
+                    window.location.reload();
+                });
+                $("#x2").click(function () {
+                    lib.cookie('wm.user.data', 2);
+                    window.location.reload();
+                });
+            });
+
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+﻿@CHARSET "UTF-8";
+.bank_logo { width:140px;height:21px;background: url(../img/bank.png) 0 0 no-repeat; display: inline-block; vertical-align: middle; }
+.pay_platform { width:140px;height:38px;background: url(../img/bank.png) 0 0 no-repeat; display: inline-block; vertical-align: middle; }
+/* -- 工商银行-- */
+.ICBC { background-position: 0 0; }
+/* -- 招商银行-- */
+.CMB {  background-position: 0 -40px; }
+/* -- 中国银行-- */
+.BOC {background-position: 0 -80px; }
+/* -- 农业银行-- */
+.ABC {  background-position: 0 -120px; }
+/* -- 建设银行-- */
+.CCB {  background-position: 0 -160px; }
+/* -- 交通银行-- */
+.COMM {  background-position: 0 -280px; }
+
+
+
+
+
+
+/* -- 支付宝 -- */
+.Alipay { background-position:0 -740px}
+/* -- 财付通 -- */
+.Tenpay { background-position:0 -780px}
+/* -- 在线支付 -- */
+.Nnionpay { background-position:0 -830px}
+/* -- 微信支付 -- */
+.WXpay { background-position:0 -880px}
+/* -- 手机支付 -- */
+.Cmpay10086 { background-position:0 -920px}
+/* -- 快钱 -- */
+.Bill { background-position:0 -970px}
+/* -- 翼支付 -- */
+.Bestpay { background-position: 0 -1010px}
+

@@ -1,0 +1,57 @@
+﻿@CHARSET "UTF-8";
+.pipes2 .pipes { background: url('../img/pipes2.png') -65px 0 repeat-x; width: 30px; height: 31px; display: block; position: relative; margin: 0 2px; }
+.pipes2 .con1 { width: 190px; }
+.pipes2 .con2 { width: 350px; }
+.pipes2 .con3 { width: 510px; }
+.pipes2 .con4 { width: 670px; }
+.pipes2 .pipes_start { background: url('../img/pipes2.png') 0 -40px no-repeat; display: block; position: absolute; top: 0; left: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes2 .pipes_end { background: url('../img/pipes2.png') right -40px no-repeat; display: block; position: absolute; top: 0; right: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes2 .i_1, .pipes2 .i_2, .pipes2 .i_3, .pipes2 .i_4, .pipes2 .i_5, .pipes2 .i_6 { position: absolute; top: 6px; left: 0; display: block; width: 20px; height: 20px; line-height: 20px; font-size: 18px; color: #fff; font-weight: 500; font-family: 'Microsoft YaHei'; z-index: 2; }
+.pipes2 .i_1 { left: 10px; }
+.pipes2 .i_2 { left: 170px; }
+.pipes2 .i_3 { left: 330px; }
+.pipes2 .i_4 { left: 490px; }
+.pipes2 .i_5 { left: 650px; }
+.pipes2 .pipes_content { background: url('../img/pipes2.png') -69px -90px repeat-x; width: 23px; height: 31px; display: block; position: absolute; z-index: 2; margin: 0 0 0 4px; }
+.pipes2 .len1 { width: 183px; }
+.pipes2 .len2 { width: 343px; }
+.pipes2 .len3 { width: 503px; }
+.pipes2 .len4 { width: 663px; }
+.pipes2 .len5 { width: 823px; }
+.pipes2 .len6 { width: 983px; }
+.pipes2 .pipes_content .pipes_start { background: url('../img/pipes2.png') 0 -130px no-repeat; display: block; position: absolute; top: 0; left: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes2 .pipes_content .pipes_end { background: url('../img/pipes2.png') right -130px no-repeat; display: block; position: absolute; top: 0; right: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes2 .pipes_content .i_1, .pipes2 .pipes_content .i_2, .pipes2 .pipes_content .i_3, .pipes2 .pipes_content .i_4, .pipes2 .pipes_content .i_5, .pipes2 .pipes_content .i_6 { position: absolute; top: 6px; left: 0; display: block; width: 20px; height: 20px; line-height: 20px; font-size: 18px; color: #fff; font-weight: 500; font-family: 'Microsoft YaHei'; z-index: 2; }
+.pipes2 .pipes_content .i_1 { left: 6px; }
+.pipes2 .pipes_content .i_2 { left: 166px; }
+.pipes2 .pipes_content .i_3 { left: 326px; }
+.pipes2 .pipes_content .i_4 { left: 486px; }
+.pipes2 .pipes_content .i_5 { left: 646px; }
+.pipes2 .p_index .up_msg { color: #535353; font-weight: 700; position: absolute; display: block; top: -30px; font-size: 12px; font-family: simsun; white-space: nowrap; width: 110px; text-align: center; margin-left: -50px; }
+.pipes2 .p_index .down_msg { color: #535353; position: absolute; display: block; top: 35px; font-size: 12px; font-family: simsun;width: 80px; text-align: center; margin-left: -40px; }
+
+.pipes3 .pipes{ background: url('../img/pipes3.png') -110px 0 repeat-x; width: 30px; height: 31px; display: block; position: relative; margin: 0 2px; }
+.pipes3 .con1 { width: 280px; }
+.pipes3 .con2 { width: 532px; }
+.pipes3 .con3 { width: 780px; }
+.pipes3 .pipes_start { background: url('../img/pipes3.png') 0 -40px no-repeat; display: block; position: absolute; top: 0; left: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes3 .pipes_end { background: url('../img/pipes3.png') right -40px no-repeat; display: block; position: absolute; top: 0; right: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes3 .i_1, .pipes3 .i_2, .pipes3 .i_3, .pipes3 .i_4, .pipes3 .i_5, .pipes3 .i_6 { position: absolute; top: 6px; left: 0; display: block; width: 20px; height: 20px; line-height: 20px; font-size: 18px; color: #fff; font-weight: 500; font-family: 'Microsoft YaHei'; z-index: 2; }
+.pipes3 .i_1 { left: 10px; }
+.pipes3 .i_2 { left: 260px; }
+.pipes3 .i_3 { left: 510px; }
+.pipes3 .i_4 { left:760px; }
+.pipes3 .pipes_content { background: url('../img/pipes3.png') -114px -90px repeat-x; width: 23px; height: 31px; display: block; position: absolute; z-index: 2; margin: 0 0 0 4px; }
+.pipes3 .len1 { width: 24px; }
+.pipes3 .len2 { width: 274px; }
+.pipes3 .len3 { width: 524px; }
+.pipes3 .len4 { width: 774px; }
+.pipes3 .pipes_content .pipes_start { background: url('../img/pipes3.png') 0 -130px no-repeat; display: block; position: absolute; top: 0; left: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes3 .pipes_content .pipes_end { background: url('../img/pipes3.png') right -130px no-repeat; display: block; position: absolute; top: 0; right: -1px; width: 31px; height: 31px; z-index: 1; }
+.pipes3 .pipes_content .i_1, .pipes3 .pipes_content .i_2, .pipes3 .pipes_content .i_3, .pipes3 .pipes_content .i_4, .pipes3 .pipes_content .i_5, .pipes3 .pipes_content .i_6 { position: absolute; top: 6px; left: 0; display: block; width: 20px; height: 20px; line-height: 20px; font-size: 18px; color: #fff; font-weight: 500; font-family: 'Microsoft YaHei'; z-index: 2; }
+.pipes3 .pipes_content .i_1 { left: 6px; }
+.pipes3 .pipes_content .i_2 { left: 256px; }
+.pipes3 .pipes_content .i_3 { left: 506px; }
+.pipes3 .pipes_content .i_4 { left: 756px; }
+.pipes3 .p_index .up_msg { color: #535353; font-weight: 700; position: absolute; display: block; top: -30px; font-size: 12px; font-family: simsun; white-space: nowrap; width: 110px; text-align: center; margin-left: -50px; }
+.pipes3 .p_index .down_msg { color: #535353; position: absolute; display: block; top: 35px; font-size: 12px; font-family: simsun;width: 80px; text-align: center; margin-left: -40px; }

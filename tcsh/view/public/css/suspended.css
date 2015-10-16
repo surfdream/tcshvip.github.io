@@ -1,0 +1,3 @@
+﻿@CHARSET "UTF-8";
+.hammer_up { display:block;width:100px;height:100px;background:url(../img/hammer_up.png) 0 0 no-repeat;position:fixed;_position:absolute;bottom:20px;right:20px}
+.hammer_up:hover { background:url(../img/hammer_down.png) 0 0 no-repeat}
