@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>个人首页</title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??crowd/ago/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css,public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/crowd/ago/crowd_base/config.js" data-init="create_crowd"></script>
+
+    <script type="text/javascript">
+        var global_setting = {}
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top"></div>
+            <div class="sns_head">
+                <ul class="sns_head_con clearfix">
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item"><b class="">我的互动</b></a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">首页</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的生态圈</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">账户管理</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的主页</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">进击的社长</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main clearfix">
+            <div class="main_con clearfix">
+                <div class="create_crowd">
+                    <div class="create_head">
+                        <h3>申请创建社团</h3>
+                        <span class="remark">公社是一个网购联盟式的共同体，网站将协助你一起打造电商和SNS领域最出色的的微购物社交圈</span>
+                    </div>
+                    <ul class="wm_form">
+                        <li class="form_row">
+                            <label class="row_key"><b class="form_must">*</b>公社名称：</label>
+                            <input type="text" class="form_txt crowd_name" wmv="empty" wmvmsg="请填写公社名称！" />
+                        </li>
+                        <li class="form_row">
+                            <label class="row_key"><b class="form_must">*</b>社团类型：</label>
+                            <div class="chk_type_box" wmv="crowd_type" wmvmsg="请选择社团类型！">
+                                <span class="title_box"></span><span class="ui_btn ui_btn_h24green4 select_btn"><span class="ui_btn_txt">选择</span></span>
+                            </div>
+                        </li>
+                        <li class="form_row supporting">
+                            <label class="row_key">&nbsp;</label>
+                            <p class="supporting_main"></p>
+                        </li>
+                        <li class="form_row">
+                            <label class="row_key"><b class="form_must">*</b>社团徽章：</label>
+                            <div class="floatleft group_face" wmv="crowd_face" wmvmsg="请设置社团徽章！">
+                                <span class="iconfont">&#xf00f7;</span>
+                                <span class="remark">点击编辑</span>
+                                <img class="group_face_img" src="http://s.tcsh.me/tcsh/view/public/img/pit.png" />
+                            </div>
+                        </li>
+                        <li class="form_row">
+                            <label class="row_key">社团介绍：</label>
+                            <textarea class="form_textarea introduction"></textarea>
+                        </li>
+                        <li class="form_row">
+                            <label class="row_key">社团标签：</label>
+                            <ul class="floatleft tag_list">
+                                <li class="tag_btn">
+                                    <a href="#" class="ui_btn ui_btn_h22white7 create_tag"><span class="ui_btn_txt">自动获取</span></a>
+                                </li>
+                                <li class="custom_tag">
+                                    <input type="text" class="form_txt custom_tag_val" />
+                                    <a href="#" class="ui_btn ui_btn_h22white7 add_custom_tag"><span class="ui_btn_txt">添加</span></a>
+                                    <span class="form_remark">标签字数限制：2~8个</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="form_row">
+                            <label class="row_key">邀请好友：</label>
+                            <ul class="floatleft friend_list">
+                                <li class="friend_btn">
+                                    <a href="#" class="ui_btn ui_btn_h22white7 friend_box"><span class="ui_btn_txt">邀请好友</span></a>
+                                </li>
+                                <li class="stranger">
+                                    <input type="text" class="form_txt stranger_val" />
+                                    <a href="#" class="ui_btn ui_btn_h22white7 add_stranger"><span class="ui_btn_txt">添加</span></a>
+                                    <span class="form_remark">输入好友用户名，发出邀请</span>
+                                </li>
+                            </ul>  
+                        </li>
+                        <li class="form_row">
+                            <label class="row_key">&nbsp;</label>
+                            <a href="#" class="ui_btn ui_btn_h47yellow14 submit"><span class="ui_btn_txt">创建</span></a>
+                        </li>
+                    </ul>
+                    <div class="description">
+                        <h3>注册须知</h3>
+                        <p>创建公社必须在10天内加入6人（包括帮助）以上，如果没有6个人，那么你的公社将会被隐藏，直到达到6个社员的标准。</p>
+                        <p>注册成功后你的公社将会在网站首页弹窗提示同城生活所有用户，敦促用户加入。</p>
+                        <h3>作为社长，你还享有以下权利与福利：</h3>
+                        <p>1.管理社员的权利。你可以将你的社员屏蔽、逐出门墙以及列入黑名单。</p>
+                        <p>2.你可以通过QQ、邮件、联系电话等通信方式提醒你的受邀人接受你的邀请。</p>
+                        <p>3.推荐商品的权利。你可以将卖家推送到你公社中的商品进行重点推荐。</p>
+                        <p>4.优秀的社长将会纳入同城生活股权分享计划，持股期满享有出售所持股票的权利。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <div class="footer">
+            <p class="about"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">品牌入驻</a>|<a href="#">隐私条款</a>|<a href="#">网站地图</a>|<a href="#">友情链接</a>|<a href="#">用户体验提升计划</a></p>
+            <p>经营性网站备案号：浙ICP备11009382号   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+            <a href="#">
+                <img src="../../public/img/internetPolice.png" /></a><a href="#"><img src="../../public/img/putOnRecord.png" /></a><a href="#"><img src="../../public/img/internetBusiness.png" /></a><a href="#"><img src="../../public/img/siteCredits.png" /></a><a href="#"><img src="../../public/img/trusty.png" /></a>
+        </div>
+
+    </div>
+
+</body>
+</html>

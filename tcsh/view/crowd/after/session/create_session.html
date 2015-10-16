@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>个人首页</title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??crowd/after/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css,public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/crowd/after/session/config.js" data-init="create_session"></script>
+
+    <script type="text/javascript">
+        var global_setting = {}
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top"></div>
+            <div class="sns_head">
+                <ul class="sns_head_con clearfix">
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item"><b class="">我的互动</b></a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">首页</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的生态圈</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">账户管理</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的主页</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">进击的社长</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main clearfix">
+            <div class="main_nav">
+                <dl>
+                    <dt><i class="iconfont">&#xe628;</i>管理公社</dt>
+                    <dd><a href="#">成员管理</a></dd>
+                    <dd><a href="#">黑名单</a></dd>
+                    <dd><a href="#">商品推荐</a></dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont">&#xe628;</i>发起活动</dt>
+
+                </dl>
+                <dl>
+                    <dt><i class="iconfont">&#xe628;</i>活动管理</dt>
+                    <dd><a href="#">活动明细</a></dd>
+                    <dd><a href="#">江湖令</a></dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd><a href="#">基本设置</a></dd>
+                    <dd><a href="#">解散公社</a></dd>
+                    <dd><a href="#">转让公社</a></dd>
+                </dl>
+            </div>
+            <div class="main_con clearfix">
+                <div class="session_box">
+                    <div class="session_head">
+                        <h3>发起专场</h3>
+                    </div>
+                    <div class="session_main">
+                        <div class="msg">
+                            <p>专场说明：</p>
+                            <p>互动专场是由消费者发起的以某一类或者某几类商品为主，追逐市场热点和季节性消费热点的自由卖场。报名参加该卖场的卖家在该卖场成交之后须根据下列扣点协议将有关款项支付给卖场发起者。卖场在下列约定的时间到期后自动解散，成交扣点在下个月的30日之前结算。请注意，你发起的卖场在10款不同商品报名的情况下才能成立</p>
+                        </div>
+                        <ul class="wm_form">
+                            <li class="form_row">
+                                <label class="row_key"><b class="form_must">*</b>专场名称：</label>
+                                <input type="text" class="form_txt w300" />
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key"><b class="form_must">*</b>专场标示：</label>
+                                <span class="img_bg"><span class="mark">+</span><b class="remark">支持：.png .jpg .gif </b>
+                                    <img src="http://s.tcsh.me/tcsh/view/public/img/pit.png" /><input type="file" class="form_file" /></span>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key"><b class="form_must">*</b>专场描述：</label>
+                                <textarea class="form_textarea w500 description"></textarea>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key"><b class="form_must">*</b>商品类型：</label>
+                                <div class="floatleft type_list_box">
+                                    <ul class="type_list">
+                                        <!--<li class="type_item">
+                                            <div class="select_box"><span class="type_name"></span></div>
+                                            <div class="rebates_box">
+                                                扣点：<input type="text" class="form_txt rebates_txt w30" />%
+                                            </div>
+                                            <a href="#" class="iconfont remove_item">&#xf00b3;</a>
+                                        </li>
+                                        <li class="type_item">
+                                            <div class="select_box"><span class="type_name"></span></div>
+                                            <div class="rebates_box">
+                                                扣点：<input type="text" class="form_txt rebates_txt w30" />%
+                                            </div>
+                                            <a href="#" class="iconfont remove_item">&#xf00b3;</a>
+                                        </li>
+                                        <li class="type_item">
+                                            <div class="select_box"><span class="type_name"></span></div>
+                                            <div class="rebates_box">
+                                                扣点：<input type="text" class="form_txt rebates_txt w30" />%
+                                            </div>
+                                            <a href="#" class="iconfont remove_item">&#xf00b3;</a>
+                                        </li>
+                                        <li class="type_item">
+                                            <div class="select_box"><span class="type_name"></span></div>
+                                            <div class="rebates_box">
+                                                扣点：<input type="text" class="form_txt rebates_txt w30" />%
+                                            </div>
+                                            <a href="#" class="iconfont remove_item">&#xf00b3;</a>
+                                        </li>-->
+                                        <li class="btns">
+                                            <a href="#" class="add_type">+添加新类别</a><a href="#" class="set_rebates">批量设置扣点</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key"><b class="form_must">*</b>特卖时间：</label>
+                                <div class="floatleft">
+                                    <input type="text" class="form_txt w100 show_date s_date" />至<input type="text" class="form_txt w100 show_date e_date" />
+                                </div>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">邀请商家：</label>
+                                <input type="hidden" id="get_business_val" />
+                                <div class="floatleft">
+                                    <ul class="business_list clearfix">
+                                        
+                                    </ul>
+                                    <a href="#" class="ui_btn ui_btn_h26white6 chk_business"><span class="ui_btn_txt">选择商家</span></a>
+                                </div>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">&nbsp;</label>
+                                <div class="floatleft">
+                                    <a href="#" class="ui_btn ui_btn_h47yellow14 submit"><span class="ui_btn_txt">发起</span></a>
+                                    <a href="#" target="_blank" class="agreement"><span class="iconfont">&#xe629;</span>我已经详细阅读《互动专场合作协议》</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <div class="footer">
+            <p class="about"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">品牌入驻</a>|<a href="#">隐私条款</a>|<a href="#">网站地图</a>|<a href="#">友情链接</a>|<a href="#">用户体验提升计划</a></p>
+            <p>经营性网站备案号：浙ICP备11009382号   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+            <a href="#">
+                <img src="../../public/img/internetPolice.png" /></a><a href="#"><img src="../../public/img/putOnRecord.png" /></a><a href="#"><img src="../../public/img/internetBusiness.png" /></a><a href="#"><img src="../../public/img/siteCredits.png" /></a><a href="#"><img src="../../public/img/trusty.png" /></a>
+        </div>
+    </div>
+</body>
+</html>

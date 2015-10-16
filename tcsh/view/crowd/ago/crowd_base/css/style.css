@@ -1,0 +1,72 @@
+﻿.main_con { background: #fff; width: 1190px; margin: 0 auto; float: none; padding: 0; }
+
+.create_head { overflow: hidden; float: left; padding: 40px 20px; }
+.create_head h3 { float: left; font-size: 16px; font-family: 'Microsoft YaHei'; color: #313131; margin-right: 20px; }
+.create_head .remark { font-size: 12px; color: #999; }
+
+.create_crowd { position: relative; }
+.ui_btn .ui_btn_txt { white-space: nowrap; }
+.create_crowd .wm_form .form_txt { padding: 6px; }
+.create_crowd .wm_form .form_row { padding: 16px 0; }
+.create_crowd .wm_form .supporting { padding-top: 0; margin-top: -10px; }
+.create_crowd .wm_form .supporting .supporting_main { float: left; font-size: 12px; }
+.create_crowd .wm_form .row_key { width: 150px; }
+.create_crowd .chk_type_box { float: left; width: 234px; cursor: pointer; }
+.create_crowd .chk_type_box .title_box { width: 154px; display: block; height: 20px; padding: 4px; border: 1px solid #ccc; float: left; margin-right: 10px; }
+.create_crowd .chk_type_box .select_btn { float: left; margin-top: 4px; }
+.create_crowd .tag_list, .create_crowd .friend_list { width: 600px; padding: 4px 0 0 0; }
+.create_crowd .tag_btn, .create_crowd .friend_btn { float: left; padding-bottom: 10px; }
+.create_crowd .custom_tag, .create_crowd .stranger { float: left; clear: both; width: 100%; }
+.create_crowd .custom_tag .form_remark, .create_crowd .stranger .form_remark { display: block; font-size: 12px; color: #999; }
+.create_crowd .custom_tag_val, .create_crowd .stranger_val { background: #fff; border: 1px solid #999; }
+.create_crowd .tag_item, .create_crowd .friend_item { font-size: 12px; border: 1px solid #09c; background-color: #d1ebfe; border-radius: 4px; float: left; white-space: nowrap; padding: 0px 10px; line-height: 24px; margin: 0 18px 18px 0; position: relative; cursor: default; }
+.create_crowd .tag_item:hover, .create_crowd .friend:hover { background: #09c; color: #fff; }
+.create_crowd .remove_tag, .create_crowd .remove_friend { position: absolute; top: -8px; right: -8px; display: none; }
+.create_crowd .tag_item:hover .remove_tag, .create_crowd .friend_item:hover .remove_friend { display: block; }
+.create_crowd .group_face { width: 100px; cursor: pointer; position: relative; }
+.create_crowd .group_face .iconfont { font-size: 50px; }
+.create_crowd .group_face .remark { display: block; font-size: 12px; color: #999; }
+.create_crowd .group_face .group_face_img { position: absolute; top: -8px; left: 0; width: 80px; height: 80px; }
+.create_crowd .introduction { width: 440px; height: 120px; }
+.create_crowd .submit { }
+.create_crowd .submit .ui_btn_txt { font-size: 20px; padding: 0 20px; letter-spacing: 10px; font-family: 'Microsoft YaHei'; }
+.create_crowd .description { width: 370px; position: absolute; top: 100px; right: 50px; }
+.create_crowd .description h3 { color: #ff754d; font-weight: 500; line-height: 46px; }
+.create_crowd .description p { line-height: 28px; color: #666; }
+
+
+
+.group_face_box { }
+.group_face_box .group_face_main { width: 550px; overflow: hidden; }
+.group_face_box .group_face_type { position: relative; zoom: 1; *padding-top: 10px; }
+.group_face_box .group_face_type a, .group_face_box .group_face_type a:link, .group_face_box .group_face_type a:active, .group_face_box .group_face_type a:visited { font-size: 14px; margin: 0 10px; color: #666; }
+.group_face_box .group_face_type a:hover, .group_face_box .group_face_type .curr, .group_face_box .group_face_type .curr:link, .group_face_box .group_face_type .curr:active, .group_face_box .group_face_type .curr:visited { color: #ff754d; }
+.group_face_box .group_face_main .preview { float: left; width: 100px; padding: 22px 10px; }
+.group_face_box .group_face_main .img_bg { display: block; border: 1px solid #ccc; text-align: center; position: relative; }
+.group_face_box .group_face_main .img_bg img { vertical-align: middle; }
+.group_face_box .group_face_main .preview .p80_80 { width: 86px; height: 86px; line-height: 84px; }
+.group_face_box .group_face_main .preview .p80_80 img { width: 80px; height: 80px; }
+.group_face_box .group_face_main .preview .p60_60 { width: 66px; height: 66px; line-height: 64px; }
+.group_face_box .group_face_main .preview .p60_60 img { width: 60px; height: 60px; }
+.group_face_box .group_face_main .preview .remark { color: #999; line-height: 26px; padding-bottom: 10px; }
+.group_face_box .group_face_main .sys { float: left; display: block; width: 410px; padding: 0 10px; height: 230px; overflow-y: auto; margin: 10px 0; display: none; position: relative; }
+.group_face_box .group_face_main .sys li { float: left; width: 60px; height: 60px; margin: 8px; }
+.group_face_box .group_face_main .sys .img_bg { width: 60px; height: 60px; line-height: 60px; cursor: pointer; }
+.group_face_box .group_face_main .sys .img_bg:hover { border-color: #09c; -moz-box-shadow: 0px 0px 5px #09c; -webkit-box-shadow: 0px 0px 5px #09c; box-shadow: 0px 0px 5px #09c; }
+.group_face_box .group_face_main .sys .img_bg img { width: 50px; height: 50px; }
+.group_face_box .group_face_main .sys .img_bg .iconfont { position: absolute; }
+
+.group_face_box .group_face_main .custom { float: left; display: block; width: 410px; padding: 0 10px; height: 230px; overflow-y: auto; margin: 22px 0 0 0; display: none; }
+.group_face_box .group_face_main .custom .up_bg { font-size: 150px; display: block; height: 150px; margin: 0 0 0 16px; }
+.group_face_box .group_face_main .custom .img_bg { overflow: hidden; width: 200px; height: 200px; text-align: center; line-height: 190px; float: left; position: relative; }
+.group_face_box .group_face_main .custom .img_bg img { position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+.group_face_box .group_face_main .custom .upface { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; filter: alpha(opacity=0); }
+.group_face_box .group_face_main .msg { float: left; width: 180px; padding: 10px 0 0 20px; color: #666; line-height: 28px; }
+
+.group_face_box .sys .sys, .group_face_box .custom .custom { display: block; }
+
+.group_face_box .group_face_main .btns { float: left; text-align: center; width: 100%; }
+
+
+body .submit_ing { filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000'); background: rgba(000,000,000,0.5); width: 160px; height: 110px; border-radius: 10px; }
+body .submit_ing .msg { text-align: center; color: #fff; line-height: 100px; font-size: 16px; font-weight: 700; font-family: 'Microsoft YaHei'; width:160px}

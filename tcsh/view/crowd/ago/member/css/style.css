@@ -1,0 +1,65 @@
+﻿.w100 { width: 100px; }
+.w120 { width: 120px; }
+.member_box { }
+.member_box .member_head { overflow: hidden; border-bottom: 1px solid #ccc; padding-bottom: 6px; }
+.member_box .member_head h3 { float: left; font-weight: 500; line-height: 26px; margin-right: 30px; }
+.member_box .member_head .invite_btn { float: left; }
+.member_box .member_head .search { float: right; }
+.member_box .member_head .search_txt { padding: 4px; background: #fff; border: 1px solid #ccc; border-right: none; vertical-align: middle; }
+.member_box .member_head .submit { border: 1px solid #ccc; height: 26px; line-height: 24px; vertical-align: middle; padding: 0 6px; background: #fff; }
+
+.member_box .member_main { }
+
+.member_box .member_main .sort_btns { padding: 10px 0; position: relative; z-index: 10; }
+.member_box .member_main .sort_btns .curr .iconfont { color: #ff754d; border-color: #ff754d; }
+.member_box .member_main .sort_btns .curr:hover .iconfont { -moz-box-shadow: 0px 0px 5px #ff754d; -webkit-box-shadow: 0px 0px 5px #ff754d; box-shadow: 0px 0px 5px #ff754d; }
+.member_box .member_main .sort_btns .btn_list { margin: 8px 8px 0 0; }
+.member_box .member_main .sort_btns .btn_list .portal,
+.member_box .member_main .sort_btns .btn_list .portal:link,
+.member_box .member_main .sort_btns .btn_list .portal:hover,
+.member_box .member_main .sort_btns .btn_list .portal:active,
+.member_box .member_main .sort_btns .btn_list .portal:visited { font-size: 14px; }
+.member_box .member_main .sort_btns .btn_list .wm_ico { margin: 0 6px; }
+.member_box .member_main .sort_btns .btn_list ul li { height: 26px; }
+.member_box .member_main .sort_btns .btn_list ul a,
+.member_box .member_main .sort_btns .btn_list ul a:link,
+.member_box .member_main .sort_btns .btn_list ul a:active,
+.member_box .member_main .sort_btns .btn_list ul a:visited { font-size: 14px; padding: 4px 0 4px 5px; line-height: 18px; }
+.member_box .member_main .sort_btns .btn_list ul a:hover { background: #ff754d; }
+.member_box .member_main .sort_btns .sort { float: left; width: 80px; }
+
+.member_box .member_list { overflow: hidden; position: relative; z-index: 9; width: 1160px; }
+.member_box .member_list .user_img { width: 120px; height: 120px; float: left; border-radius: 100px; margin: 10px; }
+.member_box .member_list .user_data { float: left; margin: 10px 10px 10px 0; color: #666; line-height: 24px; }
+.member_box .member_list .user_data b { color: #ff754d; }
+.member_box .member_list .member_item { border: 2px solid #ccc; overflow: hidden; margin: 16px 20px 16px 8px; position: relative; float: left; width: 540px; *height: 150px; }
+
+.member_box .member_list .member_item:hover { border-color: #ff754d; }
+
+.member_box .member_list .user_name { font-family: 'Microsoft YaHei'; color: #333333; font-size: 16px; display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.member_box .member_list .btns { }
+.member_box .member_list .btns .ui_btn { margin-right: 10px; }
+.member_box .member_list .btns .ui_btn .iconfont { margin-right: 4px; line-height: 22px; height: 22px; }
+
+
+.member_box .member_list .shield, .member_box .member_list .transfer { position: absolute; top: 14px; right: 0px; width: 54px; height: 20px; z-index: 20; }
+.member_box .member_list .transfer { top: 12px; }
+.member_box .member_list .shield .wm_ico { margin: 0 3px; }
+
+.member_box .member_list .is_shield .user_img { -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); _filter: none; }
+
+
+.invite_box { }
+.invite_box .invite_user_box { overflow: hidden; width: 500px; float: left; }
+.invite_box .friend_item { float: left; }
+.invite_box .friend_list { width: 600px; padding: 4px 0 0 0; }
+.invite_box .friend_btn { float: left; padding-bottom: 10px; margin-top: 10px; }
+.invite_box .stranger { float: left; clear: both; width: 100%; padding: 10px 0 0 0; }
+.invite_box .stranger .form_remark { display: block; font-size: 12px; color: #999; }
+.invite_box .stranger_val { background: #fff; border: 1px solid #999; }
+.invite_box .friend_item { font-size: 12px; border: 1px solid #09c; background-color: #d1ebfe; border-radius: 4px; float: left; white-space: nowrap; padding: 0px 10px; line-height: 24px; margin: 10px 10px 0 0; position: relative; cursor: default; }
+.invite_box .friend:hover { background: #09c; color: #fff; }
+.invite_box .remove_friend { position: absolute; top: -8px; right: -8px; display: none; }
+.invite_box .friend_item:hover .remove_friend { display: block; }
+.invite_box .wm_form .row_key { line-height: 46px; }
+.invite_box .add_friend { position: absolute; left: 0; top: 44px; }

@@ -1,0 +1,102 @@
+﻿.w100 { width:100px}
+.w120 { width:120px}
+.member_box { }
+.member_box .member_head { overflow: hidden; border-bottom: 1px solid #ccc; padding-bottom: 6px; }
+.member_box .member_head h3 { float: left; font-weight: 500; line-height: 26px; margin-right: 30px; }
+.member_box .member_head .invite_btn { float: left; }
+.member_box .member_head .search { float: right; }
+.member_box .member_head .search_txt { padding: 4px; background: #fff; border: 1px solid #ccc; border-right: none; vertical-align: middle; }
+.member_box .member_head .submit { border: 1px solid #ccc; height: 26px; line-height: 24px; vertical-align: middle; padding: 0 6px; background: #fff; }
+
+.member_box .member_main { }
+.member_box .member_main .btns { padding: 10px 0; position: relative; z-index: 10; }
+.member_box .member_main .all_chk, .member_box .member_main .all_chk:link.member_box .member_main .all_chk:active, .member_box .member_main .all_chk:visited { float: left; font-size: 14px; line-height: 32px; }
+.member_box .member_main .all_chk:hover { text-decoration: none; }
+.member_box .member_main .all_chk .iconfont { display: block; float: left; border: 2px solid #ccc; width: 18px; height: 18px; text-align: center; line-height: 16px; margin: 6px 6px 0 0; color: #fff; background: #fff; }
+.member_box .member_main .btns .curr .iconfont { color: #ff754d; border-color: #ff754d; }
+.member_box .member_main .all_chk:hover { color: #505050; }
+.member_box .member_main .all_chk:hover .iconfont { -moz-box-shadow: 0px 0px 5px #ccc; -webkit-box-shadow: 0px 0px 5px #ccc; box-shadow: 0px 0px 5px #ccc; }
+.member_box .member_main .btns .curr:hover .iconfont { -moz-box-shadow: 0px 0px 5px #ff754d; -webkit-box-shadow: 0px 0px 5px #ff754d; box-shadow: 0px 0px 5px #ff754d; }
+.member_box .member_main .btns .btn_list { margin: 8px 8px 0 28px; }
+.member_box .member_main .btns .btn_list .portal,
+.member_box .member_main .btns .btn_list .portal:link,
+.member_box .member_main .btns .btn_list .portal:hover,
+.member_box .member_main .btns .btn_list .portal:active,
+.member_box .member_main .btns .btn_list .portal:visited { font-size: 14px; }
+.member_box .member_main .btns .btn_list .wm_ico { margin: 0 6px; }
+.member_box .member_main .btns .btn_list ul li { height: 26px; }
+.member_box .member_main .btns .btn_list ul a,
+.member_box .member_main .btns .btn_list ul a:link,
+.member_box .member_main .btns .btn_list ul a:active,
+.member_box .member_main .btns .btn_list ul a:visited { font-size: 14px; padding: 4px 0 4px 5px; line-height: 18px; }
+.member_box .member_main .btns .btn_list ul a:hover { background: #ff754d; }
+.member_box .member_main .btns .sort { float: right; width: 80px; }
+.member_box .member_main .btns .batch { float: left; width: 90px; }
+
+
+.member_box .member_list { overflow: hidden; position: relative; z-index: 9; width: 940px; }
+.member_box .member_list .user_img { width: 100px; height: 100px; float: left; border-radius: 100px; margin: 10px; }
+.member_box .member_list .user_data { float: left; margin: 10px 10px 10px 0; color: #666; line-height: 24px; }
+.member_box .member_list .user_data b { color: #ff754d; }
+.member_box .member_list .member_item { border: 2px solid #ccc; float: left; width: 280px; overflow: hidden; margin: 16px 20px 16px 8px; position: relative; cursor: pointer; *height: 124px; }
+.member_box .member_list .member_item .iconfont { position: absolute; right: 10px; bottom: 10px; font-size: 22px; background: #fff; color: #fff; }
+.member_box .member_list .curr, .member_box .member_list .member_item:hover { border-color: #ff754d; }
+.member_box .member_list .curr .iconfont { color: #ff754d; }
+.member_box .member_list .user_name { font-family: 'Microsoft YaHei'; color: #333333; font-size: 16px; display: block; width: 100px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.member_box .member_list .user_data .btns { padding: 0; }
+.member_box .member_list .user_data .btns a { margin-right: 10px; }
+.member_box .member_list .shield, .member_box .member_list .transfer { position: absolute; top: 14px; right: 0px; width: 54px; height: 20px; z-index: 20; }
+.member_box .member_list .transfer { top: 12px; }
+.member_box .member_list .shield .wm_ico { margin: 0 3px; }
+
+.member_box .member_list .is_shield .user_img { -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); _filter: none; }
+
+
+.invite_box { }
+.invite_box .invite_user_box { overflow: hidden; width: 500px; float: left; }
+.invite_box .friend_item { float: left; }
+.invite_box .friend_list { width: 600px; padding: 4px 0 0 0; }
+.invite_box .friend_btn { float: left; padding-bottom: 10px; margin-top: 10px; }
+.invite_box .stranger { float: left; clear: both; width: 100%; padding: 10px 0 0 0; }
+.invite_box .stranger .form_remark { display: block; font-size: 12px; color: #999; }
+.invite_box .stranger_val { background: #fff; border: 1px solid #999; }
+.invite_box .friend_item { font-size: 12px; border: 1px solid #09c; background-color: #d1ebfe; border-radius: 4px; float: left; white-space: nowrap; padding: 0px 10px; line-height: 24px; margin: 10px 10px 0 0; position: relative; cursor: default; }
+.invite_box .friend:hover { background: #09c; color: #fff; }
+.invite_box .remove_friend { position: absolute; top: -8px; right: -8px; display: none; }
+.invite_box .friend_item:hover .remove_friend { display: block; }
+.invite_box .wm_form .row_key { line-height: 46px; }
+.invite_box .add_friend { position: absolute; left: 0; top: 44px; }
+
+
+.black_list { overflow: hidden; }
+.black_list .black_item { float: left; position: relative; width: 92px; cursor: pointer; margin: 0 24px 24px 0; }
+.black_list .img_bg { width: 90px; height: 90px; border: 2px solid #ccc; overflow: hidden; line-height: 88px; text-align: center; display: block; }
+.black_list .black_item .user_img { width: 80px; height: 80px; vertical-align: middle; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); _filter: none; }
+.black_list .black_item .iconfont { position: absolute; right: -1px; top: 75px; color: #ff754d; display: none; }
+.black_list .user_name { display: block; width: 80px; margin: 6px auto 0 auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-align: center; }
+.black_list .black_item:hover .img_bg { border-color: #ff754d; }
+.black_list .black_item:hover .user_name { color: #ff754d; }
+.black_list .curr .iconfont { display: block; }
+.black_list .curr .img_bg { border-color: #ff754d; }
+.black_list .curr .user_name { color: #ff754d; }
+
+
+.dissolution { padding: 20px 0; }
+.dissolution .btns { text-align: center; margin-top: 30px; }
+.dissolution .msg { color: #ff754d; font-size: 30px; text-align: center; line-height: 30px; font-family: 'Microsoft YaHei'; }
+.dissolution .submit { background: #ff754d; font-size: 14px; padding: 6px 10px; border: none; color: #fff; margin-right: 10px; }
+
+.dissolution_success { color: #999; padding: 20px; line-height: 30px; font-size: 14px; }
+.dissolution_success a, .dissolution_success a:link, .dissolution_success a:active, .dissolution_success a:visited { color: #ff754d; font-size: 14px; }
+
+
+.bus_list { border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; }
+.bus_list img { width: 100px;height:50px;background: url('http://s.tcsh.me/tcsh/view/public/img/loading/loading18_18_1.gif') center center no-repeat;}
+.bus_list th a, .bus_list th a:link, .bus_list th a:active, .bus_list th a:visited { font-size: 14px; display: block; border-left: 1px solid #f0f2f5; border-right: 1px solid #f0f2f5; }
+.bus_list th a:hover { text-decoration: none; background: #fff; border-color: #dfdfdf; }
+.bus_list th .wm_ico { margin: 0 5px; }
+.nolength { font-size: 20px; text-align: center; color: #666; font-family: 'Microsoft YaHei'; padding: 20px; }
+.nolength a { font-size: 20px; margin: 0 10px; color: #f60; }
+.bus_list .cr_name { max-width: 160px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding: 0 6px; }
+.bus_list b { color: #e13436; }
+.bus_list .portal, .bus_list .portal:link, .bus_list .portal:hover, .bus_list .portal:active, .bus_list .portal:visited { padding:0 0 0 2px}
