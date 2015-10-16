@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+.main_con {
+	background: #FFF;
+	min-height: 1095px;
+}
+.safe_con{
+	margin-top:-20px;
+}
+.safe_item{
+	border-bottom:1px dashed #d7d7d7;
+	position:relative;
+	padding:20px 0;
+}
+.safe_item .iconfont{
+	padding:0 30px;
+	vertical-align: text-bottom;
+	font-size:40px;
+}
+.safe_succ{
+	color:#60ac1e;
+}
+.safe_err{
+	color:#fd8a0a;
+}
+.safe_item b{
+	color:#5d5e5e;
+	font-size:18px;
+	margin-right:50px;
+	font-weight:normal;
+}
+.seting_infor{
+	font-size:12px;
+	color:#b8b8b8;
+}
+.level_con{
+	display:inline-block;
+	background:#f7f7f7;
+	border:1px solid #eeeeee;
+	border-radius:15px;
+	width:100px;
+	height:15px;
+	line-height:15px;
+	margin-right:10px;
+}
+.level_con em{
+	font-style:normal;
+	display:inline-block;
+	width:30px;
+	height:15px;
+	border-radius:15px;
+	text-align:center;
+}
+.level_con em.level_curr{
+	color:#FFF;
+	background:#fd9c10;
+}
+.safe_item .do{
+	position:absolute;
+	right:30px;
+	top:25px;
+	font-family:"Simsun";
+	display:inline-block;
+	width:100px;
+	text-align:center;
+}
+.safe_item a{
+	color:#666;
+	font-size:14px;
+}
+.safe_item .ui_btn_txt{
+	font-size:14px;
+	font-weight:700;
+}
+.busi_psd a{
+	margin-left:10px;
+}
+
+/*  设置密码 */
+.set_psd{
+	width:330px;
+	margin:0 auto;
+}
+.set_psd h3{
+	color:#ed5565;
+	font-size:23px;
+	margin:40px 0;
+}
+.set_psd .set_key{
+	font-size:12px;
+	display:block;
+	color:#768082;
+	margin:10px 0;
+}
+.set_psd .set_txt{
+	width:280px;
+	height:20px;
+	line-height:20px;
+	padding:10px 6px;
+	border:1px solid #e3e4e8;
+	border-radius:4px;
+}
+.set_psd .set_sub{
+	border:0;
+	background:#ed5565;
+	width:130px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#FFF;
+	font-size:16px;
+	margin-top:20px;
+	font-weight:700;
+	border-radius:6px;
+}
+.set_row a.find_psd{
+	color:#b2b6ba;
+	margin-left:105px;
+	font-size:14px;
+}
+.set_row a.find_psd:hover{
+	color:#03F;
+}

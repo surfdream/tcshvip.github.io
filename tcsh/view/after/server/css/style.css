@@ -1,0 +1,37 @@
+﻿@CHARSET "UTF-8";
+.cod { padding: 0 20px; }
+.cod .server_switch { overflow: hidden; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed #ccc; }
+.cod .server_switch .wmcrbtn_box { margin-right:20px}
+.server_switch_title { float:left;line-height:28px;margin-right:20px;font-size:16px}
+.cod .sel_box { }
+.cod .sel_box .sel_parent { overflow: hidden; line-height: 22px; }
+.cod .sel_box h3, .cod .sel_box .sel_parent label, .cod .sel_box select { float: left; }
+.cod .sel_box h3 { font-size: 14px; padding-right: 20px; }
+.cod .sel_box select { padding: 2px; margin: 0 5px; }
+.cod .sel_box .chk_list { padding: 10px; margin: 20px 0 40px 0; background: #fff; border: 1px solid #cbcbcb; overflow: hidden; }
+.cod .sel_box .chk_list input { vertical-align: middle; margin: 0 5px; margin-top: -4px; }
+.cod .sel_box .chk_list label { line-height: 16px; }
+.cod .sel_box .chk_list span { float: left; display: block; padding: 10px; }
+.cod .selcd_box { }
+.cod .selcd_box .selcd_box_list { padding: 20px 0 0 20px; margin: 10px 0; background: #fff; border: 1px solid #cbcbcb; overflow: hidden; }
+.cod .selcd_box .selcd_box_list li { float: left; margin-right: 20px; height: 45px; }
+.cod .selcd_box .selcd_box_list span { padding: 5px 10px; border: 1px solid #E23A3C; position: relative; cursor: default; }
+.cod .selcd_box .selcd_box_list span a { background: url('../../../public/img/ico.png') right -640px; width: 16px; height: 16px; position: absolute; top: -8px; right: -8px; }
+.cod .selcd_box .selcd_box_list .red { border: 1px solid #E23A3C; }
+.cod .selcd_box .selcd_box_list .red a { background-position: right -640px; }
+.cod .selcd_box .selcd_box_list .yellow { border: 1px solid #E23A3C; }
+.cod .selcd_box .selcd_box_list .yellow a { background-position: 0 -660px; }
+.cod .selcd_box .selcd_box_list .blue { border: 1px solid #E23A3C; }
+.cod .selcd_box .selcd_box_list .blue a { background-position: right -660px; }
+
+.cod .btns { padding: 20px 0 0 20px; }
+.cod .btns .ui_btn_txt { font-size: 16px; font-weight: 700; padding: 0 15px 0 10px; }
+
+
+.agreement { border-bottom: 1px dashed #ccc; }
+.agreement h3 { text-align: center; border-bottom: 1px dashed #ccc; line-height: 35px; margin-bottom: 10px; font-size: 16px; }
+.agreement p { width:745px;margin:0 auto;line-height:26px;margin-bottom:10px;color:#535353}
+.agreement .w690 { width:690px}
+.agreement .mtb50 {margin-top:50px;margin-bottom:50px }
+.agreement .aligncenter { text-align:center}
+.agreement_btns { text-align:center;padding:20px 0}

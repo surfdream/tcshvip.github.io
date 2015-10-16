@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/after/logistics/config.js" data-init="delivery_address"></script>
+
+    <!--<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../../../view/after/commodity/config.js" data-init="logistics_model"></script>-->
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <a href="#">同城生活首页</a>
+                    <div class="user_data">
+                        <span>柴逸宁，欢迎你！</span>
+                    </div>
+                    <div class="user_btns">
+                        <a href="#">[设置]</a>
+                        <a href="#">[退出]</a>
+                    </div>
+
+                    <span>等级：Lv1</span>
+                    <a href="#">查看等级特权>></a>
+                    <div class="advice">
+                        <span>咨询电话：400-88888888</span>
+                        <span>在线客服：
+                            <a href="#" class="ui_btn ui_btn_h19gray2"><span class="ui_btn_txt">客服01</span></a>
+                            <a href="#" class="ui_btn ui_btn_h19gray2"><span class="ui_btn_txt">客服02</span></a>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="head_sub">
+                <div class="head_con">
+                    <h1 class="wm_logo">
+                        <a href="http://www.tcsh.me/" title="同城生活">同城生活</a>
+                    </h1>
+                    <a href="http://www.tcsh.me/" class="cwmw" title="同城生活">同城生活</a>
+                    <div class="logo_msg">
+                        <span class="ui_btn ui_btn_h22red10"><span class="ui_btn_txt"><i>嗅嗅品牌的味道</i></span></span>
+                        <em class="wm_ico triangle1">&nbsp;</em>
+                    </div>
+                    <div class="head_search brands">
+                        <div class="head_search_form">
+                            <form>
+                                <select>
+                                    <option>品牌</option>
+                                    <option>商品</option>
+                                </select>
+                                <input type="text" placeholder="商家后台搜索" name="brands" class="search_brands" />
+
+                                <a href="#" class="search_btn">搜 索<i class="wm_ico magnifier1"></i></a>
+                                <input type="hidden" name="search_type" />
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="head_nav">
+                <div class="sub_head_nav">
+                    <div class="sub_nav">
+                        <ul>
+                            <li class="sub_nav_item curr"><a href="#">商家首页</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">商品统计</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">定单统计</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">设置</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item end"><a href="#">站内信</a><em class="wm_ico dashed2"></em><i></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="content_main">
+                    <div class="op_nav">
+                        <div class="op_nav_top">
+                            <a href="#">
+                                <img src="img/lining.jpg" width="170" height="85" />
+                            </a>
+                            <a href="#" class="ui_btn ui_btn_h35gray4"><span class="ui_btn_txt">密码管理 >></span></a>
+                        </div>
+                        <ul class="op_nav_main">
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>品牌管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">品牌故事</a></li>
+                                    <li><a href="#">特卖设置</a></li>
+                                    <li><a href="#">品牌点评</a></li>
+                                    <li><a href="#">品牌留言</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>商品管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li class="curr"><a href="#">商品上架</a></li>
+                                    <li><a href="#">商品列表</a></li>
+                                    <li><a href="#">统计数据</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>交易管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">订单管理</a></li>
+                                    <li><a href="#">评价管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>推广管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">展位购买</a></li>
+                                    <li><a href="#">促销活动</a></li>
+                                    <li><a href="#">优惠设置</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>售后管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">投诉管理</a></li>
+                                    <li><a href="#">退款管理</a></li>
+                                    <li><a href="#">换币管理</a></li>
+                                    <li><a href="#">违规记录</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>同城生活银行</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">同城生活银行</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_con">
+                        <div class="logistics logistics_model">
+                            <div class="right_head">
+                                <h3 class="data_title">物流设置-运费模版</h3>
+                            </div>
+                            <div class="logistics_con">
+                                <div class="logistics_tab">
+                                    <a href="#" class="tab_key ui_btn ui_btn_h36white3" data_key=""><span class="ui_btn_txt">地址库</span></a>
+                                    <a href="#" class="tab_key" data_key="logistics_company"><span class="ui_btn_txt">默认物流公司</span></a>
+                                    <a href="#" class="tab_key"><span class="ui_btn_txt">运费模版</span></a>
+                                </div>
+                            </div>
+                            <div class="lc_main">
+                                <p class="point"><i class="wm_ico bulb1"></i>用来保存自己的发货、退货地址</p>
+                                <form class="wm_form add_adform">
+                                    <ul>
+                                        <li class="form_row">
+                                            <label class="row_key"><b class="form_must">*</b>联系人：</label>
+                                            <input type="text" class="form_txt w100" wmv="empty" wmvmsg="请输入收货人姓名！" />
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key"><b class="form_must">*</b>所在地区：</label><select class="form_sel" id="selProvince_rent">
+                                                <option value="0">请选择</option>
+                                            </select>
+                                            <select class="form_sel" id="selCity_rent">
+                                                <option value="0">请选择</option>
+                                            </select>
+                                            <select name="zone" class="form_sel" id="selDistricts_rent" name="locate" wmv="selEmpty" wmvmsg="所在地区请精确到地区！">
+                                                <option value="0">请选择</option>
+                                            </select>
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key"><b class="form_must">*</b>街道地址：</label><textarea name="address" class="form_textarea w440" wmv="empty" wmvmsg="请填写详细地址！"></textarea>
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key"><b class="form_must">*</b>邮编：</label><input name="postcode" type="text" class="form_txt w80 chinazip" wmv="empty|chinaZip" wmvmsg="邮编不能为空！|请输入正确的邮编！">
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key"><b class="form_must">*</b>手机：</label><input type="text" name="mobilephone" class="form_txt w80 phone" wmv="phone" wmvmsg="请输入正确的手机号"></li>
+                                        <li class="form_row">
+                                            <label class="row_key">电话：</label><input type="text" class="form_txt w50 landline_code1" placeholder="区号">
+                                            -
+                                            <input type="text" class="form_txt w80 landline_code2" placeholder="号码">
+                                            -
+                                            <input type="text" class="form_txt w50 landline_code3" placeholder="分号" wmv="landline" wmvmsg="正确的座机号，座机号格式：区号-号码">
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key">公司名称：</label>
+                                            <input type="text" class="form_txt" />
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key">备注：</label><textarea name="address" class="form_textarea w440"></textarea>
+                                        </li>
+                                        <li class="form_row">
+                                            <label class="row_key">&nbsp;</label><span class="ui_btn ui_btn_h40red2"><input type="submit" class="ui_btn_txt submit" value="提交" /></span>
+                                        </li>
+                                    </ul>
+                                </form>
+                                <div class="seg"></div>
+                                <table class="addad_list" cellspacing="0" cellpadding="0">
+                                    <thead>
+                                        <tr>
+                                            <th>发货地址</th>
+                                            <th>退货地址</th>
+                                            <th>联系人</th>
+                                            <th>所在地区</th>
+                                            <th class="w150">街道地址</th>
+                                            <th>邮政编码</th>
+                                            <th>电话号码</th>
+                                            <th>手机号码</th>
+                                            <th>公司名称</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd">
+                                            <td>
+                                                <input type="radio" name="send_default" class="send_default" id="send_default1" /><label for="send_default1">默认</label></td>
+                                            <td>
+                                                <input type="radio" name="return_default" class="return_default" id="return_default1" /><label for="return_default1">默认</label></td>
+                                            <td>柴逸宁</td>
+                                            <td>浙江省 杭州市 拱墅区</td>
+                                            <td>浙江省 杭州市 拱墅区 祥园路66号99楼</td>
+                                            <td>100000</td>
+                                            <td>18222222222</td>
+                                            <td>0574-63502145-99</td>
+                                            <td>同城生活科技同城生活科技同城生活科技同城生活科技</td>
+                                            <td class="center"><a href="#" class="block">编辑</a><a href="#" class="block">删除</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" name="send_default" id="send_default1" /><label for="send_default1">默认</label></td>
+                                            <td>
+                                                <input type="radio" name="return_default" id="return_default1" /><label for="return_default1">默认</label></td>
+                                            <td>柴逸宁</td>
+                                            <td>浙江省 杭州市 拱墅区</td>
+                                            <td>浙江省 杭州市 拱墅区 祥园路66号99楼</td>
+                                            <td>100000</td>
+                                            <td>18222222222</td>
+                                            <td>0574-63502145-99</td>
+                                            <td>同城生活科技同城生活科技同城生活科技同城生活科技</td>
+                                            <td class="center"><a href="#" class="block">编辑</a><a href="#" class="block">删除</a></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <input type="radio" name="send_default" id="send_default1" /><label for="send_default1">默认</label></td>
+                                            <td>
+                                                <input type="radio" name="return_default" id="return_default1" /><label for="return_default1">默认</label></td>
+                                            <td>柴逸宁</td>
+                                            <td>浙江省 杭州市 拱墅区</td>
+                                            <td>浙江省 杭州市 拱墅区 祥园路66号99楼</td>
+                                            <td>100000</td>
+                                            <td>18222222222</td>
+                                            <td>0574-63502145-99</td>
+                                            <td>同城生活科技同城生活科技同城生活科技同城生活科技</td>
+                                            <td class="center"><a href="#" class="block">编辑</a><a href="#" class="block">删除</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" name="send_default" id="send_default1" /><label for="send_default1">默认</label></td>
+                                            <td>
+                                                <input type="radio" name="return_default" id="return_default1" /><label for="return_default1">默认</label></td>
+                                            <td>柴逸宁</td>
+                                            <td>浙江省 杭州市 拱墅区</td>
+                                            <td>浙江省 杭州市 拱墅区 祥园路66号99楼</td>
+                                            <td>100000</td>
+                                            <td>18222222222</td>
+                                            <td>0574-63502145-99</td>
+                                            <td>同城生活科技同城生活科技同城生活科技同城生活科技</td>
+                                            <td class="center"><a href="#" class="block">编辑</a><a href="#" class="block">删除</a></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <input type="radio" name="send_default" id="send_default1" /><label for="send_default1">默认</label></td>
+                                            <td>
+                                                <input type="radio" name="return_default" id="return_default1" /><label for="return_default1">默认</label></td>
+                                            <td>柴逸宁</td>
+                                            <td>浙江省 杭州市 拱墅区</td>
+                                            <td>浙江省 杭州市 拱墅区 祥园路66号99楼</td>
+                                            <td>100000</td>
+                                            <td>18222222222</td>
+                                            <td>0574-63502145-99</td>
+                                            <td>同城生活科技同城生活科技同城生活科技同城生活科技</td>
+                                            <td class="center"><a href="#" class="block">编辑</a><a href="#" class="block">删除</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="link_list">
+                    <div class="link_item">
+                        <span>服务保障</span>
+                        <ul>
+                            <li><a href="#">正品保障</a></li>
+                            <li><a href="#">7天无条件退货</a></li>
+                            <li><a href="#">7*15小时服务</a></li>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>购物指南</span>
+                        <ul>
+                            <li><a href="#">导购演示</a></li>
+                            <li><a href="#">订单操作</a></li>
+                            <li><a href="#">用户指南</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">购物参考</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>支付方式</span>
+                        <ul>
+                            <li><a href="#">网银支付币</a></li>
+                            <li><a href="#">支付平台</a></li>
+                            <li><a href="#">信用卡</a></li>
+                            <li><a href="#">同城生活金币</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>配送方式</span>
+                        <ul>
+                            <li><a href="#">配送服务</a></li>
+                            <li><a href="#">配送范围和运费</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>售后服务</span>
+                        <ul>
+                            <li><a href="#">退换货政策</a></li>
+                            <li><a href="#">退换货流程</a></li>
+                            <li><a href="#">退款方式和时效</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item end">
+                        <span>同城生活模式</span>
+                        <ul>
+                            <li><a href="#">聚合式品牌特卖</a></li>
+                            <li><a href="#">同城生活成长基金</a></li>
+                            <li><a href="#">推手规则</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+
+                    <a href="#">
+                        <img src="../../public/img/internetPolice.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/putOnRecord.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/internetBusiness.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/siteCredits.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/trusty.png" />
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        var global_setting = {};
+    </script>
+</body>
+</html>

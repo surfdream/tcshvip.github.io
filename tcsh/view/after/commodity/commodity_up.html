@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/after/commodity/css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/after/commodity/config.js" data-init="commodity_up"></script>
+    <script type="text/javascript" charset="utf-8" src="http://s.tcsh.me/tcsh/model/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://s.tcsh.me/tcsh/model/ueditor/ueditor.all.js"></script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <a href="#">同城生活首页</a>
+                    <div class="user_data">
+                        <span>柴逸宁，欢迎你！</span>
+                    </div>
+                    <div class="user_btns">
+                        <a href="#">[设置]</a>
+                        <a href="#">[退出]</a>
+                    </div>
+
+                    <span>等级：Lv1</span>
+                    <a href="#">查看等级特权>></a>
+                    <div class="advice">
+                        <span>咨询电话：400-88888888</span>
+                        <span>在线客服：
+                            <a href="#" class="ui_btn ui_btn_h19gray2"><span class="ui_btn_txt">客服01</span></a>
+                            <a href="#" class="ui_btn ui_btn_h19gray2"><span class="ui_btn_txt">客服02</span></a>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="head_sub">
+                <div class="head_con">
+                    <div class="wm_logo">
+                        <img src="../../public/img/wm_logo.png" width="180" height="80" />
+                    </div>
+                    <div class="logo_msg">
+                        <span class="ui_btn ui_btn_h22red10"><span class="ui_btn_txt"><i>嗅嗅品牌的味道</i></span></span>
+                        <em class="wm_ico triangle1">&nbsp;</em>
+                    </div>
+                    <div class="head_search brands">
+                        <div class="head_search_form">
+                            <form>
+                                <select>
+                                    <option>品牌</option>
+                                    <option>商品</option>
+                                </select>
+                                <input type="text" placeholder="商家后台搜索" name="brands" class="search_brands" />
+
+                                <a href="#" class="search_btn">搜 索<i class="wm_ico magnifier1"></i></a>
+                                <input type="hidden" name="search_type" />
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="head_nav">
+                <div class="sub_head_nav">
+                    <div class="sub_nav">
+                        <ul>
+                            <li class="sub_nav_item curr"><a href="#">商家首页</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">商品统计</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">定单统计</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">设置</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item end"><a href="#">站内信</a><em class="wm_ico dashed2"></em><i></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="content_main">
+                    <div class="op_nav">
+                        <div class="op_nav_top">
+                            <a href="#">
+                                <img src="img/lining.jpg" width="170" height="85" />
+                            </a>
+                            <a href="#" class="ui_btn ui_btn_h35gray4"><span class="ui_btn_txt">密码管理 >></span></a>
+                        </div>
+                        <ul class="op_nav_main">
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>品牌管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">品牌故事</a></li>
+                                    <li><a href="#">特卖设置</a></li>
+                                    <li><a href="#">品牌点评</a></li>
+                                    <li><a href="#">品牌留言</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>商品管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li class="curr"><a href="#">商品上架</a></li>
+                                    <li><a href="#">商品列表</a></li>
+                                    <li><a href="#">统计数据</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>交易管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">订单管理</a></li>
+                                    <li><a href="#">评价管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>推广管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">展位购买</a></li>
+                                    <li><a href="#">促销活动</a></li>
+                                    <li><a href="#">优惠设置</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>售后管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">投诉管理</a></li>
+                                    <li><a href="#">退款管理</a></li>
+                                    <li><a href="#">换币管理</a></li>
+                                    <li><a href="#">违规记录</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>同城生活银行</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">同城生活银行</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_con">
+                        <div id="commodity_up">
+                            <div class="right_head">
+                                <h3 class="data_title">商品上架</h3>
+                            </div>
+                            <div class="seg seg_notop seg_nobott"></div>
+                            <form class="wm_form comm_up_form">
+                                <ul>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>商品类型：</label>
+                                        <select class="form_sel classparent">
+                                        </select>
+                                        <select class="form_sel classthis" wmv="selEmpty" wmvmsg="请精确的选择商品类型！">
+                                        </select>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>商品标题：</label>
+                                        <input type="text" class="form_txt w410 comm_name" wmv="empty|max:30" wmvmsg="商品标题不能为空！|标题限制30字！">
+                                        <span class="form_remark">标题限制<b>30</b>字</span>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">面包屑：</label>
+                                        <input type="text" class="form_txt w410 bread" wmv="max:20" wmvmsg="面包屑信息太长！">
+                                        <span class="form_remark">位于面包屑最后</span>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">商品属性：</label>
+                                        <div class="floatleft comm_attr_list wm_form">
+                                            <ul id="comm_attr_list_main">
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>市场价：</label>
+                                        <input type="text" class="form_txt w50 price" wmv="empty|positiveNumber" wmvmsg="市场价不能为空！|请输入正确的市场价！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>特卖价：</label>
+                                        <input type="text" class="form_txt w50 sale_price" wmv="empty|positiveNumber" wmvmsg="特卖价不能为空！|请输入正确的特卖价！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">上市时间：</label>
+                                        <select class="form_sel listing_year"></select>
+                                        <select class="form_sel listing_month">
+                                            <option>-请选择-</option>
+                                            <option>上半年</option>
+                                            <option>下半年</option>
+                                            <option>1月</option>
+                                            <option>2月</option>
+                                            <option>3月</option>
+                                            <option>4月</option>
+                                            <option>5月</option>
+                                            <option>6月</option>
+                                            <option>7月</option>
+                                            <option>8月</option>
+                                            <option>9月</option>
+                                            <option>10月</option>
+                                            <option>11月</option>
+                                            <option>12月</option>
+                                        </select>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>货号：</label>
+                                        <input type="text" class="form_txt w150 goods_id" wmv="empty" wmvmsg="库存不能为空！">
+                                    </li>
+
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>商品图片：</label>
+                                        <div class="up_img_list" wmv="up_img" wmvmsg="请至少上传一张主图！">
+                                            <div class="img_item img_main">
+                                                <a href="#" class="up_img_btn up_img_btn_hook">+<span>本地上传图片大小不能超过<b>500K</b></span><img src="" /></a>
+                                                <input type="file" class="form_file">
+                                            </div>
+                                            <div class="img_item">
+                                                <a href="#" class="up_img_btn up_img_btn_hook">+<img src="" /></a>
+                                                <input type="file" class="form_file">
+                                            </div>
+                                            <div class="img_item">
+                                                <a href="#" class="up_img_btn up_img_btn_hook">+<img src="" /></a>
+                                                <input type="file" class="form_file">
+                                            </div>
+                                            <div class="img_item">
+                                                <a href="#" class="up_img_btn up_img_btn_hook">+<img src="" /></a>
+                                                <input type="file" class="form_file">
+                                            </div>
+                                            <div class="img_item">
+                                                <a href="#" class="up_img_btn up_img_btn_hook">+<img src="" /></a>
+                                                <input type="file" class="form_file">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="form_row ptb10">
+                                        <label class="row_key">比价信息：</label>
+                                        <div class="floatleft">
+                                            <ul class="compare_data">
+                                                <li class="compare_item">
+                                                    <select class="form_sel">
+                                                        <option value="0">-请选择-</option>
+                                                        <option value="天猫">天猫</option>
+                                                        <option value="天猫">淘宝</option>
+                                                        <option value="天猫">京东</option>
+                                                    </select>
+                                                    <input type="text" class="form_txt w50 compare_price" placeholder="价格">
+                                                    <input type="text" class="form_txt compareurl" placeholder="http://">
+                                                </li>
+                                                <li class="compare_item">
+                                                    <select class="form_sel">
+                                                        <option value="0">-请选择-</option>
+                                                        <option value="天猫">天猫</option>
+                                                        <option value="天猫">淘宝</option>
+                                                        <option value="天猫">京东</option>
+                                                    </select>
+                                                    <input type="text" class="form_txt w50 compare_price" placeholder="价格">
+                                                    <input type="text" class="form_txt compareurl" placeholder="http://">
+                                                </li>
+                                                <li class="compare_item">
+                                                    <select class="form_sel">
+                                                        <option value="0">-请选择-</option>
+                                                        <option value="天猫">天猫</option>
+                                                        <option value="天猫">淘宝</option>
+                                                        <option value="天猫">京东</option>
+                                                    </select>
+                                                    <input type="text" class="form_txt w50 compare_price" placeholder="价格">
+                                                    <input type="text" class="form_txt compareurl" placeholder="http://">
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>商品描述：</label>
+                                        <div id="myEditor" wmv="editorEmpty" wmvmsg="请输入商品描述！"></div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>商品规格：</label>
+                                        <ul class="floatleft comm_attr_list wm_form " id="set_attr">
+                                        </ul>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">&nbsp;</label>
+                                        <div class="floatleft">
+                                            <table class="s_table specification_table" border="0" cellspacing="0">
+                                                <thead>
+                                                </thead>
+                                                <tbody>
+                                                </tbody>
+                                            </table>
+                                            <div class="specification_main_box">
+                                                <table class="s_table specification_main" border="0" cellspacing="0">
+                                                    <thead>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>库存：</label>
+                                        <input type="text" class="form_txt w50 stock" wmv="empty|positiveInteger" wmvmsg="库存不能为空！|请输入正确的库存！" disabled="disabled" value="0">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>库存计数：</label>
+                                        <div class="floatleft" wmv="radioEmpty" wmvmsg="请选择库存的计数方式！">
+                                            <input type="radio" name="inventory_count" id="inventory_count1" value="1"><label class="rad_key" for="inventory_count1">拍下减库存</label>
+                                            <input type="radio" name="inventory_count" id="inventory_count2" value="2" checked="checked"><label class="rad_key" for="inventory_count2">付款减库存</label>
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>所在地：</label>
+                                        <select class="form_sel selProvince_rent"></select>
+                                        <select class="form_sel selCity_rent" wmv="selEmpty" wmvmsg="所在地请精确到市级！"></select>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>运费：</label>
+                                        <div class="shipping_type">
+                                            <div class="shipping_type_item">
+                                                <input type="radio" name="shipping_type" id="shipping_type1" checked="checked" value="1"><label class="rad_key" for="shipping_type1" wmv="bear_type" wmvmsg="请选择运费承担方！">卖家承担</label>
+                                            </div>
+                                            <div class="shipping_type_item">
+                                                <input type="radio" name="shipping_type" id="shipping_type2" value="2"><label class="rad_key" for="shipping_type2">买家承担</label>
+                                                <ul class="seller_bear_main" wmv="shipping_type" wmvmsg="请选择买家支付运费规则">
+                                                    <li>
+                                                        <input type="radio" name="seller_bear_type" id="seller_bear_type1" value="1"><label class="rad_key" for="seller_bear_type1">使用运费模版</label>
+
+                                                        <div class="model_data">
+                                                            <span></span>
+                                                            <a href="#" class="ui_btn ui_btn_h23gray10" wmv="modelEmpty" wmvmsg="请选择邮费模版！<br/>如果未添加过模版可在选择页面进行添加。">
+                                                                <span class="ui_btn_txt">选择模版</span>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" name="seller_bear_type" id="seller_bear_type2" checked="checked" value="2">
+                                                        <label class="rad_key" for="seller_bear_type2">平邮</label><input type="text" class="form_txt w80 ">
+                                                        元
+                                                        <label class="rad_key" for="radio6">快递</label><input type="text" class="form_txt w80 ">
+                                                        元
+                                                        <label class="rad_key" for="radio6">EMS</label><input type="text" class="form_txt w80 ">
+                                                        元
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key"><b class="form_must">*</b>发票：</label>
+                                        <div class="floatleft" wmv="radioEmpty" wmvmsg="请选择是否具有发票！">
+                                            <input type="radio" name="invoice" id="invoice1" checked="checked" value="1"><label class="rad_key" for="invoice1">无</label>
+                                            <input type="radio" name="invoice" id="invoice2" value="2"><label class="rad_key" for="invoice2">有</label>
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">退换货承诺：</label>
+                                        <input type="checkbox" name="commitment" id="commitment1" checked="checked"><label class="chk_key" for="commitment1">凡购买本商品，若存在质量问题或与描述不符，本店将主动提供退换货服务并承担来回邮费！</label>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">商品标签：</label>
+                                        <ul class="floatleft tag_list">
+                                            <!--<li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>
+                                            <li class="tag_item">标签1<a class="wm_ico fork2  remove_tag" href="#"></a>
+                                            </li>-->
+                                            <li class="tag_btn">
+                                                <a href="#" class="ui_btn ui_btn_h22white7 create_tag><span class="ui_btn_txt">自动获取</span></a>
+                                            </li>
+                                            <li class="custom_tag">
+                                                <input type="text" class="form_txt custom_tag_val" />
+                                                <a href="#" class="ui_btn ui_btn_h22white7"><span class="ui_btn_txt">添加</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">售后说明：</label>
+                                        <div class="aftermarket_remark">
+                                            <p></p>
+                                            <a href="#" class="ui_btn ui_btn_h23gray10"><span class="ui_btn_txt">选择售后说明模版</span></a>
+                                            <span class="form_remark">填写售后说明，让买家更清楚售后保障，减少纠纷</span>
+                                        </div>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">橱窗推荐：</label>
+                                        <div class="up_recommend_box">
+                                            <input type="checkbox" name="recommend" id="recommend1"><label class="chk_key" for="recommend1">是</label>
+                                            <span class="form_remark">4个橱窗位，需要上传规定格式的图片，每个商品上传一张，<b>完全免费哦！</b></span>
+                                            <a href="#" class="add_recommend_img add_recommend_img_hook">+<span>图片比例为<b>740*250</b></span><img src="" /></a>
+                                            <input type="file" class="form_file">
+                                        </div>
+                                    </li>
+                                    <li class="form_row ptb10 form_btns">
+                                        <label class="row_key">&nbsp;</label>
+                                        <a href="#" class="ui_btn ui_btn_h40red1">
+                                            <input type="submit" class="ui_btn_txt" value="提交"></a>
+                                    </li>
+                                </ul>
+                            </form>
+                            <div class="seg"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="link_list">
+                    <div class="link_item">
+                        <span>服务保障</span>
+                        <ul>
+                            <li><a href="#">正品保障</a></li>
+                            <li><a href="#">7天无条件退货</a></li>
+                            <li><a href="#">7*15小时服务</a></li>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>购物指南</span>
+                        <ul>
+                            <li><a href="#">导购演示</a></li>
+                            <li><a href="#">订单操作</a></li>
+                            <li><a href="#">用户指南</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">购物参考</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>支付方式</span>
+                        <ul>
+                            <li><a href="#">网银支付币</a></li>
+                            <li><a href="#">支付平台</a></li>
+                            <li><a href="#">信用卡</a></li>
+                            <li><a href="#">同城生活金币</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>配送方式</span>
+                        <ul>
+                            <li><a href="#">配送服务</a></li>
+                            <li><a href="#">配送范围和运费</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>售后服务</span>
+                        <ul>
+                            <li><a href="#">退换货政策</a></li>
+                            <li><a href="#">退换货流程</a></li>
+                            <li><a href="#">退款方式和时效</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item end">
+                        <span>同城生活模式</span>
+                        <ul>
+                            <li><a href="#">聚合式品牌特卖</a></li>
+                            <li><a href="#">同城生活成长基金</a></li>
+                            <li><a href="#">推手规则</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+
+                    <a href="#">
+                        <img src="../../public/img/internetPolice.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/putOnRecord.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/internetBusiness.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/siteCredits.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/trusty.png" />
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

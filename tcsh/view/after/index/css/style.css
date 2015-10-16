@@ -1,0 +1,47 @@
+﻿@CHARSET "UTF-8";
+.main_con .seg { height: 20px; margin: 10px 0; width: 100%; background: #cacaca; }
+
+.main_con .user_data { background: #535353; height: 80px; padding: 5px; color: #fff; }
+.main_con .user_data .user_img { display: block; padding: 2px; background: #fff; float: left; }
+.main_con .user_data .user_img img { width: 70px; height: 70px; }
+.main_con .user_data .user_data_item { float: left; font-size: 14px; font-family: SimSun; padding: 10px 0 0 20px; width: 320px; line-height: 14px; position: relative; }
+.main_con .user_data .user_data_item .user_lv { vertical-align:middle}
+.main_con .user_data .go_privilege { width: 100px; height: 15px; background: #F37D14; display: block; float: right; padding: 5px 10px; color: #fff; line-height: 14px; font-size: 14px; margin-top: -5px; *position: absolute; *right: 0; }
+.main_con .user_data .user_data_btns { float: left; padding: 20px 0 0 20px; width: 660px; }
+.main_con .user_data .user_data_btns a { color: #fff; font-size: 14px; font-family: SimSun; *float: left; }
+.main_con .user_data .user_data_btns .ui_btn { float: right; margin: 0 5px; }
+
+
+.main_title { font-family: SimSun; color: #323232; padding-left: 20px; }
+
+.user_commodity_box { overflow: hidden; }
+.user_commodity_box .tab_con { overflow: hidden; display: none; }
+.user_commodity_box .tab_con .tab_con_item { float: left; margin: 20px 23px 0 0; _margin-right: 18px; }
+.user_commodity_box .tab_con .tab_con_item span { display: block; padding-left: 5px; padding-top: 5px; }
+.user_commodity_box img { width: 110px; height: 110px; display: block; }
+.user_commodity_box .user_commodity_tab { background: #CBCBCB; height: 35px; line-height: 35px; padding-top: 10px; }
+.user_commodity_box .user_commodity_tab a { padding: 8px 10px; font-size: 14px; font-weight: 700; color: #323232; margin: 0 20px; line-height: 42px; *zoom: 1; *padding: 0 10px; }
+.tab_new_transaction .tab_new_transaction,
+.tab_tobekeep .tab_tobekeep,
+.tab_unpaid .tab_unpaid { background: #F1F1F1; }
+.tab_new_transaction .new_transaction,
+.tab_tobekeep .tobekeep,
+.tab_unpaid .unpaid { display: block; margin-right: -25px; }
+
+
+.announcement_box { }
+.announcement_box .announcement_head { border-bottom: 1px #323232 dashed; padding: 5px 0; position: relative; height: 24px; line-height: 24px; }
+.announcement_box .announcement_head .main_title { float: left; }
+.announcement_box .announcement_head .tip { position: absolute; top: -5px; left: 80px; }
+.announcement_box .announcement_head .more { float: right; }
+.announcement_box .announcement_list { line-height: 26px; padding: 20px 0 50px 20px; font-family: SimSun; overflow: hidden; }
+.announcement_box .announcement_list li a { width: 640px; display: block; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.announcement_box .announcement_date { float: right; }
+
+
+.submit_proposal_box { }
+.submit_proposal_box .sp_head { padding: 10px 0; }
+.submit_proposal_box textarea { resize: none; padding: 5px; width: 720px; margin-left: 10px; height: 200px; }
+.submit_proposal_box .sp_btns { text-align: center; padding-top: 12px; padding-bottom: 20px; }
+.submit_proposal_box .sp_btns .ui_btn { margin-right: 40px; }
+.submit_proposal_box .sp_btns .ui_btn_txt { font-size: 14px; font-weight: 700; font-family: SimSun; padding: 0 18px; }

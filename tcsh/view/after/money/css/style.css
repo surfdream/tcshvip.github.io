@@ -1,0 +1,40 @@
+﻿@CHARSET "UTF-8";
+.main_con .right_head { height: 75px; }
+.main_con .right_head .btns { clear: both; line-height: 30px; }
+.main_con .right_head h3 { line-height: 14px; padding: 16px 0 5px 0; }
+.main_con .right_head .btns .ui_btn_txt { font-size: 16px; font-family: SimSun; padding: 0 15px; }
+.main_con .right_head .btns .ui_btn { float: right; margin-right: 50px; }
+.main_con .right_head .btns a, .main_con .right_head .btns a:link, .main_con .right_head .btns a:active, .main_con .right_head .btns a:hover {  font-size: 14px; }
+
+
+
+
+.main_con .moner_list { padding: 20px; }
+.main_con .moner_list .moner_data_item { font-size: 14px; font-family: SimSun; padding-right: 50px; }
+.main_con .moner_list .ui_btn { margin: 0 5px; float: right; }
+.main_con .moner_list .ui_btn_txt { font-family: SimSun; }
+.main_con .moner_list .moner_data_item b { color: #e13436; }
+.main_con .details_list .tab { background: #55a2fb; padding-top: 10px; }
+.main_con .details_list .tab .ui_btn { margin: 0 10px -5px 35px; }
+.main_con .details_list .tab .ui_btn_txt { font-weight: 700; font-size: 14px; padding: 0 15px 0 10px; color:#fff}
+.main_con .details_list .tab .ui_btn_h36white3 .ui_btn_txt { color:#131313}
+.main_con .table_list { }
+.main_con .table_list b { color: #e13436; }
+.main_con .table_list .weight700 { font-weight: 700; }
+.main_con .table_list .gray { color: #646464; }
+.main_con .table_list .remark { display: block; color: #999; font-size: 12px; font-family: SimSun; white-space: nowrap; }
+.main_con .table_list td { color: #646464; }
+.main_con .table_list .taleft { text-align: left; }
+.main_con .table_list th { padding-top: 10px; font-weight: 500;background:#fff }
+.main_con .table_list .w114px { width: 114px; }
+.main_con .table_list .bgccc { background: #ccc; }
+
+.money_details { }
+.money_details .right_head { height: 50px; }
+.money_details .table_list { border: 1px solid #ccc; border-bottom: none;border-top: none; }
+.money_details .table_list td { border: 1px solid #ccc; padding: 14px; text-align: left; }
+.money_details .table_list th { background: #55a2fb; border-bottom: 1px solid #ccc;text-align: left;padding: 14px;color:#fff  }
+.money_details .w780 { width: 778px; }
+
+.p5 { }
+.p5 td { padding-top: 5px!important; padding-bottom: 5px!important; }

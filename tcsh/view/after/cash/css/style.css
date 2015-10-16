@@ -1,0 +1,486 @@
+@CHARSET "UTF-8";
+.red{
+	color:#ff0000;
+	font-style:normal;
+}
+.w100{
+	display:inline-block;
+	width:100px;
+}
+.head_sub .head_con .wm_logo{
+	padding: 20px 0 0 15px;
+}
+.main_con{
+	background:#FFF;
+	min-height:1095px;
+}
+.company_account{
+	padding:0 10px 10px 20px;
+	font-family:"Simsun";
+}
+.account_title{
+	position:relative;
+	border-bottom:1px solid #c7c7c7;
+	padding:0 0 10px 20px;
+	height:26px;
+}
+.account_title b{
+	font-size:14px;
+	color:#5d5e5e;
+	line-height:26px;
+}
+.attest_status{
+	position:absolute;
+	right:10px;
+	top:0;
+}
+.attest_status b{
+	color:#4f98ed;
+	font-size:14px;
+}
+.attest_btn{
+	color:#323232;
+	padding:3px 5px;
+	margin-left:5px;
+}
+.attest_sub{
+	color:#535353;
+	margin-top:20px;
+}
+.company_account_con{
+	position:relative;
+	padding:10px 0 30px 0;
+}
+.default_account{
+	position:absolute;
+	top:10px;
+	right:10px;
+	color:#0076a3;
+}
+.account_infor{
+	position:relative;
+	padding-bottom:40px;
+}
+.account_control{
+	position:absolute;
+	bottom:5px;
+	right:10px;
+	padding:2px 4px;
+	color:#666;
+}
+.account_infor .account_item,.account_infor .bank_logo{
+	margin:20px 0 0 18px;
+	font-size:14px;
+	color:#5d5e5e;
+}
+.account_infor span{
+	display:inline-block;
+	width:360px;
+}
+.account_control{
+	position:absolute;
+	bottom:5px;
+	right:10px;
+	padding:2px 4px;
+	color:#666;
+}
+.account_control .btn_list{
+	width:80px;
+}
+.account_control .company_default{
+	color:#f60;
+}
+.account_control .btn_list .ui_btn_txt{
+	width:60px;
+}
+.main_con .btn_list ul{
+	text-align:center;
+}
+.personal_account{
+	padding:20px 10px 20px 20px;
+	font-family:"Simsun";
+}
+.add_personal_account{
+	padding:30px 0;
+}
+.add_personal_account a{
+	display:inline-block;
+	width:120px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	border:1px dashed #b8d4fa;
+	font-size:14px;
+}
+.add_personal_account a:hover{
+	text-decoration:none;
+}
+.remind p{
+	color:#999999;
+	margin-top:10px;
+}
+.remind p a,.remind p a:link,.remind p a:active,.remind p a:visited{
+	color:#0000ff;
+}
+
+/* 等待提现认证  */
+.waiting_attest{
+	padding-top:40px;
+}
+.waiting_remind{
+	border:2px solid #4f98ed;
+	padding:15px 5px;
+	margin-left:-15px;
+	font-weight:bold;
+	color:#333333;
+	font-size:14px;
+}
+.waiting_remind .iconfont{
+	color:#4f98ed;
+	font-size:20px;
+	margin-right:5px;
+}
+.apply_time{
+	padding:20px 0 10px 0;
+	color:#5d5e5e;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.attest_attention li{
+	padding-top:20px;
+	color:#5d5e5e;
+}
+/* 认证失败 样式  */
+.attest_fail{
+	position:relative;
+	border:2px solid #f37d14;
+	padding:20px;
+	margin-top:40px;
+	font-size:14px;
+}
+.attest_time1{
+	position:absolute;
+	top:20px;
+	right:10px;
+	color:#666666;
+	font-size:12px;
+}
+.attest_time1 span{
+	padding-left:20px;
+}
+.fail_infor li{
+	padding-bottom:20px;
+	color:#666666;
+}
+.fail_infor li b{
+	color:#333333;
+}
+.fail_infor li a,.fail_infor li a:link,.fail_infor li a:active,.fail_infor li a:visited{
+	color:#0000ff;
+	font-size:14px;
+	padding-left:3px;
+}
+.fail_possible{
+	padding-top:20px;
+	font-size:12px;
+}
+.fail_possible li{
+	padding-bottom:6px;
+	color:#999999;
+}
+.fail_possible li b{
+	color:#5d5e5e;
+	display:block;
+	padding-bottom:10px;
+}
+
+/* 确认金额  样式  */
+.confirm_money{
+	padding-top:20px;
+	font-size:14px;
+}
+.confirm_con{
+	padding-top:10px;
+}
+.confirm_con li{
+	padding-top:30px;
+	color:#5d5e5e;
+}
+.confirm_con .confirm_txt{
+	border:1px solid #a8a8a8;
+	width:40px;
+	height:16px;
+	line-height:16px;
+	padding:5px 10px;
+}
+.confirm_con li span{
+	color:#999999;
+}
+.confirm_con .confirm_btn{
+	color:#FFF;
+	font-weight:bold;
+	background:#4f98ed;
+	border-radius:4px;
+	width:80px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	display:inline-block;
+	font-size:14px;
+	border:none;
+}
+
+/* 添加个人账户弹窗  样式  */
+.personalBox_con{
+	padding:0 20px;
+}
+.wm_form .form_row{
+	line-height:none;
+	overflow:inherit;
+	float:left;
+	width:580px;
+}
+.wm_form .row_key{
+	font-size:14px;
+	width:150px;
+}
+.wm_form .form_sel{
+	margin-right:10px;
+}
+.wm_form .form_txt{
+	width:180px;
+	height:16px;
+	line-height:16px;
+	padding:4px;
+}
+.wm_form .bank_txt{
+	display:none;
+	margin-right:10px;
+	width:auto;
+	border:0;
+}
+.wm_form .bank_choice{
+	padding:2px 6px;
+}
+.wm_form .owner_name{
+	width:80px;
+}
+.form_row .upload_img{
+	width:100px;
+	height:150px;
+	border:0;
+	display:none;
+	vertical-align:middle;
+	margin-right:10px;
+}
+.fork7{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.form_row .form_intr{
+	color:#cacaca;
+	font-size:12px;
+	display:block;
+}
+.form_row span.bankCard_kind{
+	color:#6d6161;
+	font-size:14px;
+	padding-left:0;
+}
+.wm_form .download_file{
+	font-size:12px;
+	color:#5d5d5d;
+	padding:20px 0;
+}
+.download_file .doc{
+	color:#0000ff;
+}
+.wm_form .form_btns{
+	text-align:center;
+	float:none;
+}
+.form_btns a,.form_btns a:link,.form_btns a:active,.form_btns a:visited{
+	display:inline-block;
+	background:#a3a0a0;
+	width:80px;
+	height:36px;
+	line-height:36px;
+	color:#FFF;
+	font-weight:700;
+	font-size:14px;
+	margin-right:40px;
+	border-radius:4px;
+	text-align:center;
+}
+.wm_form .form_btns a.sure_btn{
+	background:#ff3030;
+}
+.form_btns a:hover{
+	text-decoration:none;
+}
+.wm_form .upload_photo{
+	width:70px;
+	overflow:hidden;
+	vertical-align:bottom;
+}
+.opening{
+	position:relative;
+	width:400px;
+}
+.opening_bank_list{
+	position:absolute;
+	left:0;
+	top:28px;
+	height:135px;
+	min-width:192px;
+	background:#f8f8f8;
+	z-index:222;
+	overflow-y:scroll;
+}
+.opening .opening_bank_list::-webkit-scrollbar { width: 5px; height: 5px; }
+.opening .opening_bank_list::-webkit-resizer { background: #333333; }
+.opening .opening_bank_list::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.opening_bank_list li{
+	height:25px;
+	line-height:25px;
+	padding:4px;
+}
+.opening_bank_list li:hover{
+	background:#ccc;
+}
+
+
+
+/* 个人账户待审核 样式  */
+.personal_account .account_infor{
+	border-bottom:1px dashed #c7c7c7;
+	margin-bottom:30px;
+}
+.no_pass{
+	font-size:14px;
+	color:#666666;
+}
+.no_pass a,.no_pass a:link,.no_pass a:active,.no_pass a:visited{
+	color:#0000ff;
+	font-size:14px;
+}
+
+/* 提现申请  */
+.org{
+	color:#f37d14;
+}
+.red{
+	color:#f00;
+}
+.main_con .seg{
+	height:40px;
+	line-height:30px;
+	position:relative;
+}
+.seg b{
+	display:block;
+	padding:4px 20px;
+	font-size:14px;
+	color:#5d5e5e;
+	font-family:"Simsun";
+}
+.cash_form{
+	padding-bottom:20px;
+	font-family:"Simsun";
+}
+.cash_form .form_row{
+	font-size:14px;
+	float:none;
+	width:100%;
+	padding:10px 0;
+	border-bottom:1px dashed #d7d7d7;
+}
+.cash_form .form_row:last-child{
+	border-bottom:0;
+}
+.main_con .wm_form .row_key{
+	font-size:14px;
+}
+.cash_form .ui_btn{
+	margin-left:160px;
+}
+.cash_form .ui_btn_txt{
+	font-weight:bold;
+	font-size:14px;
+}
+.main_con .wm_form .cash_money{
+	width:80px;
+}
+.main_con .wm_form .cash_psd{
+	width:150px;
+}
+.form_row .bank_card{
+	display:inline-block;
+	color:#FFF;
+	background:#428cf1;
+	border-radius:2px;
+	margin-left:10px;
+	padding:0 4px;
+}
+.form_row a:hover{
+	text-decoration:none;
+}
+.seg .record_form{
+	position:absolute;
+	right:10px;
+	top:6px;
+	color:#323232;
+}
+.record_sub{
+	padding:2px 20px;
+	color:#323232;
+}
+.record_txt{
+	height:16px;
+	line-height:16px;
+	padding:2px 4px;
+	width:120px;
+	margin:0 10px;
+}
+.table_show{
+	border:0;
+	font-size:14px;
+	font-family:"Simsun";
+	color:#646464;
+	width:100%;
+	border-collapse:collapse;
+	margin-top:-20px;
+}
+.table_show th{
+	color:#f37d14;
+	text-align:center;
+	background:#eaeaea;
+	font-weight:normal;
+	height:40px;
+	line-height:40px;
+	margin:0 10px;
+}
+.table_show td{
+	text-align:center;
+	height:40px;
+	line-height:40px;
+}
+.table_show tr.even{
+	background:#eaeaea;
+}
+.table_show tr.odd{
+	background:#f2f2f2;
+}
+.order_page{
+	padding:10px;
+	margin:40px 0 20px 0;
+	text-align:center;
+}
+.order_page a,.order_page b, .order_page a:hover { padding: 6px 10px; height: 12px; line-height: 12px; background: #fff; color: #828282;  border: 1px solid #dbdbdb; font-size:14px; text-decoration:none; margin-left:5px; font-family:"Simsun"; }
+.order_page span {font-size:14px; color:#828282;}
+.order_page b { color: #fff; font-weight: 500; background: #e97813; }

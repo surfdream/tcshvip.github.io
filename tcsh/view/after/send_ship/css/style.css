@@ -1,0 +1,38 @@
+﻿@CHARSET "UTF-8";
+.send_ship { overflow: hidden; }
+.da_list { width: 100%; padding-right: 10px; padding-bottom: 20px; }
+
+.da_list ul { overflow: hidden; }
+.da_list ul li { display: block; overflow: hidden; _zoom: 1; padding-bottom: 5px; }
+.da_list .da_item { *float: left; width: 710px; background: #fff; margin-bottom: 10px; font-family: SimSun; border: 1px #e0e0e0 solid; padding: 10px 30px 0 30px; line-height: 22px; cursor: pointer; margin-left: 5px; margin-right: 5px; vertical-align: top; position: relative; }
+.da_list .da_item b { font-weight: 500; }
+.da_list .da_item .da_item_head { border-bottom: 1px #e0e0e0 solid; }
+.da_list .da_item .da_item_head h3 { float: left; font-weight: 500; border-bottom: 0 solid #fff; margin-bottom: 0; padding-top: 0; }
+
+.da_list .da_item .da_item_head b { color: #e13436; font-size: 14px; padding-left: 10px; }
+.da_list .da_item .da_data { padding: 10px 0; }
+.da_list .da_item .da_data b { display: block; float: left; color: #787878; }
+.da_list .da_item .btns { padding: 10px 0; text-align: right; cursor: default; position: absolute; top: 0; right: 30px; width: 125px;_width:150px }
+.da_list .da_item .btns a { margin-right: 5px; }
+.da_list .da_item .curr_mark { position: absolute; top: 0; right: 0; display: none; }
+.da_list .curr .curr_mark { display: block; }
+.da_list .curr { cursor: default; }
+.da_list .curr, .da_list .da_item:hover { background: #FFF4DB; }
+.da_list .curr .da_data b { color: #e13436; }
+.da_list .da_item span { text-align: right; display: block; float: left; width: 70px; color: #505050; }
+.da_list .da_item span i { display: inline-block; width: 24px; }
+.da_list .da_item .set_default { color: #505050; text-align: left; width: auto; float: right; margin: 0 10px; }
+.da_list .hideda_list { display: none; }
+.da_list .da_list_btns { padding: 10px 0; }
+.da_list .da_list_btns .ui_btn { margin-left: 10px; }
+.da_list .da_list_btns .ui_btn_txt { font-size: 14px; font-weight: 700; }
+.da_list .da_list_btns .ui_btn_txt i { font-style: normal; font-weight: 700; font-size: 28px; *font-size: 18px; line-height: 28px; *line-height: 33px; float: left; padding-right: 5px; zoom: 1; }
+.da_list .showall { line-height: 28px; padding: 0 10px; }
+
+.da_list .da_list_head, .send_ship_data .send_ship_data_head { padding-bottom: 10px; margin-bottom: 15px; border-bottom: 1px dashed #a6a6a6; }
+.da_list .da_list_head h3, .send_ship_data .send_ship_data_head h3 { font-family: SimSun; font-size: 14px; padding-left: 15px; color: #535353; }
+
+
+.send_ship_data { }
+.send_ship_data .btns { padding-top:20px}
+.send_ship_data .btns .ui_btn_txt { font-family:SimSun;font-size:14px;font-weight:700;letter-spacing:20px;padding-left:24px;*padding-right:25px}

@@ -1,0 +1,27 @@
+﻿@CHARSET "UTF-8";
+.main_con .gifts_list_search .row_key { width: 100px; }
+.gifts_list_search { padding: 10px 0; }
+
+.main_con .gifts_list { width: 100%; background: #fff; margin-bottom: 40px; }
+.main_con .gifts_list th, .main_con .gifts_list td { text-align: left; padding: 10px 0 10px 20px; color: #333; max-width: 220px; }
+.main_con .gifts_list th { background: #ccc; border: none; }
+.main_con .gifts_list td p { line-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 350px; }
+.main_con .gifts_list tbody tr:hover td { background: #ededed; }
+.main_con .gifts_list tfoot td { border-top: none; }
+
+.gifts_list_search .submit { cursor: pointer; border: 1px solid #55a2fb; text-decoration: none; margin-left: 5px; display: inline-block; width: 55px; height: 24px; background: #fff; border-radius: 4px; vertical-align: top; line-height: 12px; text-align: center; color: #333; font-size: 12px; _zoom: 1; }
+.gifts_list_search .submit:hover { background: #55a2fb; color: #FFF; }
+
+.delivery_box { width: 600px; }
+.delivery_box .delivery_head { padding: 0 0 10px 0; border-bottom: 1px solid #666; position: relative; }
+.delivery_box .delivery_head h3 { font-size: 16px; color: #333; }
+.delivery_box .delivery_head .close, .delivery_box .delivery_head .close:link, .delivery_box .delivery_head .close:active, .delivery_box .delivery_head .close:visited { font-size: 16px; position: absolute; right: 0; top: 0; }
+.delivery_box .delivery_head .close:hover { text-decoration: none; color: #e13436; }
+.delivery_box .delivery_main { padding: 20px 20px 0 20px; }
+.delivery_box .ipt_mail { padding: 8px; width: 250px; }
+.delivery_box .btns { overflow: hidden; padding: 10px 0 0 0; }
+.delivery_box .btns a, .delivery_box .btns a:link, .delivery_box .btns a:active, .delivery_box .btns a:visited { display: block; float: right; line-height: 30px; padding: 0px 12px; }
+.delivery_box .btns .submit { background: #f60; color: #fff; border-radius: 4px; }
+.delivery_box .wm_form .form_row { padding: 10px 0; }
+.delivery_box .wm_form .row_key { width: 150px; }
+.delivery_box .submit { background: #f60; color: #fff; border-radius: 4px; float: right; border: none; padding: 6px 12px; }

@@ -1,0 +1,74 @@
+﻿@CHARSET "UTF-8";
+.w370 { width: 370px!important; }
+.w234 { width: 234px!important; }
+.w80 { width: 80px!important; }
+.wm_form .cred { color: #E03335 !important; }
+.ad_check_in_form { padding: 30px 0 0 0; font-family: SimSun; font-size: 12px; }
+.main_con .ad_check_in_form .row_key { font-size: 12px; font-family: SimSun; width: 150px; }
+.ad_check_in_form .remark { display: block; font-size: 12px; color: #777777; }
+.ad_check_in_form .go_precision { margin-left: 10px; }
+.ad_check_in_form .btns { padding: 10px 0; margin-bottom: 10px; position: relative; overflow: hidden; }
+.ad_check_in_form .btns .add { display: inline-block; width: 30px; height: 30px; line-height: 22px; border: 1px solid #12ac01; font-size: 40px; color: #12ac01; font-weight: 700; float: left; text-decoration: none; text-align: center; font-family: 'Microsoft YaHei'; }
+.ad_check_in_form .btns .ui_btn_txt { letter-spacing: 20px; font-size: 20px; padding-left: 25px; }
+.ad_check_in_form .ad_date { }
+.ad_check_in_form .ad_date .row_key { width: 100px; }
+.ad_check_in_form .date_list { background: #dcdcdc; padding: 10px; width: 500px; min-height: 10px; overflow: hidden; }
+.ad_check_in_form .date_list li { float: left; display: block; width: 160px; font-size: 24px; text-align: center; line-height: 24px; padding: 10px 0; }
+.ad_check_in_form .date_list li span { font-size: 12px; line-height: 24px; padding: 0 8px; }
+.ad_check_in_form .submit_material, .ad_check_in_form .submit_material:link, .ad_check_in_form .submit_material:active, .ad_check_in_form .submit_material:visited { font-weight: 700; text-decoration: none; display: block; width: 160px; height: 120px; background: #ebebeb; float: left; text-align: center; line-height: 100px; font-size: 60px; color: #777; border-radius: 20px; border-bottom: 2px solid #999; border-right: 1px solid #999; }
+.ad_check_in_form .submit_material span { font-size: 12px; display: block; line-height: 12px; font-weight: 500; margin-top: -15px; }
+.ad_check_in_form .submit_material:hover { color: #ef7f1b; }
+.ad_check_in_form .submit_material:hover span { color: #ef7f1b; }
+.ad_check_in_form .cycle { margin-right: 5px; }
+.ad_check_in_form .ad_img { max-height: 500px; max-width: 500px; display: none; margin: 0 0 10px 0; }
+#up_ad_material { }
+.up_ad_material_main { width: 790px; padding: 20px 0; }
+#up_ad_material .form_row { padding: 10px 0; }
+#up_ad_material .not_wrap { float: left; width: 306px; clear: none; }
+#up_ad_material .up_ad_material_main .row_key { width: 150px; }
+#up_ad_material .remark { display: block; color: #787878; font-size: 12px; }
+.up_ad_material_main .form_txt { padding: 5px; width: 450px; }
+#up_ad_material .up_ad_material_title { overflow: hidden; width: 700px; margin: 0 auto 10px auto; padding: 40px 0 12px 0; border-bottom: 1px dashed #d7d7d7; }
+#up_ad_material .up_ad_material_title h3 { float: left; font-family: 'Microsoft YaHei'; font-size: 24px; color: #535353; font-weight: 500; }
+#up_ad_material .up_ad_material_title .remark { float: left; line-height: 28px; padding: 0 0 0 10px; font-family: SimSun; }
+.up_ad_material_main .img_list { border: 1px solid #dcdcdc; width: 550px; min-height: 30px; float: left; padding: 25px 0 0 25px; height: 200px; overflow-y: scroll; }
+.up_ad_material_main .img_list li { margin: 0 25px 25px 0; float: left; height: 100px; width: 100px; border: 1px solid #d2d2d2; text-align: center; }
+.up_ad_material_main .img_list li:hover, .up_ad_material_main .img_list .chked { margin: -1px 24px 24px -1px; border: 2px solid #ef7f1b; }
+.up_ad_material_main .img_list .chk_img { position: relative; }
+.up_ad_material_main .img_list .nail { position: absolute; bottom: 0; right: 0; font-size: 28px;  }
+.up_ad_material_main .img_list .chked .nail,.up_ad_material_main .img_list li:hover .nail { background-position: 0 -2190px; width: 30px; height: 30px; }
+.up_ad_material_main .img_list img { max-height: 100px; max-width: 100px; vertical-align: middle; }
+.up_ad_material_main .img_list a, .up_ad_material_main .img_list a:link, .up_ad_material_main .img_list a:active, .up_ad_material_main .img_list a:visited, .up_ad_material_main .img_list a:hover { display: inline-block; line-height: 96px; }
+#up_ad_material .save .ui_btn_txt { font-size: 16px; letter-spacing: 5px; padding-left: 12px; }
+#up_ad_material .notsave, #up_ad_material .notsave .ui_btn_txt { background: #fff; color: #333333; }
+#up_ad_material .up_new_img { position: absolute; left: 56px; top: 40px; }
+#up_ad_material .up_new_img .form_file { width: 100%; height: 100%; cursor: pointer; }
+#up_ad_material .save { }
+#up_ad_material .save .ui_btn_txt { font-size: 18px; letter-spacing: 8px; padding-left: 14px; }
+#up_ad_material .close_btn { position: absolute; top: 0; right: 0; }
+
+.select_box {border-bottom:1px solid #55a2fb }
+.ad_list_select { padding: 10px 0 10px 30px; }
+.ad_list_select .not_wrap { float: left; width: 370px; clear: none; }
+.ad_list_select .form_row .row_key { font-size: 14px; width: 110px; padding: 0; }
+.ad_list_select .status_list { }
+.ad_list_select .status_list a, .ad_list_select .status_list a:link, .ad_list_select .status_list a:active, .ad_list_select .status_list a:visited { font-size: 14px; color: #3295D1; padding: 2px 10px; }
+.ad_list_select .status_list a:hover, .ad_list_select .status_list li .chked { background: #F37D13; color: #fff; text-decoration: none; border-radius: 5px; }
+.ad_list_select .status_list li { float: left; padding: 0 8px; }
+.ad_list_select .form_txt { margin: 0 5px; }
+.ad_list_select .select_submit { margin-left: 5px; }
+.ad_check_in_list { width: 100%; font-size: 14px; font-family: SimSun; margin: 8px 0 0 0; }
+.ad_check_in_list th { padding: 10px 0; font-weight: 500; border-bottom: 2px solid #ccc; }
+.ad_check_in_list td { font-size: 12px; padding: 8px 0 8px 22px; border-bottom: 1px dashed #ccc; }
+.ad_check_in_list b { font-weight: 500; color: #E03335; }
+.ad_check_in_list tr:hover td { background: #fff; }
+.ad_check_in_list .ad_name { text-align: center; font-weight: 700; color: red; }
+.wm_page_box { overflow: hidden; margin: 30px 0; }
+.wm_page { float: right; }
+
+#wmad_locate { width: 100%; height: 100%; overflow: hidden; }
+#wmad_locate .wmBox-content { margin: 0; }
+
+#verification_box { }
+#verification_box .msg { font-size: 18px; text-align: center; line-height: 60px; padding: 10px 24px; }
+#verification_box .remark { display: block; font-size: 14px; text-align: left; padding-left: 46px; line-height: 12px; }
