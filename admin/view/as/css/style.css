@@ -1,0 +1,10 @@
+﻿.fixed_box { position: fixed!important; }
+.channel_form_main { padding: 20px 0; }
+.wm_form .row_key { width:150px}
+.channel_form .row_key { }
+.channel_form .row_key b { margin-top: 18px; display: block; }
+.channel_form .location_item ul { border: 1px solid #cccccc; padding: 30px 0; }
+.channel_form .btns { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; position: relative; overflow: hidden; text-align: center; }
+.channel_form .btns .add { display: inline-block; width: 30px; height: 30px; line-height: 22px; border: 1px solid #12ac01; font-size: 40px; color: #12ac01; font-weight: 700; float: left; text-decoration: none; text-align: center; font-family: 'Microsoft YaHei'; }
+.channel_form .btns .ui_btn_txt { letter-spacing: 20px; font-size: 20px; padding-left: 25px; }
+.channel_form .upimg { display:none}
