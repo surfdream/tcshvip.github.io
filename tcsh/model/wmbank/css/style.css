@@ -1,0 +1,15 @@
+﻿.bank_dialog { }
+.bank_dialog .boxbank_mian { width: 780px; height: 430px; }
+.bank_dialog .search_box { margin: 20px 0 0 20px; border-bottom: 1px solid #999; width: 740px; padding-bottom: 15px; }
+.bank_dialog .search_box .search_txt { padding: 5px; }
+.bank_dialog .boxbank_list { padding: 0 20px 0 20px; overflow-y: scroll; width: 720px; height: 350px; *height: 310px; margin-top: 25px;position:relative }
+.bank_dialog .boxbank_item { float: left; display: block; width: 170px; border: 1px solid #fff; cursor: pointer; position: relative; overflow: hidden; }
+.bank_dialog .boxbank_item:hover { border: 1px dashed #999; }
+.bank_dialog .boxbank_item .boxbank_name { display: block; float: left; width: 125px; *width: 120px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; cursor: pointer; padding: 10px; zoom: 1; position: relative;word-wrap:normal }
+.bank_dialog .hidden { display: none; }
+.bank_dialog .boxbank_item input { float: left; margin: 12px 0 10px 10px; }
+.bank_dialog .boxbank_item b { color: #E03335; }
+.bank_dialog .ui_btn_h46red8 .ui_btn_txt { font-size: 18px; padding: 0 25px 0 30px; letter-spacing: 10px; }
+.bank_dialog .alink { background: #fff; }
+.bank_dialog .alink .ui_btn_txt { background: none; color: #666; }
+.bank_dialog .wmBox-botton { padding-right:10px}

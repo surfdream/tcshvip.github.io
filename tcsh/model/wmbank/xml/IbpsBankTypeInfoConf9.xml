@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<IbpsBankTypeConf>
+  <ibps code='322'>
+    <name cn='上海农村商业银行' en='null' />
+  </ibps>
+  <ibps code='321'>
+    <name cn='重庆三峡银行' en='null' />
+  </ibps>
+  <ibps code='320'>
+    <name cn='村镇银行' en='null' />
+  </ibps>
+  <ibps code='717'>
+    <name cn='中德住房储蓄银行' en='null' />
+  </ibps>
+  <ibps code='716'>
+    <name cn='德国北德意志州银行' en='null' />
+  </ibps>
+  <ibps code='714'>
+    <name cn='德国西德银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='712'>
+    <name cn='德意志银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='776'>
+    <name cn='荷兰合作银行有限公司' en='null' />
+  </ibps>
+  <ibps code='616'>
+    <name cn='首都银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='775'>
+    <name cn='华美银行(中国)有限公司' en='null' />
+  </ibps>
+  <ibps code='029'>
+    <name cn='花旗银行' en='null' />
+  </ibps>
+  <ibps code='028'>
+    <name cn='恒生银行有限公司' en='null' />
+  </ibps>
+  <ibps code='027'>
+    <name cn='南洋商业银行' en='null' />
+  </ibps>
+  <ibps code='771'>
+    <name cn='摩根士丹利国际银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='026'>
+    <name cn='东亚银行有限公司' en='null' />
+  </ibps>
+  <ibps code='611'>
+    <name cn='马来西亚马来亚银行有限公司' en='null' />
+  </ibps>
+  <ibps code='025'>
+    <name cn='汇丰银行' en='null' />
+  </ibps>
+  <ibps code='024'>
+    <name cn='城市信用合作社' en='null' />
+  </ibps>
+  <ibps code='023'>
+    <name cn='农村信用合作社' en='null' />
+  </ibps>
+  <ibps code='514'>
+    <name cn='中信银行国际（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='673'>
+    <name cn='英国巴克莱银行有限公司' en='null' />
+  </ibps>
+  <ibps code='022'>
+    <name cn='城市合作银行或上海银行' en='null' />
+  </ibps>
+  <ibps code='513'>
+    <name cn='大新银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='672'>
+    <name cn='苏格兰皇家银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='021'>
+    <name cn='商业银行' en='null' />
+  </ibps>
+  <ibps code='512'>
+    <name cn='永隆银行有限公司' en='null' />
+  </ibps>
+  <ibps code='909'>
+    <name cn='银行间市场清算所' en='null' />
+  </ibps>
+  <ibps code='020'>
+    <name cn='上海浦东发展银行' en='null' />
+  </ibps>
+  <ibps code='510'>
+    <name cn='永亨银行' en='null' />
+  </ibps>
+  <ibps code='906'>
+    <name cn='代收付清算组织' en='null' />
+  </ibps>
+  <ibps code='319'>
+    <name cn='徽商银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='318'>
+    <name cn='渤海银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='317'>
+    <name cn='农村合作银行' en='null' />
+  </ibps>
+  <ibps code='316'>
+    <name cn='浙商银行' en='CHINA ZHESHANG BANK' />
+  </ibps>
+  <ibps code='315'>
+    <name cn='恒丰银行' en='EVERGROWING BANK' />
+  </ibps>
+  <ibps code='314'>
+    <name cn='农村商业银行' en='null' />
+  </ibps>
+  <ibps code='019'>
+    <name cn='兴业银行' en='null' />
+  </ibps>
+  <ibps code='018'>
+    <name cn='招商银行' en='null' />
+  </ibps>
+  <ibps code='509'>
+    <name cn='星展银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='761'>
+    <name cn='澳大利亚和新西兰银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='508'>
+    <name cn='大众银行（香港）有限公司' en='null' />
+  </ibps>
+  <ibps code='017'>
+    <name cn='平安银行' en='null' />
+  </ibps>
+  <ibps code='507'>
+    <name cn='创兴银行有限公司' en='null' />
+  </ibps>
+  <ibps code='016'>
+    <name cn='广发银行' en='null' />
+  </ibps>
+  <ibps code='015'>
+    <name cn='中国民生银行' en='null' />
+  </ibps>
+  <ibps code='506'>
+    <name cn='集友银行有限公司' en='null' />
+  </ibps>
+  <ibps code='014'>
+    <name cn='华夏银行' en='null' />
+  </ibps>
+  <ibps code='013'>
+    <name cn='中国光大银行' en='null' />
+  </ibps>
+  <ibps code='662'>
+    <name cn='荷兰安智银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='012'>
+    <name cn='中信银行' en='null' />
+  </ibps>
+  <ibps code='011'>
+    <name cn='交通银行' en='null' />
+  </ibps>
+  <ibps code='661'>
+    <name cn='苏格兰皇家银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='010'>
+    <name cn='中国农业发展银行' en='null' />
+  </ibps>
+  <ibps code='565'>
+    <name cn='日本山口银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='403'>
+    <name cn='国家邮政局邮政储汇局' en='null' />
+  </ibps>
+  <ibps code='401'>
+    <name cn='石嘴山市城市信用社' en='null' />
+  </ibps>
+  <ibps code='009'>
+    <name cn='中国进出口银行' en='null' />
+  </ibps>
+  <ibps code='008'>
+    <name cn='国家开发银行' en='null' />
+  </ibps>
+  <ibps code='752'>
+    <name cn='蒙特利尔银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='751'>
+    <name cn='加拿大丰业银行有限公司广州分行' en='null' />
+  </ibps>
+  <ibps code='007'>
+    <name cn='中国建设银行' en='null' />
+  </ibps>
+  <ibps code='006'>
+    <name cn='中国银行' en='null' />
+  </ibps>
+  <ibps code='005'>
+    <name cn='中国农业银行' en='null' />
+  </ibps>
+  <ibps code='003'>
+    <name cn='支付业务收费专户' en='null' />
+  </ibps>
+  <ibps code='002'>
+    <name cn='中华人民共和国国家金库' en='null' />
+  </ibps>
+  <ibps code='001'>
+    <name cn='中国人民银行' en='null' />
+  </ibps>
+  <ibps code='000'>
+    <name cn='电子联行转换中心' en='null' />
+  </ibps>
+  <ibps code='742'>
+    <name cn='瑞士银行(中国)有限公司' en='null' />
+  </ibps>
+  <ibps code='641'>
+    <name cn='奥地利奥合国际银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='050'>
+    <name cn='中国外汇交易中心' en='null' />
+  </ibps>
+  <ibps code='732'>
+    <name cn='意大利联合圣保罗银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='731'>
+    <name cn='意大利裕信银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='049'>
+    <name cn='中央国债登记结算有限责任公司' en='null' />
+  </ibps>
+  <ibps code='048'>
+    <name cn='华一银行' en='null' />
+  </ibps>
+  <ibps code='633'>
+    <name cn='泰国开泰银行(大众)有限公司' en='null' />
+  </ibps>
+  <ibps code='047'>
+    <name cn='巴黎国际银行' en='null' />
+  </ibps>
+  <ibps code='046'>
+    <name cn='瑞士信贷第一波士顿银行' en='null' />
+  </ibps>
+  <ibps code='631'>
+    <name cn='盘谷银行(中国)有限公司' en='null' />
+  </ibps>
+  <ibps code='045'>
+    <name cn='德国商业银行' en='null' />
+  </ibps>
+  <ibps code='695'>
+    <name cn='法国外贸银行股份有限公司' en='null' />
+  </ibps>
+  <ibps code='044'>
+    <name cn='德累斯登银行' en='null' />
+  </ibps>
+  <ibps code='694'>
+    <name cn='东方汇理银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='043'>
+    <name cn='法国里昂信贷银行' en='null' />
+  </ibps>
+  <ibps code='534'>
+    <name cn='美国建东银行有限公司' en='null' />
+  </ibps>
+  <ibps code='042'>
+    <name cn='东方汇理银行' en='null' />
+  </ibps>
+  <ibps code='598'>
+    <name cn='国民银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='533'>
+    <name cn='摩根大通银行(中国)有限公司' en='null' />
+  </ibps>
+  <ibps code='691'>
+    <name cn='法国兴业银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='597'>
+    <name cn='韩亚银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='041'>
+    <name cn='渣打银行' en='null' />
+  </ibps>
+  <ibps code='040'>
+    <name cn='比利时联合银行' en='null' />
+  </ibps>
+  <ibps code='595'>
+    <name cn='新韩银行' en='null' />
+  </ibps>
+  <ibps code='039'>
+    <name cn='新加坡发展银行' en='null' />
+  </ibps>
+  <ibps code='038'>
+    <name cn='韩国中小企业银行' en='null' />
+  </ibps>
+  <ibps code='622'>
+    <name cn='大华银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='037'>
+    <name cn='韩国产业银行' en='null' />
+  </ibps>
+  <ibps code='781'>
+    <name cn='厦门国际银行' en='null' />
+  </ibps>
+  <ibps code='621'>
+    <name cn='华侨银行（中国）有限公司' en='null' />
+  </ibps>
+  <ibps code='036'>
+    <name cn='友利银行' en='null' />
+  </ibps>
+  <ibps code='035'>
+    <name cn='韩国外换银行' en='null' />
+  </ibps>
+  <ibps code='034'>
+    <name cn='瑞穗实业银行' en='null' />
+  </ibps>
+  <ibps code='683'>
+    <name cn='瑞典银行有限公司' en='null' />
+  </ibps>
+  <ibps code='033'>
+    <name cn='三井住友银行' en='null' />
+  </ibps>
+  <ibps code='682'>
+    <name cn='瑞典北欧斯安银行有限公司' en='null' />
+  </ibps>
+  <ibps code='032'>
+    <name cn='日联银行' en='null' />
+  </ibps>
+  <ibps code='681'>
+    <name cn='瑞典商业银行公共有限公司' en='null' />
+  </ibps>
+  <ibps code='031'>
+    <name cn='株式会社东京三菱银行' en='null' />
+  </ibps>
+  <ibps code='030'>
+    <name cn='美国美洲银行' en='null' />
+  </ibps>
+  <ibps code='521'>
+    <name cn='华南商业银行股份有限公司' en='null' />
+  </ibps>
+</IbpsBankTypeConf>
