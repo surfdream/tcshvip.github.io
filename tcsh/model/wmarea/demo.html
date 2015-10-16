@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <style type="text/css">
+        #page { padding: 20px; }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div>
+            <select id="selProvince_rent">
+            </select>
+            <select id="selCity_rent"></select>
+            <select id="selDistricts_rent"></select>
+        </div>
+        <div style="padding-top: 20px">
+            <a href="#" class="arer_chk">戳哥</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        seajs.config({
+            debug: 2,
+            base: "http://s.tcsh.me/tcsh/model/wmarea"
+        });
+        seajs.use('src/wmarea.js', function (area) {
+            area()
+        });
+        seajs.use('src/wmarea_box.js');
+
+    </script>
+    <!--<div class="wmBox invBox chk_area_box" id="" style="z-index: 10002; padding-bottom: 10px; margin-top: -189.5px; margin-left: -298px;">
+        <div class="wmBox-content">
+            <div class="chk_area_head">
+                <a href="#" class="close">×</a><h3>选择区域</h3>
+            </div>
+            <div class="area_province">
+                <ul>
+                    <li class="area_item clearfix"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_0"><label class="chk_key" for="area_1000_0"><b>华北</b></label></span><div class="floatleft w480 provincelist" data_ids="100000,110000,120000,130000,140000,">
+                            <div class="province_box province_box_showcity">
+                                <span>
+                                    <input type="checkbox" class="chk_item province_item" id="province_1000_100000">
+                                    <label class="chk_key" for="province_1000_100000">北京省</label>
+                                    <a href="#" class="wm_ico arrow9down showcity"></a>
+                                </span>
+                                <div class="city_list">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="province_box">
+                                <span>
+                                    <input type="checkbox" class="chk_item province_item" id="province_1000_110000">
+                                    <label class="chk_key" for="province_1000_100000">天津省</label>
+                                    <a href="#" class="wm_ico arrow9down showcity"></a>
+                                </span>
+                                <div class="city_list">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                        <li>
+                                            <input type="checkbox" /><label>城市</label></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_120000"><label class="chk_key" for="province_1000_120000">河北省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_130000"><label class="chk_key" for="province_1000_130000">山西省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_140000"><label class="chk_key" for="province_1000_140000">内蒙古</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_1"><label class="chk_key" for="area_1000_1"><b>华南</b></label></span><div class="floatleft w480 provincelist" data_ids="280000,300000,290000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_280000"><label class="chk_key" for="province_1000_280000">广东省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_300000"><label class="chk_key" for="province_1000_300000">海南省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_290000"><label class="chk_key" for="province_1000_290000">广西省</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_2"><label class="chk_key" for="area_1000_2"><b>华中</b></label></span><div class="floatleft w480 provincelist" data_ids="250000,260000,270000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_250000"><label class="chk_key" for="province_1000_250000">河南省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_260000"><label class="chk_key" for="province_1000_260000">湖北省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_270000"><label class="chk_key" for="province_1000_270000">湖南省</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_3"><label class="chk_key" for="area_1000_3"><b>华东</b></label></span><div class="floatleft w480 provincelist" data_ids="180000,200000,210000,190000,240000,220000,230000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_180000"><label class="chk_key" for="province_1000_180000">上海省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_200000"><label class="chk_key" for="province_1000_200000">浙江省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_210000"><label class="chk_key" for="province_1000_210000">安徽省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_190000"><label class="chk_key" for="province_1000_190000">江苏省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_240000"><label class="chk_key" for="province_1000_240000">山东省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_220000"><label class="chk_key" for="province_1000_220000">福建省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_230000"><label class="chk_key" for="province_1000_230000">江西省</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_4"><label class="chk_key" for="area_1000_4"><b>西南</b></label></span><div class="floatleft w480 provincelist" data_ids="320000,340000,330000,350000,310000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_320000"><label class="chk_key" for="province_1000_320000">四川省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_340000"><label class="chk_key" for="province_1000_340000">云南省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_330000"><label class="chk_key" for="province_1000_330000">贵州省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_350000"><label class="chk_key" for="province_1000_350000">西藏</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_310000"><label class="chk_key" for="province_1000_310000">重庆</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_5"><label class="chk_key" for="area_1000_5"><b>西北</b></label></span><div class="floatleft w480 provincelist" data_ids="360000,370000,380000,390000,400000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_360000"><label class="chk_key" for="province_1000_360000">陕西省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_370000"><label class="chk_key" for="province_1000_370000">甘肃省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_380000"><label class="chk_key" for="province_1000_380000">青海省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_390000"><label class="chk_key" for="province_1000_390000">宁夏</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_400000"><label class="chk_key" for="province_1000_400000">新疆</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_6"><label class="chk_key" for="area_1000_6"><b>东北</b></label></span><div class="floatleft w480 provincelist" data_ids="170000,160000,150000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_170000"><label class="chk_key" for="province_1000_170000">黑龙江省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_160000"><label class="chk_key" for="province_1000_160000">吉林省</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_150000"><label class="chk_key" for="province_1000_150000">辽宁省</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                    <li class="area_item"><span class="floatleft w70">
+                        <input type="checkbox" class="chk_item chkedsub" id="area_1000_7"><label class="chk_key" for="area_1000_7"><b>港澳台</b></label></span><div class="floatleft w480 provincelist" data_ids="410000,420000,430000,">
+                            <span>
+                                <input type="checkbox" class="chk_item province_item" id="province_1000_410000"><label class="chk_key" for="province_1000_410000">香港</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_420000"><label class="chk_key" for="province_1000_420000">澳门</label><a href="#" class="wm_ico arrow9down showcity"></a></span><span><input type="checkbox" class="chk_item province_item" id="province_1000_430000"><label class="chk_key" for="province_1000_430000">台湾省</label><a href="#" class="wm_ico arrow9down showcity"></a></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wmBox-mask" style="display: block; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 10001; background-color: rgb(0, 0, 0); opacity: 0.5; position: fixed; zoom: 1;">
+        <iframe class="sdialog-mask-iframe" style="display: none; _display: block; width: 100%; height: 100%; filter: alpha(opacity=0); opacity: 0;" frameborder="0" src="javascript:'';"></iframe>
+    </div>-->
+</body>
+</html>

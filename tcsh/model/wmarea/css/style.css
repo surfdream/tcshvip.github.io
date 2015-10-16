@@ -1,0 +1,31 @@
+﻿.wm_page { font-family: SimSun; overflow: hidden; }
+.wm_page a, .wm_page b, .wm_page span { display: block; float: left; line-height: 20px; height: 20px; padding: 3px 10px; border: 1px solid #dbdbdb; text-align: center; margin-right: 5px; text-decoration: none; }
+.wm_page span { border: 1px solid transparent; padding: 3px 0; }
+.wm_page a:hover, .wm_page b { border-color: #e13436; color: #e13436; }
+.wm_page input { width: 30px; float: left; text-align: center; margin: 3px 2px 5px 0; }
+
+.chk_area_box { }
+.chk_area_box .floatleft { float: left; }
+.chk_area_box .w70 { width: 70px; }
+.chk_area_box .w480 { width: 480px; }
+.chk_area_box .chk_area_head { border-bottom: 1px solid #999; padding: 3px 0 6px 2px; }
+.chk_area_box .chk_area_head .close, .chk_area_box .chk_area_head .hide { float: right; color: #e13436; font-size: 28px; text-decoration: none; }
+.chk_area_box .chk_item, .chk_area_box .chk_key { display: inline-block; vertical-align: middle; }
+.chk_area_box .chk_item { margin-right: 5px; }
+.chk_area_box .area_province { padding: 20px 0 0 26px; }
+.chk_area_box .area_province .area_item { padding: 5px 0; }
+.chk_area_box .area_province .provincelist span { display: inline-block; width: 105px; line-height: 24px; padding-left: 6px; }
+.chk_area_box .area_province .provincelist span b { display:inline-block;vertical-align:middle;color:#F60}
+.chk_area_box .area_province .provincelist .wm_ico { padding: 0 2px; }
+.chk_area_box .province_box { float: left; position: relative; width: 110px; height: 22px; }
+.chk_area_box .province_box span { position: absolute; top: 0; }
+.chk_area_box .province_box_showcity span { background-color: #FFFEC6; border: solid 1px #f7e4a5; border-bottom: solid 1px #FFFEC6; z-index: 1001; }
+.chk_area_box .province_box .city_list { padding: 6px; position: absolute; background-color: #FFFEC6; border: solid 1px #f7e4a5; width: 270px; top: 25px; left: 0; z-index: 100; display: none; }
+.chk_area_box .province_box_showcity .city_list { display: block; z-index: 1000; }
+.chk_area_box .province_box .city_list li { float: left; padding-bottom: 5px; }
+.chk_area_box .province_box .city_list li label, .chk_area_box .province_box .city_list li input { display: inline-block; vertical-align: middle; margin: 2px; }
+.chk_area_box .province_box .city_list li label { margin-right: 10px; }
+.chk_area_box .province_box .cityhide { font-size: 18px; color: #e13436; position: absolute; right: 5px; top: 5px;text-decoration:none }
+
+.chk_area_box .btns { padding:10px 10px 0 0;text-align:right}
+.chk_area_box .btns .ui_btn_txt { padding:0 15px 0 10px}
