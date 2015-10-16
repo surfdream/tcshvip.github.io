@@ -1,0 +1,28 @@
+﻿.chk_class_box { }
+.chk_class_box .floatleft { float: left; }
+.chk_class_box .w110 { width: 110px; text-align: left; margin-top: 4px; }
+.chk_class_box .w910 { width: 910px; }
+.chk_class_box .chk_class_head { border-bottom: 1px solid #999; padding: 3px 0 6px 2px; }
+.chk_class_box .chk_class_head .close, .chk_class_box .chk_class_head .hide { float: right; color: #e13436; font-size: 28px; text-decoration: none; }
+.chk_class_box .chk_class_head h3 { text-align: left; }
+.chk_class_box .chk_item, .chk_class_box .chk_key { display: inline-block; vertical-align: middle; white-space: nowrap; }
+.chk_class_box .chk_item { margin-right: 5px; }
+.chk_class_box .wm_class { padding: 20px 0 0 26px; }
+.chk_class_box .wm_class .wm_class_list { width: 1024px; }
+.chk_class_box .wm_class .area_item { padding: 5px 0; }
+.chk_class_box .wm_class .classlist span { display: inline-block; line-height: 24px; padding: 0 6px; white-space: nowrap; text-align: left; }
+.chk_class_box .wm_class .classlist span b { display: inline-block; vertical-align: middle; color: #F60; }
+.chk_class_box .wm_class .classlist .wm_ico { padding: 0 2px; }
+.chk_class_box .wm_class .class_item { padding-bottom: 5px; }
+.chk_class_box .class_list_no2 { float: left; position: relative; width: 180px; height: 22px; }
+.chk_class_box .class_list_no2 span { position: absolute; top: 0; left: 0; }
+.chk_class_box .class_list_no2_showclass_no3 span { background-color: #FFFEC6; border: solid 1px #f7e4a5; border-bottom: solid 1px #FFFEC6; z-index: 1001; }
+.chk_class_box .class_list_no2 .class_list_no3 { padding: 6px; position: absolute; background-color: #FFFEC6; border: solid 1px #f7e4a5; width: 270px; top: 25px; left: 0; z-index: 100; display: none; min-height: 20px; }
+.chk_class_box .class_list_no2_showclass_no3 .class_list_no3 { display: block; z-index: 1000; }
+.chk_class_box .class_list_no2 .class_list_no3 li { float: left; padding-bottom: 5px; }
+.chk_class_box .class_list_no2 .class_list_no3 li label, .chk_class_box .class_list_no2 .class_list_no3 li input { display: inline-block; vertical-align: middle; margin: 2px; }
+.chk_class_box .class_list_no2 .class_list_no3 li label { margin-right: 10px; }
+.chk_class_box .class_list_no2 .class_no3hide { font-size: 18px; color: #e13436; position: absolute; right: 5px; top: 5px; text-decoration: none; }
+
+.chk_class_box .btns { padding: 10px 10px 0 0; text-align: right; }
+.chk_class_box .btns .ui_btn_txt { padding: 0 15px 0 10px; }
