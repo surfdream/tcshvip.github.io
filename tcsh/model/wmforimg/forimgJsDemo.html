@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <style type="text/css">
+        #page { padding: 50px; }
+        .wm_forimg_box { width: 500px; height: 300px; overflow: hidden; border: 1px solid #000; position: relative; }
+        .wm_forimg_box .wm_forimg_list { position: absolute; }
+        .wm_forimg_box li { float: left; background: #457896; width: 500px; }
+        .wm_forimg_box .for_img_item div { width: 300px; height: 300px; overflow: hidden; border: 1px solid #789654; }
+        .wm_forimg_box .btns { position: absolute; z-index: 100; }
+        .wm_forimg_box .indexBox { position: absolute; z-index: 100; bottom: 0; height: 20px; background: #fff; }
+        .indexBox .index_item { width: 20px; background: #fff; }
+        .indexBox .curr { background: red; }
+
+
+        .fade_for .for_img_item { position: absolute; }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="wm_forimg_box transverse_for">
+            <ul class="wm_forimg_list">
+                <li class="for_img_item">
+                    <div>
+                        1
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        2
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        3
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        4
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        5
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        6
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+            </ul>
+            <div class="btns">
+
+                <a href="#" id="prevbtn"><<<<<<<</a>
+                <a href="#" id="nextbtn">>>>>>>></a>
+            </div>
+            <div class="indexBox">
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="wm_forimg_box fade_for">
+            <ul class="wm_forimg_list">
+                <li class="for_img_item">
+                    <div>
+                        1
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        2
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        3
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        4
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        5
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        6
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+            </ul>
+            <div class="btns">
+
+                <a href="#" id="prevbtn"><<<<<<<</a>
+                <a href="#" id="nextbtn">>>>>>>></a>
+            </div>
+            <div class="indexBox">
+                <ul>
+                    <li class="index_item curr">1</li>
+                    <li class="index_item">2</li>
+                    <li class="index_item">3</li>
+                    <li class="index_item">4</li>
+                    <li class="index_item">5</li>
+                    <li class="index_item">6</li>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="wm_forimg_box vertical_for">
+            <ul class="wm_forimg_list">
+                <li class="for_img_item">
+                    <div>
+                        1
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        2
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        3
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        4
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        5
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        6
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+            </ul>
+
+            <div class="indexBox">
+                <ul>
+                    <li class="index_item curr">1</li>
+                    <li class="index_item">2</li>
+                    <li class="index_item">3</li>
+                    <li class="index_item">4</li>
+                    <li class="index_item">5</li>
+                    <li class="index_item">6</li>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="wm_forimg_box transverse_for2">
+            <ul class="wm_forimg_list">
+                <li class="for_img_item">
+                    <div>
+                        1
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        2
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        3
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        4
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        5
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        6
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+            </ul>
+
+            <div class="indexBox">
+                <ul>
+                    <li class="index_item curr">1</li>
+                    <li class="index_item">2</li>
+                    <li class="index_item">3</li>
+                    <li class="index_item">4</li>
+                    <li class="index_item">5</li>
+                    <li class="index_item">6</li>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="wm_forimg_box transverse_for3">
+            <ul class="wm_forimg_list">
+                <li class="for_img_item">
+                    <div>
+                        1
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        2
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        3
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        4
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        5
+                        <img src="img/img1.jpg" />
+                    </div>
+                </li>
+                <li class="for_img_item">
+                    <div>
+                        6
+                        <img src="img/img2.jpg" />
+                    </div>
+                </li>
+            </ul>
+
+            <div class="indexBox">
+                <ul>
+                    <li class="index_item curr">1</li>
+                    <li class="index_item">2</li>
+                    <li class="index_item">3</li>
+                    <li class="index_item">4</li>
+                    <li class="index_item">5</li>
+                    <li class="index_item">6</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../wmforimg' });
+            seajs.use('src/forimg.js', function (forimg) {
+                var _transverse = new forimg.Shuffle({
+                    forImgBoxEle: ".transverse_for",
+                    callback: function () {
+                        var that = this;
+                        var i = this.forImgItem.length
+                        var $indexBox = this.forImgBox.find(".indexBox"), indexItem = [];
+                        $indexBox.empty().append('<ul></ul>');
+                        $indexBox = $indexBox.find("ul");
+                        while (i--) {
+                            indexItem[i] = '<li class="index_item">' + (i + 1) + '</li>'
+                        }
+                        $indexBox.append(indexItem.join(''));
+                        this.indexs = $indexBox.find('.index_item');
+                        this.indexs.eq(0).addClass("curr");
+                        this.forImgBox.find("#nextbtn").click(function () {
+                            that.next();
+                        });
+                        this.forImgBox.find("#prevbtn").click(function () {
+                            that.prev();
+                        });
+                        this.indexs.click(function () {
+                            that.setIndex(this);
+                        });
+                        this.automatic(true);
+                    }
+                });
+                
+                var _vertical = new forimg.Shuffle({
+                    forImgBoxEle: ".vertical_for",
+                    direction: 1,
+                    callback: function () {
+                        var that = this;
+                        this.forImgBox.find("#nextbtn").click(function () {
+                            that.next();
+                        });
+                        this.forImgBox.find("#prevbtn").click(function () {
+                            that.prev();
+                        });
+                        this.indexs.click(function () {
+                            that.setIndex(this);
+                        });
+                        this.automatic(true);
+                    }
+                });
+                
+                var _fade = new forimg.Fade({
+                    forImgBoxEle: ".fade_for",
+                    callback: function () {
+                        var that = this;
+                        this.forImgBox.find("#nextbtn").click(function () {
+                            that.next();
+                        });
+                        this.forImgBox.find("#prevbtn").click(function () {
+                            that.prev();
+                        });
+                        this.indexs.click(function () {
+                            that.setIndex(this);
+                        });
+                        this.automatic(true);
+                    }
+                });
+               
+                var _transverse2 = new forimg.Slide({
+                    forImgBoxEle: ".transverse_for2",
+                    callback: function () {
+                        var that = this;
+                        var i = this.forImgItem.length
+                        var $indexBox = this.forImgBox.find(".indexBox"), indexItem = [];
+                        $indexBox.empty().append('<ul></ul>');
+                        $indexBox = $indexBox.find("ul");
+                        while (i--) {
+                            indexItem[i] = '<li class="index_item">' + (i + 1) + '</li>'
+                        }
+                        $indexBox.append(indexItem.join(''));
+                        this.indexs = $indexBox.find('.index_item');
+                        this.indexs.eq(0).addClass("curr");
+                        this.forImgBox.find("#nextbtn").click(function () {
+                            that.next();
+                        });
+                        this.forImgBox.find("#prevbtn").click(function () {
+                            that.prev();
+                        });
+                        this.indexs.click(function () {
+                            that.setIndex(this);
+                        });
+                        this.automatic(true);
+                    }
+                });
+                
+                var _transverse3 = new forimg.Slide({
+                    forImgBoxEle: ".transverse_for3",
+                    direction: 1,
+                    callback: function () {
+                        var that = this;
+                        var i = this.forImgItem.length
+                        var $indexBox = this.forImgBox.find(".indexBox"), indexItem = [];
+                        $indexBox.empty().append('<ul></ul>');
+                        $indexBox = $indexBox.find("ul");
+                        while (i--) {
+                            indexItem[i] = '<li class="index_item">' + (i + 1) + '</li>'
+                        }
+                        $indexBox.append(indexItem.join(''));
+                        this.indexs = $indexBox.find('.index_item');
+                        this.indexs.eq(0).addClass("curr");
+                        this.forImgBox.find("#nextbtn").click(function () {
+                            that.next();
+                        });
+                        this.forImgBox.find("#prevbtn").click(function () {
+                            that.prev();
+                        });
+                        this.indexs.click(function () {
+                            that.setIndex(this);
+                        });
+                        this.automatic(true);
+                    }
+                });
+               
+            });
+        });
+    </script>
+</body>
+</html>

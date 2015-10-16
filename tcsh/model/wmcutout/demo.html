@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        #page { padding: 20px; }
+        .cutout_box { position:absolute;top:200px;left:200px}
+        .cutout_box .cutout_parent { width: 265px; height: 265px; border: 1px solid #ccc; position: relative; overflow: hidden; }
+        .cutout_box .cutout_parent img { z-index: -1; position: relative; }
+        .cutout_box .cutout_parent .moveparent { }
+        .cutout_box .cutout_parent .cutout_range { z-index: 100; cursor: move; z-index: 100; position: absolute; top: 0; left: 0; border: 1px solid red; background-color: #fff; filter: alpha(opacity=60); opacity: .6; background: rgba(255,255,255,0.6); }
+        .previewitem { border: 1px solid #999; margin: 10px; overflow: hidden; }
+        .preview_100_100 { width: 100px; height: 100px; }
+        .preview_200_200 { width: 200px; height: 200px; }
+        .preview_500_500 { width: 500px; height: 500px; }
+        .preview_1000_1000 { width: 1000px; height: 1000px; }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="cutout_box">
+            <div class="cutout_parent">
+                <div class="cutout_limit">
+                    <img class="cutout_source" src="img/img2.jpg" />
+                    <div class="cutout_range"></div>
+                </div>
+            </div>
+            <div class="preview_con">
+                <div class="previewitem preview_100_100"></div>
+                <div class="previewitem preview_200_200"></div>
+                <div class="previewitem preview_500_500"></div>
+                 <div class="previewitem preview_1000_1000"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            //var cutout;
+            //var $img = $('img');
+            //var $cutout_range = $(".cutout_range");
+            //var $p100 = $(".preview_100_100"), $p200 = $(".preview_200_200");
+            //var $cloneimg1 = $img.clone();
+            //$cloneimg1.css({ width: $img.css("width") });
+            //$p100.append($cloneimg1);
+            //var $cloneimg2 = $img.clone();
+            //$p200.append($cloneimg2);
+            //var preview = function () {
+            //    var self = this;
+            //    //var _position = this.$changeBox.position();
+            //    var __w = $img.width(), __h = $img.height();
+            //    var b1 = __w / self.width, b2 = __h / self.height;
+            //    var x1 = __w / __h;
+            //    $cloneimg1.css({
+            //        "margin-top": -(self.position.top * b2),
+            //        "margin-left": -(self.position.left * b1 / x1),
+            //        "width": b1 * __w / x1
+            //    });
+            //};
+            //seajs.config({ base: '../wmmove', debug: 2 });
+            //seajs.use('src/wmmove.js', function (wmmove) {
+            //    cutout = wmmove.create({
+            //        moveEle: '.cutout_range',
+            //        parentEle: '.moveparent',
+            //        moveOffset: { top: -21, left: -21 },
+            //        mousemoveCallback: function () {
+            //            var self = this;
+            //            var _position = this.$moveBox.position();
+            //            preview.call({
+            //                position: _position,
+            //                width: self.$moveBox.width(),
+            //                height: self.$moveBox.height()
+            //            });
+            //        }
+            //    });
+            //    seajs.config({ base: '../wmchangewhbox', debug: 2 });
+            //    seajs.use('src/wmchangewhbox.js', function (wmchangewhbox) {
+            //        wmchangewhbox.create({
+            //            changeEle: '.cutout_range',
+            //            paeentBox: ".moveparent",
+            //            changeBtnDownCallback: function () {
+            //                cutout.stop = true;
+            //            },
+            //            changeBtnUpCallback: function () {
+            //                cutout.stop = false;
+            //            },
+            //            changePX: function () {
+            //                var self = this;
+            //                var x = (this.pageX - this.offsetX - this.outerWidth) + (this.pageY - this.offsetY - this.outerHeight);
+            //                var _w = self.width + x / 2, _h = self.height + x / 2;
+            //                if (Math.max(_w, _h) > 100) {
+            //                    _w = _h = 100;
+            //                }
+            //                return {
+            //                    Width: _w,
+            //                    Height: _h
+            //                }
+            //            },
+            //            changeBtnMousemoveCallback: function () {
+            //                var self = this;
+            //                var _position = this.$changeBox.position();
+            //                preview.call({
+            //                    position: _position,
+            //                    width: self.width,
+            //                    height: self.height
+            //                });
+            //            }
+            //        });
+
+            //    });
+            //});
+            seajs.config({ base: '../wmcutout', debug: 2 });
+            seajs.use('src/wmcutout.js', function (cutout) {
+                a = cutout.create()
+            });
+        });
+    </script>
+</body>
+</html>
