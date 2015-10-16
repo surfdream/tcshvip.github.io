@@ -1,0 +1,235 @@
+.Corg{
+	color:#ff6600;
+}
+.blue,a.blue{
+	color:#428cf1;
+}
+tr td.Corg{
+	color:#ff6600;
+}
+.fina_right_con{
+	margin:40px 20px 20px 30px;
+}
+.fina_form input,.fina_form select{
+	vertical-align:middle;
+	height:22px;
+	line-height:22px;
+}
+
+.attest_search{
+	padding-bottom:10px;
+	border-bottom:1px solid #FFF;
+}
+.attest_search .attest_item{
+	margin-bottom:15px;
+	color:#535353;
+}
+.attest_search .attest_item_title{
+	display:inline-block;
+	width:60px;
+	text-align:right;
+}
+.attest_search .attest_txt{
+	height:16px;
+	line-height:16px;
+	padding:4px 10px;
+	width:160px;
+	border:1px solid #b4b4b4;
+}
+.attest_search .status_slt{
+	margin-left:40px;
+}
+.attest_search .data_txt{
+	width:100px;
+}
+.attest_search .attest_rad{
+	margin:0 5px;
+}
+.attest_search .attest_sub{
+	width:80px;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	color:#535353;
+	margin-top:20px;
+}
+.attest_content{
+	padding-top:30px;
+	border-top:1px solid #c9d0d7;
+}
+.attest_content .all_form{
+	padding:0 0 20px 15px;
+}
+.all_form .chk_all{
+	padding:0 10px;
+}
+.all_form .attest_sub1{
+	width:110px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	color:#535353;
+	margin-left:40px;
+}
+.btn_active{
+	text-align:right;
+}
+.btn_active .derive_btn{
+	width:120px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#272727;
+	margin:40px 20px 30px 0;
+}
+
+
+.cash_table tr,.cash_table td{
+	padding:10px;
+	color:#535353;
+	text-align:center;
+}
+.cash_table td a{
+	margin:0 5px;
+}
+.cash_table tr.cash_title,.cash_table tr.cash_title td{
+	background:#428cf1;
+	color:#FFF;
+	font-weight:bold;
+}
+.cash_table tr.cash_title:hover{
+	background:#428cf1;
+}
+.cash_table tr:hover{
+	background:#f5f8fa;
+}
+.cash_table tr.cash_title td{
+	border-bottom:1px solid #1369c0;
+}
+.cash_table tr.cash_table_bd td{
+	border-bottom:1px dashed #c9ced2;
+}
+.attest_name{
+	width:200px;
+}
+
+body .bank_dialog .search_box .search_txt{
+	float:none;
+	border:1px solid #ccc;
+}
+
+.wmpage{
+	padding:0 0 40px 0;
+	text-align:center;
+}
+.wmpage a,.wmpage b, .wmpage a:hover { padding: 6px 10px; height: 12px; line-height: 12px; background: #fff; color: #828282;  border: 1px solid #dbdbdb; font-size:14px; text-decoration:none; margin-left:5px; }
+.wmpage span {font-size:14px; color:#828282;}
+.wmpage b { color: #fff; font-weight: 500; background: #428cf1; }
+.foot{
+	border-top:1px solid #2c8def;
+	background:#1369c0;
+	text-align:center;
+	padding:20px 0 30px 0;
+}
+.foot p{
+	color:#9ac0e6;
+}
+
+.dispose_con{
+	width:280px;
+}
+.dispose_con li{
+	padding:10px;
+}
+.dispose_con li label{
+	color:#535353;
+	padding:0 20px 0 4px;
+}
+.pay_txt{
+	width:80px;
+	border:1px solid #ccc;
+	height:16px;
+	line-height:16px;
+	padding:4px 10px;
+}
+body .wm_relyBox .wmBox-botton{
+	text-align:right;
+}
+
+/* 查看弹层 */
+body .invBox{
+	box-shadow:0 0 8px #333;
+}
+.fork7{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.lookfor_con{
+	padding:20px 20px 0 20px;
+}
+.lookfor_intr{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	padding-right:40px;
+	color:#323232;
+	vertical-align:top;
+}
+.lookfor_intr li{
+	margin-bottom:20px;
+}
+.border_l{
+	border-left:1px solid #8a8a8a;
+}
+.lookfor_intr span{
+	display:inline-block;
+	text-align:right;
+}
+.company_infor span{
+	width:80px;
+}
+.bank_infor span{
+	width:150px;
+}
+
+/* 批量打款操作 */
+.pay_success{
+	padding:10px 30px 0 30px;
+}
+.pay_success li{
+	padding-top:30px;
+	color:#535353;
+}
+.pay_success li .w80{
+	display:inline-block;
+	width:80px;
+}
+.pay_success li.tishi{
+	color:#787878;
+	margin-top:-20px;
+}
+.pay_success .pay_btn a,.pay_success .pay_btn a:link,.pay_success .pay_btn a:active,.pay_success .pay_btn a:visited{
+	display:inline-block;
+	background:#aba7a7;
+	padding:6px 30px;
+	color:#FFF;	
+	margin-right:20px;
+	font-size:14px;
+	font-weight:bold;
+}
+.pay_success .pay_btn a.save{
+	background:#ee2c2c;
+}
+.pay_success .pay_btn a:hover{
+	text-decoration:none;
+}
+.pay_success .pay_txt{
+	margin-left:10px;
+}
+.wmv_error{
+	margin-left:10px;
+}
+.wmv_error .wm_ico{
+	display:none;
+}

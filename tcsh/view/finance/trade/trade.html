@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>平台交易报表</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../public/css/global.css">
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/finance/trade/config.js" data-init="trade"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+</head>
+<body class="fina_bg">
+<div id="page">
+	<div class="fina_cash">
+    	<div class="fina_head">
+        	<div class="fina_head_bd">
+                <div class="fina_head_con">
+                    <a href="#"><img src="../public/img/logo.jpg" width="570" height="94" /></a>
+                    <div class="admin_infor">
+                        <span class="wm_ico admin"><span class="admin_role"><a href="#">余中华</a></span></span><a href="#" class="admin_quit">退出</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fina_main clearfix">
+        	<div class="fina_main_left">
+                <div class="fina_left_con">
+                    <h2><img src="../public/img/h2.jpg" /></h2>
+                    <ul>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf000b;</span>商户提现管理</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf00ee;</span>商户订单退款</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>支付宝</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>工商银行</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>网上银行</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf00be;</span>商户订单管理</a></li>
+                        <li class="fina_left_item"><a href="#" class="itemCur_bg"><span class="iconfont">&#xe600;</span>平台交易报表</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xe606;</span>银行账户认证</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fina_main_right">
+            	<div class="fina_right_con">
+                	<form action="" class="fina_form">
+                        <div class="trade_data">
+                        	<b>平台交易数据统计</b>
+                            <select name="" id="" class="trade_sel">
+                            	<option value="">当日</option>
+                                <option value="">本周</option>
+                                <option value="">本月</option>
+                                <option value="">本年</option>
+                            </select>
+                            <div class="trade_data_detail">
+                            	<ul class="clearfix">
+                                	<li class="trade_data_item bgblue">
+                                    	<span class="trade_data_kinds">平台商户货款总额</span>
+                                        <span class="trade_data_num">￥1000000.00</span>
+                                    </li>
+                                    <li class="trade_data_item bggreen">
+                                    	<span class="trade_data_kinds">平台商户退款总额</span>
+                                        <span class="trade_data_num">￥1000000.00</span>
+                                    </li>
+                                    <li class="trade_data_item bgorange">
+                                    	<span class="trade_data_kinds">平台交易结款金额</span>
+                                        <span class="trade_data_num">￥1000000.00</span>
+                                    </li>
+                                    <li class="trade_data_item bgblue1">
+                                    	<span class="trade_data_kinds">平台交易佣金</span>
+                                        <span class="trade_data_num">￥1000000.00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="trade_search">
+                        	<ul>
+                            	<li>提示：交易报表中统计显示的是<span class="Corg">确认收货7天后的，能进行货款结算</span>的订单数据！</li>
+                                <li>
+                                	<span>商户：<input type="text" class="trade_txt" /></span>
+                                    <span>日期：<input type="text" class="trade_txt data_txt" placeholder="起始日期" />至<input type="text" class="trade_txt data_txt" placeholder="结束日期" /></span>
+                                    <input type="submit" class="trade_sub" value="搜索" />
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                    <div class="cash_content">
+                        <table width="100%" border="0" class="cash_table" cellpadding="0" cellspacing="0">
+                          <tr class="cash_title">
+                            <th>时间段</th>
+                            <th>商户</th>
+                            <th>商品货款</th>
+                            <th>邮费</th>
+                            <th>退款金额</th>
+                            <th>平台佣金</th>
+                            <th>可提现金额</th>
+                            <th>已提现金额</th>
+                            <th>账户余额</th>
+                          </tr>
+                          <tr class="cash_table_bd" data_id="0">
+                            <td height="50">2014-04-22至2014-6-11</td>
+                            <td height="50"><span class="Corg">杭州同城生活络科技有限公司</span></td>
+                            <td height="50">￥9000</td>
+                            <td height="50">￥10</td>
+                            <td height="50">￥9000.00</td>
+                            <td height="50">￥100000</td>
+                            <td height="50">￥1000.00</td>
+                            <td height="50">￥3000.00</td>
+                            <td height="50">￥5000.00</td>
+                          </tr>
+                          <tr class="cash_table_bd" data_id="0">
+                            <td height="50">2014-04-22至2014-6-11</td>
+                            <td height="50"><span class="Corg">杭州同城生活络科技有限公司</span></td>
+                            <td height="50">￥9000</td>
+                            <td height="50">￥10</td>
+                            <td height="50">￥9000.00</td>
+                            <td height="50">￥100000</td>
+                            <td height="50">￥1000.00</td>
+                            <td height="50">￥3000.00</td>
+                            <td height="50">￥5000.00</td>
+                          </tr>
+                          <tr class="cash_table_bd" data_id="0">
+                            <td height="50">2014-04-22至2014-6-11</td>
+                            <td height="50"><span class="Corg">杭州同城生活络科技有限公司</span></td>
+                            <td height="50">￥9000</td>
+                            <td height="50">￥10</td>
+                            <td height="50">￥9000.00</td>
+                            <td height="50">￥100000</td>
+                            <td height="50">￥1000.00</td>
+                            <td height="50">￥3000.00</td>
+                            <td height="50">￥5000.00</td>
+                          </tr>
+                          <tr class="cash_table_bd" data_id="0">
+                            <td height="50">2014-04-22至2014-6-11</td>
+                            <td height="50"><span class="Corg">杭州同城生活络科技有限公司</span></td>
+                            <td height="50">￥9000</td>
+                            <td height="50">￥10</td>
+                            <td height="50">￥9000.00</td>
+                            <td height="50">￥100000</td>
+                            <td height="50">￥1000.00</td>
+                            <td height="50">￥3000.00</td>
+                            <td height="50">￥5000.00</td>
+                          </tr>
+                          <tr class="cash_table_bd" data_id="0">
+                            <td height="50">2014-04-22至2014-6-11</td>
+                            <td height="50"><span class="Corg">杭州同城生活络科技有限公司</span></td>
+                            <td height="50">￥9000</td>
+                            <td height="50">￥10</td>
+                            <td height="50">￥9000.00</td>
+                            <td height="50">￥100000</td>
+                            <td height="50">￥1000.00</td>
+                            <td height="50">￥3000.00</td>
+                            <td height="50">￥5000.00</td>
+                          </tr>
+                        </table>
+                    </div>
+                    <div class="wmpage">
+                        <span>共25页</span>
+                        <a href="#" class="page_before page_link"> < </a> 
+                        <b>1</b>
+                        <a href="#" class="page_link">2</a>
+                        <a href="#" class="page_link">3</a>
+                        <a href="#" class="page_link">4</a>
+                        <a href="#" class="page_link">5</a>
+                         <span class="ellipsis">……</span>
+                        <a href="#" class="page_before page_link"> > </a>
+                    </div>
+               	  </div>
+              </div>
+            </div>
+        </div>
+        <div class="foot">
+        	<p>经营性网站备案号：浙B2-20080103 客服电话：400-668-0099 Copyright © 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

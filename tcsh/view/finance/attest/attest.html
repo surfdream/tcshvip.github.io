@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>银行账户认证</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../public/css/global.css">
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/finance/attest/config.js" data-init="attest"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+</head>
+<body class="fina_bg">
+<div id="page">
+	<div class="fina_cash">
+    	<div class="fina_head">
+        	<div class="fina_head_bd">
+                <div class="fina_head_con">
+                    <a href="#"><img src="../public/img/logo.jpg" width="570" height="94" /></a>
+                    <div class="admin_infor">
+                        <span class="wm_ico admin"><span class="admin_role"><a href="#">余中华</a></span></span><a href="#" class="admin_quit">退出</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fina_main clearfix">
+        	<div class="fina_main_left">
+                <div class="fina_left_con">
+                    <h2><img src="../public/img/h2.jpg" /></h2>
+                    <ul>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf000b;</span>商户提现管理</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf00ee;</span>商户订单退款</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>支付宝</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>工商银行</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>网上银行</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf00be;</span>商户订单管理</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xe600;</span>平台交易报表</a></li>
+                        <li class="fina_left_item"><a href="#" class="itemCur_bg"><span class="iconfont">&#xe606;</span>银行账户认证</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fina_main_right">
+            	<div class="fina_right_con">
+                	<form action="" class="fina_form">
+                        <div class="attest_search">
+                        	<ul>
+                            	<li class="attest_item">
+                                    <label for="busi_name" class="attest_item_title">商户：</label>
+                                    <input type="text" id="busi_name" class="attest_txt" />
+                                    <label for="" class="status_slt">认证状态：</label>
+                                    <select name="" id="">
+                                    	<option value="">全部状态</option>
+                                        <option value="">未处理</option>
+                                        <option value="">打款成功</option>
+                                        <option value="">打款失败</option>
+                                    </select>
+                                </li>
+                                <li class="attest_item">
+                                    <label for="" class="attest_item_title">打款银行：</label>
+                                    <input type="radio" class="attest_rad" id="gsyh" name="radio" /><label for="gsyh">工商银行</label>
+                                    <input type="radio" class="attest_rad" id="qtyh" name="radio" /><label for="qtyh" class="other_bank">其他银行</label>
+                                    <span data_val="" class="bank_name"></span>
+                                </li>
+                                <li class="attest_item">
+                                    <label for="" class="attest_item_title">日期：</label>
+                                    <input type="text" class="attest_txt data_txt" placeholder="起始时间" /> 至 <input type="text" class="attest_txt data_txt" placeholder="结束时间" />
+                                </li>
+                                <li class="attest_item">
+                                    <label for="" class="attest_item_title"></label>
+                                    <input type="submit" class="attest_sub" value="搜索" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="attest_content">
+                        	<div class="all_form">
+                                <input type="checkbox" class="cash_chk" id="cash_chk" /><label for="cash_chk" class="chk_all">全选</label>
+                                <input type="button" class="cash_sub2 attest_sub1" value="批量操作打款" />
+                                <input type="hidden" class="cash_hid" id="cash_hid" />
+                            </div>
+                            <table width="100%" border="0" class="cash_table" cellpadding="0" cellspacing="0">
+                                  <tr class="cash_title">
+                                    <td>&nbsp;</td>
+                                    <td>申请时间</td>
+                                    <td>商户</td>
+                                    <td>开户名</td>
+                                    <td>开户行</td>
+                                    <td>卡号</td>
+                                    <td>打款金额</td>
+                                    <td>状态</td>
+                                    <td>操作</td>
+                                  </tr>
+                                  <tr class="cash_table_bd" data_id="0">
+                                    <td>
+                                    	<input type="checkbox" name="checkbox" class="chk_item">
+                                      	<label for="checkbox"></label>
+                                    </td>
+                                    <td height="50">2014-06-12 11：49</td>
+                                    <td height="50" class="attest_name">高浮雕旗舰店</td>
+                                    <td height="50" class="attest_name">
+                                    	<span class="Corg">杭州同城生活络科技有限公司</span>
+                                    </td>
+                                    <td height="50">中国工商银行</td>
+                                    <td height="50">330333232122259898</td>
+                                    <td height="50" class="pay_money"></td>
+                                    <td height="50" class="status">未处理</td>
+                                    <td height="50"><a href="#" class="dispose blue">处理</a><a href="#" class="lookfor">查看</a></td>
+                                  </tr>
+                                  <tr class="cash_table_bd" data_id="0">
+                                    <td>
+                                    	<input type="checkbox" name="checkbox" class="chk_item">
+                                      	<label for="checkbox"></label>
+                                    </td>
+                                    <td height="50">2014-06-12 11：49</td>
+                                    <td height="50" class="attest_name">高浮雕旗舰店</td>
+                                    <td height="50" class="attest_name">
+                                    	<span class="Corg">杭州同城生活络科技有限公司</span>
+                                    </td>
+                                    <td height="50">中国工商银行</td>
+                                    <td height="50">330333232122259898</td>
+                                    <td height="50" class="pay_money"></td>
+                                    <td height="50" class="status">未处理</td>
+                                    <td height="50"><a href="#" class="dispose blue">处理</a><a href="#" class="lookfor">查看</a></td>
+                                  </tr>
+                                  <tr class="cash_table_bd" data_id="0">
+                                    <td>
+                                    	<input type="checkbox" name="checkbox" class="chk_item">
+                                      	<label for="checkbox"></label>
+                                    </td>
+                                    <td height="50">2014-06-12 11：49</td>
+                                    <td height="50" class="attest_name">高浮雕旗舰店</td>
+                                    <td height="50" class="attest_name">
+                                    	<span class="Corg">杭州同城生活络科技有限公司</span>
+                                    </td>
+                                    <td height="50">中国工商银行</td>
+                                    <td height="50">330333232122259898</td>
+                                    <td height="50" class="pay_money"></td>
+                                    <td height="50" class="status">未处理</td>
+                                    <td height="50"><a href="#" class="dispose blue">处理</a><a href="#" class="lookfor">查看</a></td>
+                                  </tr>
+                                  <tr class="cash_table_bd" data_id="0">
+                                    <td>
+                                    	<input type="checkbox" name="checkbox" class="chk_item">
+                                      	<label for="checkbox"></label>
+                                    </td>
+                                    <td height="50">2014-06-12 11：49</td>
+                                    <td height="50" class="attest_name">高浮雕旗舰店</td>
+                                    <td height="50" class="attest_name">
+                                    	<span class="Corg">杭州同城生活络科技有限公司</span>
+                                    </td>
+                                    <td height="50">中国工商银行</td>
+                                    <td height="50">330333232122259898</td>
+                                    <td height="50" class="pay_money"></td>
+                                    <td height="50" class="status">未处理</td>
+                                    <td height="50"><a href="#" class="dispose blue">处理</a><a href="#" class="lookfor">查看</a></td>
+                                  </tr>
+                                  <tr class="cash_table_bd" data_id="0">
+                                    <td>
+                                    	<input type="checkbox" name="checkbox" class="chk_item">
+                                      	<label for="checkbox"></label>
+                                    </td>
+                                    <td height="50">2014-06-12 11：49</td>
+                                    <td height="50" class="attest_name">高浮雕旗舰店高浮雕旗舰店高浮雕旗舰店高浮雕旗舰店</td>
+                                    <td height="50" class="attest_name">
+                                    	<span class="Corg">杭州同城生活络科技有限公司</span>
+                                    </td>
+                                    <td height="50">中国工商银行</td>
+                                    <td height="50">330333232122259898</td>
+                                    <td height="50" class="pay_money">￥9000.00</td>
+                                    <td height="50" class="status">打款成功</td>
+                                    <td height="50"><a href="#" class="dispose blue">处理</a><a href="#" class="lookfor">查看</a></td>
+                                  </tr>
+                            </table>
+                           <div class="btn_active">
+                                <input type="submit" class="derive_btn" value="导出未处理报表"><input type="submit" class="derive_btn" value="导入已处理报表">
+                            </div> 
+                     </form>
+                     <div class="wmpage">
+                        <span>共25页</span>
+                        <a href="#" class="page_before page_link"> < </a> 
+                        <b>1</b>
+                        <a href="#" class="page_link">2</a>
+                        <a href="#" class="page_link">3</a>
+                        <a href="#" class="page_link">4</a>
+                        <a href="#" class="page_link">5</a>
+                         <span class="ellipsis">……</span>
+                        <a href="#" class="page_before page_link"> > </a>
+                    </div>
+               	  </div>
+              </div>
+            </div>
+        </div>
+        <div class="foot">
+        	<p>经营性网站备案号：浙B2-20080103 客服电话：400-668-0099 Copyright © 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>

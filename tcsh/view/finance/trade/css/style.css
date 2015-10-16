@@ -1,0 +1,135 @@
+.Corg{
+	color:#ff6600;
+}
+.bgblue{
+	background:#0daed3;
+}
+.bggreen{
+	background:#74b749;
+}
+.bgorange{
+	background:#ed6d49;
+}
+.bgblue1{
+	background:#00acd3;
+}
+tr td.Corg{
+	color:#ff6600;
+}
+
+.fina_right_con{
+	margin:40px 20px 20px 30px;
+}
+.fina_form input,.fina_form select{
+	vertical-align:middle;
+	height:22px;
+	line-height:22px;
+	color:#787878;
+}
+.trade_data{
+	padding-bottom:10px;
+	border-bottom:1px solid #FFF;
+}
+.trade_data b{
+	font-weight:normal;
+	font-size:14px;
+	margin-right:10px;
+}
+.trade_data .trade_sel{
+	width:115px;
+}
+.trade_data_item{
+	width:220px;
+	float:left;
+	text-align:center;
+	padding-bottom:10px;
+	margin:10px 30px 0 0;
+}
+.trade_data_item span{
+	padding-top:10px;
+	color:#FFF;
+	font-size:14px;
+	display:block;
+}
+.trade_search{
+	padding-top:10px;
+	border-top:1px solid #c9d0d7;
+}
+.trade_search li{
+	color:#535353;
+	margin-bottom:30px;
+}
+.trade_search span{
+	padding-right:20px;
+}
+.trade_search .trade_txt{
+	width:120x;
+	height:16px;
+	line-height:16px;
+	padding:4px 10px;
+	margin:0 5px;
+}
+.trade_search .trade_sub{
+	width:60px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	margin-left:80px;
+	color:#272727;
+}
+
+
+
+
+
+
+
+
+
+.cash_table tr,.cash_table td{
+	padding:10px;
+	color:#535353;
+	text-align:center;
+}
+.cash_table tr.cash_title{
+	background:#428cf1;
+}
+.cash_table th{
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.cash_table tr.cash_title:hover{
+	background:#428cf1;
+}
+.cash_table tr:hover{
+	background:#f5f8fa;
+}
+.cash_table tr.cash_title td{
+	border-bottom:1px solid #1369c0;
+}
+.cash_table tr.cash_table_bd td{
+	border-bottom:1px dashed #c9ced2;
+}
+
+.wmpage{
+	padding:80px 0 40px 0;
+	text-align:right;
+}
+.wmpage a,.wmpage b, .wmpage a:hover { padding: 6px 10px; height: 12px; line-height: 12px; background: #fff; color: #828282;  border: 1px solid #dbdbdb; font-size:14px; text-decoration:none; margin-left:5px; }
+.wmpage span {font-size:14px; color:#828282;}
+.wmpage b { color: #fff; font-weight: 500; background: #428cf1; }
+
+.foot{
+	border-top:1px solid #2c8def;
+	background:#1369c0;
+	text-align:center;
+	padding:20px 0 30px 0;
+}
+.foot p{
+	color:#9ac0e6;
+}
+

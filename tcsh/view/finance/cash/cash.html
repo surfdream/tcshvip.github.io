@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>提现</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../public/css/global.css">
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/finance/cash/config.js" data-init="cash"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+</head>
+<body class="fina_bg">
+<div id="page">
+	<div class="fina_cash">
+    	<div class="fina_head">
+        	<div class="fina_head_bd">
+                <div class="fina_head_con">
+                    <a href="#"><img src="../public/img/logo.jpg" width="570" height="94" /></a>
+                    <div class="admin_infor">
+                        <span class="wm_ico admin"><span class="admin_role"><a href="#">余中华</a></span></span><a href="#" class="admin_quit">退出</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fina_main clearfix">
+        	<div class="fina_main_left">
+                <div class="fina_left_con">
+                    <h2><img src="../public/img/h2.jpg" /></h2>
+                    <ul>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf000b;</span>商户提现管理</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf00ee;</span>商户订单退款</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#" class="itemCur_bg"><span></span>支付宝</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>工商银行</a></li>
+                        <li class="fina_left_item fina_left_itemCur"><a href="#"><span></span>网上银行</a></li>
+                        <li class="fina_left_item"><a href="#"><span class="iconfont">&#xf00be;</span>商户订单管理</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fina_main_right">
+            	<div class="fina_right_con">
+                	<form action="" class="fina_form">
+                    	<ul class="cash_infor cash_pst clearfix">
+                        	<li class="cash_infor_item">
+                            	<label for="">可提现金额占比：</label><input type="text" class="cash_txt w25" value="70" disabled /><span class="dis">%</span>
+                            </li>
+                            <li class="cash_infor_item">
+                            	<label for="">最低提现金额：</label><input type="text" class="cash_txt w35" value="500" disabled /><span class="dis">元</span>
+                            </li>
+                            <li class="cash_infor_item">
+                            	<label for="">提现间隔天数：</label><input type="text" class="cash_txt w20" value="15" disabled /><span class="dis">天</span>
+                            </li>
+                            <input type="button" class="cash_sub btn1" value="调整" />
+                            <input type="submit" class="cash_sub btn2" value="确定" />
+                        </ul>
+                        <ul class="cash_active cash_pst">
+                        	<li class="cash_active_item">
+                            	<label for="">商户名：</label><input type="text" class="cash_txt3" placeholder="同城生活络科技有限公司" />
+                                <label for="cash_st">开户银行：</label>
+                                <select name="" id="cash_st" class="cash_st">
+                                	<option value="">全部</option>
+                                    <option value="">工商银行</option>
+                                    <option value="">农业银行</option>
+                                    <option value="">建设银行</option>
+                                    <option value="">广发银行</option>
+                                </select>
+                                <label for="cash_st1">处理状态：</label>
+                                <select name="" id="cash_st1" class="cash_st">
+                                    <option value="">未处理</option>
+                                    <option value="">提现成功</option>
+                                    <option value="">提现失败</option>
+                                </select>
+                            </li>
+                            <li class="cash_active_item">
+                            	<label for="">日期：</label>
+                                <input type="text" class="cash_data" placeholder="年月日" />
+                            </li>
+                          <input type="submit" class="cash_sub cash_sub1" value="搜索" />
+                        </ul>
+                    	<div class="cash_content">
+                   	 	<table width="100%" border="0" class="cash_table" cellpadding="0" cellspacing="0">
+  <tr class="cash_title">
+    <td align="center">申请日期</td>
+    <td align="center">商户名</td>
+    <td align="center">开户银行</td>
+    <td align="center">提现账户</td>
+    <td align="center">姓名</td>
+    <td align="center">账户金额</td>
+    <td align="center">冻结金额</td>
+    <td align="center">可提现金额</td>
+    <td align="center">提现金额</td>
+    <td align="center">手续费</td>
+    <td align="center">状态</td>
+    <td align="center">完成时间</td>
+    <td align="center">操作</td>
+  </tr>
+  <tr class="cash_table_bd">
+    <td height="50" align="center"> 2014-04-22</td>
+    <td height="50" align="center">杭州同城生活络科技有限公司</td>
+    <td height="50" align="center">中国农业银行</td>
+    <td height="50" align="center">6228480321949689658</td>
+    <td height="50" align="center">余中华</td>
+    <td height="50" align="center">￥9000.00</td>
+    <td height="50" align="center">￥2000.00</td>
+    <td height="50" align="center"><p>￥7000.00</p></td>
+    <td height="50" align="center">￥5000.00</td>
+    <td height="50" align="center">￥5.00</td>
+    <td height="50" align="center" class="diff">未处理</td>
+    <td height="50" align="center">-</td>
+    <td height="50" align="center"><a href="print.html" class="blue" target="_blank">打印</a></td>
+  </tr>
+  <tr class="cash_table_bd">
+    <td height="50" align="center">2014-04-22</td>
+    <td height="50" align="center">杭州同城生活络科技有限公司</td>
+    <td height="50" align="center">中国工商银行</td>
+    <td height="50" align="center">6228480321949689658</td>
+    <td height="50" align="center">余中华</td>
+    <td height="50" align="center">￥9000.00</td>
+    <td height="50" align="center">￥2000.00</td>
+    <td height="50" align="center">￥7000.00</td>
+    <td height="50" align="center" class="diff">￥5000.00</td>
+    <td height="50" align="center">￥5.00</td>
+    <td height="50" align="center">已处理</td>
+    <td height="50" align="center">2014-03-23</td>
+    <td height="50" align="center"><a href="print.html" class="blue" target="_blank">打印</a></td>
+  </tr>
+  <tr class="cash_table_bd">
+    <td height="50" align="center">2014-04-22</td>
+    <td height="50" align="center">杭州同城生活络科技有限公司</td>
+    <td height="50" align="center">中国工商银行</td>
+    <td height="50" align="center">6228480321949689658</td>
+    <td height="50" align="center">余中华</td>
+    <td height="50" align="center">￥9000.00</td>
+    <td height="50" align="center">￥2000.00</td>
+    <td height="50" align="center">￥7000.00</td>
+    <td height="50" align="center" class="diff">￥5000.00</td>
+    <td height="50" align="center">￥5.00</td>
+    <td height="50" align="center">已处理</td>
+    <td height="50" align="center">2014-03-23</td>
+    <td height="50" align="center"><a href="print.html" class="blue" target="_blank">打印</a></td>
+  </tr>
+  <tr>
+    <td height="50" align="center">2014-04-22</td>
+    <td height="50" align="center">杭州同城生活络科技有限公司</td>
+    <td height="50" align="center">中国工商银行</td>
+    <td height="50" align="center">6228480321949689658</td>
+    <td height="50" align="center">余中华</td>
+    <td height="50" align="center">￥9000.00</td>
+    <td height="50" align="center">￥2000.00</td>
+    <td height="50" align="center">￥7000.00</td>
+    <td height="50" align="center">￥5000.00</td>
+    <td height="50" align="center">￥5.00</td>
+    <td height="50" align="center" class="diff">未处理</td>
+    <td height="50" align="center">-</td>
+    <td height="50" align="center"><a href="print.html" class="blue" target="_blank">打印</a></td>
+  </tr>
+  <tr>
+  	<td colspan="5" align="center">合计</td>
+    <td height="50" align="center">￥9000.00</td>
+    <td height="50" align="center">￥2000.00</td>
+    <td height="50" align="center">￥7000.00</td>
+    <td height="50" align="center">￥5000.00</td>
+    <td height="50" align="center">￥5.00</td>
+    <td colspan="3" align="center"><a href="#" class="excel blue">导出excel表格</a></td>
+  </tr>
+</table>
+						<div class="wmpage"></div>
+                        <div class="btn_active">
+                        	<input type="submit" class="derive_btn" value="导出未处理报表"><input type="submit" class="derive_btn" value="导出已处理报表">
+                        </div>
+                 	</div>
+                    </form>
+              </div>
+            </div>
+        </div>
+        <div class="foot">
+        	<p>经营性网站备案号：浙B2-20080103 客服电话：400-668-0099 Copyright © 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

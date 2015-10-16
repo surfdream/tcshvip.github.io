@@ -1,0 +1,262 @@
+.w25{
+	width:25px;
+}
+.w35{
+	width:35px;
+}
+.w20{
+	width:20px;
+}
+.blue,a.blue{
+	color:#428cf1;
+}
+.fina_right_con{
+	margin:40px 20px 20px 30px;
+}
+.fina_form input,.fina_form select{
+	vertical-align:middle;
+}
+.cash_infor{
+	border-bottom:1px solid #ffffff;
+	padding-bottom:40px;
+}
+.cash_pst{
+	position:relative;
+}
+.cash_infor_item{
+	float:left;
+	color:#323232;
+	font-size:14px;
+	margin-right:20px;
+}
+.cash_infor_item .cash_txt{
+	height:25px;
+	line-height:25px;
+	border:none;
+	background:#ebf0f5;
+	color:#ff6600;
+	font-weight:bold;
+	padding-left:5px;
+	vertical-align: middle;
+	margin-right:5px;
+	border:1px solid #ebf0f5
+}
+.changeCon .cash_infor_item .cash_txt{
+	border:1px solid #ccc;
+	background:#FFF;
+}
+.cash_pst .cash_sub{
+	position:absolute;
+	right:20px;
+	top:0;
+	width:60px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+.cash_pst .cash_sub_cur{
+	display:none;
+}
+.cash_pst .cash_sub1{
+	top:40px;
+	_right:40px!important;
+}
+.btn2{
+	display:none;
+}
+.changeCon .btn1{
+	display:none;
+}
+.changeCon .btn2{
+	display:block;
+}
+.cash_active{
+	border-top:1px solid #c9d0d7;
+	padding:15px 0px 30px 0;
+}
+.cash_active1{
+	border-top:0;
+	padding-top:0;
+}
+.cash_active_item{
+	padding-top:15px;
+}
+.cash_active_item label{
+	color:#323232;
+	font-size:14px;
+	display:inline-block;
+	width:80px;
+	text-align:right;
+}
+.cash_txt3{
+	width:140px;
+	padding:0 10px;	
+	height:25px;
+	line-height:25px;
+	color:#787878;
+	margin-right:15px;
+	border:1px solid #b4b4b4;
+}
+.cash_st{
+	width:120px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #b4b4b4;
+	margin-right:15px;
+}
+.cash_data{
+	height:25px;
+	line-height:25px;
+	width:100px;
+	padding-left:10px;
+}
+.cash_table tr,.cash_table td{
+	padding:10px;
+}
+.cash_table tr.cash_title{
+	background:#428cf1;
+	color:#FFF;
+	font-weight:bold;
+}
+.cash_table tr.cash_title:hover{
+	background:#428cf1;
+}
+.cash_table tr:hover{
+	background:#f5f8fa;
+}
+.cash_table tr.cash_title td{
+	border-bottom:1px solid #1369c0;
+}
+.cash_table tr.cash_table_bd td{
+	border-bottom:1px dashed #c9ced2;
+}
+.cash_table tr td.diff{
+	color:#ff6600;
+}
+.cash_content .wmpage{
+	text-align:right;
+}
+.cash_content .wmpage a{
+	color:#828282;
+}
+.cash_content .wmpage b{
+	background:#428cf1;
+	color:#FFF;
+}
+.btn_active .derive_btn{
+	width:120px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#272727;
+	margin:20px 20px 30px 0;
+}
+.foot{
+	border-top:1px solid #2c8def;
+	background:#1369c0;
+	text-align:center;
+	padding:20px 0 30px 0;
+}
+.foot p{
+	color:#9ac0e6;
+}
+
+/*退款*/
+.cash_table input[type='checkbox']{
+	vertical-align:middle;
+}
+.cash_time{
+	width:60px;
+	height:25px;
+	line-height:25px;
+	padding:0 5px;
+	margin:0 5px;
+}
+.cash_form .chk_all{
+	padding:0 30px 0 10px;
+}
+.cash_form .cash_sub2{
+	width:100px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	color:#323232;
+}
+.cash_table a.refund_enter,.cash_table a.refund_enter:link,.cash_table a.refund_enter:active,.cash_table a.refund_enter:visited{
+	color:#428cf1;
+}
+
+
+
+/* 打印  */
+.w600{
+	width:600px;
+}
+.border-t{
+	border-top:1px solid #333;
+	margin-top:20px;
+}
+.print{
+	width:980px;
+	margin:0 auto;
+	font-family:"Simsun";
+}
+.print_logo{
+	border-bottom:2px solid #000;
+	padding:10px 0;
+}
+.print_logo img{
+	vertical-align:middle;
+}
+.print_con{
+	padding-top:30px;
+}
+.print_con h3{
+	font-size:22px;
+	color:#323232;
+	text-align:center;
+	padding:20px 0;
+}
+.print_con p{
+	text-align:center;
+	padding-bottom:20px;
+}
+.print_con p span{
+	padding-right:40px;
+	color:#535353;
+}
+.print_con_list li{
+	padding:20px 0 0 20px;
+	font-size:14px;
+}
+.print_content{
+	display:inline-block;
+}
+.print_content .print_title{
+	display:inline-block;
+	width:90px;
+	text-align:right;
+	font-style:normal;
+}
+.print_con_list .print_money{
+	font-size:20px;
+	border-bottom:1px solid #333;
+	padding:40px 0 10px 20px;
+}
+.print_con_list .print_money .small_money{
+	padding-left:300px;
+	color:#323232;
+}
+.print_con_item .print_num{
+	padding-left:60px;
+}
+.print_btn{
+	text-align:center;
+	margin:80px 0 20px 0;
+}
+.print_btn input{
+	width:105px;
+	height:34px;
+	line-height:34px;
+	color:#323232;
+}

@@ -1,0 +1,51 @@
+.fina_bg{
+	background:#428cf1;
+}
+.fina_login{
+	background:url(../img/login.jpg) no-repeat;
+	width:697px;
+	height:480px;
+	margin:150px auto 0 auto;
+}
+.fina_login_form{
+	width:400px;
+	margin:0 auto;
+	padding-top: 190px;
+}
+.fina_login_item{
+	margin-bottom:20px;
+}
+.login_item_cur{
+	width:320px;
+}
+.fina_login_title{
+	display:inline-block;
+	width:70px;
+	text-align:right;
+	font-size:14px;
+	color:#323232;
+}
+.fina_txt1,.fina_txt2{
+	border:1px solid #b4b4b4;
+	height:16px;
+	padding:10px;
+	font-size:12px;
+	vertical-align:middle;
+}
+.fina_txt1{
+	width:280px;
+}
+.fina_txt2{
+	width:90px;
+	margin-right:10px;
+}
+.fina_login_item img{
+	vertical-align:middle;
+}
+.fina_login_item .ui_btn .ui_btn_txt{
+	padding:0 25px;
+	font-size:14px;
+	font-weight:700;
+}
+
+

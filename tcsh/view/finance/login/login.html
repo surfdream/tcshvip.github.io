@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../public/css/global.css">
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/finance/login/config.js" data-init="login"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+</head>
+<body class="fina_bg">
+<div id="page">
+	<div class="fina_login">
+    	<form action="" class="fina_login_form">
+        	<ul>
+            	<li class="fina_login_item">
+                	<label for="fina_login_name" class="fina_login_title">帐号：</label><input type="text" id="fina_login_name" class="fina_txt1" placeholder="字母或中文开头，4-20位字符组合！" wmv="empty|regname" wmvmsg="帐号不能为空|帐号格式错误，应为字母或中文开头，4-20位字符组合！">
+                </li>
+                <li class="fina_login_item">
+                	<label for="fina_login_pwd" class="fina_login_title">密码：</label><input type="text" id="fina_login_pwd" class="fina_txt1" placeholder="请输入6-20个字符的字母加数字组合" wmv="empty|loginpassword" wmvmsg="密码不能为空|密码格式错误，应为字母或中文开头，4-20位字符组合！">
+                </li>
+                <li class="fina_login_item login_item_cur" wmv="yzm" wmvmsg="验证码不能为空！">
+                	<label for="fina_login_yzm" class="fina_login_title">验证码：</label><input type="text" id="fina_login_yzm" class="fina_txt2"><img src="img/yzm.jpg" />
+                </li>
+                <li class="fina_login_item">
+                	<span class="fina_login_title"></span>
+                    <span class="ui_btn ui_btn_h45blue1"><input type="submit" class="ui_btn_txt" value="立即登陆" /></span>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+</body>
+</html>
