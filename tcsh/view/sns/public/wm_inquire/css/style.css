@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+/* 提问样式 */
+body .wmBox .wmBox-content{
+	margin:0;
+}
+.alert_box{
+	padding:0 20px 15px 20px;
+}
+.alert_box_title{
+	padding:10px 0 0 0;
+	color:#777777;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	font-weight:normal;
+}
+body .wmBox .wmBox-head{
+	background:url(http://s.tcsh.me/tcsh/view/sns/public/img/box_bg.jpg) repeat-x;
+	height:42px;
+	line-height:40px;
+}
+body .wmBox .wmBox-head .close,body .wmBox .wmBox-head .hide{
+	color:#a6a6a6;
+}
+body .wmBox .wmBox-head .wmBox-title{
+	color:#7c7c7c;
+	font-family:"SimHei";
+	font-size:14px;
+	font-weight:normal;
+}
+.letter_title{
+	padding:10px 0 20px 0;
+}
+.Iask_box .myEditor{
+	height:450px;
+	width:750px;
+}
+.wmBox_btns{
+	text-align:right;
+	margin-top:30px;
+}
+.wmBox_btns a,.wmBox_btns a:link,.wmBox_btns a:active,.wmBox_btns a:visited{
+	color:#FFF;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	border-radius:4px;
+	background:#c1c2c4;
+	font-size:14px;
+	font-weight:700;
+	margin-left:20px;
+	display:inline-block;
+	text-align:center;
+}
+.wmBox_btns a.sure_btn{
+	background:#fc6e51;
+}
+.wmBox_btns a:hover{
+	text-decoration:none;
+}
+
+.askTitle,.shoppingTitle{
+	margin:20px 0;
+}
+.askTitle label{
+	color:#333;
+	font-size:14px;
+}
+.askTitle input{
+	height:20px;
+	line-height:20px;
+	padding:6px 4px;
+	width:600px;
+	border:1px solid #ccc;
+	margin-right:10px;
+}
+.askTitle input.integral{
+	width:40px;
+	margin-right:0;
+}
+
+.shoppingTitle .title{
+	height:20px;
+	line-height:20px;
+	padding:6px 4px;
+	width:700px;
+	border:1px solid #ccc;
+}
+
+.write_box{
+	width:900px;
+}
+.write_box .myEditor{
+	width:750px;
+	height:480px;
+}
+.write_box .title{
+	width:690px;
+}

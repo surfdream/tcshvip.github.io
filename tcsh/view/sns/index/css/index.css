@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.comment_list .comment_item .reply{
+	top:10px;
+}
+::selection{
+	background:#f00;
+	color:#FFF;
+}
+
+

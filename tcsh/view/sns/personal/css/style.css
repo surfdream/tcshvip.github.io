@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+.personal_item{
+	float:left;
+	width:260px;
+	height:405px;
+	background:#FFF;
+	border-radius:4px;
+	position:relative;
+	margin:0 25px 40px 15px;
+	_margin:0 20px 40px 15px;
+	overflow:hidden;
+}
+.personal_item .personal_item_sub,.personal_item .personal_item_sub:link,.personal_item .personal_item_sub:active,.personal_item .personal_item_sub:visited{
+	display:inline-block;
+}
+.personal_item .personal_item_sub:hover{
+	text-decoration:none;
+}
+.personal_item img{
+	width:260px;
+	height:262px;
+	border-radius:4px 4px 0 0;
+	padding-bottom:30px;
+}
+.personal_item_infor{
+	display:block;
+	padding:10px;
+	color:#99a3b1;
+	font-size:14px;
+}
+.personal_item_intr{
+	line-height:20px;
+}
+.person_item_date{
+	font-size:12px;
+	padding-top:20px;
+}
+.person_item_date .price{
+	color:#ff5b2d;
+	position:absolute;
+	right:15px;
+	bottom:12px;
+	font-style:normal;
+	font-size:14px;
+}
+.hook11{
+	position:absolute;
+	top:10px;
+	left:10px;
+	cursor:pointer;
+}
+.personal_kinds{
+	position:absolute;
+	top:233px;
+	left:100px;
+	width:58px;
+	height:58px;
+}
+.looked{
+	background-position:right -200px;
+}
+.have{
+	background-position:right -270px;
+}
+.collect{
+	background-position:right -340px;
+}

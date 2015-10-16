@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.reship_con .loading32_32_1{
+	margin-right:10px;
+}
+.reship_con{
+	padding:20px;
+	width:300px;
+	color:#343434;
+	font-size:20px;
+	font-family:"Microsoft YaHei";
+	text-align:center;
+}
+.reship_con .iconfont{
+	color:#F00;
+	font-size:30px;
+	margin-right:10px;
+}
+.fork7{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.reship_tip{
+	text-align: center;
+	font-size: 20px;
+	color: #343434;
+	margin: 20px 0;
+	font-family:"Microsoft YaHei";
+}
+.reship_tip .hook8{
+	margin-right:10px;
+}
+.reship_btns{
+	padding-top:20px;
+	text-align:right;
+}
+.reship_btns a,.reship_btns a:link,.reship_btns a:active,.reship_btns a:visited{
+	display:inline-block;
+	color:#343434;
+}
+.reship_btns .stay,.reship_btns .stay:link,.reship_btns .stay:active,.reship_btns .stay:visited{
+	background:#eb1c1d;
+	color:#FFF;
+	margin:0 10px;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+}
+.reship_btns .stay:hover{
+	text-decoration:none;
+}

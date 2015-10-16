@@ -1,0 +1,243 @@
+@CHARSET "UTF-8";
+.sns_data_list .sns_data_box{
+	width:900px;
+}
+.sns_data_list .sns_data_box_sub{
+	width:858px;
+	min-height:120px;
+}
+.sns_data_list .sns_data_detail{
+	width:600px;
+}
+.sns_data_list .sns_data_user .remark,.sns_data_list .sns_data_user .remark a{
+	font-size:14px;
+	color:#999;
+}
+.sns_data_con .delete{
+	visibility: hidden;
+	color: #b7bbc2;
+	margin-left: 10px;
+	display: inline-block;
+}
+.sns_data_con:hover .delete{
+	visibility: visible;
+}
+.sns_data_list .sdi_btns_subCon{
+	width:900px;
+}
+.sdi_btns_subCon .comment .comment_con{
+	width:740px;
+}
+
+.shopping_detail{
+	background: #FFF;
+	padding: 20px 2px 0 2px;
+	font-family: "Microsoft YaHei";
+	box-shadow: 0 2px 3px #ccc;	
+}
+.shoppingCon{
+	padding:30px;
+}
+.shoppingCon p{
+	color:#666666;
+	line-height:30px;
+	text-indent:2em;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.shopping_detail .shoppingCon img{
+	max-width:830px;
+}
+.shopping_detail .sdi_btns{
+	padding:0 30px 20px 0;
+}
+.show_con{
+	background:#fafafa;
+	padding:20px 20px 10px 20px;
+	margin-top:6px;	
+}
+.show_con .more_btns .pack_up{
+	display:none;
+}
+.like_item{
+	border-bottom:1px solid #e7e7e7;
+	position:relative;
+	height:38px;
+	line-height:38px;
+	color:#484848;
+}
+.like_item:last-child{
+	border-bottom:0;
+}
+.like_item a,.like_item a:link,.like_item a:active,.like_item a:visited{
+	margin-right:8px;
+	color:#b48e7d;
+	display:inline-block;
+	font-family:"Microsoft YaHei";
+}
+.like_item a:hover{
+	text-decoration:none;
+}
+.like_item a img{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+}
+.like_time{
+	position:absolute;
+	right:10px;
+	top:0;
+	_top:10px;
+	color:#999999;
+}
+.show_con .comment_con{
+	width:700px;
+}
+.comment{
+	padding-bottom:20px;
+}
+.sdi_btns_subCon .comment_item .reply{
+	top:10px;
+}
+.sdi_btns_subCon .comment_item .rep_item .reply{
+	top:0;
+}
+.sdi_btns_subCon .comment_item .date,.sdi_btns_subCon .comment_list .comment_item .comm_den{
+	top:10px;
+}
+.sdi_btns_subCon .comment_item .rep_item .date,.sdi_btns_subCon .comment_item .rep_item .comm_den{
+	top:0;
+}
+.show_con .comment_item .rep_item .comm_den{
+	top:10px;
+}
+.comm_row .comm_den{
+	visibility:hidden;
+}
+.comm_row:hover .comm_den{
+	visibility:visible;
+}
+.comment_item .comm_head{
+	display:inline-block;
+}
+.show_con .comment_item img{
+	width:50px;
+	height:50px;
+	border-radius:50px;
+}
+.comment_item .comm_time{
+	position:absolute;
+	right:20px;
+	_right:40px;
+	top:10px;
+	color:#cdcdcd;
+}
+.comm_content{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	vertical-align:top;
+	width:715px;
+}
+.comm_content .commenter,.comm_content .commenter:link,.comm_content .commenter:active,.comm_content .commenter:visited{
+	color:#985d3e;
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+}
+.comm_content .comm_con_detail,.comm_content .reply_infor{
+	color:#696969;
+	line-height:20px;
+	margin:10px 0 10px 5px;
+}
+.comm_content .reply_infor{
+	border-left:2px solid #999999;
+	padding-left:8px;
+}
+.comm_content .comm_btns{
+	display:block;
+	text-align:right;
+}
+.comment_item .comm_btns a,.comment_item .comm_btns a:link,.comment_item .comm_btns a:active,.comment_item .comm_btns a:visited{
+	margin-left:10px;
+	color:#999999;
+}
+.comment_item .comm_btns .reply{
+	position:inherit;
+}
+.comm_btns a:hover{
+	text-decoration:none;
+	color:#666;
+}
+.comment_item .reply_con{
+	margin:10px 30px 0 60px;
+	border:1px solid #ccc;
+	background:#f4f4f4;
+	border-radius:4px;
+	padding:20px;
+}
+.comment_item .reply_con .Oreply{
+	margin-bottom:10px;
+}
+.comment_item .reply_con .reply_txt{
+	width:95%;
+	height:36px;
+	line-height:18px;
+	resize:none;
+	border:1px solid #dbdbdb;
+	border-radius:4px;
+	padding:10px;
+}
+.reply_send{
+	display:block;
+	margin:10px 13px 0 0;
+	text-align:right;
+}
+.reply_send .reply_send_btn,.reply_send .reply_send_btn:link,.reply_send .reply_send_btn:active,.reply_send .reply_send_btn:visited{
+	color:#FFF;
+	background:#F63;
+	width:60px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	display:inline-block;
+	border-radius:4px;
+	font-size:14px;
+}
+.reply_send a:hover{
+	text-decoration:none;
+}
+
+/*删除某一购物经弹窗*/
+.hook10{
+	position:absolute;
+	top:2px;
+	right:2px;
+}
+.del_box_con{
+	padding:20px 0 10px 0;
+	text-align:center;
+}
+.del_box_content{
+	font-size:14px;
+	color:#535353;
+}
+.del_box_btns{
+	padding-top:30px;
+}
+.del_box_btns a,.del_box_btns a:link,.del_box_btns a:active,.del_box_btns a:visited{
+	color:#FFF;
+	font-size:14px;
+	background:#cdcdcd;
+	width:60px;
+	height:30px;
+	line-height:30px;
+	display:inline-block;
+	font-weight:700;
+	margin-right:10px;
+}
+.del_box_con .del_box_btns .del_sure{
+	background:#ff6d2c;
+}
+.del_box_btns a:hover{
+	text-decoration:none;
+}

@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+.friends_con{
+	background:#FFF;
+	padding:10px 0 10px 10px;
+	font-family:"Microsoft YaHei";
+	font-size:0;
+	min-height:800px;
+}
+.friends_con_sub{
+	border:2px solid #e2e2e2;
+	width:270px;
+	padding:10px 5px;
+	position:relative;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	font-size:12px;
+	margin:0 12px 15px 0;
+	cursor:pointer;
+}
+.friends_con .friends_con_sub_hover,.friends_con .friends_con_sub_hover1{
+	border:2px solid #ff754d;
+}
+.friends_head{
+	display:inline-block;
+	width:94px;
+	height:94px;
+	border-radius:94px;
+	margin-right:6px;
+}
+.friends_head img{
+	width:94px;
+	height:94px;
+	border-radius:94px;
+}
+.frineds_infor{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	vertical-align:top;
+	width:160px;
+}
+
+.friends_infor_item{
+	padding-bottom:5px;
+	color:#666;
+}
+.friends_name,.friends_name:link,.friends_name:active,.friends_name:visited{
+	color:#343434;
+	padding-bottom:5px;
+	font-size:14px;
+	display:inline-block;
+	width:100px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.friends_name:hover{
+	text-decoration:none;
+}
+.friends_bang a,.friends_bang a:link,.friends_bang a:active,.friends_bang a:visited{
+	margin-right:10px;
+	display:inline-block;
+	line-height:22px;
+}
+.friends_infor_item .focuse_num{
+	color:#ff8967;
+}
+.friends_con_sub .iconfont{
+	position:absolute;
+	bottom:8px;
+	right:8px;
+	font-size:20px;
+	color:#c5c5c5;
+}
+.dis_none{
+	display:none;
+}
+.friends_con_sub .iconfont_click{
+	color:#ff9c7f;
+	display:block;
+}
+.change_data{
+	text-align:center;
+	margin:30px 0;
+}
+.change_data a,.change_data a:link,.change_data a:active,.change_data a:visited{
+	display:inline-block;
+	color:#FFF;
+	background:#FF6225;
+	font-size:14px;
+	width:80px;
+	height:30px;
+	line-height:30px;
+}
+.change_data a:hover{
+	text-decoration:none;
+}
+.page_btn{
+	width:25px;
+	height:25px;
+	line-height:25px;
+	color:#0078b6;
+	display:inline-block;
+	margin-right:10px;
+}
+.page_btn:hover{
+	text-decoration:none;
+	color:#0078b6;
+}
+.now{
+	color:#333;
+	cursor:inherit;
+}
+.page_num{
+	background:#e1e4e5;
+}
+.page_num:hover{
+	cursor:pointer;
+	background:#f60;
+	color:#FFF;
+}

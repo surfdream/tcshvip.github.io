@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+.sns_data_user span { color: #535353; font-size: 14px; padding-right: 6px; }
+.answer .user_name, .answer .user_name:link, .answer .user_name:active, .answer .user_name:visited { color: #999999; margin-right: 5px; font-size: 14px; vertical-align: top; max-width: 110px; display: inline-block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.answer .user_name:hover { text-decoration: none; color: #F90; }
+.answer_time { display: block; text-align: right; color: #b7bbc2; }
+/* 问题详情页 */
+.question_detail { background: #FFF; padding: 20px 2px 0 2px; font-family: "Microsoft YaHei"; box-shadow: 0 2px 3px #ccc; position: relative; z-index: 23; }
+.questionCon { padding: 20px; }
+.ques_content { color: #333333; line-height: 24px; width: 700px; font-size: 14px; }
+.ques_btns { margin-top: 30px; height: 20px; }
+.ques_btns a, .ques_btns a:link, .ques_btns a:active, .ques_btns a:visited { color: #999999; margin-right: 10px; display: inline-block; }
+.ques_btns a:hover { text-decoration: none; color: #ff754d; }
+.ques_btns .ques_btns_item .sina_share { padding-left: 5px; }
+.invite_ans { float: left; }
+.invite_ans .iconfont { color: #ff754d; padding-left: 4px; }
+.ques_btns_con { float: right; }
+.questionCon .ques_btns .already_mark { color: #f60; font-weight: 700; }
+.mark_number { color: #FFF; background: #ff9273; border-radius: 6px; padding: 0 5px; font-size: 12px; font-family: "Simsun"; }
+.answer_title { border-top: 1px dashed #e7e7e7; border-bottom: 1px dashed #e7e7e7; padding: 8px; height: 20px; margin: 0 20px; overflow: hidden; }
+.answer_number { font-weight: 700; color: #666666; float: left; font-size: 14px; }
+
+.sort { float: right; }
+.sort a:hover { text-decoration: none; }
+.ans_infor { padding: 0 20px; }
+.ans_infor_item { padding: 30px 0 0 0; font-size: 0; border-bottom: 1px solid #e7e7e7; position: relative; }
+.ans_time { position: absolute; right: 20px; top: 30px; color: #bdbdbd; font-size: 12px; }
+.ans_infor_item:last-child { border-bottom: 0; }
+.ans_head { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; margin-right: 20px; text-align: center; font-size: 12px; }
+.ans_head .ans_head_img { border: 2px solid #d6d7dc; width: 52px; height: 52px; border-radius: 43px; display: block; margin-bottom: 20px; }
+.ans_head .ans_head_img img { width: 52px; height: 52px; border-radius: 43px; }
+.ans_infor_con { display: inline-block; *display: inline; *zoom: 1; width: 775px; font-size: 12px; }
+.ans_infor_con .good_ico { font-size: 12px; color: #FFF; font-weight: normal; }
+.ans_infor_con .adopt, .ans_infor_con .adopt:link, .ans_infor_con .adopt:active, .ans_infor_con .adopt:visited { color: #ff8c6e; border: 1px solid #ff8c6e; padding: 0 6px; border-radius: 4px; margin-left: 3px; }
+.ans_infor_name { color: #666666; margin-bottom: 8px; }
+.ans_infor_name a, .ans_infor_name a:link, .ans_infor_name a:active, .ans_infor_name a:visited { color: #985d3e; margin-right: 10px; font-size: 14px; }
+.ans_infor_name a:hover { text-decoration: none; color: #e37237; }
+.ans_content { color: #7a7a7a; line-height: 24px; word-wrap: break-word; min-height: 50px; }
+.Ianswer { background: #fafafa; padding: 20px; *padding: 20px 20px 60px 20px; margin-top: 6px; position: relative; z-index: 22; }
+.Ianswer .Ianswer_title { color: #dbdbdb; font-size: 18px; font-weight: normal; margin-bottom: 10px; }
+.Ianswer_btns { margin-top: 30px; padding: 0 10px; height: 36px; }
+.Ianswer_btns_item, .Ianswer_btns_item:link, .Ianswer_btns_item:active, .Ianswer_btns_item:visited { display: inline-block; font-size: 16px; font-family: "Microsoft YaHei"; }
+.Ianswer_btns_item:hover { text-decoration: none; }
+.Ianswer_btns .recommend, .Ianswer_btns .recommend:link, .Ianswer_btns .recommend:active, .Ianswer_btns .recommend:visited { float: left; color: #f60; }
+.Ianswer_btns .send_ans, .Ianswer_btns .send_ans:link, .Ianswer_btns .send_ans:active, .Ianswer_btns .send_ans:visited { float: right; color: #FFF; width: 100px; height: 36px; border-radius: 4px; text-align: center; line-height: 36px; background: #fc6e51; }
+body .wmBox { box-shadow: none; border: 0; }
+body .wmBox .wmBox-content { margin: 0; }
+.recommend_list { border: 2px solid #ff754d; border-radius: 4px; padding: 20px 30px 0 10px; }
+.recommend_item { margin-bottom: 15px; color: #7c7c7c; }
+.error_tip { border: 1px solid #ffac1c; padding: 5px 10px; margin-left: 20px; }
+.error_tip .iconfont { padding-right: 8px; font-size: 18px; color: #ffac1c; }
+.recommend_item .wm_ico { margin-right: 10px; width: 18px; }
+.recommend_txt { width: 440px; border: 1px solid #aaaaaa; height: 18px; line-height: 18px; padding: 5px; }
+.recommend_btns { text-align: right; }
+.recommend_btns a, .recommend_btns a:link, .recommend_btns a:active, .recommend_btns a:visited { margin-left: 20px; color: #787878; display: inline-block; font-size: 14px; }
+.recommend_list .recommend_btns .sure_btn { color: #FFF; background: #e9573f; border-radius: 2px; text-align: center; width: 100px; height: 35px; line-height: 35px; }
+.recommend_btns .sure_btn:hover { text-decoration: none; }
+
+.loadmore { margin: 20px; padding: 10px 0; text-align: right; }
+.loadmore a, .loadmore a:link, .loadmore a:active, .loadmore a:visited { color: #535353; font-family: "Simsun"; }
+
+
+/*删除某一购物经弹窗*/
+.hook10 { position: absolute; top: 2px; right: 2px; }
+.del_box_con { padding: 20px 0 10px 0; text-align: center; margin: 10px; }
+.del_box_content { font-size: 14px; color: #535353; }
+.del_box_btns { padding-top: 30px; }
+.del_box_btns a, .del_box_btns a:link, .del_box_btns a:active, .del_box_btns a:visited { color: #FFF; font-size: 14px; background: #cdcdcd; width: 60px; height: 30px; line-height: 30px; display: inline-block; font-weight: 700; margin-right: 10px; }
+.del_box_con .del_box_btns .del_sure { background: #ff6d2c; }
+.del_box_btns a:hover { text-decoration: none; }
+
+
+.nothing{
+	text-align: center;
+	color: #666;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	padding-top:60px;
+}
+
+.main_left .wm_page { padding: 10px; margin: 40px auto 20px auto; width: 370px; text-align: center; }
+.main_left .wm_page a, .main_left .wm_page b, .main_left .wm_page a:hover { padding: 6px 10px; height: 12px; line-height: 12px; background: #fff; color: #828282; border: 1px solid #dbdbdb; font-size: 14px; text-decoration: none; margin-left: 5px; font-family: "Simsun"; }
+.main_left .wm_page span { font-size: 14px; color: #828282; }
+.main_left .wm_page b { color: #fff; font-weight: 500; background: #e97813; }

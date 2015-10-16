@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+/* 举报 弹窗 样式 */
+body .wmBox{
+	padding-bottom:0!important;
+}
+.denounce_con{
+	padding:0 20px 10px 20px;		
+}
+.denounce_con .denounce_evidence{
+	border:1px solid #ccc;
+	height:200px;
+	width:600px;
+	overflow-y:scroll;
+	resize:none;
+	padding:5px;
+}
+.denounce_con .denounce_evidence::-webkit-scrollbar { width: 5px; height: 5px; }
+.denounce_con .denounce_evidence::-webkit-resizer { background: #333333; }
+.denounce_con .denounce_evidence::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.denounce_con li b{
+	color:#666666;
+	display:inline-block;	
+}
+.denounce_con li{
+	color:#666666;
+	margin-top:14px;
+}
+.denounce_con .denounce_reason{
+	vertical-align:middle;
+	margin-right:5px;
+}
+.denounce_con li label{
+	margin-right:20px;
+}
+.denounce_con li .denounce_txt{
+	border:1px solid #c7c7c7;
+	height:16px;
+	line-height:16px;
+	padding:5px;
+	width:600px;
+}
+.denounce_btns{
+	text-align:right;
+	margin-top:30px;
+}
+.denounce_btns a,.denounce_btns a:link,.denounce_btns a:active,.denounce_btns a:visited{
+	display:inline-block;
+	margin-right:20px;
+	background:#c1c2c4;
+	color:#fff;
+	border-radius:4px;
+	width:100px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	font-size:14px;
+	font-weight:700;
+}
+.denounce_btns a:hover{
+	text-decoration:none;
+}
+.denounce_con .denounce_btns .denounce_sure{
+	background:#fc6e51;
+}

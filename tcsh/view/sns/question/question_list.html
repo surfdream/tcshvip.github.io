@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>问答列表页</title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??sns/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css,public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/model/wmpage/css/style.css" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/sns/question/config.js" data-init="question"></script>
+	<script type="text/javascript" charset="utf-8" src="http://item.tcsh.me/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://item.tcsh.me/ueditor/ueditor.all.js"></script>
+
+    <script type="text/javascript">
+        var global_setting = {}
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top"></div>
+            <div class="sns_head">
+                <ul class="sns_head_con clearfix">
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">首页</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的生态圈</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">账户管理</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的主页</a>
+                        <span class="arrows">◆</span>
+                        <div class="sns_head_nav">
+                            <a href="#" class="sns_head_nav_item">
+                                <span class="sns_img grzy"></span>
+                                <span class="sns_head_nav_word">个人主页</span>
+                            </a>
+                            <a href="#" class="sns_head_nav_item">
+                                <span class="sns_img gwj"></span>
+                                <span class="sns_head_nav_word">购物经</span>
+                            </a>
+                            <a href="#" class="sns_head_nav_item">
+                                <span class="sns_img srdz"></span>
+                                <span class="sns_head_nav_word">TA's 宝藏</span>
+                            </a>
+                            <a href="#" class="sns_head_nav_item">
+                                <span class="sns_img dtts"></span>
+                                <span class="sns_head_nav_word">道听途说</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">我的帮汇</a>
+                    </li>
+                    <li class="sns_head_sub">
+                        <a href="#" class="sns_head_item">归档</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_con clearfix">
+                <div class="main_left">
+                    <div class="main_left_nav">
+                    	<a href="#" class="left_nav_item all_question left_nav_cur">所有提问</a>
+                        <a href="#" class="left_nav_item all_answer">所有回答</a>
+                        <a href="#" class="left_nav_item invite_answer">邀请回答</a>
+                        <a href="#" class="left_nav_item myMark">我的mark</a>
+                        <a href="#" class="left_nav_item setting">
+                        	管理<span class="iconfont">&#xf013e;</span>
+                            <span class="setting_con">
+                            	<span class="chk_all">全选</span>
+                                <span class="delete question_del mark_del">删除</span>
+                            </span>
+                            
+                        </a>
+                    </div>
+                    <div class="question_con">
+                    	<ul class="sns_data_list question_list">
+                        	<li class="sns_data_item question clearfix" data_id="11" answer_id="23">
+                            	<span class="iconfont setting_chk">&#xf0156;</span>
+                                <a href="#" class="head_img">
+                                    <img src="../public/img/head_img.jpg" />
+                                </a>
+                                <div class="sns_data_box">
+                                    <div class="sns_data_box_sub">
+                                        <span class="sns_img triangle"></span>
+                                        <div class="sns_data_con">
+                                            <div class="sns_data_user">
+                                                <span>回答了</span>
+                                                <a href="#" class="question_title">很适合大众新手尝试</a>
+                                            </div>
+                                            <div class="sns_data_main clearfix">
+                                            	<script type="text/template" id="quesContent" class="quesContent">
+													 目 前 互 动 购物的推手系统尚在架构之中，美推手还是以自由独立的个体存在与同城生活上，没有固定的推广方式，主要由论坛、博客、SNS平台，或者微博、邮件、Q群等作为推广方式
+													目前同城生活的推手系统尚在架构之中，美推手还是以自由独立的个体存在与同城生活上，没有固定的推广方式，主要由论坛、博客、SNS平台，或者微博、邮件、Q群等作为推广方式		目前同城生活的推手系统尚在架构之中，美推手还是以自由独立的个体存在与同城生活上，没有固定的推广方式，主要由论坛、博客、SNS平台，或者微博、邮件、Q群等作为推广方式		
+												</script>
+                                                <div class="sns_data_detail">
+                                                    <a href="#" class="appendCon" target="_blank"></a>
+                                                </div>
+                                                <div class="answer">
+                                                    <a href="#" class="user_name">张三：</a>
+                                                    <div class="answer_con">
+                                                        <div class="answer_con_detail">
+                                                            <p>
+                                                            一般评价一个文学或文艺作品或是某种事件现象，都是先听先看，然后思考，思考需要动用自己的大脑，把过去学到的知识...
+                                                            </p>
+                                                            <span class="answer_time">2014-07-28</span>
+                                                        </div>
+                                                        <div class="answer_zan clearfix">
+                                                            <div class="answer_Ilike">
+                                                                <a href="#" class="answer_man_like">我喜欢</a>
+                                                                <div class="anl_con">
+                                                                    <div class="anl_con_triangle">
+                                                                        <span class="tri1">◆</span>
+                                                                        <span class="tri2">◆</span>
+                                                                    </div>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <span class="zan_people">
+                                        	<span class="zan_people_sub">
+                                            	<a href="#" class="zan_people_item zan"><span class="iconfont">&#xe613;</span><span class="zan_num">25</span></a>
+                                            </span>
+                                            <span class="zan_people_sub zan_people_name">
+                                            	<a href="#" class="zan_people_item">林亚权</a><a href="#" class="zan_people_item">怪叔叔</a><a href="#" class="zan_people_item">小菜</a>
+                                            </span>
+                                            等人表示赞同.
+                                        </span>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        	<li class="sns_data_item question clearfix" data_id="12" answer_id="24">
+                            	<span class="iconfont setting_chk">&#xf0156;</span>
+                                <a href=
+                                "#" class="head_img">
+                                    <img src="../public/img/head_img.jpg" />
+                                </a>
+                                <div class="sns_data_box">
+                                    <div class="sns_data_box_sub">
+                                        <span class="sns_img triangle"></span>
+                                        <div class="sns_data_con">
+                                            <div class="sns_data_user">
+                                                <span>回答了</span>
+                                                <a href="#" class="question_title">很适合大众新手尝试</a>
+                                            </div>
+                                            <div class="sns_data_main clearfix">
+                                            
+                                                <script type="text/template" id="quesContent" class="quesContent">
+													 目 前 互 动 购物的推手系统尚在架构之中，美推手还是以自由独立的个体存在与同城生活上，没有固定的推广方式，主要由论坛、博客、SNS平台，或者微博、邮件、Q群等作为推广方式
+												</script>
+                                                <div class="sns_data_detail">
+                                                    <a href="#" class="appendCon" target="_blank"></a>
+                                                </div>
+                                                <div class="answer">
+                                                    <a href="#" class="user_name">张三：</a>
+                                                    <div class="answer_con">
+                                                        <div class="answer_con_detail">
+                                                            <p>
+                                                            一般评价一个文学或文艺作品或是某种事件现象，都是先听先看，然后思考，思考需要动用自己的大脑，把过去学到的知识...
+                                                            </p>
+                                                            <span class="answer_time">2014-07-28</span>
+                                                        </div>
+                                                        <div class="answer_zan clearfix">
+                                                            <div class="answer_Ilike">
+                                                                <a href="#" class="answer_man_like">我喜欢</a>
+                                                                <div class="anl_con">
+                                                                    <div class="anl_con_triangle">
+                                                                        <span class="tri1">◆</span>
+                                                                        <span class="tri2">◆</span>
+                                                                    </div>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <span class="zan_people">
+                                        	<span class="zan_people_sub">
+                                            	<a href="#" class="zan_people_item zan"><span class="iconfont">&#xe613;</span><span class="zan_num">25</span></a>
+                                            </span>
+                                            <span class="zan_people_sub zan_people_name">
+                                            	<a href="#" class="zan_people_item">林亚权</a><a href="#" class="zan_people_item">怪叔叔</a><a href="#" class="zan_people_item">小菜</a>
+                                            </span>
+                                            等人表示赞同.
+                                        </span>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        	<li class="sns_data_item question clearfix" data_id="13" answer_id="25">
+                            	<span class="iconfont setting_chk">&#xf0156;</span>
+                                <a href="#" class="head_img">
+                                    <img src="../public/img/head_img.jpg" />
+                                </a>
+                                <div class="sns_data_box">
+                                    <div class="sns_data_box_sub">
+                                        <span class="sns_img triangle"></span>
+                                        <div class="sns_data_con">
+                                            <div class="sns_data_user">
+                                                <span>回答了</span>
+                                                <a href="#" class="question_title">很适合大众新手尝试</a>
+                                            </div>
+                                            <div class="sns_data_main clearfix">
+                                                <script type="text/template" id="quesContent"  class="quesContent">
+													
+													   <p style="border: none; padding: 0px; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(68, 68, 68); font-family: 'Microsoft Yahei', 微软雅黑, Tahoma, Arial, Helvetica, STHeiti; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 128);"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;写字楼里写字间，写字间里程序员;</span></span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　程序人员写程序，又拿程序换酒钱。</span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　酒醒只在网上坐，酒醉还来网下眠;</span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　酒醉酒醒日复日，网上网下年复年。</span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　但愿老死电脑间，不愿鞠躬老板前;</span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　奔驰宝马贵者趣，公交自行程序员。</span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　别人笑我忒疯癫，我笑自己命太贱;</span><br style="border: none; padding: 0px; margin: 0px;"><span style="border: none; padding: 0px; margin: 0px; color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; 　　不见满街漂亮妹，哪个归得程序员。</span></p><p style="border: none; padding: 0px; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(68, 68, 68); font-family: 'Microsoft Yahei', 微软雅黑, Tahoma, Arial, Helvetica, STHeiti; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);">&nbsp;</p><p><br></p>
+												  
+												</script>
+                                                <div class="sns_data_detail">
+                                                    <a href="#" class="appendCon" target="_blank"></a>
+                                                </div>
+                                                <div class="answer">
+                                                    <a href="#" class="user_name">张三：</a>
+                                                    <div class="answer_con">
+                                                        <div class="answer_con_detail">
+                                                            <p>
+                                                            一般评价一个文学或文艺作品或是某种事件现象，都是先听先看，然后思考，思考需要动用自己的大脑，把过去学到的知识...
+                                                            </p>
+                                                            <span class="answer_time">2014-07-28</span>
+                                                        </div>
+                                                        <div class="answer_zan clearfix">
+                                                            <div class="answer_Ilike">
+                                                                <a href="#" class="answer_man_like">我喜欢</a>
+                                                                <div class="anl_con">
+                                                                    <div class="anl_con_triangle">
+                                                                        <span class="tri1">◆</span>
+                                                                        <span class="tri2">◆</span>
+                                                                    </div>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                    <a href="#" class="anl_con_item">
+                                                                        <img src="img/img_200_160.jpg" />
+                                                                        <span class="anl_con_item_price">￥123</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <span class="zan_people">
+                                        	<span class="zan_people_sub">
+                                            	<a href="#" class="zan_people_item zan"><span class="iconfont">&#xe613;</span><span class="zan_num">25</span></a>
+                                            </span>
+                                            <span class="zan_people_sub zan_people_name">
+                                            	<a href="#" class="zan_people_item">林亚权</a><a href="#" class="zan_people_item">怪叔叔</a><a href="#" class="zan_people_item">小菜</a>
+                                            </span>
+                                            等人表示赞同.
+                                        </span>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wm_page">
+                    	<span>共25页</span>
+                        <a href="#" class="page_before page_link"> < </a> 
+                        <b>1</b>
+                        <a href="#" class="page_link">2</a>
+                        <a href="#" class="page_link">3</a>
+                        <a href="#" class="page_link">4</a>
+                        <a href="#" class="page_link">5</a>
+                         <span class="ellipsis">……</span>
+                        <a href="#" class="page_before page_link"> > </a>
+                    </div>
+                </div>
+                <div class="main_right">
+                	<div class="main_right_sub owner">
+                    	<div class="owner_content"></div>
+                    	<!--<div class="owner_infor_item owner_infor_btns"><a href="#" class="owner_btn focus_btn"><span class="iconfont">&#xf0034;</span>关注他</a><a href="#" class="owner_btn ask_btn"><span class="iconfont">&#xf00b8;</span>向他提问</a><a href="#" class="owner_btn letter_btn"><span class="iconfont">&#xe60d;</span>私信他</a></div>-->
+                        <div class="owner_infor_item owner_infor_btns">
+                        	<!--<a href="#" class="owner_btn focus_btn"><span class="iconfont index sns_img">&#xf012b;</span>访问主页</a>-->
+                            <a href="#" class="owner_btn Iask"><span class="iconfont">&#xf00b8;</span>我要提问</a>
+                            <a href="#" class="owner_btn write_shop"><span class="iconfont">&#xe60d;</span>撰写购物经</a>
+                        </div>
+                    </div>
+                    <!--<div class="main_right_sub mr_border_top discover">
+                    	<h3 class="mrs_title">发现<a href="#" class="change_dis"><span class="iconfont">&#xf015c;</span>换一组</a></h3>
+                        <ul class="discover_list">
+                        	<li class="discover_item">
+                            	<a href="#"><img src="../public/img/head_40_40.jpg" /></a>
+                                <div class="discover_infor">
+                                	<a href="#" class="discover_name">林亚泉</a><a href="#" class="focus">+ 关注</a>
+                                    <span class="discover_bang">
+                                    	<a href="#">国家行动</a><a href="#">革命制度党</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="discover_item">
+                            	<a href="#"><img src="../public/img/head_40_40.jpg" /></a>
+                                <div class="discover_infor">
+                                	<a href="#" class="discover_name">林亚泉</a><a href="#" class="focus">+ 关注</a>
+                                    <span class="discover_bang">
+                                    	<a href="#">国家行动</a><a href="#">革命制度党</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="discover_item">
+                            	<a href="#"><img src="../public/img/head_40_40.jpg" /></a>
+                                <div class="discover_infor">
+                                	<a href="#" class="discover_name">林亚泉</a><a href="#" class="focus">+ 关注</a>
+                                    <span class="discover_bang">
+                                    	<a href="#">国家行动</a><a href="#">革命制度党</a>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_right_sub mr_border_top handpick">
+                    	<h3 class="mrs_title">精选<span class="handpick_btn"><em class="now">1</em>/<em class="img_num">4</em><a href="#" class="iconfont left">&#xf0007;</a><a href="#" class="iconfont right">&#xf0006;</a></span></h3>
+                        <div class="slide">
+                        	<div class="slideCon">
+                            	<a href="#" class="slide_item"><img src="../public/img/head_img.jpg" /></a>
+                                <a href="#" class="slide_item"><img src="img/img_200_160.jpg" /></a>
+                                <a href="#" class="slide_item"><img src="../public/img/head_40_40.jpg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_right_sub visitor">
+                    	<h3 class="mrs_title"><span>最近访客</span></h3>
+                        <div class="visitor_con">
+                        	<a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                            <a href="#">
+                            	<img src="../public/img/head_40_40.jpg" />
+                                林亚权
+                            </a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <div class="footer">
+            <p class="about"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">品牌入驻</a>|<a href="#">隐私条款</a>|<a href="#">网站地图</a>|<a href="#">友情链接</a>|<a href="#">用户体验提升计划</a></p>
+            <p>经营性网站备案号：浙ICP备11009382号   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+            <a href="#">
+                <img src="../../public/img/internetPolice.png" /></a><a href="#"><img src="../../public/img/putOnRecord.png" /></a><a href="#"><img src="../../public/img/internetBusiness.png" /></a><a href="#"><img src="../../public/img/siteCredits.png" /></a><a href="#"><img src="../../public/img/trusty.png" /></a>
+        </div>
+
+    </div>
+    
+</body>
+<script type="text/plain" id="editor"></script>
+<script type="text/javascript">
+	global_setting.isDiscover = true;
+	global_setting.isVisitor = true;
+	global_setting.isOtherShare = true;
+</script>
+</html>
