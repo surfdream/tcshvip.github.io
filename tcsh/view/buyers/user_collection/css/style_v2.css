@@ -1,0 +1,101 @@
+.message_tree_right { margin-bottom: 80px; }
+.favorite_goods { float: left; width: 980px; margin-top: 15px; }
+.fav_kinds { position: relative; }
+.all_kinds { float: left; margin-right: 10px; }
+.fav_kinds a, .fav_kinds a:link, .fav_kinds a:active, .fav_kinds a:visited { color: #535353; border-radius: 4px; padding: 4px 8px; display: inline-block; margin-right: 10px; border: 1px solid #FFF; }
+.fav_kinds span.kinds_num { color: #e13436; padding-left: 3px; }
+.already_kinds { float: left; border-right: 1px solid #dfdfdf; width: 450px; overflow: hidden; margin-right: 10px; }
+.fav_kinds a.actived { background: #ebeaea; }
+.kinds_detail { height: 28px; overflow: hidden; }
+.kinds_detail_height { height: auto; min-height: 1px; }
+.kinds_detail a:hover { border: 1px solid #dedede; background: #f8f8f8; text-decoration: none; }
+.kinds_detail span.iconfont { font-size: 13px; color: #787878; padding-left: 3px; cursor: pointer; }
+.new_kinds { width: 360px; float: left; }
+.editor_mod, .editor_del { display: none; }
+.actived .editor_mod, .actived .editor_del { display: inline-block; }
+.fav_kinds a.actived:hover { border: 1px solid #FFF; background: #ebeaea; text-decoration: none; }
+.fav_kinds .kinds_more { display: block; position: absolute; right: 14px; top: 0; color: #787878; border: 1px solid #dedede; padding: 0 8px; height: 25px; line-height: 25px; }
+.fav_kinds a.kinds_more:hover { text-decoration: none; }
+.select_all { margin-top: 20px; color: #535353; }
+.chk_all { vertical-align: middle; margin-right: 5px; }
+.select_all a, .select_all a:link, .select_all a:active, .select_all a:visited { color: #999; margin-left: 20px; }
+.select_all a:hover { text-decoration: none; color: #535353; }
+.select_all a span { padding-right: 4px; }
+.favorite_goods_con { display: inline-block; *display: inline; *zoom: 1; width: 180px; margin: 25px 13px 0 0; text-align: center; }
+.favorite_goods_con li.goods_img img { width: 180px; height: 180px; }
+.favorite_goods_con li.goods_title { height: 20px; line-height: 20px; overflow: hidden; margin: 8px 0; }
+.favorite_goods_con li.goods_title a:hover { color: #F37E15; }
+.favorite_goods_con li.goods_price { color: #ccc; padding-bottom: 10px; }
+.favorite_goods_con li.goods_price span { color: #F33; font-size: 14px; font-weight: 700; }
+.favorite_goods_con .chk_item { vertical-align: middle; margin-right: 5px; }
+.goods_active { color: #dedede; }
+.goods_active a, .goods_active a:link, .goods_active a:active, .goods_active a:visited { color: #c3c3c3; padding: 0 8px; font-size: 14px; }
+.goods_active a:hover { text-decoration: none; color: #535353; }
+
+/*收藏店铺*/
+.favorite_shop_con { border-top: 1px solid #ccc; padding: 15px 0; margin-top: 20px; }
+.favorite_shop_intr { float: left; width: 250px; }
+.favorite_shop_do .shop_chk { vertical-align: middle; }
+.favorite_shop_do a, .favorite_shop_do a:link, .favorite_shop_do a:active, .favorite_shop_do a:visited { font-size: 14px; padding-left: 10px; color: #999; }
+.favorite_shop_do a:hover { text-decoration: none; color: #535353; }
+.favorite_shop_name { padding-top: 30px; }
+.favorite_shop_name img { vertical-align: middle; }
+.favorite_shop_photo { display: inline-block; width: 200px; height: 100px; margin-bottom: 8px; }
+.favorite_shop_photo img { width: 200px; height: 100px; }
+.favorite_shop_name li { height: 25px; line-height: 25px; }
+/* .favorite_shop_nameItem { display: inline-block; *display: inline; *zoom: 1; padding-left: 10px; vertical-align: top; } */
+.favorite_shop_title a, .favorite_shop_title a:link, .favorite_shop_title a:active, .favorite_shop_title a:visited { font-size: 16px; color: #454545; font-weight: 700; }
+.favorite_shop_nameItem a { margin-left: 3px; }
+.favorite_shop_nameItem a:hover { text-decoration: none; color: #F37E15; }
+.shop_content { float: left; border-left: 1px dashed #dedede; }
+.shop_content { width: 708px; padding-left: 20px; }
+.week_new { width: 90px; height: 22px; line-height: 22px; text-align: center; color: #787878; border: 1px solid #ccc; display: none; }
+.shop_detail { margin-top: 30px; height: 200px; overflow: hidden; font-size: 0; position: relative; }
+.shop_detail_list { position: absolute; top: 0; left: 0; }
+.shop_detail a { display: inline-block; font-size: 12px; font-weight: 700; width: 150px; text-align: center; color: #535353; margin-right: 20px; height: 200px; }
+.shop_detail a:hover { text-decoration: none; }
+.shop_detail a img { width: 150px; height: 150px; margin-bottom: 10px; }
+.shop_detail_btn { position: absolute; right: 10px; top: 0; width: 20px; height: 80px; }
+.shop_detail_btn a { display: block; font-size: 12px; width: 20px; height: 60px; line-height: 60px; border: 1px solid #ccc; margin-bottom: 28px; }
+
+/*新建分类弹窗*/
+body .user_kinds_box { padding-bottom: 0!important; }
+body .user_kinds_box .wmBox-content { margin: 0; _width: 190px; }
+.user_kinds_box .user_kinds h2 { background: #dedede; height: 20px; line-height: 20px; color: #535353; padding: 5px 5px 5px 10px; font-size: 12px; font-weight: normal; min-width: 170px; *min-width: 180px; _width: 200px; }
+.user_kinds_box .user_kinds .kind_list { padding: 0 10px; min-width: 170px; _width: 190px; height: 180px; overflow-y: auto; margin: 10px 0 0 0; }
+.user_kinds_box .user_kinds .kind_list::-webkit-scrollbar { width: 5px; height: 5px; }
+.user_kinds_box .user_kinds .kind_list::-webkit-resizer { background: #333333; }
+.user_kinds_box .user_kinds .kind_list::-webkit-scrollbar-thumb { border-radius: 5px; background: #999999; }
+.user_kinds_box .kind_item { margin-top: 10px; height: 20px; line-height: 20px; }
+.user_kinds_box .kind_item .ci_chk { vertical-align: middle; margin-right: 10px; }
+.user_kinds_box .create_do { heihgt: 30px; line-height: 30px; padding: 5px; background: #f8f8f8; display: block; }
+.user_kinds_box .create_do .create_btn { color: #999; }
+.user_kinds_box .create_do .create_btn:hover { text-decoration: none; color: #F37E15; cursor: pointer; }
+.user_kinds_box .create_do .iconfont { font-size: 14px; margin-right: 8px; }
+.user_kinds_box .create_kinds_box { width: 100%; height: 34px; display: none; }
+.user_kinds_box .show_create_txt .create_kinds_box { display: block; }
+.user_kinds_box .show_create_txt .create_btn { display: none; }
+.user_kinds_box .create_kinds_box .create_txt { padding: 5px; width: 110px; float: left; border: 1px solid #f40; }
+.user_kinds_box .create_kinds_box .create_submit, .user_kinds_box .create_kinds_box .create_submit:link, .user_kinds_box .create_kinds_box .create_submit:active, .user_kinds_box .create_kinds_box .create_submit:visited { float: left; height: 26px; line-height: 26px; background: #f40; width: 55px; color: #fff; border: 1px solid #f40; text-align: center; font-size: 12px; }
+.user_kinds_box .create_kinds_box .create_submit:hover { text-decoration: none; }
+
+.shopping_cart_box { }
+body .shopping_cart_box .wmBox-head { background: #fff; }
+body .shopping_cart_box .wmBox-head .wmBox-title { color: #666; }
+body .shopping_cart_box .wmBox-head .close, body .shopping_cart_box .wmBox-head .hide { color: #666; }
+body .shopping_cart_box .wmBox-botton { text-align: left; padding: 0 0 20px 96px; }
+.shopping_cart_box .buy_attr_box { width: 550px; }
+.shopping_cart_box .options_box .options_list { float: left; }
+.shopping_cart_box .options_box li { margin: 20px 0; }
+.shopping_cart_box .options_box li label { float: left; width: 100px; text-align: right; color: #666; }
+.shopping_cart_box .txt_quantity { padding: 5px; }
+
+#edit_tag { box-shadow: 0px 0px 8px #333333; border: 1px solid #999; }
+#edit_tag .edit_tag_con { padding: 6px 20px; }
+#edit_tag .edit_tag_con h3 { color: #545454; padding-bottom: 20px; font-weight: 500; font-family: 'Microsoft YaHei'; font-size: 18px; }
+#edit_tag .editor_kinds { height: 20px; line-height: 20px; padding: 5px; width: 200px; border: 1px solid #999; color: #545454; }
+#edit_tag .edit_tag_con label { font-size: 14px; color: #666; }
+#edit_tag .edit_tag_con .submit, #edit_tag .edit_tag_con .submit:link, #edit_tag .edit_tag_con .submit:active, #edit_tag .edit_tag_con .submit:visited { display: block; padding: 10px; text-align: center; width: 90px; margin: 30px auto 0 auto; background: #f40; color: #fff; }
+#edit_tag .edit_tag_con .submit:hover { text-decoration: none; }
+#edit_tag .edit_tag_con .close,#edit_tag .edit_tag_con .close:link,#edit_tag .edit_tag_con .close:active,#edit_tag .edit_tag_con .close:visited { position: absolute; top: 16px; right: 16px; font-size: 20px; }
+#edit_tag .edit_tag_con .close:hover { text-decoration:none}

@@ -1,0 +1,17 @@
+﻿
+.friend_list { width: 100%; }
+.friend_list a { color: #409dd3; }
+.friend_list b {  color: #e13436;font-family:SimSun }
+.friend_list .w100 { width: 100px; }
+.friend_list .w110 { width: 110px; }
+.friend_list .w150 { width: 150px; }
+.friend_list .textleft { text-align: left; }
+.friend_list .block { display: block; }
+.friend_list th { background: #fff2e6; padding: 20px 0; width: 80px; font-size: 14px; text-align: center; }
+.friend_list td { text-align: center; padding: 15px 0; vertical-align: middle; border-top: 1px solid #fff; font-family: SimSun; }
+.friend_list .odd td { background: #f5f5f5; }
+.friend_list_bott { overflow: hidden; background: #fff2e6; padding: 20px 10px; border-top: 2px solid #fff; }
+.friend_list_bott .wm_page { float: right; }
+.friend_list_bott .vm { display: inline-block; vertical-align: middle; }
+
+

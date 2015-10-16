@@ -1,0 +1,39 @@
+﻿.main_con .da_list  .box_head h3 { padding-left:20px}
+.da_list { float: left; width: 776px; padding-bottom: 20px; }
+.da_list .box_head h3 { float:left}
+.da_list .box_head span { padding-top:22px;float:left}
+.da_list ul { overflow: hidden; }
+.da_list ul li { display: block; overflow: hidden;_zoom:1 ;padding-bottom:2px}
+.da_list .da_item { cursor:pointer;*float:left;width: 660px; background: #f2f2f2;font-family:SimSun; border: 1px #e0e0e0 solid; padding: 10px 30px 0 30px; line-height: 22px; margin:10px auto 20px auto;vertical-align:top;position:relative }
+.da_list .da_item b { font-weight: 500; }
+.da_list .da_item .da_item_head { border-bottom: 1px #e0e0e0 solid;  }
+.da_list .da_item .da_item_head h3 { float: left; font-weight: 500; border-bottom: 0 solid #fff; margin-bottom: 0; padding-top: 0; }
+.da_list .da_item .da_item_head b { color: #e13436; font-size: 14px; padding-left: 10px; }
+.da_list .da_item .da_data { padding: 10px 0;  }
+.da_list .da_item .da_data b { display: block; float: left;  color: #787878; }
+.da_list .da_item .btns { padding: 6px 0; text-align: right; cursor: default;position:absolute;top:0;right:50px;width:125px }
+.da_list .da_item .btns a { margin-right: 5px; }
+.da_list .da_item .curr_mark { position:absolute;top:0;right:0;display:none}
+.da_list .curr .curr_mark { display:block}
+.da_list .curr { cursor: default; }
+.da_list .curr, .da_list .da_item:hover { background: #FFF4DB; }
+.da_list .curr .da_data b { color: #e13436; }
+.da_list .da_item span { text-align: right; display: block; float: left; width:70px; color: #505050; }
+.da_list .da_item span i { display:inline-block;width:24px}
+.da_list .da_item .set_default {  color: #505050; text-align: left;width:auto;float:right ;margin:0 10px;}
+.da_list .hideda_list { display: none; }
+.da_list .da_list_btns { padding-bottom: 10px; }
+.da_list .da_list_btns .ui_btn { margin-left: 10px; }
+.da_list .da_list_btns .ui_btn_txt { font-size: 14px; font-weight: 700; }
+.da_list .da_list_btns .ui_btn_txt i { font-style: normal; font-weight: 700; font-size: 28px; *font-size: 18px; line-height: 28px; *line-height: 33px; float: left; padding-right: 5px; zoom: 1; }
+.da_list .showall { line-height: 28px; padding: 0 10px; }
+
+.addad_box .pt25b10 { padding-top: 25px; padding-bottom: 10px; }
+.addad_box .plr10 { padding-left: 10px; padding-right: 10px; }
+.addad_box .wm_form { font-size: 12px; padding-bottom: 30px; }
+.addad_box .wm_form h3.row_key { font-size: 14px; color: #e13436; font-family: SimSun; }
+.addad_box .wm_form .row_key { width: 126px; font-size: 12px; }
+.addad_box .wm_form .form_sel { margin-right: 10px; }
+.addad_box .wm_form .w440 { width: 426px; }
+.addad_box .wm_form .ui_btn { margin-right: 20px; }
+.addad_box .wm_form .ui_btn_txt { font-size: 18px; padding: 0 20px 0 15px; font-family: 'Microsoft YaHei'; }

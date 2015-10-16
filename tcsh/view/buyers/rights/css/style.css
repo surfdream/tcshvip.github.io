@@ -1,0 +1,66 @@
+.main_con .botred .box_head p { color: #505050; }
+.box .wm_form { }
+.box .wm_form .form_row { float: left; clear: none; padding-right: 20px; }
+.box .wm_form ul { overflow: hidden; }
+.box .wm_form .form_row .plr10 { padding: 0 10px; }
+.box .wm_form .form_row .row_key { width: auto; padding: 0; }
+.box .wm_form .search_btn { border: 0 solid #fff; padding: 0 5px; text-decoration: none; margin-left: 5px; display: inline-block; width: 55px; height: 24px; background: #f47d15; vertical-align: top; line-height: 24px; text-align: center; color: #fff; font-weight: 700; font-size: 14px; _zoom: 1; }
+
+.orderErrbox { }
+.orderErrbox .wmBox-botton { text-align: center!important; padding-bottom: 5px; }
+.orderErrbox .wmBox-botton .ui_btn_txt { font-size: 18px; padding: 0 30px 0 25px; }
+
+.shareBox { }
+.shareBox .share_con { width: 190px; height: 370px; padding: 0 20px; }
+.shareBox .friendlist { height: 255px; overflow: auto; padding: 10px 15px; border: 1px solid #999; width: 160px; }
+.shareBox .friendlist li input, .shareBox .friendlist li label { display: inline-block; vertical-align: middle; }
+.shareBox .friendlist li input { margin-right: 10px; }
+.shareBox .friendlist li label { width: 115px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.shareBox .share_head { padding-bottom: 5px; }
+.shareBox .share_head span { display: inline-block; _float: left; _zoom: 1; line-height: 26px; font-size: 14px; vertical-align: middle; }
+.shareBox .share_head .right { float: right; }
+.shareBox .share_head input, .shareBox .share_head label { display: inline-block; vertical-align: middle; font-size: 14px; }
+.shareBox .share_btns { text-align: center; padding: 20px 0; }
+.shareBox .share_btns .ui_btn_txt { font-size: 14px; }
+.shareBox .social_list { }
+.shareBox .social_list ul, .shareBox .social_list span { float: left; }
+.shareBox .social_list li { float: left; padding: 0 5px; }
+.shareBox .social_list li .social_icon { vertical-align: top; }
+
+
+.complaintsBox { }
+.complaintsBox .complaints_con { padding: 0 10px; }
+.complaintsBox textarea { width: 410px; height: 150px; resize: none; padding: 5px; }
+.complaintsBox h3 { font-weight: 500; line-height: 26px; padding-bottom: 10px; }
+.complaintsBox .complaints_btns { text-align: center; padding-top: 10px; }
+.rights_tab { width: 100%; }
+.rights_tab a { color: #409dd3; }
+.rights_tab b { font-weight: 500; color: #e13436; }
+.rights_tab .w100 { width: 100px; }
+.rights_tab .w110 { width: 110px; }
+.rights_tab .w150 { width: 150px; }
+.rights_tab .textleft { text-align: left; }
+.rights_tab .block { display: block; }
+.rights_tab th { background: #fff2e6; padding: 20px 0; width: 80px; font-size: 14px; text-align: center; }
+.rights_tab td { text-align: center; padding: 15px 0; vertical-align: middle; border-top: 1px solid #fff; font-family: SimSun; }
+.rights_tab .odd td { background: #f5f5f5; }
+.rights_tab .ui_btn .ui_btn_txt { width: 50px; }
+.rights_bott { overflow: hidden; background: #fff2e6; padding: 20px 10px; border-top: 2px solid #fff; }
+.rights_bott .wm_page { float: right; }
+.rights_bott .vm { display: inline-block; vertical-align: middle; }
+
+.logistics_data { background: #fff; border: 1px solid #dfdfdf; padding: 25px; width: 640px; margin: 30px auto 0 auto; }
+.logistics_data .logistics_data_head { height: 22px; border-bottom: 1px solid #f47d15; }
+.logistics_data .logistics_data_head h3 { float: left; padding-right: 45px; font-size: 14px; font-family: SimSun; }
+.logistics_data .logistics_data_list { padding-top: 10px; }
+.logistics_data .logistics_data_list li { padding: 5px 0; }
+.logistics_data .data_time { display: block; float: left; width: 130px; }
+
+.refund_data { padding-top: 20px; font-family: SimSun; font-size: 12px; }
+.box .refund_data .form_row { float: none; }
+.box .refund_data .form_row .row_key { width: 130px; font-family: SimSun; font-size: 12px; }
+.refund_data .certificate_list { left: 110px; top: 5px; width: 130px; text-align: center; }
+.refund_data .certificate_list li { display: block; float: left; width: 100px; height: 100px; border: 1px solid #d4d4d4; margin: 0 8px 8px 0; text-align: center; background: url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 32px 34px no-repeat; }
+.refund_data .certificate_list img { width: 96px; height: 96px; margin-top: 2px; }
+.refund_data .btns { padding: 20px 0 30px 0; }
+.refund_data .btns .ui_btn { margin: 0 30px 0 0; }

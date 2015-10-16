@@ -1,0 +1,85 @@
+.order_goods_infor li a, .order_goods_infor li a:link, .order_goods_infor li a:active, .order_goods_infor li a:visited{
+	color:#409dd3;
+}
+/* 弹窗样式 */
+body .invBox{
+	box-shadow:0 0 10px #000;
+}
+.sure_cancel{
+	position:relative;
+	padding:40px 60px 20px 40px;
+}
+.sure_cancel_item{
+	margin-bottom:20px;
+	font-size:14px;
+	color:#535353;
+}
+.choose_reason{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.slt{
+	width:130px;
+	height:22px;
+	line-height:22px;
+	padding:2px 0 2px 10px;
+	padding-left:0\9;
+	color:#535353;
+}
+.limit_slt{
+	width:80px;
+}
+.reason{
+	position:absolute;
+	top:0;
+	left:0;
+	width:130px;
+	display:none;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background:#FFF;
+	z-index:10;
+}
+.limit{
+	width:80px;
+}
+/*.reason_block{
+	display:block;
+}
+.reason li a,.reason li a:link,.reason li a:active,.reason li a:visited{
+	padding:2px 0 2px 10px;
+	height:22px;
+	line-height:22px;
+	color:#535353;
+	display:block;
+}
+.reason li a:hover{
+	background:#eb7577;
+	color:#FFF;
+	text-decoration:none;
+}*/
+.sure_cancel_btn a,.sure_cancel_btn a:link,.sure_cancel_btn a:active,.sure_cancel_btn a:visited{
+	display:inline-block;
+	color:#FFF;
+	font-weight:700;
+	width:80px;
+	height:37px;
+	line-height:37px;
+	text-align:center;
+	background:#787878;
+	margin-right:10px;
+	font-size:14px;
+	margin-top:20px;
+}
+.sure_cancel_btn a:hover{
+	text-decoration:none;
+}
+.sure_cancel .sure_cancel_btn a.sure_btn{
+	background:#e13436;
+}
+.close_btn{
+	position:absolute;
+	top:-10px;
+	right:-10px;
+}

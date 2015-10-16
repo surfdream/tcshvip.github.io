@@ -1,0 +1,19 @@
+﻿.main_con .botred .box_head .linkitem { color: #505050; font-family: SimSun; }
+.main_con .botred .box_head .curr { font-size:12px;font-weight:700}
+.main_con .wm_form .form_list { padding: 30px 0 50px 0; }
+.main_con .wm_form .row_key { width: 135px; }
+
+.main_con .wm_form .user_picture { display: block; width: 106px; height: 106px; float: left; border: 1px solid #ccc; }
+.main_con .wm_form .user_picture img { width: 100px; height: 100px; display: block; margin: 3px auto; }
+.main_con .wm_form .upimg { width: 90px; left: 150px; top: 115px; position: absolute; color: #4fa2d6; font-family: SimSun; height: 10px; }
+.main_con .wm_form .form_btns { padding: 20px 0; }
+.main_con .wm_form .form_btns .ui_btn_txt { font-size: 16px; padding: 0 15px; letter-spacing: 5px; }
+.main_con .wm_form .form_txt { margin-right: 10px; }
+.main_con .wm_form .form_file { width: 90px; left: 150px; top: 115px; }
+.main_con .wm_form .up_user_img { padding-bottom: 30px; }
+
+.uppassmsg { }
+.uppassmsg .wmBox-botton, .err_box_msg .wmBox-botton { text-align: center!important; padding-bottom: 35px; }
+.uppassmsg .wmBox-botton .mrl, .err_box_msg .wmBox-botton .mrl { margin-left: 30px!important; margin-right: 30px!important; }
+.uppassmsg .wmBox-botton .ui_btn_txt { padding: 0 15px 0 20px; letter-spacing: 10px; }
+.uppassmsg .wmBox-botton .ui_btn_txt, .err_box_msg .wmBox-botton .mrl { font-size: 18px; }

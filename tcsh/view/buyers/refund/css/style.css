@@ -1,0 +1,33 @@
+.process_box .ui_btn { margin-right: 18px; cursor: default; }
+.process_box .ui_btn .ui_btn_txt { font-size: 16px; font-weight: 700; padding: 0 20px 0 10px; cursor: default; letter-spacing: 2px; }
+.process_box .ui_btn .ui_btn_txt b { font-size: 32px; font-family: SimSun; padding: 0 5px 0 2px; font-weight: 500; display: inline-block; vertical-align: bottom; *vertical-align: middle; }
+.refund_box { }
+.refund_box .tab_key { background: #EDEDED; padding: 10px 0 0 20px; overflow: hidden; height: 30px; }
+.refund_box .tab_key li { display: inline-block; padding: 0 0 0 20px; }
+.refund_box .tab_key li .ui_btn_txt { font-size: 14px; font-weight: 700; font-family: SimSun; }
+.refund_box .tab_key li .ui_btn_h36white3 .ui_btn_txt { color: #f47d16; }
+
+.refund_box .wm_form { padding: 25px; }
+.refund_box .wm_form .form_row { font-family: SimSun; font-size: 12px; }
+.refund_box .wm_form .row_key { width: 100px; font-family: SimSun; font-size: 12px; }
+.refund_box .wm_form .return_goods { background: #f5f5f5; margin-bottom: 5px; padding: 10px 0 20px 0; }
+.refund_box .wm_form .show_certificate { display: block; }
+.refund_box .wm_form .show_certificate li { position: relative; display: block; float: left; width: 100px; height: 100px; border: 1px solid #d4d4d4; margin: 20px 10px; text-align: center; background: url(http://s.tcsh.me/tcsh/view/public/img/loading/loading32_32_1.gif) 32px 34px no-repeat; }
+.refund_box .wm_form .show_certificate li .del_upimg { position: absolute; right: -8px; top: -8px; }
+.refund_box .wm_form .up_certificate { left: 110px; top: 5px; height: 30px; width: 130px; text-align: center; }
+.refund_box .wm_form .show_certificate img { width: 96px; height: 96px; margin-top: 2px; }
+.refund_box .wm_form .w610 { width: 610px; }
+
+.refund_msg_box { }
+.refund_msg_box .refund_msg { padding: 40px 100px 10px 100px; color: #535353; }
+.refund_msg_box .refund_msg span { }
+.refund_msg_box .refund_msg h3 { font-family: SimSun; font-size: 14px; padding-bottom: 15px; color: #535353; }
+.refund_msg_box .refund_msg .updaterefund { margin: 15px 0 30px 0; }
+.refund_msg_box .refund_msg .updaterefund .ui_btn_txt { font-family: SimSun; font-size: 14px; }
+.refund_msg_box .refund_msg .close .ui_btn_txt { padding: 0 15px 0 25px; font-size: 14px; font-family: simsun; font-weight: 700; letter-spacing: 15px; }
+.refund_msg_box td { width: 75px; padding-bottom: 10px; vertical-align: text-bottom; line-height: 20px; word-break: break-all; }
+.refund_msg_box table .red { color: #f14c4e; }
+.refund_msg_box .w175 { width: 175px; overflow: hidden; height: 10px; white-space: nowrap; display: block; text-overflow: ellipsis; }
+.refund_msg_box .btns { text-align: center; padding: 20px 0 0 0; }
+
+.sel_disabled { display: none; }

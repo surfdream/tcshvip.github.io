@@ -1,0 +1,29 @@
+﻿.main_con .box_head { height: 75px; }
+.main_con .box_head .btns { clear: both; line-height: 30px; }
+.main_con .box_head h3 { line-height: 14px; padding: 16px 0 5px 0; }
+.main_con .box_head .btns .ui_btn_txt { font-size: 16px; font-family: SimSun; padding: 0 15px; }
+.main_con .box_head .btns a, .main_con .box_head .btns a:link, .main_con .box_head .btns a:active, .main_con .box_head .btns a:hover { color: #535353; font-size: 14px; *float: left; }
+#page .main_con .box_head .btns .ui_btn { float: right; margin-right: 50px; }
+
+.table_list { }
+.table_list ul { overflow: hidden; padding-top: 10px; _zoom: 1; }
+.table_list li { display: block; float: left; font-size: 14px; font-family: SimSun; line-height: 26px; }
+.table_list li input { margin: 0 10px; }
+.table_list .ul_hover { _zoom: 1; }
+.table_list ul:hover .sl_con, .table_list .ul_hover .sl_con { display: block; }
+.table_list .sl_con { background: #fff; width: 670px; padding: 20px; margin: 10px 0 10px 40px; border: 1px #d2d2d2 solid; display: none; _margin-left: 20px; _margin-top: 0; }
+.table_list .sl_con p { font-size: 12px; line-height: 24px; }
+.table_list .table_list_bott { padding: 15px 0; overflow: hidden; }
+.table_list .table_list_bott input { margin: 0 10px; }
+.table_list .table_list_bott .wm_page { padding: 40px 45px 0 0; float: right; }
+.table_list a { padding: 0 5px; }
+.table_list .odd a { color: #e13436; }
+.main_con .table_list tfoot td { border-top: 1px dashed #a6a6a6; }
+.main_con .table_list .odd { background: #f4f4f4; }
+.main_con .table_list .odd td { background: #f4f4f4; }
+.main_con .table_list .odd .review_con { color: #e97813; }
+.main_con .table_list .odd .del { color: #e13436; }
+.main_con .table_list td { padding: 20px 0; text-align: center; font-family: SimSun; }
+.main_con .table_list .colred { font-weight: 500; }
+.main_con .table_list .tleft { text-align: left; }
+.main_con .table_list .tcent { text-align: center; }

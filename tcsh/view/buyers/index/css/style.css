@@ -1,0 +1,45 @@
+﻿.main_con .user_data { background: #ededed; padding: 10px 30px; color: #fff; border-top: 5px solid #e13436; font-family: SimSun; }
+.main_con .user_data ul { overflow: hidden; padding-top: 10px; _zoom: 1; }
+.main_con .user_data li { float: left; line-height: 30px; color: #323232; padding-right: 10px; }
+.main_con .user_data .bob1 { border-bottom: 1px solid #b4b4b4; }
+.main_con .user_data .fs14, .main_con .user_data .fs14 a { font-size: 14px; }
+.main_con .user_data .mr20 { margin-right: 20px; }
+.main_con .user_data .floright { float: right; }
+.main_con .user_data a span { padding: 0 5px; }
+
+
+.indextab_box { position: relative; }
+.indextab_box .indextab_tab { padding: 20px 0 5px 15px; overflow: hidden; position: relative; height: 28px; }
+.indextab_box .indextab_tab ul, .indextab_box .indextab_tab li { float: left; overflow: hidden; }
+.indextab_box .indextab_tab ul { height: 29px; _width: 80%; position: absolute; z-index: 1; left: 35px; right: 20px; }
+.indextab_box .indextab_tab a, .indextab_box .indextab_tab a:hover { display: inline-block; line-height: 29px; font-weight: 700; text-decoration: none; }
+.indextab_box .indextab_tab a .ui_btn_txt { padding: 0 20px 0 18px; font-size: 14px; line-height: 33px; font-family: SimSun; }
+.indextab_box .indextab_tab .seg { position: absolute; bottom: 4px; left: 15px; right: 20px; _width: 97.5%; z-index: 0; }
+.indextab_box .indextab_tab .curr { background: #fff; }
+.indextab_box img { width: 110px; height: 110px; display: block; }
+.indextab_box .tab_item { padding: 0 0 20px 20px; overflow: hidden; display: none; }
+.indextab_box .tab_item li { width: 110px; float: left; padding: 10px 15px 20px 0; }
+.indextab_box .tab_item span { display: block; }
+.indextab_box .tab_item b { font-weight: 500; color: #e13436; }
+.shopping_cart .shopping_cart, .new_deal .new_deal { display: block; }
+
+.brands_box { width: 260px; position: relative; float: left; }
+.brands_box ul { padding: 10px 15px; }
+.box .hover_logo2 li { float: left; }
+.box .hover_logo2 .corner { margin-right: 0; width: 108px; height: 54px; }
+.box .hover_logo2 .corner img { width: 108px; height: 54px; }
+.box .hover_logo2 .corner .cover_top, .box .hover_logo2 .corner .cover_bott { width: 88px; }
+.box .hover_logo2 .corner .cover_left, .box .hover_logo2 .corner .cover_right { height: 33px; }
+.friend_share_box { width: 515px; position: relative; float: left; }
+.friend_share_box .share_list { overflow: hidden; padding: 10px 0 10px 15px; }
+.friend_share_box img { width: 110px; height: 110px; display: block; }
+.friend_share_box li { width: 110px; float: left; padding: 0 15px 20px 0; }
+.friend_share_box span { display: block; }
+.friend_share_box b { font-weight: 500; color: #e13436; }
+
+.friend_box { position: relative; }
+.friend_box .user_img { width: 100px; height: 100px; display: block; }
+.friend_box .user_lv_img { display: inline-block; vertical-align: middle; }
+.friend_box .friend_list { padding: 15px 0 15px 15px; }
+.friend_box .friend_list li { float: left; padding: 0 25px 10px 0; }
+.friend_box .friend_list span { display: block; line-height: 24px; overflow: hidden; width: 100px; text-overflow: ellipsis; white-space: nowrap; }

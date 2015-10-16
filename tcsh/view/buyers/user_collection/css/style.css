@@ -1,0 +1,25 @@
+﻿.main_con .botred .box_head p { color: #505050; }
+
+.rights_head { overflow: hidden; padding: 20px 10px 5px 10px; }
+.rights_head .wm_page { float: right; }
+.rights_bott { overflow: hidden; background: #fff2e6; padding: 20px 10px; border-top: 2px solid #fff;*zoom:1 }
+.rights_bott .wm_page { float: right; }
+
+.seq_btn { font-family: SimSun; font-size: 14px; padding-left: 24px; }
+.seq_btn .ui_btn_h35yellow15 .ui_btn_txt { padding: 0 35px 0 15px; font-family: SimSun; }
+.seq_btn .ui_btn_h35yellow15 .wm_ico { position: absolute; top: 8px; right: 17px; }
+
+.collection_list { }
+.collection_list .collection_item{ }
+.collection_list .collection_item .collection_head{ background:#ededed;padding:10px 45px}
+.collection_list .collection_item .chk { display:inline-block;vertical-align:middle}
+.collection_list .collection_item .collection_head a { display:inline-block;vertical-align:middle;*zoom:1;font-size:14px;font-family:SimSun;}
+.collection_list .collection_item .collection_mian { padding:10px 20px;overflow:hidden;height:80px}
+.collection_list .collection_item .logo_link  { width:160px;height:80px;display:block;float:left;border:1px solid #999 }
+.collection_list .collection_item .logo_link img { width:160px;height:80px}
+.collection_list .collection_item .data_list { display:block;float:left;padding-left:10px}
+.collection_list .collection_item .data_list .data_item { display:block;font-family:SimSun;line-height:28px }
+.collection_list .new_commodity_list { float:right;width:370px}
+.collection_list .new_commodity_list li { float:left;padding-right:10px;}
+.collection_list .new_commodity_list a { display:block;width:80px ;height:80px;border:1px solid #d2d2d2}
+.collection_list .new_commodity_list img { width:80px ;height:80px}

@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>订单列表</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global_v2.css,public/css/ico.css,public/wm_btn/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link rel="stylesheet" href="css/style_v2.css" />
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/buyers/order/config.js" data-init="order_list_v2"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+</head>
+<body>
+<div id="page">
+<div class="buyer_head">
+	<div class="head_top"></div>
+	<div class="buyer_head_con">
+    	<div class="buyer_logo">
+        	<a href="#"></a>
+        </div>
+        <div class="buyer_nav">
+        	<div class="buyer_nav_list buyer_selected">
+            	<a href="#" class="buyer_nav_item">首页</a>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+            <div class="buyer_nav_list">
+            	<a href="#" class="buyer_nav_item">个人主页</a>
+                <ul class="buyer_nav_con">
+                	<li><a href="#">我的主页</a></li>
+                    <li><a href="#">我的分享</a></li>
+                    <li><a href="#">我的朋友</a></li>
+                    <li><a href="#">我的评价</a></li>
+                    <li><a href="#">我的晒单</a></li>
+                </ul>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+            <div class="buyer_nav_list">
+            	<a href="#" class="buyer_nav_item">帐号管理</a>
+                <ul class="buyer_nav_con">
+                	<li><a href="#">安全设置</a></li>
+                    <li><a href="#">个人资料</a></li>
+                    <li><a href="#">乐钱帐号设置</a></li>
+                    <li><a href="#">收货地址</a></li>
+                    <li><a href="#">隐私设置</a></li>
+                </ul>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+        </div>
+        <div class="buyer_search">
+        	<form action="" class="buyer_search_con clearfix">
+            	<div class="search_kinds buyer_hover">
+                	<ul class="search_kinds_list">
+                		<li class="a_kinds_bg"><a href="#">店铺</a></li>
+                		<li class="a_kinds_bg"><a href="#">宝贝</a></li>
+                        
+                	</ul>
+                    <span class="iconfont turn_down">&#xf0005;</span>
+                </div>
+                <input type="text" class="search_txt" />
+                <input type="submit" class="search_sub" value="搜索" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="buyer_main clearfix">
+	<div class="buyer_mainLeft">
+    	<h2 class="buyer_mainLeft_title">交易信息</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">我的购物车</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">订单管理</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">我的品牌</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">收货地址</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank" class="default">维权管理</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">我的收藏</a></li>
+            </ul>
+        </div>
+        <h2 class="buyer_mainLeft_title">我的影响力</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">晒单记录</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">评价记录</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">心愿面板</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">推广同城生活</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">推手生涯</a></li>
+            </ul>
+        </div>
+        <h2 class="buyer_mainLeft_title">同城生活银行</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">密码设置</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">账户余额</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">账单明细</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">同城生活金币</a></li>
+            </ul>
+        </div>
+        <h2 class="buyer_mainLeft_title">老友记</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">我的老友</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="buyer_mainRight main_con">
+    	<table width="100%" height="100%" border="0" class="table_show">
+        	<thead>
+            	<tr>
+                	<th width="32%">商品</th>
+                	<th width="12%">单价（元）</th>
+                	<th width="9%">数量</th>
+                	<th width="13%">售后</th>
+                	<th width="12%">订单状态</th>
+                	<th width="11%">交易操作</th>
+                	<th width="11%">其他</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr class="order_hd">
+                	<td colspan="7" class="clearfix">
+                    	<span>订单编号：<a href="#" class="order_num">374296247530568</a></span>
+                        <span>下单时间：2014-05-14 14:21</span>
+                        <a href="#" class="shop_name">红星美凯龙滨江店</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=295032480&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:295032480:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                        <span class="all_pay">总付款：<span class="hmoney">￥196.00</span><span class="fare">(含运费：0.00)</span></span>
+                    </td>
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#"></a></td>
+               	  <td class="align_center">
+                    	等待付款
+                    </td>
+                	<td class="operta">
+                	  <div class="btn_list"> <a href="#" class="ui_btn ui_btn_h23yellow8"><span class="ui_btn_txt">付款</span></a>
+                	    <ul>
+                	      <li class="btn_list_last"> <a href="#">付款</a> </li>
+                	      <li class="btn_list_end box_show" data_k="cancelHtml"> <a href="#">取消订单</a> </li>
+              	      </ul>
+              	    </div>
+                	</td>
+                	<td class="align_center"><a href="#">订单详情</a></td>
+                	
+                </tr>
+                <tr class="order_hd">
+                	<td colspan="7" class="clearfix">
+                    	<span>订单编号：<a href="#" class="order_num">374296247530568</a></span>
+                        <span>下单时间：2014-05-14 14:21</span>
+                        <a href="#" class="shop_name">红星美凯龙滨江店</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=295032480&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:295032480:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                        <span class="all_pay">总付款：<span class="hmoney">￥196.00</span><span class="fare">(含运费：0.00)</span></span>
+                    </td>
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#"></a></td>
+               	  <td class="align_center">
+                    	等待发货
+                    </td>
+                	<td class="operta">
+                        <div class="btn_list">
+                        	<a href="#" class="other_operat">取消订单</a>
+                        	<ul>
+                            	<li class="btn_list_last box_show" data_k="cancelHtml">
+                                	<a href="#">取消订单</a>
+                                </li>
+                                <li class="btn_list_end remind">
+                                	<a href="#">提醒商家发货</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center"><a href="#">订单详情</a></td>
+                </tr>
+                <tr class="order_hd">
+                	<td colspan="7" class="clearfix">
+                    	<span>订单编号：<a href="#" class="order_num">374296247530568</a></span>
+                        <span>下单时间：2014-05-14 14:21</span>
+                        <a href="#" class="shop_name">红星美凯龙滨江店</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=295032480&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:295032480:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                        <span class="all_pay">总付款：<span class="hmoney">￥196.00</span><span class="fare">(含运费：0.00)</span></span>
+                    </td>
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#" class="blue">申请售后</a></td>
+               	  <td class="align_center">
+                    	等待收货
+                    </td>
+                	<td class="operta">
+                        <div class="btn_list">
+                        	<a href="#" class="ui_btn ui_btn_h23yellow8"><span class="ui_btn_txt">确认收货</span></a>
+                        	<ul>
+                            	<li class="btn_list_last">
+                                	<a href="#">确认收货</a>
+                                </li>
+                                <li class="delay box_show" data_k="delayHtml">
+                                	<a href="#">延长收货时间</a>
+                                </li>
+                                <li class="btn_list_end">
+                                	<a href="#">查看物流</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center"><a href="#">订单详情</a></td>
+                	
+                </tr>
+                <tr class="order_hd">
+                	<td colspan="7" class="clearfix">
+                    	<span>订单编号：<a href="#" class="order_num">374296247530568</a></span>
+                        <span>下单时间：2014-05-14 14:21</span>
+                        <a href="#" class="shop_name">红星美凯龙滨江店</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=295032480&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:295032480:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                        <span class="all_pay">总付款：<span class="hmoney">￥196.00</span><span class="fare">(含运费：0.00)</span></span>
+                    </td>
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#" class="red">退货处理中</a></td>
+               	  <td class="align_center" class="green">
+                    	交易成功
+                    </td>
+                	<td class="operta">
+                        <a href="#" class="ui_btn ui_btn_h25yellow18"><span class="ui_btn_txt">评价</span></a>
+                    </td>
+                	<td class="align_center"><a href="#">订单详情</a></td>
+                	
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#" class="blue">申请售后</a></td>
+               	  <td class="align_center" class="green">
+                    	
+                    </td>
+                	<td class="operta">
+                    </td>
+                	<td class="align_center"><a href="#"></a></td>
+                	
+                </tr>
+                <tr class="order_hd">
+                	<td colspan="7" class="clearfix">
+                    	<span>订单编号：<a href="#" class="order_num">374296247530568</a></span>
+                        <span>下单时间：2014-05-14 14:21</span>
+                        <a href="#" class="shop_name">红星美凯龙滨江店</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=295032480&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:295032480:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                        <span class="all_pay">总付款：<span class="hmoney">￥196.00</span><span class="fare">(含运费：0.00)</span></span>
+                    </td>
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#" class="red">退款处理中</a></td>
+               	  <td class="align_center" class="green">
+                    	交易成功
+                    </td>
+                	<td class="operta">
+                        <a href="#" class="ui_btn ui_btn_h25white8"><span class="ui_btn_txt">已评价</span></a>
+                    </td>
+                	<td class="align_center"><a href="#">订单详情</a></td>
+                	
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#" class="blue">申请售后</a></td>
+               	  <td class="align_center" class="green">
+                    	
+                    </td>
+                	<td class="operta">
+                    </td>
+                	<td class="align_center"><a href="#"></a></td>
+                	
+                </tr>
+                <tr class="order_hd">
+                	<td colspan="7" class="clearfix">
+                    	<span>订单编号：<a href="#" class="order_num">374296247530568</a></span>
+                        <span>下单时间：2014-05-14 14:21</span>
+                        <a href="#" class="shop_name">红星美凯龙滨江店</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=295032480&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:295032480:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                        <span class="all_pay">总付款：<span class="hmoney">￥196.00</span><span class="fare">(含运费：0.00)</span></span>
+                    </td>
+                </tr>
+                <tr valign="middle" class="order_detail">
+                	<td>
+                    	<div class="order_goods">
+                        	<a href="#" class="goods_img"><img src="img/goods.jpg" /></a>
+                            <ul class="order_goods_infor">
+                            	<li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                            	<li>尺寸:L</li>
+                            	<li>颜色:蓝色</li>
+                            </ul>
+                        </div>
+                    </td>
+                	<td class="align_center price">
+                    	<span class="true_price">98.00</span>
+                        <del>128.00</del>
+                    </td>
+                	<td class="align_center">
+                    	2
+                    </td>
+                    <td class="align_center"><a href="#"></a></td>
+               	  <td class="align_center">
+                    	交易关闭
+                    </td>
+                	<td class="operta">
+                        
+                    </td>
+                	<td class="align_center"><a href="#">订单详情</a></td>
+                	
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="order_page">
+        	<span>共25页</span>
+            <a href="#" class="page_before page_link"> < </a> 
+            <b>1</b>
+            <a href="#" class="page_link">2</a>
+            <a href="#" class="page_link">3</a>
+            <a href="#" class="page_link">4</a>
+            <a href="#" class="page_link">5</a>
+             <span class="ellipsis">……</span>
+            <a href="#" class="page_before page_link"> > </a>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="footer">
+	<p class="about"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">品牌入驻</a>|<a href="#">隐私条款</a>|<a href="#">网站地图</a>|<a href="#">友情链接</a>|<a href="#">用户体验提升计划</a></p>
+    <p>经营性网站备案号：浙ICP备11009382号   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+    <a href="#">
+                <img src="http://s.tcsh.me/tcsh/view/public/img/internetPolice.png" /></a><a href="#"><img src="http://s.tcsh.me/tcsh/view/public/img/putOnRecord.png" /></a><a href="#"><img src="http://s.tcsh.me/tcsh/view/public/img/internetBusiness.png" /></a><a href="#"><img src="http://s.tcsh.me/tcsh/view/public/img/siteCredits.png" /></a><a href="#"><img src="http://s.tcsh.me/tcsh/view/public/img/trusty.png" /></a>
+</div>
+
+</div>
+</body>
+</html>

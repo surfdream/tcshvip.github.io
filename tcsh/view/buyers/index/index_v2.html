@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>买家首页</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global_v2.css,public/css/ico.css,public/wm_btn/css/style.css,public/wm_form/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link type="text/css" rel="stylesheet" href="css/style_v2.css" />
+
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/buyers/index/config.js" data-init="index_v2"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+</head>
+<body>
+<div id="page">
+<div class="buyer_head">
+	<div class="head_top"></div>
+	<div class="buyer_head_con">
+    	<div class="buyer_logo">
+        	<a href="#"></a>
+        </div>
+        <div class="buyer_nav">
+        	<div class="buyer_nav_list buyer_selected">
+            	<a href="#" class="buyer_nav_item">首页</a>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+            <div class="buyer_nav_list">
+            	<a href="#" class="buyer_nav_item">个人主页</a>
+                <ul class="buyer_nav_con">
+                	<li><a href="#">我的主页</a></li>
+                    <li><a href="#">我的分享</a></li>
+                    <li><a href="#">我的朋友</a></li>
+                    <li><a href="#">我的评价</a></li>
+                    <li><a href="#">我的晒单</a></li>
+                </ul>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+            <div class="buyer_nav_list">
+            	<a href="#" class="buyer_nav_item">帐号管理</a>
+                <ul class="buyer_nav_con">
+                	<li><a href="#">安全设置</a></li>
+                    <li><a href="#">个人资料</a></li>
+                    <li><a href="#">乐钱帐号设置</a></li>
+                    <li><a href="#">收货地址</a></li>
+                    <li><a href="#">隐私设置</a></li>
+                </ul>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+        </div>
+        <div class="buyer_search">
+        	<form action="" class="buyer_search_con clearfix">
+            	<div class="search_kinds buyer_hover">
+                	<ul class="search_kinds_list">
+                		<li class="a_kinds_bg"><a href="#">店铺</a></li>
+                		<li class="a_kinds_bg"><a href="#">宝贝</a></li>
+                        
+                	</ul>
+                    <span class="iconfont turn_down">&#xf0005;</span>
+                </div>
+                <input type="text" class="search_txt" />
+                <input type="submit" class="search_sub" value="搜索" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="buyer_main clearfix">
+	<div class="buyer_mainLeft">
+    	<h2 class="buyer_mainLeft_title">交易信息</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">我的购物车</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">订单管理</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">我的品牌</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">收货地址</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank" class="default">维权管理</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">我的收藏</a></li>
+            </ul>
+        </div>
+        <h2 class="buyer_mainLeft_title">我的影响力</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">晒单记录</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">评价记录</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">心愿面板</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">推广同城生活</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">推手生涯</a></li>
+            </ul>
+        </div>
+        <h2 class="buyer_mainLeft_title">同城生活银行</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">密码设置</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">账户余额</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">账单明细</a></li>
+                <li class="buyer_mainLeft_item"><a href="#" target="_blank">同城生活金币</a></li>
+            </ul>
+        </div>
+        <h2 class="buyer_mainLeft_title">老友记</h2>
+        <div class="buyer_mainLeft_infor">
+        	<ul>
+            	<li class="buyer_mainLeft_item"><a href="#" target="_blank">我的老友</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="buyer_mainRight">
+    	<div class="buyer_self clearfix">
+        	<div class="buyer_box" id="points_promotion_box">
+            	
+            </div>
+            <!--资料未完善开始-->
+            <div class="buyer_self_infor buyer_bd">
+            	<div class="buyer_intr clearfix">
+                	<span class="buyer_photo">
+                        <a href="#"><img src="img/customer_service_logo.jpg" /></a>
+                    </span>
+                    <ul class="buyer_intr_list">
+                    	<li>注册于2014-03-19</li>
+                    	<li>求生日，求星座</li>
+                    	<li><a href="#">资料尚未完善>></a></li>
+                    </ul>
+                    <p class="buyer_address">
+                    	<a href="#">我的收货地址</a>
+                    </p>
+                </div>
+            	<div class="MyMoney">
+                	<ul>
+                    	<li><b>我的乐钱</b></li>
+                    	<li>账户余额 <span class="real_money">￥298.00</span><span class="show_money">显示余额</span></li>
+                    	<li>
+                        	<a href="#" class="take_out"><em class="iconfont">&#xf000b;</em>提现</a>
+                            <a href="#" class="buy_record"><em class="iconfont consume">&#xf000a;</em>消费记录</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="true_name">实名认证</a>
+                </div>
+                <div class="buyer_horn"><p class="wm_ico horn"></p></div>
+            </div>
+            <!--资料未完善结束-->
+            
+            <!--资料已完善开始-->
+            <!--<div class="buyer_self_infor buyer_bd">
+            	<div class="buyer_intr clearfix">
+                	<span class="buyer_photo">
+                        <a href="#"><img src="img/customer_service_logo.jpg" /></a>
+                    </span>
+                    <ul class="buyer_intr_list">
+                    	<li>注册于2014-03-19</li>
+                    	<li>求生日，求星座</li>
+                    	<li><a href="#">资料已经完善</a><a href="#">编辑>></a></li>
+                    </ul>
+                    <p class="buyer_address">
+                    	<a href="#">我的收货地址</a>
+                    </p>
+                </div>
+            	<div class="MyMoney">
+                	<ul>
+                    	<li><b>我的乐钱</b></li>
+                    	<li>账户余额 <span>￥298.00</span></li>
+                    	<li>
+                        	<a href="#" class="take_out"><em class="iconfont">&#xf000b;</em>提现</a>
+                            <a href="#" class="buy_record"><em class="iconfont consume">&#xf000a;</em>消费记录</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="true_name ready">已认证</a>
+                </div>
+                <div class="buyer_horn"><p class="wm_ico horn"></p></div>
+            </div>-->
+            <!--资料已完善结束-->
+        </div>
+        
+        <div class="buyer_goods clearfix">
+        	<!--已买到的商品 有内容 开始-->
+        	<div class="already_buy buyer_bd">
+            	<div class="already_buy_title">
+                	<b>已买到的商品</b>
+                    <a href="#">待付款 <span>0</span></a><a href="#">待确认收货 <span>2</span></a><a href="#">待评价 <span>3</span></a>
+                </div>
+                <div class="already_buy_con">
+                	<div class="already_detail clearfix">
+                    	<a href="#" class="goods_img"><img src="img/img2.jpg" /></a>
+                        <div class="goods_detail">
+                        	<ul>
+                            	<li class="goods_status"><b>已下单</b><span class="buy_time">2014-03-19 21：03</span></li>
+                            	<li class="go_address">浙江省杭州市拱墅区祥园路33号5楼 浙江省杭州市拱墅区祥园路33号5楼 徐军浩 13004653721</li>
+                            </ul>
+                        </div>
+                        <div class="dobuyer">
+                        	<a href="#" class="buyer_btn remind">提醒发货</a>
+                        </div>
+                        
+                    </div>
+                    <div class="already_detail clearfix">
+                    	<a href="#" class="goods_img"><img src="img/img2.jpg" /></a>
+                        <div class="goods_detail">
+                        	<ul>
+                            	<li class="goods_status"><b>已发货</b><span class="buy_time">2014-03-19 21：03</span></li>
+                            	<li class="logistics"><a href="#">查看物流明细 》</a></li>
+                            </ul>
+                        </div>
+                        <div class="dobuyer">
+                        	<a href="#" class="buyer_btn">确认收货</a>
+                        </div>
+                        
+                    </div>
+                    <div class="already_detail clearfix">
+                    	<a href="#" class="goods_img"><img src="img/img2.jpg" /></a>
+                        <div class="goods_detail">
+                        	<ul>
+                            	<li class="goods_status"><b>已收货</b><span class="buy_time">2014-03-19 21：03</span></li>
+                            	<li class="go_address">浙江省杭州市拱墅区祥园路33号5楼 浙江省杭州市拱墅区祥园路33号5楼 徐军浩 13004653721</li>
+                            </ul>
+                        </div>
+                        <div class="dobuyer">
+                            <a href="#" class="buyer_btn">评价</a>
+                            <a href="#" class="buyer_btn">晒单</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--已买到的商品 有内容 结束-->
+            
+            <!--已买到的商品无内容 开始-->
+        	<!--<div class="already_buy noContent buyer_bd">
+            	<div class="already_buy_title">
+                	<b>已买到的商品</b>
+                </div>
+                <div class="already_buy_con noContent_mt">
+                	<img src="img/joke_img1.jpg" />
+                    <div class="joke">
+                    	<p>昨天在公园长凳子上坐着，隔壁一对夫妻闹别扭，男人刚开始一直不说话突然开始说话了：</p>
+                    	<p>第一，我们是夫妻！</p>
+                    	<p>第二，我们接受过高等教育的，有知识有文化有素养的人！</p>
+                    	<p>第三，今天说出来逛街的人是你，说不想逛的人也是你！为什么要跟我闹气呢？</p>
+                    	<p>女的一抬头：我高兴……</p>
+                    </div>
+                </div>
+            </div>-->
+            <!--已买到的商品无内容 结束-->
+            
+            
+            <!-- 购物车 有内容  开始-->
+            <div class="buy_car buyer_bd">
+            	<div class="already_buy_title">
+                	<b>购物车</b>
+                    <span>近期<a href="#" class="cheap_num">5</a>个宝贝降价</span>
+                    <a href="#" class="look_buy_car">查看购物车</a>
+                </div>
+                <div class="buy_car_con">
+                	<div class="buy_car_detail clearfix">
+                    	<a href="#" class="goods_img"><img src="img/img2.jpg" /></a>
+                        <div class="buy_car_goods">
+                        	<ul>
+                            	<li class="car_goods_name"><a href="#">情侣夏季最新防晒衣沙滩长袖透明衣海边防晒服</a></li>
+                                <li class="goods_price">￥298.00</li>
+                            </ul>
+                        </div>
+                        <div class="cheaper_price"></div>
+                    </div>
+                    <div class="buy_car_detail clearfix">
+                    	<a href="#" class="goods_img"><img src="img/img2.jpg" /></a>
+                        <div class="buy_car_goods">
+                        	<ul>
+                            	<li><a href="#">情侣夏季最新防晒衣</a></li>
+                                <li class="goods_price">￥298.00</li>
+                            </ul>
+                        </div>
+                        <div class="cheaper_price"></div>
+                    </div>
+                    <div class="buy_car_detail clearfix">
+                    	<a href="#" class="goods_img"><img src="img/img2.jpg" /></a>
+                        <div class="buy_car_goods">
+                        	<ul>
+                            	<li><a href="#">情侣夏季最新防晒衣沙滩长袖透明衣海边防晒服</a></li>
+                                <li class="goods_price">￥298.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 购物车 有内容  结束-->
+            
+            
+            <!-- 购物车 无内容  开始-->
+            <!--<div class="buy_car noContent buyer_bd">
+            	<div class="already_buy_title">
+                	<b>购物车</b>
+                </div>
+                <div class="buy_car_con noContent_mt">
+                	<img src="img/joke_img2.jpg" />
+                    <div class="joke joke1">
+                    	<p>医生问病人是怎么骨折的，病人说，我觉得鞋里有沙子，就扶着电线杆抖鞋，突然有个混蛋经过那里以为我触电了，便抄起木棍给了我两棍子！</p>
+                    </div>
+                </div>
+            </div>-->
+            <!-- 购物车 无内容  结束-->
+        </div>
+        
+        <div class="Mycollect clearfix">
+        	<!--我收藏的店铺 有内容-->
+        	<div class="Mycollect_con buyer_bd">
+            	<div class="already_buy_title">
+                	<b><a href="#">我的收藏店铺</a></b>
+                    <a href="#" class="look_buy_car">查看上新店铺</a>
+                </div>
+                <div class="collect_shop">
+                	<a href="#" class="collect_shop_con">
+                    	<img src="img/shop.jpg" />
+                        瑜儿菲女士专卖
+                    </a>
+                    <a href="#" class="collect_shop_con">
+                    	<img src="img/shop.jpg" />
+                        瑜儿菲女士专卖
+                    </a>
+                    <a href="#" class="collect_shop_con">
+                    	<img src="img/shop.jpg" />
+                        瑜儿菲女士专卖
+                    </a>
+                    <a href="#" class="collect_shop_con">
+                    	<img src="img/shop.jpg" />
+                        瑜儿菲女士专卖
+                    </a>
+                </div>
+            </div>
+            <!--我收藏的店铺 有内容 结束-->
+            
+            <!--我收藏的店铺 无内容-->
+        	<!--<div class="Mycollect_con noContent buyer_bd">
+            	<div class="already_buy_title">
+                	<b><a href="#">我的收藏店铺</a></b>
+                </div>
+                <div class="collect_shop noContent_mt1">
+                	<img src="img/joke_img3.jpg" />
+                    <div class="joke joke1">
+                    	<p>医生问病人是怎么骨折的，病人说，我觉得鞋里有沙子，就扶着电线杆抖鞋，突然有个混蛋经过那里以为我触电了，便抄起木棍给了我两棍子！</p>
+                    </div>
+                </div>
+            </div>-->
+            <!--我收藏的店铺 无内容 结束-->
+            
+            <!--我收藏的商品 有内容-->
+            <div class="Mycollect_con buyer_bd">
+            	<div class="already_buy_title">
+                	<b><a href="#">我的收藏商品</a></b>
+                </div>
+                <div class="collect_shop">
+                	<a href="#" class="collect_shop_con collect_goods_con">
+                    	<img src="img/goods.jpg" />
+                    </a>
+                    <a href="#" class="collect_shop_con collect_goods_con">
+                    	<img src="img/goods.jpg" />
+                    </a>
+                </div>
+                <p class="look_footmark cheaper_goods"><a href="#">降价商品<span>0</span></a><a href="#">紧俏商品<span>2</span></a></p>
+            </div>
+            <!--我收藏的商品 有内容 结束-->
+            
+             <!--我收藏的商品 无内容-->
+            <!--<div class="Mycollect_con noContent buyer_bd">
+            	<div class="already_buy_title">
+                	<b><a href="#">我的收藏商品</a></b>
+                </div>
+                <div class="collect_shop noContent_mt1">
+                	<img src="img/joke_img4.jpg" />
+                    <div class="joke joke1">
+                    	<p>医生问病人是怎么骨折的，病人说，我觉得鞋里有沙子，就扶着电线杆抖鞋，突然有个混蛋经过那里以为我触电了，便抄起木棍给了我两棍子！</p>
+                    </div>
+                </div>
+            </div>-->
+            <!--我收藏的商品 无内容 结束-->
+            
+            <!--我的足迹 有内容-->
+            <div class="Mycollect_con footmark buyer_bd">
+            	<div class="already_buy_title">
+                	<b><a href="#">我的足迹</a></b>
+                </div>
+                <div class="collect_shop">
+                	<a href="#" class="collect_shop_con collect_goods_con">
+                    	<img src="img/goods.jpg" />
+                    </a>
+                    <a href="#" class="collect_shop_con collect_goods_con">
+                    	<img src="img/goods.jpg" />
+                    </a>
+                </div>
+                <p class="look_footmark"><a href="#">查看我的足迹</a></p>
+            </div>
+            <!--我的足迹 有内容 结束-->
+            
+            <!--我的足迹 无内容-->
+            <!--<div class="Mycollect_con noContent footmark buyer_bd">
+            	<div class="already_buy_title">
+                	<b><a href="#">我的足迹</a></b>
+                </div>
+                <div class="collect_shop noContent_mt1">
+                	<img src="img/joke_img5.jpg" />
+                    <div class="joke joke1">
+                    	<p>医生问病人是怎么骨折的，病人说，我觉得鞋里有沙子，就扶着电线杆抖鞋，突然有个混蛋经过那里以为我触电了，便抄起木棍给了我两棍子！</p>
+                    </div>
+                </div>
+            </div>-->
+            <!--我的足迹 无内容 结束-->
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="footer">
+	<p class="about"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">品牌入驻</a>|<a href="#">隐私条款</a>|<a href="#">网站地图</a>|<a href="#">友情链接</a>|<a href="#">用户体验提升计划</a></p>
+    <p>经营性网站备案号：浙ICP备11009382号   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+    <a href="#"><img src="../../public/img/internetPolice.png" /></a><a href="#"><img src="../../public/img/putOnRecord.png" /></a><a href="#"><img src="../../public/img/internetBusiness.png" /></a><a href="#"><img src="../../public/img/siteCredits.png" /></a><a href="#"><img src="../../public/img/trusty.png" /></a>
+</div>
+
+</div>
+</body>
+</html>

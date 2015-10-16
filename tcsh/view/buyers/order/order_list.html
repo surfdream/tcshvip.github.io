@@ -1,0 +1,624 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../../model/wmpage/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../../../model/lib/jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/view/buyers/order/config.js" data-init="orderlist"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <div class="user_data">
+                        <span>欢迎加入同城生活帮：</span>
+                        <span>柴逸宁</span>
+                    </div>
+                    <div class="user_login">
+                        <span>欢迎加入同城生活帮：</span>
+                        <a href="#">登录</a>
+                        <em>|</em>
+                        <a href="#">免费注册</a>
+                    </div>
+                    <div class="link_list">
+                        <a href="#">订单管理</a><em>|</em>
+                        <a href="#">心愿面板</a><em>|</em>
+                        <a href="#">推广同城生活</a><em>|</em>
+                        <a href="#">成长基金</a><em>|</em>
+                        <a href="#">帮助中心</a>
+                    </div>
+                    <div class="follow_wm">
+                        <a href="#"><i class="wm_ico heart1"></i>关注同城生活</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="head_sub">
+                <div class="head_con">
+                    <div class="wm_logo">
+                        <img src="../../public/img/wm_logo.png" width="180" height="80" />
+                    </div>
+                    <div class="logo_msg">
+                        <span class="ui_btn ui_btn_h22red10"><span class="ui_btn_txt"><i>嗅嗅品牌的味道</i></span></span>
+                        <em class="wm_ico triangle1">&nbsp;</em>
+                    </div>
+                    <div class="head_search brands">
+                        <div class="head_search_form">
+                            <form>
+                                <select>
+                                    <option>品牌</option>
+                                    <option>商品</option>
+                                </select>
+                                <input type="text" placeholder="商家后台搜索" name="brands" class="search_brands" />
+
+                                <a href="#" class="search_btn">搜 索<i class="wm_ico magnifier1"></i></a>
+                                <input type="hidden" name="search_type" />
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="head_nav">
+                <div class="sub_head_nav">
+                    <div class="sub_nav">
+                        <ul>
+                            <li class="sub_nav_item curr"><a href="#">首页</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">老友记</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">我的交易</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item"><a href="#">设置</a><em class="wm_ico dashed2"></em></li>
+                            <li class="sub_nav_item end"><a href="#">站内信</a><em class="wm_ico dashed2"></em><i></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="content_main">
+                    <div class="op_nav">
+                        <div class="op_nav_top">
+                            <a href="#" class="picture">
+                                <img src="img/customer_service_logo.jpg" width="150" height="150" /></a>
+                            <span class="shadow"></span>
+                            <a href="#" class="ui_btn ui_btn_h35yellow11"><span class="ui_btn_txt">编辑资料</span></a>
+                            <a href="#" class="ui_btn ui_btn_h34brown1"><span class="ui_btn_txt">签到</span></a>
+                        </div>
+                        <ul class="op_nav_main">
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>交易信息</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">我的购物车</a></li>
+                                    <li class="curr"><a href="#">订单管理</a></li>
+                                    <li><a href="#">我的品牌</a></li>
+                                    <li><a href="#">收货地址</a></li>
+                                    <li><a href="#">维权管理</a></li>
+                                    <li><a href="#">我的收藏</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>我的影响力</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">晒单记录</a></li>
+                                    <li><a href="#">评价纪录</a></li>
+                                    <li><a href="#">心愿面板</a></li>
+                                    <li><a href="#">推广同城生活</a></li>
+                                    <li><a href="#">推手生涯</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>同城生活银行</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">密码设置</a></li>
+                                    <li><a href="#">账户余额</a></li>
+                                    <li><a href="#">账单明细</a></li>
+                                    <li><a href="#">同城生活金币</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>老友记</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">我的老友</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_con">
+                        <div class="box botred">
+                            <div class="box_head prl30">
+                                <h3>订单管理</h3>
+                                <p>
+                                    我的交易提醒：
+                                    <a href="#" class="linkitem pl0 order_status_btn" data_key="1">待付款（1）件</a>
+                                    <a href="#" class="linkitem order_status_btn" data_key="3">待确认（1）件</a>
+                                    <a href="#" class="linkitem order_status_btn" data_key="4">待评价（1）件</a>
+                                </p>
+                            </div>
+                            <div class="box_con wm_form">
+                                <form class="search_form">
+                                    <ul class="">
+                                        <li class="form_row">
+                                            <label class="row_key">商品名称：</label><input type="text" class="form_txt" name="comm_name" value="你妹"></li>
+                                        <li class="form_row">
+                                            <label class="row_key">下单时间：</label><input type="text" class="form_txt w80 show_date_box" name="downorder_dates"><span class="plr10">至</span><input type="text" class="form_txt w80 show_date_box" name="downorder_datee"></li>
+                                        <li class="form_row">
+                                            <input type="submit" value="搜 索" class="search_btn" />
+                                        </li>
+                                    </ul>
+                                    <input type="hidden" id="order_status" name="order_status" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="box order_box">
+                            <div class="thead">
+                                <span class="textcenter w260">商品</span>
+                                <span>单价（元）</span>
+                                <span class="w50">数量</span>
+                                <span class="textcenter w130">实付款（元）</span>
+                                <span>
+                                    <select id="sel_order_status">
+                                        <option value="0">全部订单</option>
+                                        <option value="1">待付款</option>
+                                        <option value="2">已付款</option>
+                                        <option value="3">已发货</option>
+                                        <option value="4">交易成功</option>
+                                        <option value="5">交易撤销</option>
+                                        <option value="6">退款中</option>
+                                    </select>
+                                </span>
+                                <span>交易操作</span>
+                                <span class="texteight">其他</span>
+                            </div>
+                            <ul class="order_list" page_index="5" page_sum="600">
+                                <li class="order_item clearfix">
+                                    <div class="order_item_head">
+                                        <input type="checkbox" />
+                                        <span>订单号：<b>4556644516345166</b></span>
+                                        <span>下单时间：2013-9-9 12:33</span>
+                                        <b>李宁超级xxxxx卖场</b>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=130016001&site=qq&menu=yes">
+                                            <img border="0" src="http://wpa.qq.com/pa?p=2:130016001:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                                    </div>
+                                    <table class="comm_item" border="0" cellspacing="0">
+                                        <tr>
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w50 plr10">5
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3"><b>999.00</b><span class="displayblock colgray">(含运费：0.00)</span>
+                                            </td>
+                                            <td class="border_r td_nobo w90 " rowspan="3">待付款
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3">
+                                                <div class="btn_list">
+                                                    <a href="#" class="ui_btn ui_btn_h23yellow8  portal"><span class="ui_btn_txt">付款<span class="wm_ico arrow6down"></span></span></a>
+                                                    <ul>
+                                                        <li class="btn_list_last">
+                                                            <a href="#">付款</a>
+                                                        </li>
+                                                        <li class="btn_list_end">
+                                                            <a href="#" class="revocation">撤销</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w25 plr10">5
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="nobo">
+                                            <td class="plr10">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w25 plr10">5
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order_item clearfix">
+                                    <div class="order_item_head">
+                                        <input type="checkbox" />
+                                        <span>订单号：<b>4556644516345166</b></span>
+                                        <span>下单时间：2013-9-9 12:33</span>
+                                        <b>李宁超级xxxxx卖场</b>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=130016001&site=qq&menu=yes">
+                                            <img border="0" src="http://wpa.qq.com/pa?p=2:130016001:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                                    </div>
+                                    <table class="comm_item" border="0" cellspacing="0">
+                                        <tr class="nobo">
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w50 plr10">5
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="1"><b>999.00</b><span class="displayblock colgray">(含运费：0.00)</span>
+                                            </td>
+                                            <td class="border_r td_nobo w90" rowspan="1">已付款
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="1">
+                                                <div class="btn_list">
+                                                    <a href="#" class="ui_btn ui_btn_h23yellow8  portal"><span class="ui_btn_txt">提醒发货<span class="wm_ico arrow6down"></span></span></a>
+                                                    <ul>
+                                                        <li class="btn_list_last">
+                                                            <a href="#" class="remind">提醒发货</a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="#" class="revocation">撤销</a>
+                                                        </li>
+                                                        <li class="btn_list_end">
+                                                            <a href="#">再买</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </li>
+                                <li class="order_item clearfix">
+                                    <div class="order_item_head">
+                                        <input type="checkbox" />
+                                        <span>订单号：<b>4556644516345166</b></span>
+                                        <span>下单时间：2013-9-9 12:33</span>
+                                        <b>李宁超级xxxxx卖场</b>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=130016001&site=qq&menu=yes">
+                                            <img border="0" src="http://wpa.qq.com/pa?p=2:130016001:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                                    </div>
+                                    <table class="comm_item" border="0" cellspacing="0">
+                                        <tr class="nobo">
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w50 plr10">5
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3"><b>999.00</b><span class="displayblock colgray">(含运费：0.00)</span>
+                                            </td>
+                                            <td class="border_r td_nobo w90" rowspan="3">已发货
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3">
+                                                <div class="btn_list">
+                                                    <a href="#" class="ui_btn ui_btn_h23yellow8  portal"><span class="ui_btn_txt">确认收货<span class="wm_ico arrow6down"></span></span></a>
+                                                    <ul>
+                                                        <li class="btn_list_last">
+                                                            <a href="#">确认收货</a>
+                                                        </li>
+                                                        <li class="btn_list_end">
+                                                            <a href="#">再买</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                
+                                <li class="order_item clearfix">
+                                    <div class="order_item_head">
+                                        <input type="checkbox" />
+                                        <span>订单号：<b>4556644516345166</b></span>
+                                        <span>下单时间：2013-9-9 12:33</span>
+                                        <b>李宁超级xxxxx卖场</b>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=130016001&site=qq&menu=yes">
+                                            <img border="0" src="http://wpa.qq.com/pa?p=2:130016001:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                                    </div>
+                                    <table class="comm_item" border="0" cellspacing="0">
+                                        <tr>
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w50 plr10">5
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3"><b>999.00</b><span class="displayblock colgray">(含运费：0.00)</span>
+                                            </td>
+                                            <td class="border_r td_nobo w90" rowspan="3">交易成功
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3">
+                                                <div class="btn_list">
+                                                    <a href="#" class="portal">再买<span class="wm_ico arrow8down"></span></a>
+                                                    <ul>
+                                                        <li class="btn_list_last">
+                                                            <a href="#">再买</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">退款</a>
+                                                        </li>
+                                                        <li class="btn_list_end">
+                                                            <a href="#" class="deloredr">删除</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn displayblock">分享</a>
+                                                <a href="http://s.tcsh.me/tcsh/view/buyers/single_sun/single_sun.html" class="colblue displayblock">晒单</a>
+                                                <a href="#" class="colblue displayblock evaluate_btn">评价</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w25 plr10">5
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn displayblock">分享</a>
+                                                <a href="http://s.tcsh.me/tcsh/view/buyers/single_sun/single_sun.html" class="colblue displayblock">晒单</a>
+                                                <a href="#" class="colblue displayblock evaluate_btn">评价</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="nobo">
+                                            <td class="plr10">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w25 plr10">5
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn displayblock">分享</a>
+                                                <a href="http://s.tcsh.me/tcsh/view/buyers/single_sun/single_sun.html" class="colblue displayblock">晒单</a>
+                                                <a href="#" class="colblue displayblock evaluate_btn">评价</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order_item clearfix">
+                                    <div class="order_item_head">
+                                        <input type="checkbox" />
+                                        <span>订单号：<b>4556644516345166</b></span>
+                                        <span>下单时间：2013-9-9 12:33</span>
+                                        <b>李宁超级xxxxx卖场</b>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=130016001&site=qq&menu=yes">
+                                            <img border="0" src="http://wpa.qq.com/pa?p=2:130016001:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                                    </div>
+                                    <table class="comm_item" border="0" cellspacing="0">
+                                        <tr class="nobo">
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w50 plr10">5
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3"><b>999.00</b><span class="displayblock colgray">(含运费：0.00)</span>
+                                            </td>
+                                            <td class="border_r td_nobo w90" rowspan="3">退款中
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3">
+                                                <a href="#" class="portal">修改退款申请</a>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order_item clearfix">
+                                    <div class="order_item_head">
+                                        <input type="checkbox" />
+                                        <span>订单号：<b>4556644516345166</b></span>
+                                        <span>下单时间：2013-9-9 12:33</span>
+                                        <b>李宁超级xxxxx卖场</b>
+                                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=130016001&site=qq&menu=yes">
+                                            <img border="0" src="http://wpa.qq.com/pa?p=2:130016001:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+                                    </div>
+                                    <table class="comm_item" border="0" cellspacing="0">
+                                        <tr class="nobo">
+                                            <td class="plr10 w90">
+                                                <img src="img/img1.jpg" /></td>
+                                            <td class="w130 plr0 textleft">
+                                                <a href="#" class="colblue displayblock pb5">帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装帅气男装</a>
+                                                <span class="displayblock colgray">颜色：蓝色</span>
+                                                <span class="displayblock colgray">尺寸：1.60</span>
+                                            </td>
+                                            <td class="plr10">￥89.00
+                                            </td>
+                                            <td class="border_r w50 plr10">5
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3"><b>999.00</b><span class="displayblock colgray">(含运费：0.00)</span>
+                                            </td>
+                                            <td class="border_r td_nobo w90" rowspan="3">拒绝退款
+                                            </td>
+                                            <td class="border_r td_nobo w110" rowspan="3"></td>
+                                            <td>
+                                                <a href="#" class="colblue share_btn">分享</a>
+                                                <a href="#" class="portal complaints">投诉</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                            <div class="order_bott">
+                                <div class="wm_page"><span>共25页</span><a href="http://www.baidu.com?page=1" class="page_before page_link" value="1">&lt;</a><b>1</b><a href="http://www.baidu.com?page=2" class="page_link" value="2">2</a><a href="http://www.baidu.com?page=3" class="page_link" value="3">3</a><a href="http://www.baidu.com?page=4" class="page_link" value="4">4</a><a href="http://www.baidu.com?page=5" class="page_link" value="5">5</a><span class="ellipsis">...</span><a href="http://www.baidu.com?page=2" class="page_next page_link" value="2">&gt;</a></div>
+                                <input type="checkbox" class="allchk vm" id="allchk" />
+                                <label for="allchk" class="vm fs14">全选</label>
+                                <a href="#" class="ui_btn ui_btn_h27gray8 vm"><span class="ui_btn_txt fs14">彻底删除</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bott_sub">
+                <div class="link_list">
+                    <div class="link_item">
+                        <span>服务保障</span>
+                        <ul>
+                            <li><a href="#">正品保障</a></li>
+                            <li><a href="#">7天无条件退货</a></li>
+                            <li><a href="#">7*15小时服务</a></li>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>购物指南</span>
+                        <ul>
+                            <li><a href="#">导购演示</a></li>
+                            <li><a href="#">订单操作</a></li>
+                            <li><a href="#">用户指南</a></li>
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">购物参考</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>支付方式</span>
+                        <ul>
+                            <li><a href="#">网银支付币</a></li>
+                            <li><a href="#">支付平台</a></li>
+                            <li><a href="#">信用卡</a></li>
+                            <li><a href="#">同城生活金币</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>配送方式</span>
+                        <ul>
+                            <li><a href="#">配送服务</a></li>
+                            <li><a href="#">配送范围和运费</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span>售后服务</span>
+                        <ul>
+                            <li><a href="#">退换货政策</a></li>
+                            <li><a href="#">退换货流程</a></li>
+                            <li><a href="#">退款方式和时效</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item end">
+                        <span>同城生活模式</span>
+                        <ul>
+                            <li><a href="#">聚合式品牌特卖</a></li>
+                            <li><a href="#">同城生活成长基金</a></li>
+                            <li><a href="#">推手规则</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="put_on_record">
+                    <p>经营性网站备案号：浙B2-20080103   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+
+                    <a href="#">
+                        <img src="../../public/img/internetPolice.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/putOnRecord.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/internetBusiness.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/siteCredits.png" />
+                    </a>
+
+                    <a href="#">
+                        <img src="../../public/img/trusty.png" />
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        var global_setting = {};
+        global_setting.current = {};
+        global_setting.current.page = {};
+    </script>
+</body>
+</html>

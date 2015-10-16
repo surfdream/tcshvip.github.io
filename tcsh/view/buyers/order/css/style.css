@@ -1,0 +1,90 @@
+﻿.main_con .botred .box_head p { color: #505050; }
+.box .wm_form { padding: 10px 0; }
+.box .wm_form .form_row { float: left; clear: none; padding-right: 20px; }
+.box .wm_form ul { padding-left: 30px; overflow: hidden; }
+.box .wm_form .form_row .plr10 { padding: 0 10px; }
+.box .wm_form .form_row .row_key { width: auto; padding: 0; }
+.box .wm_form .search_btn { border: 0 solid #fff; padding: 0 5px; text-decoration: none; margin-left: 5px; display: inline-block; width: 55px; height: 24px; background: #f47d15; vertical-align: top; line-height: 24px; text-align: center; color: #fff; font-weight: 700; font-size: 14px; _zoom: 1; }
+
+.order_box .thead { background: #fff2e6; padding: 20px 0; overflow: hidden; }
+.order_box .thead span { float: left; width: 80px; }
+.order_box .w50 { width: 50px!important; }
+.order_box .w90 { width: 90px!important; }
+.order_box .w110 { width: 110px!important; }
+.order_box .w130 { width: 130px!important; }
+.order_box .w25 { width: 25px!important; }
+.order_box .w260 { width: 260px!important; }
+.order_box .textleft { text-align: left; }
+.order_box .textcenter { text-align: center; }
+.order_box .texteight { text-align: right; }
+.order_box .pb5 { padding-bottom: 5px; }
+.order_box .pr0 { padding-right: 0; }
+.order_box .plr0 { padding-left: 0; padding-right: 0; }
+.order_box .plr10 { padding-left: 10px; padding-right: 10px; }
+.order_box .border_r { border-right: 1px dashed #b7b7b7; }
+.order_box .fs14 { font-size: 14px!important; }
+.order_box { font-family: SimSun; }
+.order_box .order_item_head { padding: 10px 0 10px 10px; font-size: 14px; font-family: SimSun; }
+.order_box b { font-weight: 500; color: #e13436; }
+.order_box .order_item_head span, .order_box .order_item_head input, .order_box .order_item_head a { display: inline-block; vertical-align: middle; margin: 0 5px; }
+.order_box .order_item { *overflow: hidden; _zoom: 1; }
+.order_box .order_item .comm_item img { width: 80px; height: 80px; margin-left: 20px; }
+.order_box .order_item .comm_item { width: 100%; }
+.order_box .order_item .comm_item td { background: #ededed; padding: 10px 0 10px 10px; vertical-align: top; border-bottom: 1px dashed #b7b7b7; vertical-align: middle; }
+.order_box .order_item .nobo td, .order_box .order_item .comm_item .td_nobo { border-bottom: 0px solid #fff; }
+.order_box .order_item .displayblock { display: block; }
+.order_box .order_bott { overflow: hidden; background: #fff2e6; padding: 20px 10px; border-top: 2px solid #fff; }
+.order_box .order_bott .wm_page { float: right; }
+.order_box .order_bott .vm { display: inline-block; vertical-align: middle; }
+.order_box .order_item .wm_ico { margin: 0 3px; }
+.order_box .order_item .complaints { padding: 3px 0; }
+.order_box .share_btn { display: block; }
+
+.orderErrbox { }
+.orderErrbox .wmBox-botton { text-align: center!important; padding-bottom: 5px; }
+.orderErrbox .wmBox-botton .ui_btn_txt { font-size: 18px; padding: 0 30px 0 25px; }
+
+
+.order_detail { }
+.order_detail .textright { text-align: right; font-family: SimSun; color: #535353; }
+.order_detail .pt20b10 { padding-top: 20px; padding-bottom: 10px; }
+.order_detail .textcenter { text-align: center; }
+.order_detail .schedule .box_head { background: #f5f5f5; padding: 40px 0 30px 0; text-align: center; }
+.order_detail .schedule_img { display: block; margin: 0 auto 10px auto; }
+.order_detail .schedule_date { width: 150px; display: inline-block; color: #969696; font-family: SimSun; }
+.order_detail .msg { margin: 40px 0 20px 0; color: #535353; font-size: 14px; font-family: SimSun; height: 31px; line-height: 31px; padding-left: 140px; }
+.order_detail .msg .wm_ico { margin: 0 10px; vertical-align: top; }
+.order_detail .msg_remark { width: 370px; margin-left: 200px; padding-bottom: 20px; }
+.order_detail .remark { display: block; text-align: left; font-family: SimSun; line-height: 22px; color: #535353; }
+.order_detail .remark b { color: #e13436; }
+.order_detail .logistics_data_list { padding-top: 10px; font-family: SimSun; color: #535353; }
+.order_detail .logistics_data_list li { padding: 5px 0; }
+.order_detail .logistics_data_list .data_time { display: block; float: left; width: 130px; }
+
+.order_detail .order_data { }
+.order_detail .order_data .box_head { background: #E1E1E1; color: #535353; font-family: SimSun; }
+.order_detail .order_data .box_head h3 { padding: 10px; }
+.order_detail .order_data .wm_form { font-family: SimSun; font-size: 12px; overflow: hidden; padding: 20px 0; }
+.order_detail .order_data .wm_form .form_row { clear: both; width: 700px; }
+.order_detail .order_data .wm_form .business_name { display: inline-block; vertical-align: top; }
+.order_detail .order_data .wm_form .row_key { width: 170px; font-size: 12px; }
+
+.order_detail .comm_list { width: 778px; border: 1px solid #b4b4b4; color: #535353; }
+.order_detail .comm_list th, .order_detail .comm_list td { width: 90px; padding: 10px; }
+.order_detail .comm_list td { border: 1px solid #f0f0f0; border-top: 0; border-left: 0; text-align: center; }
+.order_detail .comm_list .textleft { text-align: left; }
+.order_detail .comm_list th { background: #e1e1e1; color: #535353; }
+.order_detail .comm_list .w120 { width: 120px; }
+.order_detail .comm_list img { width: 80px; height: 80px; }
+.order_detail .comm_list .displayblock { display: block; }
+
+
+.confirm_box { }
+.confirm_box .confirm_main { padding: 70px 100px 20px 100px; }
+.confirm_box .msg { font-size: 18px; }
+.confirm_box .remark { padding-left: 42px; line-height: 30px; color: #999; }
+.confirm_box .remark_msg { padding: 5px; margin-left: 40px; height: 100px; width: 250px;resize: none; }
+.confirm_box .wmBox-botton { text-align: center!important; padding-bottom: 40px; }
+.confirm_box .wmBox-botton .ui_btn { margin: 0 15px 0 0; }
+.confirm_box .wmBox-botton .ui_btn .ui_btn_txt { font-size: 16px; padding: 0 10px 0 15px; letter-spacing: 10px; }
+

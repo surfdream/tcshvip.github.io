@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*主体*/
+
+.buyer_main{
+	width:1190px;
+	margin:30px auto 0 auto;
+}
+
+
+
+/*买家首页右侧*/
+.buyer_mainRight{
+	width:995px;
+	float:right;
+}
+.buyer_box{
+	float:left;
+	width:710px;
+	/*height:225px;*/
+}
+.buyer_mainRight #points_promotion_box{
+	padding:0!important;
+	position:relative;
+	z-index:0;
+}
+.buyer_bd{
+	border:1px solid #d4d4d4;
+	border-top:2px solid #b4b4b4;
+}
+.buyer_bd:hover{
+	border:1px solid #d4d4d4;
+	border-top:2px solid #e42334;
+}
+.buyer_self_infor{
+	float:right;
+	width:260px;
+	/*height:225px;*/
+	position:relative;
+	padding:18px 5px 0 5px;
+}
+.buyer_self_infor .buyer_horn{
+	position:absolute;
+	left:-1px;
+	bottom:-2px;
+	background:#FFF;
+}
+.buyer_intr{
+	border-bottom:1px dashed #dadada;
+	padding-bottom:15px;
+	position:relative;
+}
+.buyer_photo{
+	display:inline-block;
+	border-radius:60px;
+	border:1px solid #d5d5d5;
+	margin-right:5px;
+	float:left;
+	width:64px;
+	height:64px;
+}
+.buyer_photo a{
+	width:60px;
+	height:60px;
+	overflow:hidden;
+	border:2px solid #FFF;
+	border-radius:60px;
+	display:inline-block;
+}
+.buyer_photo img{
+	width:60px;
+	height:60px;
+}
+.buyer_intr_list{
+	float:left;
+}
+.buyer_intr_list li{
+	height:26px;
+	line-height:26px;
+	color:#535353;
+}
+.buyer_intr .buyer_intr_list li a{
+	color:#1e8cd2;
+	margin-right:10px;
+}
+.buyer_address{
+	position:absolute;
+	right:5px;
+	top:20px;
+}
+.buyer_address a{
+	color:#535353;
+}
+.MyMoney{
+	position:relative;
+	padding:18px 0 15px 30px;
+}
+.MyMoney li{
+	color:#323232;
+	height:30px;
+	line-height:30px;
+}
+.MyMoney b{
+	color:#323232;
+	font-size:14px;
+}
+.MyMoney li span.real_money{
+	color:#eb0303;
+	padding-left:20px;
+	display:none;
+}
+.MyMoney li span.show_money{
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	width:60px;
+	text-align:center;
+	color:#f57d13;
+	background:#fdf5e6;
+	border:1px dashed #f57d13;
+	margin-left:10px;
+	cursor:pointer;
+}
+.MyMoney a{
+	margin:0 20px 0 0;
+	display:inline-block;
+}
+.MyMoney a em{
+	font-size:27px;
+	color:#787878;
+	display:inline-block;
+	padding-right:5px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.MyMoney a em.consume{
+	font-size:24px;
+}
+.MyMoney a:hover,.MyMoney a:hover em{
+	color:#f57d13;
+	
+}
+.MyMoney a.true_name{
+	position:absolute;
+	display:inline-block;
+	color:#1e8cd2;
+	right:0;
+	top:15px;
+	height:30px;
+	line-height:30px;
+}
+.MyMoney a.ready{
+	background:url(../../public/img/buyer_icon.png) no-repeat 0 -90px;
+	padding-left:35px;
+}
+
+
+/*已买到的宝贝跟购物车*/
+.buyer_goods{
+	padding-top:20px;
+}
+/*已买到的商品 有内容*/
+.already_buy{
+	width:660px;
+	height:332px;
+	float:left;
+	padding:18px 20px 0 30px;
+	overflow:hidden;
+}
+.already_buy_title b{
+	font-size:14px;
+	color:#323232;
+	margin-right:90px;
+}
+.already_buy_title a{
+	display:inline-block;
+	margin-left:20px;
+	color:#535353;
+}
+.already_buy_title a:hover{
+	color:#f57d13;
+}
+.already_buy_title a span{
+	color:#eb0a0a;
+}
+.already_detail{
+	padding-top:20px;
+}
+.goods_img{
+	float:left;
+	display:inline-block;
+	margin-right:10px;
+}
+.goods_img img{
+	width:70px;
+	height:70px;
+}
+.goods_detail{
+	float:left;
+	width:425px;
+}
+.goods_detail li{
+	color:#535353;
+	line-height:20px;
+}
+.goods_detail .goods_status{
+	position:relative;
+	padding:2px 0 10px 0;
+}
+.goods_detail .goods_status .buy_time{
+	position:absolute;
+	right:0;
+	top:3px;
+	color:#787878;
+}
+.goods_detail .logistics a{
+	color:#535353;
+	font-family:"Simsun";
+}
+.goods_detail .logistics a:hover{
+	color:#f57d13;
+	text-decoration:none;
+}
+.already_detail .dobuyer{
+	float:right;
+}
+.already_detail a.buyer_btn{
+	
+	display:block;
+	border:2px solid #cdcdcd;
+	color:#535353;
+	width:80px;
+	hegiht:25px;
+	line-height:25px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.already_detail a.buyer_btn:hover{
+	border:2px solid #fcd8b8;
+	color:#f57d13;
+	text-decoration:none;
+}
+/*已买到的商品 有内容 结束*/
+
+
+/*已买到的商品 无内容*/
+.noContent_mt{
+	margin-top:50px;
+}
+.noContent_mt1{
+	margin:30px 0 0 20px;
+}
+.noContent_mt img{
+	vertical-align:top;
+	margin-right:10px;
+}
+.joke{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:65%;
+}
+.joke p{
+	text-indent:2em;
+	line-height:24px;
+	color:#535353;
+}
+.buyer_bd:hover .joke p{
+	color:#f57d13;
+}
+.noContent_mt .joke1{
+	width:45%;
+}
+/*已买到的商品 无内容 结束*/
+
+
+/*购物车 有内容*/
+.buy_car{
+	width:250px;
+	float:right;
+	height:332px;
+	padding:18px 10px 0 10px;
+}
+.buy_car .already_buy_title b{
+	margin-right:15px;
+}
+.already_buy_title .cheap_num{
+	color:#eb0a0a;
+	margin-left:0;
+}
+.buy_car_detail{
+	margin-top:20px;
+	cursor:pointer;
+	position:relative;
+}
+.buy_car_goods{
+	width:170px;
+	float:left;
+}
+.buy_car_goods li{
+	line-height:20px;
+	padding-bottom:6px;
+}
+.buy_car_goods li.car_goods_name{
+	height:36px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.buy_car_goods li a{
+	color:#535353;
+}
+.buy_car_detail:hover .buy_car_goods li a,.buy_car_goods li a:hover{
+	color:#f57d13;
+	text-decoration:none;
+}
+.goods_price{
+	color:#e13436;
+}
+.buy_car_detail:hover .cheaper_price{
+	background:url(../../public/img/buyer_icon.png) no-repeat right -125px;
+}
+.cheaper_price{
+	background:url(../../public/img/buyer_icon.png) no-repeat 0 -125px;
+	_background:url(../../public/img/buyer_icon.png) no-repeat right -125px!important;
+	position:absolute;
+	right:0;
+	top:38px;
+	width:27px;
+	height:27px;
+}
+
+/*购物车 有内容 结束*/
+
+/*我的收藏*/
+.Mycollect{
+	padding-top:20px;
+}
+.Mycollect_con{
+	width:319px;
+	height:235px;
+	margin-right:16px;
+	_margin-right:14px;
+	padding:15px 0;
+	float:left;
+}
+.footmark{
+	margin-right:0;
+}
+.Mycollect_con .already_buy_title b a{
+	font-size:14px;
+	margin-left:30px;
+}
+.already_buy_title b a:hover{
+	color:#f57d13;
+	text-decoration:none;
+}
+.collect_shop a.collect_shop_con{
+	display:inline-block;
+	margin:16px 0 0 28px;
+	width:120px;
+	text-align:center;
+	color:#535353;
+}
+.collect_shop a.collect_shop_con:hover{
+	color:#f57d13;
+}
+.collect_shop a.collect_shop_con img{
+	display:block;
+	margin-bottom:5px;
+	width:120px;
+	height:60px;
+}
+.collect_shop a.collect_goods_con{
+	margin:16px 0 0 25px;
+}
+.collect_shop a.collect_goods_con img{
+	width:120px;
+	height:120px;
+}
+.cheaper_goods a span{
+	color:#eb0a0a;
+	padding-left:5px;
+}
+.look_footmark{
+	margin-top:25px;
+	text-align:center;
+}
+.look_footmark a{
+	padding:0 20px;
+}
+.look_footmark a:hover{
+	color:#f57d13;
+}

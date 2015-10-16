@@ -1,0 +1,39 @@
+﻿.wumeibank { }
+.wumeibank .user_data { background: #EDEDED; padding-bottom: 15px; }
+.wumeibank .user_data .block { display: block; color: #323232; padding: 5px 0; }
+.wumeibank .user_data .f22 { font-size: 22px; color: #e13436; }
+.wumeibank .user_data .not_settlement { float: left; margin-left: 15px; }
+.wumeibank .user_data .balance { float: right; margin-right: 20px; text-align: right; }
+.wumeibank .user_data .ui_btn_txt { font-size: 18px; padding: 0 15px 0 25px; letter-spacing: 10px; }
+.wumeibank .user_data .ui_btn { margin-top: 20px; }
+.wumeibank .user_data .ui_btn_h47gray14 .ui_btn_txt { color: #ccc; }
+
+.income_details_title { color: #323232; padding: 10px 0; }
+.income_details { width: 100%; border: 1px solid #b4b4b4; border-right: 0; border-bottom: 0; }
+.income_details .red { color: #e13436; }
+.income_details th { background: #ebebeb; padding: 10px; text-align: center; border-bottom: 1px solid #b4b4b4; border-right: 1px solid #b4b4b4; }
+.income_details td { padding: 10px; border-bottom: 1px solid #b4b4b4; border-right: 1px solid #b4b4b4; }
+.income_details .ef { background: #efefef; }
+.income_details tr:hover td { background: #efefef; }
+
+.mybankcard_list { overflow: hidden; padding-bottom: 30px; }
+.mybankcard_list .mybankcard_item { width: 230px; height: 160px; float: left; border: 1px solid #DDDDDD; margin: 30px 0 0 15px; border-radius: 5px; background: #fff; position: relative; }
+.mybankcard_list .mybankcard_item .mybankcard_item_data { display: block; width: 210px; height: 140px; padding: 10px; }
+.mybankcard_list .mybankcard_item .mybankcard_item_data:hover { text-decoration: none; }
+.mybankcard_list .mybankcard_item .mybankcard_item_head { border-bottom: 1px solid #DDDDDD; display: block; padding-bottom: 10px; }
+.mybankcard_list .mybankcard_item .del_mybankcard { position: absolute; top: -8px; right: -8px; }
+.mybankcard_list .add_mybankcard { border: 2px dashed #8cb1ff; text-align: center; }
+.mybankcard_list .add_mybankcard a { color: #8cb1ff; font-size: 80px; line-height: 150px; font-weight: 700; text-decoration: none; display: block; height: 100%; }
+.mybankcard_list .add_mybankcard a:hover { background: #DFEEF7; }
+.mybankcard_list .add_mybankcard a span { font-size: 12px; position: absolute; top: 50px; left: 85px; }
+
+.wumeibank_add { }
+.wumeibank_add .add_wumeibank_form { padding: 25px; }
+.wumeibank_add .row_key { width: 220px; }
+.wumeibank_add .form_txt { padding: 6px; width: 200px; }
+.wumeibank_add .form_row { padding: 10px 0; }
+.wumeibank_add .msg { border: 1px solid #ffcc7f; background-color: #ffffe5; padding-left:10px}
+.wumeibank_add .submit { background:#F6B032;display:block;padding:8px 15px;border:1px solid #E67C00 ;color:#fff;font-size:14px;font-weight:700;border-radius:2px;cursor:pointer}
+.wumeibank_add .submit:hover { background:#F5AA2B;}
+
+.wm_page { float:right}

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>申请售后</title>
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/??buyers/public/css/global.css,public/css/ico.css,public/wm_btn/css/style.css" /> 
+<link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/font-face/css/font-face.css" />
+<link rel="stylesheet" href="css/style_v2.css">
+
+<script type="text/javascript" src="../../../model/lib/seajs/sea.js"></script>
+<script type="text/javascript" src="http://s.tcsh.me/tcsh/view/buyers/refund/config.js" data-init="receipt_v2"></script>
+
+<script type="text/javascript">
+var global_setting={}
+</script>
+
+</head>
+<body>
+<div id="page">
+	<div class="buyer_head">
+	<div class="head_top"></div>
+	<div class="buyer_head_con">
+    	<div class="buyer_logo buyer_logo1">
+        	<a href="#"></a>
+        </div>
+        <!--<div class="buyer_nav">
+        	<div class="buyer_nav_list buyer_selected">
+            	<a href="#" class="buyer_nav_item">首页</a>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+            <div class="buyer_nav_list">
+            	<a href="#" class="buyer_nav_item">个人主页</a>
+                <ul class="buyer_nav_con">
+                	<li><a href="#">我的主页</a></li>
+                    <li><a href="#">我的分享</a></li>
+                    <li><a href="#">我的朋友</a></li>
+                    <li><a href="#">我的评价</a></li>
+                    <li><a href="#">我的晒单</a></li>
+                </ul>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+            <div class="buyer_nav_list">
+            	<a href="#" class="buyer_nav_item">帐号管理</a>
+                <ul class="buyer_nav_con">
+                	<li><a href="#">安全设置</a></li>
+                    <li><a href="#">个人资料</a></li>
+                    <li><a href="#">乐钱帐号设置</a></li>
+                    <li><a href="#">收货地址</a></li>
+                    <li><a href="#">隐私设置</a></li>
+                </ul>
+                <span class="top_icon"><em>◆</em></span>
+            </div>
+        </div>-->
+        <div class="buyer_search">
+        	<form action="" class="buyer_search_con clearfix">
+            	<div class="search_kinds buyer_hover">
+                	<ul class="search_kinds_list">
+                		<li class="a_kinds_bg"><a href="#">店铺</a></li>
+                		<li class="a_kinds_bg"><a href="#">宝贝</a></li>
+                        
+                	</ul>
+                    <span class="iconfont turn_down">&#xf0005;</span>
+                </div>
+                <input type="text" class="search_txt" />
+                <input type="submit" class="search_sub" value="搜索" />
+            </form>
+        </div>
+    </div>
+</div>
+	<div class="bread_nav">
+    	您所在的位置：<a href="#">首页</a>><a href="#">我的同城生活</a>><a href="#">已买到的宝贝</a>><a href="#">申请售后</a>
+    </div>
+    <div class="aftermarket">
+    	<form action="" class="after_form">
+            <ul>
+                <li class="aftermarket_item">
+                    <span class="atermarket_item_infor">退款类型：</span>
+                    <span class="refund_type" wmv="radioEmpty" wmvmsg="请选择退款类型">
+                    	<input type="radio" class="rad" id="return_goods" name="checkbox" data_key="key1" checked /><label for="return_goods">退货退款</label>
+                    	<input type="radio" class="rad" id="return_money" name="checkbox"  data_key="key2" /><label for="return_money">不退货退款</label>
+                    </span>
+                </li>
+                <li class="aftermarket_item">
+                    <span class="atermarket_item_infor">退款原因：</span>
+                    <select name="" id="" class="slt" wmv="selectEmpty" wmvmsg="请选择退款原因">
+                        <option value="0">选择退货退款原因</option>
+                        <option value="1">7天无理由退换货</option>
+                        <option value="2">收到商品后有质量问题</option>
+                        <option value="3">购买商品错发/漏发</option>
+                        <option value="4">收到商品与描述不符</option>
+                        <option value="5">收到假货</option>
+                    </select>
+                </li>
+                <li class="aftermarket_item">
+                    <span class="atermarket_item_infor">退款金额：</span>
+                    <input type="text" class="refund_txt" wmv="empty|positiveNumber" wmvmsg="请输入退款金额|请输入数字！" /> 元 
+                    <span class="item_intr">不得高于订单中涉及退款商品的购买金额</span>
+                </li>
+                <li class="aftermarket_item">
+                    <span class="atermarket_item_infor">备注：</span>
+                    <textarea name="" id="" cols="30" rows="10" class="tar"></textarea>
+                    <span class="item_intr max_num">字数不得超过140字</span>
+                </li>
+                <li class="aftermarket_item">
+                    <span class="atermarket_item_infor">上传凭证：</span>
+                    <div class="certificate">
+                        <span class="certificate_con">
+                            <a href="#">
+                                +
+                                <img src="" />
+                            </a>
+                            <input type="file" class="img_upload" title="点击上传" />
+                            <input type="hidden" class="hid_input" />
+                        </span>
+                        <span class="certificate_con">
+                            <a href="#">
+                                +
+                                <img src="" />
+                            </a>
+                            <input type="file" class="img_upload" title="点击上传" />
+                            <input type="hidden" class="hid_input" />
+                        </span>
+                        <span class="certificate_con">
+                            <a href="#">
+                                +
+                                <img src="" />
+                            </a>
+                            <input type="file" class="img_upload" title="点击上传" />
+                            <input type="hidden" class="hid_input" />
+                        </span>
+                    </div>
+                </li>
+                <li class="aftermarket_item">
+                    <span class="atermarket_item_infor"></span>
+                    <input type="submit" value="提交申请" class="sub_btn" />
+                </li>
+            </ul>
+        </form>
+        <div class="order">
+        	<div class="order_head clearfix">
+            	<span class="order_num">订单编号：374296247530</span>
+                <span class="business"><a href="#">杭州同城生活络科技有限公司</a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=137499547&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:137499547:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></span>
+            </div>
+            <table width="100%" height="100%" border="0" class="table_show1">
+            	<thead>
+                    <tr>
+                        <th class="busi_goods">商品</th>
+                        <th>单价</th>
+                        <th>数量</th>
+                        <th>优惠</th>
+                        <th>状态</th>
+                    </tr>
+                </thead>
+                <tbody>
+                	<tr valign="middle" class="order_detail">
+                        <td>
+                            <div class="order_goods">
+                                <a href="#" class="goods_img"><img src="../order/img/goods.jpg" /></a>
+                                <ul class="order_goods_infor">
+                                    <li><a href="#">2013春夏新款修身牛仔男士裤男浅蓝韩版男士小...</a></li>
+                                    <li>尺寸:L</li>
+                                    <li>颜色:蓝色</li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td class="align_center price">
+                            <span class="true_price">￥98.00</span>
+                            <del>￥128.00</del>
+                        </td>
+                        <td class="align_center">
+                            2
+                        </td>
+                        <td class="align_center"><a href="#">￥60.00</a></td>
+                        <td class="align_center"><a href="#">等待收货/交易成功</a></td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="footer">
+        <p class="about"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">品牌入驻</a>|<a href="#">隐私条款</a>|<a href="#">网站地图</a>|<a href="#">友情链接</a>|<a href="#">用户体验提升计划</a></p>
+        <p>经营性网站备案号：浙ICP备11009382号   客服电话：400-668-0099  Copyright @ 2008 杭州同城生活络科技有限公司 All Right Resarved</p>
+        <a href="#"><img src="../../public/img/internetPolice.png" /></a><a href="#"><img src="../../public/img/putOnRecord.png" /></a><a href="#"><img src="../../public/img/internetBusiness.png" /></a><a href="#"><img src="../../public/img/siteCredits.png" /></a><a href="#"><img src="../../public/img/trusty.png" /></a>
+    </div>
+</div>
+</body>
+</html>
