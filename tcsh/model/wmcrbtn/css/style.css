@@ -1,0 +1,34 @@
+﻿
+.wmcrbtn_box { float: left; _width: 80px; }
+.wmcrbtn { height: 28px; line-height: 28px; cursor: pointer; position: relative; background: url('../img/btn.png') 0 0 no-repeat; display: inline-block; padding-left: 5px; margin-right: 5px; _overflow-y: hidden; word-wrap: normal; text-decoration: none; }
+.wmcrbtn .wmcrbtn_txt { font-size: 14px; font-family: 'Microsoft YaHei' SimSun; cursor: pointer; position: relative; vertical-align: top; display: inline-block; background: url('../img/btn.png') right 0 no-repeat; color: #fff; margin: 0 -5px 0 5px; padding: 0 10px 0 0; overflow: visible; word-wrap: normal; height: 100%; border: 0; text-align: center; position: relative; }
+.wmcrbtn .wmcrbtn_txt .changeblock { width: 34px; height: 28px; line-height: 28px; background: url('../img/btn.png') 0 -80px no-repeat; position: absolute; }
+/* --绿色-- */
+.green1 { background-position: 0 0; height: 28px; line-height: 28px; }
+.green1 .wmcrbtn_txt { background-position: right 0; text-align: right; padding-left: 30px; }
+.green1 .wmcrbtn_txt .changeblock { left: -7px; }
+
+.green2 { background-position: 0 -250px; height: 28px; line-height: 28px; padding-left: 15px; }
+.green2 .wmcrbtn_txt { background-position: right -250px; text-align: right; padding: 0 15px; margin-right: -10px; letter-spacing: 2px; color: #184D00; }
+.green2 .wmcrbtn_txt .changeblock { background-position: right -280px; left: -20px; width: 28px; height: 28px; top: 0; }
+
+.green3 { background-position: 0 -360px; height: 26px; line-height: 26px; padding-left: 15px; }
+.green3 .wmcrbtn_txt { background-position: right -360px; text-align: right; padding: 0 15px; margin-right: -10px; letter-spacing: 2px; }
+.green3 .wmcrbtn_txt .changeblock { background-position: right -400px; right: 0; width: 31px; height: 36px; top: -3px; }
+/* --红色-- */
+.red1 { background-position: 0 -40px; height: 28px; line-height: 28px; }
+.red1 .wmcrbtn_txt { background-position: right -40px; text-align: left; padding-right: 40px; }
+.red1 .wmcrbtn_txt .changeblock { background-position: right -80px; right: 3px; }
+/* --灰色-- */
+.gray1 { background-position: 0 -130px; height: 28px; line-height: 28px; }
+.gray1 .wmcrbtn_txt { background-position: right -130px; text-align: left; padding-right: 40px; color: #333; }
+.gray1 .wmcrbtn_txt .changeblock { background-position: right -170px; right: 3px; }
+
+.gray2 { background-position: 0 -210px; height: 28px; line-height: 28px; }
+.gray2 .wmcrbtn_txt { background-position: right -210px; text-align: left; padding: 0 30px 0 5px; color: #333; letter-spacing: 2px; }
+.gray2 .wmcrbtn_txt .changeblock { background-position: 0 -280px; right: -2px; width: 29px; height: 29px; top: 0; }
+
+/* --白色-- */
+.white1 { background-position: 0 -330px; height: 26px; line-height: 26px; padding-left: 15px; }
+.white1 .wmcrbtn_txt { background-position: right -330px; text-align: right; padding: 0 15px; margin-right: -10px; letter-spacing: 2px;color:#666 }
+.white1 .wmcrbtn_txt .changeblock { background-position: right -400px; left: -24px; width: 31px; height: 36px; top: -2px; }
