@@ -1,0 +1,21 @@
+﻿
+
+#listBox { overflow: hidden; padding-left: 10px; }
+#listBox .groupcheck { float: left; margin-top: 6px; }
+#listBox .groupindex { float: left; margin-top: 3px; margin-left: 9px; width: 20px; }
+#listBox .update, #listBox .del { float: right; float: right; margin: 4px 10px; }
+#listBox .form_row { float: left; clear: both; }
+#listBox .row_key { width: 120px; }
+#listBox .form_row .item_list { float:left;width:500px}
+#listBox .form_row .attr_item { display:inline-block;}
+.group_box { }
+.group_box ul { border: 1px solid #c0c0c0; width: 670px; margin: 20px 24px; padding: 10px 30px;position:relative }
+.group_box ul .groupname { margin-top: -20px; display: block; float: left; padding: 0 10px; background: #fff; }
+.group_box ul .btns { position:absolute;bottom:10px;right:10px;z-index:100}
+.group_box ul .btns .updatebtn { margin-right:20px}
+.group_box .appendbox { float:left;width:550px}
+.wm_form .group_type { vertical-align:middle}
+.main_con .right_head { margin-bottom:20px}
+.main_con .wm_form .form_txt { width:145px}
+
+.bright { color:#f00;font-weight:700}

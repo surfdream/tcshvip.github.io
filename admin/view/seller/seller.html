@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台管理系统</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/globalv2.css" />
+    <link type="text/css" rel="stylesheet" href="../public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../model/wmpage/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/stylev.css" />
+    <script type="text/javascript" src="../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="sellerlist"></script>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <a href="#">同城生活首页</a>
+                    <div class="user_data">
+                        <span>柴逸宁，欢迎你！</span>
+                    </div>
+                    <div class="user_btns">
+                        <a href="#">[退出]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="content_main">
+                    <div class="op_nav">
+                        <div class="op_nav_top">
+                            <a href="#">
+                                <img src="http://s.tcsh.me/admin/view/public/img/admin_wumeilogo.jpg" width="170" height="85">
+                            </a>
+
+                        </div>
+                        <ul class="op_nav_main">
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>品牌管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li class="curr"><a href="#">资料设置</a></li>
+                                    <li><a href="#">账号管理</a></li>
+                                    <li><a href="#">品牌故事</a></li>
+                                    <li><a href="#">特卖设置</a></li>
+                                    <li><a href="#">品牌点评</a></li>
+                                    <li><a href="#">品牌留言</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>商品管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">商品上架</a></li>
+                                    <li><a href="#">商品列表</a></li>
+                                    <li><a href="#">统计数据</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>交易管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">订单管理</a></li>
+                                    <li><a href="#">评价管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>推广管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">展位购买</a></li>
+                                    <li><a href="#">促销活动</a></li>
+                                    <li><a href="#">优惠设置</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>售后管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">投诉管理</a></li>
+                                    <li><a href="#">退款管理</a></li>
+                                    <li><a href="#">换币管理</a></li>
+                                    <li><a href="#">违规记录</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>同城生活银行</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">同城生活银行</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_con">
+                        <div class="brands_data_box">
+                            <div class="right_head">
+                                <h3 class="data_title">商家数据</h3>
+                            </div>
+                            <div class="right_tab">
+                                <a href="#" class="tab_key "><span class="ui_btn_txt">新增商家</span></a>
+                                <a href="#" class="tab_key ui_btn ui_btn_h36white3"><span class="ui_btn_txt">商家列表</span></a>
+                                <form class="wm_form">
+                                    <ul>
+                                        <li class="form_row">
+                                            <input type="text" class="form_txt">
+                                            <a href="#" class="search_btn">搜 索<i class="wm_ico magnifier1"></i></a>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <table class="right_table" cellpadding="0" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th class="w20"></th>
+                                        <th>用户名</th>
+                                        <th>企业名称</th>
+                                        <th>入驻时间</th>
+                                        <th>经营品牌</th>
+                                        <th>商家等级</th>
+                                        <th class="w115">操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" /></td>
+                                        <td>130016001@qq.com
+                                        </td>
+                                        <td class="red">鹤笪同城生活</td>
+                                        <td>2013-09-09</td>
+                                        <td class="yellow">李宁</td>
+                                        <td>100</td>
+                                        <td>
+                                            <div class="btn_list">
+                                                <a href="#" class="ui_btn ui_btn_h23yellow8 ui-widget-header portal"><span class="ui_btn_txt">编辑资料<span class="jquery-ui jquery-ui-triangle-1-s"></span></span></a>
+                                                <ul>
+                                                    <li class="btn_list_last">
+                                                        <a href="#">编辑资料</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">删除</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">重置密码</a>
+                                                    </li>
+                                                    <li class="btn_list_end">
+                                                        <a href="#">查阅商家</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="bafff">
+                                        <td colspan="3" class="textleft">
+                                            <input type="checkbox" class="allchk" id="allchk" />
+                                            <label class="allchk" for="allchk">全选</label>
+                                            <a href="#" class="ui_btn ui_btn_h27gray8"><span class="ui_btn_txt">批量删除</span></a>
+                                        </td>
+                                        <td colspan="4">
+                                            <div class="wm_page"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var adminConfig = {};
+        adminConfig.pageSize = 20;
+        adminConfig.pageIndex = 5;
+        adminConfig.pageSum = 4587;
+        adminConfig.pagekey = "pageindex";
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台管理系统</title>
+    <!--<link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_form/css/style.css" />
+    <script type="text/javascript" src="../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="group"></script>-->
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/attr/css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/admin/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/admin/view/attr/config.js" data-init="group"></script>
+
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="topDiv">
+            <div id="tmenu">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="centerDiv">
+
+            <div id="left">
+                <div id="lhead">管理菜单</div>
+                <ul>
+                    <li><a href="attr.html">属性设置</a></li>
+                    <li><a href="#"><b>属性分组</b></a></li>
+                    <li><a href="../class/class.html">定义类</a></li>
+                    <li><a href="../brands/brandslist.html">品牌列表</a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <div id="current">&nbsp;&nbsp;&nbsp;&nbsp;当前位置:属性分组</div>
+                <div id="page">
+                    <div class="wm_form addattr">
+                        <ul>
+                            <li class="form_row">
+                                <label class="row_key w150" for="">分组名称：</label>
+                                <input type="text" class="form_txt group_name" id="group_name" />
+                                <select class="form_sel group_type">
+                                    <option value="sel" title="属性是不可编辑只能让卖家选择的数据">属性</option>
+                                    <option value="rid" title="规格是可编辑，并且买家需要自行选择的数据">规格</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul id="listBox">
+                        </ul>
+                        <ul>
+                            <li class="form_row">
+                                <label class="row_key w150" for="">&nbsp;</label>
+                                <a href="#" class="ui_btn ui_btn_h40red1 submit">
+                                    <span class="ui_btn_txt">Submit</span></a>
+                                <a href="#" class="ui_btn ui_btn_h40red1 cancel">
+                                    <span class="ui_btn_txt">Cancel</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="group_box wm_form">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottomDiv"></div>
+    </div>
+</body>
+</html>

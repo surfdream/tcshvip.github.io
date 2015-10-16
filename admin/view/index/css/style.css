@@ -1,0 +1,21 @@
+.index_box { border:1px solid #a5c4f5}
+.sub_box_head h3 { margin:0 20px;padding:20px 0 10px 0;border-bottom:1px dashed #999}
+.new_brands_list { padding: 20px 0 0 20px; margin: 10px 0; background: #fff; overflow: hidden; }
+.new_brands_list li { float: left; margin-right: 20px; height: 45px;position:relative }
+.new_brands_list .new_brands_item { padding: 5px 10px; border: 1px solid #E23A3C; }
+.new_brands_list .close{ background: url('http://s.tcsh.me/tcsh/view/public/img/ico.png') right -640px; width: 16px; height: 16px; position: absolute; top: -8px; right: -8px; }
+.new_brands_list .red .new_brands_item{ border: 1px solid #E23A3C; }
+.new_brands_list .red .close { background-position: right -640px; }
+.new_brands_list .yellow .new_brands_item { border: 1px solid #E23A3C; }
+.new_brands_list .yellow .close { background-position: 0 -660px; }
+.new_brands_list .blue .new_brands_item{ border: 1px solid #E23A3C; }
+.new_brands_list .blue .close { background-position: right -660px; }
+
+.update_list { width:740px;margin:0 auto;margin-top:10px}
+.update_list .texteight { text-align:right}
+.update_list td{ padding:5px 0;width:60px}
+.wm_page { float:right;margin-top:15px}
+
+.btns { background:#efefef;margin-bottom:10px;padding:20px 0;text-align:center}
+.btns .ui_btn_h47yellow14 { margin-right:20px}
+.btns .ui_btn_txt { font-size:18px;padding:0 30px 0 25px}

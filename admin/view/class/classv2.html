@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台管理系统</title>
+    <!--<link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_form/css/style.css" />
+    <script type="text/javascript" src="../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="class"></script>-->
+     <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/css/globalv2.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/class/css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/admin/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/admin/view/class/config.js" data-init="class"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <a href="#">同城生活首页</a>
+                    <div class="user_data">
+                        <span>柴逸宁，欢迎你！</span>
+                    </div>
+                    <div class="user_btns">
+                        <a href="#">[退出]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="content_main">
+                    <div class="op_nav">
+                        <div class="op_nav_top">
+                            <a href="#">
+                                <img src="http://s.tcsh.me/admin/view/public/img/admin_wumeilogo.jpg" width="170" height="85">
+                            </a>
+
+                        </div>
+                        <ul class="op_nav_main">
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>品牌管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li class="curr"><a href="#">资料设置</a></li>
+                                    <li><a href="#">账号管理</a></li>
+                                    <li><a href="#">品牌故事</a></li>
+                                    <li><a href="#">特卖设置</a></li>
+                                    <li><a href="#">品牌点评</a></li>
+                                    <li><a href="#">品牌留言</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>商品管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">商品上架</a></li>
+                                    <li><a href="#">商品列表</a></li>
+                                    <li><a href="#">统计数据</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>交易管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">订单管理</a></li>
+                                    <li><a href="#">评价管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>推广管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">展位购买</a></li>
+                                    <li><a href="#">促销活动</a></li>
+                                    <li><a href="#">优惠设置</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>售后管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">投诉管理</a></li>
+                                    <li><a href="#">退款管理</a></li>
+                                    <li><a href="#">换币管理</a></li>
+                                    <li><a href="#">违规记录</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>同城生活银行</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">同城生活银行</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_con">
+                        <div class="brands_data_box">
+                            <div class="right_head">
+                                <h3 class="data_title">资料设置</h3>
+                            </div>
+                            <div class="wm_form ">
+                        <ul id="">
+                            <li class="form_row">
+                                <label class="row_key w150" for="">类名名称：</label>
+                                <input type="text" class="form_txt class_name" />
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key w150" for="">所属Class：</label>
+                                <select class="form_sel classparent topclass">
+                                    <option value="0">顶级</option>
+                                </select>
+                                <select class="form_sel classparent subclass">
+                                    <option value="0">无</option>
+                                </select>
+                            </li>
+                            <li class="form_row group_list">
+                                <label class="row_key w150" for="">属性组：</label>
+                                
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="form_row">
+                                <label class="row_key w150" for="">&nbsp;</label>
+                                <a href="#" class="ui_btn ui_btn_h40red1 submit">
+                                    <span class="ui_btn_txt">Submit</span></a>
+                                <a href="#" class="ui_btn ui_btn_h40red1 cancel">
+                                    <span class="ui_btn_txt">Cancel</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="class_box wm_form">
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

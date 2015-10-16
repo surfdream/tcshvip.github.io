@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台管理系统</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/globalv2.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/stylev2.css" />
+    <script type="text/javascript" src="../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="brandsadd"></script>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="head">
+            <div class="head_top">
+                <div class="sub_head_top">
+                    <a href="#">同城生活首页</a>
+                    <div class="user_data">
+                        <span>柴逸宁，欢迎你！</span>
+                    </div>
+                    <div class="user_btns">
+                        <a href="#">[退出]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_sub">
+                <div class="content_main">
+                    <div class="op_nav">
+                        <div class="op_nav_top">
+                            <a href="#">
+                                <img src="http://s.tcsh.me/admin/view/public/img/admin_wumeilogo.jpg" width="170" height="85">
+                            </a>
+
+                        </div>
+                        <ul class="op_nav_main">
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>品牌管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li class="curr"><a href="#">资料设置</a></li>
+                                    <li><a href="#">账号管理</a></li>
+                                    <li><a href="#">品牌故事</a></li>
+                                    <li><a href="#">特卖设置</a></li>
+                                    <li><a href="#">品牌点评</a></li>
+                                    <li><a href="#">品牌留言</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>商品管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">商品上架</a></li>
+                                    <li><a href="#">商品列表</a></li>
+                                    <li><a href="#">统计数据</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>交易管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">订单管理</a></li>
+                                    <li><a href="#">评价管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>推广管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">展位购买</a></li>
+                                    <li><a href="#">促销活动</a></li>
+                                    <li><a href="#">优惠设置</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>售后管理</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">投诉管理</a></li>
+                                    <li><a href="#">退款管理</a></li>
+                                    <li><a href="#">换币管理</a></li>
+                                    <li><a href="#">违规记录</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="onm_item_head">
+                                    <h3>同城生活银行</h3>
+                                </div>
+                                <ul class="onm_item_list">
+                                    <li><a href="#">同城生活银行</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_con">
+                        <div class="brands_data_box">
+                            <div class="right_head">
+                                <h3 class="data_title">资料设置</h3>
+
+                            </div>
+                            <div class="right_tab">
+                                <a href="#" class="tab_key ui_btn ui_btn_h36white3"><span class="ui_btn_txt">新增品牌</span></a>
+                                <a href="#" class="tab_key"><span class="ui_btn_txt">品牌列表</span></a>
+                            </div>
+                            <form class="wm_form" id="addb" action="/brand/create" method="post">
+                                <ul>
+                                    <li class="form_row">
+                                        <h3 class="row_key">基础资料</h3>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">品牌logo：</label>
+                                        <input type="text" name="img_logo" class="form_txt"><a class="form_file_btn" href="#">浏览</a>
+                                        <input type="file" class="form_file" data_key="brandlogo">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">品牌名：</label>
+                                        <input type="text" name="BrandName" class="form_txt" wmv="empty" wmvmsg="品牌名不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">品牌分类：</label>
+                                        <input type="checkbox" name="BrandType" id="checkbox1" value="1"><label class="chk_key" for="checkbox1">服装</label>
+                                        <input type="checkbox" name="BrandType" id="checkbox2" value="2"><label class="chk_key" for="checkbox2">鞋子</label>
+                                        <input type="checkbox" name="BrandType" id="checkbox3" value="3"><label class="chk_key" for="checkbox3">箱包</label>
+                                        <input type="checkbox" name="BrandType" id="checkbox4" value="4"><label class="chk_key" for="checkbox4">家纺</label>
+                                        <input type="checkbox" name="BrandType" id="checkbox5" value="5"><label class="chk_key" for="checkbox5">百货</label>
+                                    </li>
+
+                                    <li class="form_row">
+                                        <label class="row_key">企业名称：</label>
+                                        <input type="text" class="form_txt" name="Company" wmv="empty" wmvmsg="企业名称不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">邮箱：</label>
+                                        <input type="text" class="form_txt" name="Email" wmv="empty" wmvmsg="邮箱不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">品牌形象图：</label>
+                                        <input type="text" name="img_brand" class="form_txt"><a class="form_file_btn" href="#">浏览</a>
+                                        <input type="file" class="form_file" data_key="brandimage">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">创始人姓名：</label>
+                                        <input type="text" class="form_txt" name="Founder" wmv="empty" wmvmsg="创始人姓名不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">创始人头像：</label>
+                                        <input type="text" name="img_founderPhoto" class="form_txt"><a class="form_file_btn" href="#">浏览</a>
+                                        <input type="file" class="form_file" data_key="boss">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">创始人的话：</label>
+                                        <textarea class="form_textarea w300 " name="FounderSay" wmv="empty" wmvmsg="创始人的话不能为空！"></textarea>
+                                    </li>
+                                </ul>
+                                <div class="seg"></div>
+                                <ul>
+                                    <li class="form_row">
+                                        <h3 class="row_key">品牌故事</h3>
+
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">故事详情：</label>
+                                        <textarea class="form_textarea w300 " name="Story" wmv="empty" wmvmsg="故事详情不能为空！"></textarea>
+                                    </li>
+
+
+                                </ul>
+                                <div class="seg"></div>
+                                <ul>
+                                    <li class="form_row">
+                                        <h3 class="row_key">品牌档案</h3>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">中文名：</label>
+                                        <input type="text" class="form_txt" name="CnName" wmv="empty" wmvmsg="中文名不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">英文名：</label>
+                                        <input type="text" class="form_txt" name="EnName" wmv="empty" wmvmsg="英文名不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">国家：</label>
+                                        <input type="text" class="form_txt" name="Country" wmv="empty" wmvmsg="国家不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">创建年代：</label>
+                                        <input type="text" class="form_txt" name="Year" wmv="empty" wmvmsg="创建年代不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">产品类型：</label>
+                                        <input type="text" class="form_txt" name="Product" wmv="empty" wmvmsg="产品类型不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">企业总部：</label>
+                                        <input type="text" class="form_txt" name="HeadQuarter" wmv="empty" wmvmsg="企业总部不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">品牌所属集团：</label>
+                                        <input type="text" class="form_txt" name="BelongGroup" wmv="empty" wmvmsg="品牌所属集团不能为空！">
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">备注：</label>
+                                        <textarea class="form_textarea w300 " name="Remark" wmv="empty" wmvmsg="备注不能为空！"></textarea>
+                                    </li>
+                                    <li class="form_row">
+                                        <label class="row_key">&nbsp;</label>
+                                        <span class="ui_btn ui_btn_h35yellow9">
+                                            <input type="submit" class="ui_btn_txt" value="提交"></span>
+                                    </li>
+                                </ul>
+                                <div class="seg"></div>
+                                <input type="hidden" name="id" value="0">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

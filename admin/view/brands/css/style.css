@@ -1,0 +1,13 @@
+﻿#addb { width: 900px; margin: 20px auto 10px auto; }
+#addb .row_key { width: 150px; }
+
+.hover_logo { overflow: hidden; width: 888px; margin: 20px auto 10px auto; }
+.hover_logo ul { overflow: hidden; }
+.hover_logo li { float: left; cursor: pointer; margin: 5px; }
+.hover_logo .logo_name { display: none; height: 70px; line-height: 70px; width: 140px; text-align: center; cursor: pointer; }
+.hover_logo .logo_item { border: 1px solid #ccc; display: block; width: 140px; height: 70px; margin: 2px; text-decoration: none; }
+.hover_logo .logo_item:hover { border: 2px solid red; margin: 1px; }
+.hover_logo .logo_item:hover img { display: none; }
+.hover_logo .logo_item:hover .logo_name { display: block; }
+.hover_logo .logo_item img { width: 140px; height: 70px; }
+.btns { width: 900px; margin: 20px auto 0px auto; }

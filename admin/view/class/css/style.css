@@ -1,0 +1,16 @@
+﻿#listBox { width: 700px; margin-left: 150px; }
+.listitem { cursor: pointer; position: relative; display: block; float: left; line-height: 26px; background: #e0e0e0; padding: 5px 12px; border-radius: 6px; border: 1px solid #ccc; text-decoration: none; margin: 10px; }
+.showEle .listitem a { margin: 0; font-size: 12px; display: block; width: 10px; height: 10px; top: -5px; right: -7px; position: absolute; background: #cc0404; border-radius: 8px; line-height: 9px; text-align: center; padding: 2px; color: #fff; }
+.showEle .del { margin-top: 14px; display: block; width: 30px; height: 30px; border-radius: 6px; background: #cc0404; border: 1px solid #b00000; color: #fff; font-size: 20px; text-align: center; float: right; }
+.class_box { }
+.class_box ul { border: 1px solid #c0c0c0; width: 670px; margin: 20px 24px; padding: 10px 30px; }
+.class_box ul li.form_row { padding-top: 20px; }
+.class_box .row_key { line-height: 60px; }
+.class_box .class_name input{border:1px solid #fff;padding:2px;width:80px;font-weight:700;font-size:18px }
+.class_box .class_name input.ac { border:1px solid red;}
+.class_box .form_row .class_name input { font-size:14px;width:60px;text-align:right;font-weight:500}
+#showAttrList { }
+#showAttrList .wmBox-botton { text-align: center; }
+.main_con .right_head { margin-bottom:20px}
+/*.group_list { float:left;width:600px}*/
+

@@ -1,0 +1,156 @@
+﻿/* --全局-- */
+.ui_btn { cursor: pointer; position: relative; background: url('../img/wm_btn1.png') no-repeat; display: inline-block; padding-left: 5px; margin-right: 5px; _overflow-y: hidden; word-wrap: normal; text-decoration: none; }
+.ui_btn .ui_btn_txt { font-family: 'Microsoft YaHei' SimSun; cursor: pointer; position: relative; vertical-align: top; display: inline-block; background: url('../img/wm_btn1.png') no-repeat; color: #fff; margin: 0 -5px 0 0; padding: 0 10px 0 5px; overflow: visible; word-wrap: normal; height: 100%; border: 0; text-align: center; }
+.ui_btn:hover { text-decoration: none; }
+/* --红色-- */
+.ui_btn_h40red1 { background-position: 0 0; height: 40px; line-height: 40px; }
+.ui_btn_h40red1 .ui_btn_txt { background-position: right 0; line-height: 40px; }
+
+
+.ui_btn_h40red2 { background-position: 0 -100px; height: 40px; line-height: 40px; }
+.ui_btn_h40red2 .ui_btn_txt { background-position: right -100px; line-height: 40px; }
+
+.ui_btn_h25red3 { background-position: 0 -200px; height: 25px; line-height: 25px; padding-left: 8px; }
+.ui_btn_h25red3 .ui_btn_txt { background-position: right -200px; line-height: 25px; }
+
+.ui_btn_h25red4 { background-position: 0 -490px; height: 25px; line-height: 25px; }
+.ui_btn_h25red4 .ui_btn_txt { background-position: right -490px; line-height: 25px; }
+
+.ui_btn_h29red5 { background-position: 0 -550px; height: 29px; line-height: 29px; }
+.ui_btn_h29red5 .ui_btn_txt { background-position: right -550px; line-height: 29px; }
+
+.ui_btn_h23red6 { background-position: 0 -700px; height: 23px; line-height: 23px; }
+.ui_btn_h23red6 .ui_btn_txt { background-position: right -700px; line-height: 23px; font-size: 12px; }
+
+.ui_btn_h20red7 { background-position: 0 -780px; height: 20px; line-height: 20px; }
+.ui_btn_h20red7 .ui_btn_txt { background-position: right -780px; line-height: 20px; font-size: 12px; }
+
+.ui_btn_h46red8 { background-position: 0 -940px; height: 46px; line-height: 46px; }
+.ui_btn_h46red8 .ui_btn_txt { background-position: right -940px; line-height: 46px; }
+
+.ui_btn_h27red9 { background-position: 0 -1060px; height: 27px; line-height: 27px; }
+.ui_btn_h27red9 .ui_btn_txt { background-position: right -1060px; line-height: 27px; font-size: 14px; }
+
+.ui_btn_h22red10 { background-position: 0 -60px; height: 22px; line-height: 22px; }
+.ui_btn_h22red10 .ui_btn_txt { background-position: right -60px; line-height: 22px; font-size: 14px; }
+
+.ui_btn_h29red11 { background-position: 0 -1100px; height: 29px; line-height: 29px; }
+.ui_btn_h29red11 .ui_btn_txt { background-position: right -1100px; line-height: 29px; font-size: 14px; color: #323232; }
+
+.ui_btn_h26red12 { background-position: 0 -1240px; height: 26px; line-height: 26px; }
+.ui_btn_h26red12 .ui_btn_txt { background-position: right -1240px; line-height: 26px; }
+
+.ui_btn_h37red13 { background-position: 0 -1670px; height: 37px; line-height: 37px; }
+.ui_btn_h37red13 .ui_btn_txt { background-position: right -1670px; line-height: 37px; }
+/* --黄色-- */
+.ui_btn_h29yellow1 { background-position: 0 -275px; height: 29px; line-height: 29px; }
+.ui_btn_h29yellow1 .ui_btn_txt { background-position: right -275px; line-height: 29px; }
+
+.ui_btn_h28yellow2 { background-position: 0 -370px; height: 28px; line-height: 28px; }
+.ui_btn_h28yellow2 .ui_btn_txt { background-position: right -370px; line-height: 28px; }
+
+.ui_btn_h20yellow3 { background-position: 0 -430px; height: 20px; line-height: 20px; *line-height: 24px; }
+.ui_btn_h20yellow3 .ui_btn_txt { background-position: right -430px; line-height: 20px; font-size: 12px; *line-height: 24px; }
+
+.ui_btn_h33yellow4 { background-position: 0 -620px; height: 33px; line-height: 33px; }
+.ui_btn_h33yellow4 .ui_btn_txt { background-position: right -620px; line-height: 33px; }
+
+.ui_btn_h23yellow5 { background-position: 0 -860px; height: 23px; line-height: 23px; padding-left: 7px; }
+.ui_btn_h23yellow5 .ui_btn_txt { background-position: right -860px; line-height: 23px; font-size: 12px; padding-right: 7px; }
+
+.ui_btn_h16yellow6 { background-position: 0 -460px; height: 16px; line-height: 16px; padding-left: 8px; }
+.ui_btn_h16yellow6 .ui_btn_txt { background-position: right -460px; line-height: 16px; font-size: 10px; }
+
+.ui_btn_h25yellow7 { background-position: 0 -820px; height: 25px; line-height: 25px; padding-left: 2px; }
+.ui_btn_h25yellow7 .ui_btn_txt { background-position: right -820px; line-height: 25px; font-size: 12px; }
+
+.ui_btn_h23yellow8 { background-position: 0 -900px; height: 23px; line-height: 23px; padding-left: 2px; }
+.ui_btn_h23yellow8 .ui_btn_txt { background-position: right -900px; line-height: 23px; font-size: 12px; }
+
+.ui_btn_h35yellow9 { background-position: 0 -730px; height: 35px; line-height: 35px; }
+.ui_btn_h35yellow9 .ui_btn_txt { background-position: right -730px; line-height: 35px; font-size: 14px; }
+
+.ui_btn_h22yellow10 { background-position: 0 -1000px; height: 22px; line-height: 22px; }
+.ui_btn_h22yellow10 .ui_btn_txt { background-position: right -1000px; line-height: 22px; }
+
+.ui_btn_h35yellow11 { background-position: 0 -1190px; height: 35px; line-height: 35px; }
+.ui_btn_h35yellow11 .ui_btn_txt { background-position: right -1190px; line-height: 35px; }
+.ui_btn_h35yellow11:hover { background-position: 0 -730px; }
+.ui_btn_h35yellow11:hover .ui_btn_txt { background-position: right -730px; }
+
+.ui_btn_h26yellow12 { background-position: 0 -1580px; height: 26px; line-height: 26px; }
+.ui_btn_h26yellow12 .ui_btn_txt { background-position: right -1580px; line-height: 26px; }
+
+.ui_btn_h32yellow13 { background-position: 0 -1770px; height: 32px; line-height: 32px; }
+.ui_btn_h32yellow13 .ui_btn_txt { background-position: right -1770px; line-height: 32px; }
+
+.ui_btn_h47yellow14 { background-position: 0 -1860px; height: 47px; line-height: 47px; }
+.ui_btn_h47yellow14 .ui_btn_txt { background-position: right -1860px; line-height: 47px; }
+
+.ui_btn_h35yellow15 { background-position: 0 -2000px; height: 35px; line-height: 35px; }
+.ui_btn_h35yellow15 .ui_btn_txt { background-position: right -2050px; line-height: 29px; padding:0 30px 0 25px;font-size:12px}
+
+/* --灰色-- */
+.ui_btn_h23gray1 { background-position: 0 -1150px; height: 23px; line-height: 23px; padding-left: 7px; *line-height: 27px; }
+.ui_btn_h23gray1 .ui_btn_txt { background-position: right -1150px; line-height: 23px; font-size: 12px; padding-right: 7px; *line-height: 27px; }
+
+.ui_btn_h19gray2 { background-position: 0 -240px; height: 19px; line-height: 19px; }
+.ui_btn_h19gray2 .ui_btn_txt { background-position: right -240px; line-height: 19px; font-size: 12px; }
+
+.ui_btn_h19gray3 { background-position: 0 -320px; height: 20px; line-height: 20px; }
+.ui_btn_h19gray3 .ui_btn_txt { background-position: right -320px; line-height: 20px; font-size: 12px; }
+
+.ui_btn_h35gray4 { background-position: 0 -660px; height: 35px; line-height: 35px; }
+.ui_btn_h35gray4 .ui_btn_txt { background-position: right -660px; line-height: 35px; }
+
+.ui_btn_h35gray5 { background-position: 0 -580px; height: 35px; line-height: 35px; }
+.ui_btn_h35gray5 .ui_btn_txt { background-position: right -580px; line-height: 35px; }
+
+.ui_btn_h22gray6 { background-position: 0 -520px; height: 22px; line-height: 22px; }
+.ui_btn_h22gray6 .ui_btn_txt { background-position: right -520px; line-height: 22px; font-size: 14px; }
+.ui_btn_h22gray6:hover { background-position: 0 -60px; }
+.ui_btn_h22gray6:hover .ui_btn_txt { background-position: right -60px;  }
+
+.ui_btn_h22gray7 { background-position: 0 -1030px; height: 22px; line-height: 22px; }
+.ui_btn_h22gray7 .ui_btn_txt { background-position: right -1030px; line-height: 22px; }
+
+.ui_btn_h27gray8 { background-position: 0 -1280px; height: 27px; line-height: 27px; }
+.ui_btn_h27gray8 .ui_btn_txt { background-position: right -1280px; line-height: 27px; color: #272727; }
+
+.ui_btn_h21gray9 { background-position: 0 -1320px; height: 21px; line-height: 21px; }
+.ui_btn_h21gray9 .ui_btn_txt { background-position: right -1320px; line-height: 21px; color: #272727; font-size: 12px; }
+
+.ui_btn_h23gray10 { background-position: 0 -1350px; height: 23px; line-height: 23px; }
+.ui_btn_h23gray10 .ui_btn_txt { background-position: right -1350px; line-height: 23px; }
+
+.ui_btn_h26gray11 { background-position: 0 -1540px; height: 26px; line-height: 26px; }
+.ui_btn_h26gray11 .ui_btn_txt { background-position: right -1540px; line-height: 26px; }
+.ui_btn_h26gray11:hover { background-position: 0 -1580px; }
+.ui_btn_h26gray11:hover .ui_btn_txt { background-position: right -1580px; }
+
+.ui_btn_h37gray12 { background-position: 0 -1720px; height: 37px; line-height: 37px; }
+.ui_btn_h37gray12 .ui_btn_txt { background-position: right -1720px; line-height: 37px; }
+
+.ui_btn_h32gray13 { background-position: 0 -1810px; height: 32px; line-height: 32px; }
+.ui_btn_h32gray13 .ui_btn_txt { background-position: right -1810px; line-height: 32px; }
+
+.ui_btn_h47gray14 { background-position: 0 -1930px; height: 47px; line-height: 47px; }
+.ui_btn_h47gray14 .ui_btn_txt { background-position: right -1930px; line-height: 47px; }
+/* --白色-- */
+.ui_btn_h28white1 { background-position: 0 -160px; height: 28px; line-height: 28px; }
+.ui_btn_h28white1 .ui_btn_txt { background-position: right -160px; line-height: 28px; color: #131313; }
+
+.ui_btn_h36white2 { background-position: 0 -1390px; height: 36px; line-height: 36px; }
+.ui_btn_h36white2 .ui_btn_txt { background-position: right -1390px; line-height: 36px; color: #131313; }
+
+.ui_btn_h36white3 { background-position: 0 -1620px; height: 36px; line-height: 36px; }
+.ui_btn_h36white3 .ui_btn_txt { background-position: right -1620px; line-height: 36px; color: #131313; }
+
+/* --褐色-- */
+.ui_btn_h34brown1 { background-position: 0 -1440px; height: 34px; line-height: 34px; }
+.ui_btn_h34brown1 .ui_btn_txt { background-position: right -1440px; line-height: 34px; color: #fff; }
+.ui_btn_h34brown1:hover { background-position: 0 -1490px; height: 34px; line-height: 34px; }
+.ui_btn_h34brown1:hover .ui_btn_txt { background-position: right -1490px; line-height: 34px; color: #fff; }
+
+.ui_btn_h34brown2 { background-position: 0 -1490px; height: 34px; line-height: 34px; }
+.ui_btn_h34brown2 .ui_btn_txt { background-position: right -1490px; line-height: 34px; color: #fff; }

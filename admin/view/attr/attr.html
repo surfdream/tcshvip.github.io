@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台管理系统</title>
+    <!--<link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="attr"></script>-->
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/admin/view/attr/css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/admin/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/admin/view/attr/config.js" data-init="attr"></script>
+    <style>
+       
+       
+    </style>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="topDiv">
+            <div id="tmenu">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="centerDiv">
+
+            <div id="left">
+                <div id="lhead">管理菜单</div>
+                <ul>
+                    <li><a href="#"><b>属性设置</b></a></li>
+                    <li><a href="groupattr.html">属性分组</a></li>
+                    <li><a href="../class/class.html">定义类</a></li>
+                    <li><a href="../brands/brandslist.html">品牌列表</a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <div id="current">&nbsp;&nbsp;&nbsp;&nbsp;当前位置:属性设置</div>
+                <div id="page">
+                    <div class="wm_form addattr">
+                        <ul id="setattr">
+                            <li class="form_row">
+                                <label class="row_key w150" for="">属性名称：</label>
+                                <input type="text" class="form_txt attr_name" />
+                                <select class="form_sel attr_show_type">
+                                    <option value="sel">下拉框</option>
+                                    <option value="rid">单选钮</option>
+                                    <option value="chk">复选框</option>
+                                    <option value="txt">文本框</option>
+                                </select>
+                                <a href="#" class="ui_btn ui_btn_h23yellow8 confirm_attr_name"><span class="ui_btn_txt">创建</span></a>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li class="form_row">
+                                <label class="row_key w150" for="">&nbsp;</label>
+                                <a href="#" class="ui_btn ui_btn_h40red1 submit">
+                                    <span class="ui_btn_txt">Submit</span></a>
+                                <a href="#" class="ui_btn ui_btn_h40red1 cancel">
+                                    <span class="ui_btn_txt">Cancel</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wm_form">
+                        <ul id="listBox">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottomDiv"></div>
+    </div>
+</body>
+</html>

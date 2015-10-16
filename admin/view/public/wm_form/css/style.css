@@ -1,0 +1,33 @@
+﻿.wm_form { color: #6d6161; font-size: 14px; }
+.wm_form input { display: inline-block; vertical-align: middle; }
+.wm_form .form_row { line-height: 25px; overflow: hidden; padding: 5px 0; clear: both; position: relative;_zoom:1 }
+.wm_form .floatleft { float: left; }
+.wm_form .row_key { display: block; float: left; width: 80px; text-align: right; padding-right: 10px; font-size: 14px; }
+.wm_form .form_must { font-weight: 500; color: #e13436; padding: 0 5px; }
+.wm_form .form_txt { padding: 2px; }
+.wm_form .rad_key, .wm_form .chk_key { padding: 0 10px; display: inline-block; vertical-align: middle; }
+.wm_form .form_textarea { width: 200px; height: 70px; resize: none; padding: 5px; }
+.wm_form .form_file { opacity: 0; filter: alpha(opacity=0); position: absolute; top: 0; left: 0; }
+.wm_form .form_file_btn { margin: 0 5px; width: 70px; height: 25px; line-height: 25px; background: #838383; display: inline-block; vertical-align: middle; text-align: center; color: #fff; font-size: 12px; font-weight: 700; text-decoration: none; }
+.wm_form .form_file_btn:hover { background: #f37d14; }
+.wm_form .form_sel { padding: 2px; vertical-align: middle; *zoom: 1; }
+.wm_form .err_msg { color: #e13436; font-size: 12px; padding: 0 10px; font-family: SimSun; }
+.wm_form .v_code { display: inline-block; vertical-align: middle; margin: 0 10px; }
+.wm_form .v_code, .wm_form .v_code img { width: 60px; height: 30px; }
+.wm_form .text_align_c { text-align: center!important; }
+.wm_form .w30 { width: 30px!important; }
+.wm_form .w50 { width: 50px!important; }
+.wm_form .w80 { width: 80px!important; }
+.wm_form .w90 { width: 90px!important; }
+.wm_form .w100 { width: 100px!important; }
+.wm_form .w150 { width: 150px!important; }
+.wm_form .w180 { width: 180px!important; }
+.wm_form .w200 { width: 200px!important; }
+.wm_form .w250 { width: 250px!important; }
+.wm_form .w300 { width: 300px!important; }
+.wm_form .w410 { width: 410px!important; }
+.wm_form .w440 { width: 440px!important; }
+.wm_form .w500 { width: 500px!important; }
+.wm_form .w550 { width: 550px!important; }
+.wm_form .w610 { width: 610px!important; }
+.wm_form .btn25_25 { background: #fff; font-size: 28px; margin-left: 5px; font-weight: 700; color: #e13436; font-family: SimHei; width: 23px; line-height: 23px; height: 23px; border: 1px #a8a8a8 solid; display: inline-block; text-align: center; vertical-align: middle; text-decoration: none; }

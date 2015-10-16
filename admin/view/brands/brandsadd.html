@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台管理系统</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="../../model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="config.js" data-init="brandsadd"></script>
+    <style>
+        body { overflow: hidden; }
+    </style>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="topDiv">
+            <div id="tmenu">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="centerDiv">
+
+            <div id="left">
+                <div id="lhead">管理菜单</div>
+                <ul>
+                    <li><a href="../attr/attr.html">属性设置</a></li>
+                    <li><a href="../attr/groupattr.html">属性分组</a></li>
+                    <li><a href="../class/class.html">定义类</a></li>
+                    <li><a href="#"><b>品牌列表</b></a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <div id="current">&nbsp;&nbsp;&nbsp;&nbsp;当前位置:品牌列表</div>
+                <div id="page">
+                    <form class="wm_form" id="addb">
+                        <div class="right_head">
+                            <h3 class="data_title">品牌基础数据</h3>
+                        </div>
+                        <div class="seg seg_notop"></div>
+                        <ul>
+                            <li class="form_row">
+                                <h3 class="row_key">基础资料</h3>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">品牌logo：</label>
+                                <input type="text" class="form_txt"><a class="form_file_btn" href="#">浏览</a>
+                                <input type="file" class="form_file" data_key="brandlogo"/>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">品牌名：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">产品类型：</label>
+                                <input type="checkbox" name="xx" id="checkbox1"><label class="chk_key" for="checkbox1">服装</label>
+                                <input type="checkbox" name="xx" id="checkbox2"><label class="chk_key" for="checkbox2">鞋子</label>
+                                <input type="checkbox" name="xx" id="checkbox3"><label class="chk_key" for="checkbox3">箱包</label>
+                                <input type="checkbox" name="xx" id="checkbox4"><label class="chk_key" for="checkbox4">家纺</label>
+                                <input type="checkbox" name="xx" id="checkbox5"><label class="chk_key" for="checkbox5">百货</label>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">企业名称：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">邮箱：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">品牌形象图：</label>
+                                <input type="text" class="form_txt"><a class="form_file_btn" href="#">浏览</a>
+                                <input type="file" class="form_file" data_key="brandimage" />
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">创始人姓名：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">创始人头像：</label>
+                                <input type="text" class="form_txt"><a class="form_file_btn" href="#">浏览</a>
+                                <input type="file" class="form_file"  data_key="boss"/>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">创始人的话：</label>
+                                <textarea class="form_textarea w300 "></textarea>
+                            </li>
+                        </ul>
+                        <div class="seg"></div>
+                        <ul>
+                            <li class="form_row">
+                                <h3 class="row_key">品牌故事</h3>
+
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">故事详情：</label>
+                                <textarea class="form_textarea w300 "></textarea>
+                            </li>
+
+
+                        </ul>
+                        <div class="seg"></div>
+                        <ul>
+                            <li class="form_row">
+                                <h3 class="row_key">品牌档案</h3>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">中文名：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">英文名：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">国家：</label>
+                                <input type="text" class="form_txt" value="中华人民共和国">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">创建年代：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">产品类型：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">企业总部：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">品牌所属集团：</label>
+                                <input type="text" class="form_txt">
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">备注：</label>
+                                <textarea class="form_textarea w300 "></textarea>
+                            </li>
+                            <li class="form_row">
+                                <label class="row_key">&nbsp;</label>
+                                <span class="ui_btn ui_btn_h35yellow9"><input type="submit"  class="ui_btn_txt" value="提交"/></span>
+                            </li>
+                        </ul>
+                        <input type="hidden" id="brandlogo" />
+                        <input type="hidden" id="brandimage" />
+                        <input type="hidden" id="boss" />
+                        <div class="seg"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="bottomDiv"></div>
+    </div>
+</body>
+</html>
