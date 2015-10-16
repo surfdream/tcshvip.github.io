@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        body { width: 10000px; height: 100000px; }
+        .parxxx { width: 300px; height: 300px; border: 1px solid #475896; margin: 10px; }
+        .wmchangewhbox { width: 200px; height: 200px; border: 1px solid red; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="wmchangewhbox wmchangewhbox1"></div>
+        <div class="wmchangewhbox wmchangewhbox3"></div>
+        <div class="parxxx">
+            <div class="wmchangewhbox wmchangewhbox2"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            var cutout;
+            var $img = $("img");
+            var $cutout_range = $(".cutout_range");
+            seajs.config({ base: '../wmchangewhbox', debug: 2 });
+            seajs.use('src/wmchangewhbox.js', function (wmchangewhbox) {
+                wmchangewhbox.create({
+                    changeEle: '.wmchangewhbox1'
+                });
+                wmchangewhbox.create({
+                    changeEle: '.wmchangewhbox3',
+                    changePX: function () {
+                        var self = this;
+                        var x = (this.pageX - this.offsetX - this.outerWidth) + (this.pageY - this.offsetY - this.outerHeight);
+                        return {
+                            Width: self.width + x/2,
+                            Height: self.height + x/2
+                        }
+                    }
+                });
+                wmchangewhbox.create({
+                    changeEle: '.wmchangewhbox2',
+                    paeentBox: ".parxxx"
+                });
+            });
+
+        });
+    </script>
+</body>
+</html>
