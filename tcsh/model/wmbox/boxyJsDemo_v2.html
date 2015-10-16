@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="../lib/jquery/jquery-1.8.3.min.js"></script>
+    <style type="text/css">
+        .red { color: red; font-weight: 500; }
+        .msg { font-size: 14px; line-height: 30px; text-align: center; padding: 30px 45px 0; width: 500px; }
+        #xx .wmBox-title { padding-left: 10px; }
+        #xx .wmBox-botton { text-align: center; }
+        #xx .h46red1 .ui_btn_txt { padding: 0 25px; }
+    </style>
+</head>
+<body>
+    <a href="#" id="xx">弹窗</a>
+    <a href="#" id="testBUG1">testBUG1</a>
+    <a href="#" id="testBUG2">testBUG2</a>
+    <a href="#" id="xxxx">无痕迹弹窗</a>
+    <a href="#" class="xxx" style="position: absolute; top: 200px; left: 1300px">依赖</a>
+    <a href="#" class="xxx" style="position: absolute; top: 200px; left: 300px">依赖</a>
+    <script type="text/javascript">
+        $(function () {
+
+            seajs.config({ base: '../wmbox' });
+            seajs.use('src/wmbox_v2.js', function (box) {
+                $("#xx").click(function () {
+                    box.alert({
+                        boxId: "xx",
+                        boxCls: "xxxx",
+                        titleText: "邀请发送成功",
+                        content: '<p class="msg">在您的朋友成功注册同城生活之后，<b class=red>你将立即获得50*N同城生活金币！</b><br>感谢您的推广，请您继续关注同城生活，我们将为您提供最精美的品牌商品。</p>',
+                        btns: [
+                            {
+                                cls: "ui_btn_h29red5", text: "确定", callback: function ($this) {
+                                    var self = this;
+                                    box.relyBox({
+                                        rely: $this,
+                                        content: '<p class="relymsg">你确定要<b class=red>XXX</b><br>继续请按确定，取消则按取消</p>',
+                                        "btns": [
+                                           { cls: "ui_btn_h22red10", res: "close", text: "确定1", callback: function () { self.close() } },
+                                           { cls: "ui_btn_h22red10", res: "close", text: "确定2", callback: function () { alert(2) } },
+                                           { cls: "ui_btn_h22gray6", res: "close", text: "取消", callback: function () { alert(3) } }
+                                        ]
+                                    });
+
+                                }
+                            }//,
+                            //{
+                            //    cls: "ui_btn_h35gray4", text: "取消", res: "close", callback: function () {
+                            //        alert(2);
+
+                            //    }
+                            //}
+                        ]
+                    });
+                });
+                $(".xxx").click(function () {
+                    var self = this;
+                    box.relyBox({
+                        rely: self,
+                        content: '<p class="relymsg">你确定要<b class=red>XXX</b><br>继续请按确定，取消则按取消</p>',
+                        "btns": [
+                           { cls: "ui_btn_h22red10", res: "close", text: "确定1", callback: function () { $("#xx").click() } },
+                           { cls: "ui_btn_h22red10", res: "close", text: "确定2", callback: function () { alert(2) } },
+                           { cls: "ui_btn_h22gray6", res: "close", text: "取消", callback: function () { alert(3) } }
+                        ]
+                    });
+                });
+                $("#xxxx").click(function () {
+                    box.invBox({
+                        content: '<p class="msg">在您的朋友成功注册同城生活之后，<b class=red>你将立即获得50*N同城生活金币！</b><br>感谢您的推广，请您继续关注同城生活，我们将为您提供最精美的品牌商品。</p>'
+                    })
+                });
+
+                $("#testBUG1").click(function () {
+                    var $this = $(this),
+                        _box = $this.data("box");
+                    if (!_box) {
+                        _box = box.alert({
+                            boxId: "xx",
+                            boxCls: "xxxx",
+                            content: '<p class="msg">测试重复创建和不重复创建 同时存在的时候 无法关闭的BUG</p>',
+                            btns: [],
+                            callback: function () {
+                                this.close = this.hide;
+                            }
+                        });
+                        $this.data("box", _box);
+                    }
+                    _box.show();
+                });
+                $("#testBUG2").click(function () {
+                    var $this = $(this);
+                    _box = box.alert({
+                        boxId: "xx",
+                        boxCls: "xxxx",
+                        content: '<p class="msg">测试重复创建和不重复创建 同时存在的时候 无法关闭的BUG</p>',
+                        btns: [],
+                        callback: function () {
+                            
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

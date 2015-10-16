@@ -1,0 +1,20 @@
+﻿body { _height: 100%; }
+.wmBox { z-index: 1000; _overflow: hidden; padding-top: 40px; padding-bottom: 70px; background: #fff; min-width: 120px; max-width: 800px; position: fixed; _position: absolute; top: 50%; left: 50%; -moz-box-shadow: 0px 0px 8px #333333; -webkit-box-shadow: 0px 0px 8px #333333; box-shadow: 0px 0px 8px #333333; border-radius: 5px; }
+.wmBox .wmBox-head { float: left; _clear: both; _width: 100%; top: 0; position: absolute; left: 0; right: 0; max-width: 800px; min-width: 210px; height: 40px; background: url('../img/box_bg.png') 0 0; }
+.wmBox .wmBox-head .wmBox-title { width: 90%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; height: 40px; line-height: 40px; vertical-align: middle; float: left; margin: 0; margin-left: 20px; _margin-left: 12px; font-size: 14px; color: #fff; }
+.wmBox .wmBox-head .close, .wmBox .wmBox-head .hide { font-size: 26px; top: 0; right: 0; position: absolute; height: 40px; line-height: 40px; vertical-align: middle; margin: 0 12px 0 0; font-weight: 500; color: #fff; text-decoration: none; }
+.wmBox .wmBox-head .close:hover, .wmBox .wmBox-head .hide:hover { text-shadow: 0px 0px 10px #FFFFFF; }
+.wmBox .wmBox-content { margin: 10px; font-size: 12px; min-height: 60px; min-width: 190px; word-wrap: break-word; }
+.wmBox .wmBox-content .wmBox-prompt-text { width: 95%; }
+.wmBox .wmBox-botton { float: left; _width: 100%; text-align: right; max-width: 800px; min-width: 180px; bottom: 10px; position: absolute; left: 10px; right: 10px; }
+.wmBox .ui_btn { margin: 0 5px; }
+/*.wmBox .wmBox-botton .sure { background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f ); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f)); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.wmBox .wmBox-botton .close { background-image: -moz-linear-gradient(top, #bbbcb9, #545454 ); background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#bbbcb9), to(#545454), color-stop(0.3,#B0B0B0)); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }*/
+.wmBox-mask { top: 0; top: expression(eval(document.documentElement.scrollTop)); bottom: 0; left: 0; right: 0; position: fixed; _position: absolute; z-index: 999; _height: 100%; _width: 100%; _zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000'); background: rgba(0,0,0,0.8); }
+
+/* --依赖-- */
+.wm_relyBox { padding-top: 0; border-radius: 0; position: absolute; zoom: 1; border: 1px solid #999; }
+.wm_relyBox .wmBox-content { min-height: 40px; line-height: 22px; }
+.wm_relyBox .wmBox-botton { text-align: left; }
+
+.invBox { background: #fff; padding: 0; min-height: 0; min-width: 0; border: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius: 0; max-width: none; max-height: none; }
