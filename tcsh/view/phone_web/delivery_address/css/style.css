@@ -1,0 +1,14 @@
+﻿.ad_list_box { }
+.ad_list_box .list_head, .form_head { background: #efefef; padding: 8px; border: 1px solid #ccc; }
+.ad_list_box .list_head h3, .form_head h3 { font-weight: 500; color: #999; }
+.form_head { border-top: none; }
+.ad_list { }
+.ad_list .ad_item { padding: 10px; border-bottom: 1px solid #ccc; position: relative; }
+.ad_list .ad_item p { line-height: 30px; color: #666; }
+.ad_list .ad_item b { font-size: 16px; padding-right: 20px; }
+.ad_list .ad_item .iconfont { position: absolute; top: 30px; right: 20px; color: #fff; display: none; font-size: 18px; }
+.ad_list .curr .iconfont { display: block; }
+.ad_list .curr { background: #ff7676; color: #fff; }
+.ad_list .curr p, .ad_list .curr b { color: #fff; }
+.wm_form .row_key { width: 90px; }
+#submit { background:-webkit-gradient(linear,0% 0%, 0% 100%, from(#FFAA00), to(#DE7E00), color-stop(0.6,#E89B00)); width: 90%; border: none; color: #fff; font-size: 20px; font-family: 'Microsoft YaHei'; padding: 10px 0;margin:0 auto;display:block }

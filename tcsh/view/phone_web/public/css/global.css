@@ -1,0 +1,16 @@
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, select { padding: 0; margin: 0; list-style: none; }
+/*global*/
+body { font: 12px/18px "Microsoft YaHei",SimSun,"sans-serif",HELVETICA; display: table; width: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+input, select, textarea { outline: none; }
+a, a:link, a:active, a:visited { text-decoration: none; color: #505050; font-size: 12px; outline: none; }
+a:hover { text-decoration: underline; }
+img { border: 0; }
+#page { width: 100%; position: relative; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
+header { background: #e13436; overflow: hidden; }
+header h1 { color: #fff; float: left; line-height: 70px; font-size: 60px!important; padding: 0 0 0 14px; }
+header .logo_msg { float: left; padding: 20px 0 0 6px; }
+header .logo_msg em, header .logo_msg span { display: block; font-style: normal; font-family: 'Microsoft YaHei'; color: #fff; }
+header .logo_msg em { font-size: 22px; padding: 0 0 8px 0; }

@@ -1,0 +1,1 @@
+define(function(require,exports,module){var b=require("domains");var c=require("zepto"),a=require("wmlazyload");var d=function(){a.init();e()};var e=function(){};d()});
