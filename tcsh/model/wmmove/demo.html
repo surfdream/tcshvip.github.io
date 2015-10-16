@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../../view/ago/public/css/global.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        #page { padding: 20px; }
+        .wmmove { width: 300px; height: 300px; overflow: hidden; }
+        .parent { width: 500px; height: 500px; border: 1px solid #ccc; margin-top: 200px; margin-left: 150px; }
+       
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="parent wmmoveparent">
+            <div class="wmmove">
+                <!--<img src="img/img1.jpg"  />-->
+                <div style="background:url('img/img1.jpg');width:300px;height:300px"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        seajs.config({ base: '../wmmove',debug:2 });
+        seajs.use('src/wmmove.js', function (wmmove) {
+            wmmove.create();
+        });
+    </script>
+</body>
+</html>

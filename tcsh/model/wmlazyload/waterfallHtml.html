@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+        /*reset*/
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, select { padding: 0; margin: 0; list-style: none; }
+        /*body ::selection { color: #fff; background-color: #ff4b33; text-shadow: none; }
+body ::-moz-selection { color: #fff; background-color: #ff4b33; text-shadow: none; }*/
+        /*global*/
+        body { font: 12px/18px "Microsoft YaHei",SimSun,"sans-serif",HELVETICA; }
+        h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+        input, select, textarea { outline: none; }
+        a, a:link, a:active, a:visited { text-decoration: none; color: #505050; font-size: 12px; outline: none; }
+        a:hover { text-decoration: underline; }
+        img { border: 0; }
+
+        .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+        .waterfall_box .waterfall_item { width: 200px; border: 1px solid #ffd800; }
+        .waterfall_box img { width: 200px; }
+    </style>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="../lib/seajs/sea.js"></script>
+
+</head>
+<body>
+    <div class="waterfall_box test">
+        <ul class="waterfall_list">
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img3.jpg" /></li>
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img1.jpg" /></li>
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img2.jpg" /></li>
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img3.jpg" /></li>
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img4.jpg" /></li>
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img5.jpg" /></li>
+            <li class="waterfall_item">你妹没图片 就用文字占个坑</li>
+            <li class="waterfall_item">你妹有图片的<br>
+                <img src="img/img6.jpg" /></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        seajs.config({ base: '../wmwaterfall' });
+       
+        seajs.use("src/wmwaterfall.js", function (iw) {
+            iw.create({
+                listEle: ".waterfall_list",
+                itemEle: ".waterfall_item"
+            });
+        });
+    </script>
+</body>
+</html>

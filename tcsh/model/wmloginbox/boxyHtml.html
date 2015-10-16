@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/after/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/css/ico.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/wm_form/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/public/wm_btn/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/model/wmloginbox/css/style.css" />
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/wmloginbox/iframeConfig.js" data-init="login_iframe"></script>
+</head>
+<body>
+
+    <form class="wm_form wmlogin_form">
+        <ul>
+            <li class="form_row">
+                <label class="row_key">用户名：</label>
+                <input type="text" class="form_txt" id="user_name" name="username" wmv="empty|loginname" wmvmsg="请输入登录名！|登录名格式不正确！"><span class="wmv_msg" for="username" ></span>
+            </li>
+            <li class="form_row">
+                <label class="row_key">密码：</label>
+                <input type="password" class="form_txt" name="password" wmv="empty|loginpassword" wmvmsg="请输入密码！|密码格式不正确！"><span class="wmv_msg" for="password" ></span><a href="#" class="forget_password">忘记密码</a>
+            </li>
+            <li class="form_row form_btns">
+                <a href="#" class="ui_btn ui_btn_h46red8 login_btn">
+                    <span class="ui_btn_txt">登录</span>
+                </a>
+                <a href="#" class="go_reg">免费注册</a>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

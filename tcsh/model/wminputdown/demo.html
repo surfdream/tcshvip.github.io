@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://s.tcsh.me/tcsh/view/ago/public/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        .box { width: 800px; margin: 200px auto; position: relative; }
+        #demo_input, #demo_input2 { padding: 10px; width: 600px; }
+        .hover_sub { }
+        .input_downitem_con { display: none; }
+
+        .input_downitem_con .subitem { float: left; width: 50px; height: 20px; background: #fff; line-height: 20px; text-align: center; margin: 10px; border: 1px solid #999; }
+        .input_downitem_con ul { position: absolute; top: 0; right: 0; background: #efefef; width: 295px; height: 100%; }
+        .input_downitem_con ul h3 { margin: 18px 0 0px 10px; padding-bottom: 8px; border-bottom: 1px solid #999; width: 275px; }
+        .hover_sub:hover .input_downitem_con, .curr .input_downitem_con { display: block; }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="box">
+            <input type="text" id="demo_input" />
+        </div>
+        <div class="box">
+            <input type="text" id="demo_input2" />
+        </div>
+    </div>
+    <!--<div id="demo_input_downlist">
+        <ul>
+            <li>1</li>
+            <li>12</li>
+            <li>123</li>
+            <li>1234</li>
+            <li>1</li>
+            <li>12</li>
+            <li>123</li>
+            <li>1234</li>
+        </ul>
+    </div>-->
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/seajs/sea.js"></script>
+    <script type="text/javascript" src="http://s.tcsh.me/tcsh/model/lib/jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            seajs.config({ base: '../wminputdown' });
+            seajs.use('src/wminputdown.js', function (i) {
+                var infoData = function () {
+                    var j = parseInt(Math.random() * 10) + 5, _arr = [];
+                    while (j--) {
+                        _arr.push({
+                            txt: j + "11223344556677",
+                            con: Math.random() * 2 > 1 ? [
+                                {
+                                    txt: j + "x",
+                                    id: "1"
+                                },
+                               {
+                                   txt: j + "xx",
+                                   id: "2"
+                               },
+                               {
+                                   txt: j + "xxx",
+                                   id: "3"
+                               }
+                            ] : null
+                        });
+                    }
+                    return _arr;
+                };
+                var x = i.Create({
+                    input: $("#demo_input"),
+                    listItemModel: [
+                        '<ul>',
+                        '{@each list as item}',
+                            '<li class="input_downitem {@if item.con}hover_sub{@/if}" data_text="${item.txt}">',
+                                '<div class="input_downitem_txt">',
+                                    '${item.txt}',
+                                    '{@if item.con}<span style="font-family: sinsun;font-weight: 700;position: absolute;right: 300px;">></span>{@/if}',
+                                '</div>',
+                                '{@if item.con}<div class="input_downitem_con"><ul>',
+                                    '<li><h3>${item.txt}</h3></li>',
+                                    '{@each item.con as subitem}',
+                                    '<li class="subitem">${subitem.txt}</li>',
+                                    '{@/each}',
+                                '</ul></div>{@/if}',
+                            '</li>',
+                        '{@/each}',
+                        '</ul>'].join(''),
+                    updownCallback: function (curr) {
+                        this.val(curr.attr("data_text"));
+                    },
+                    callback: function () {
+                        var self = this;
+                        this.$input.on("focus", function () {
+                            self.empty().append({
+                                list: infoData()
+                            }, function (op) {
+                                self.showDownList();
+                            });
+                        });
+                        this.$input.on("blur", function () {
+                            self.hideDownList();
+                        });
+                        this.$input.on("keydown", function () {
+                            var $this = $(this);
+                            $this.attr("old_val", $this.val());
+                        });
+                        this.$input.on("keyup", function () {
+                            var $this = $(this), old_val = $this.attr("old_val"), val = $this.val();
+                            if (old_val != val) {
+                                self.empty().append({
+                                    list: infoData()
+                                }, function () {
+                                    self.$downBox.find(".input_downitem").each(function () {
+                                        var $this = $(this), $input_downitem_txt = $this.find('.input_downitem_txt');
+                                        if (val) {
+                                            try {
+                                                $input_downitem_txt.empty().append($this.attr("data_text").replace(new RegExp(val, "g"), '<b style="color: red;">' + val + '</b>'));
+                                            } catch (e) {
+                                                alert('输入异常！');
+                                            }
+                                            if ($this.hasClass("hover_sub")) {
+                                                $input_downitem_txt.append('<span style="font-family: sinsun;font-weight: 700;position: absolute;right: 300px;">></span>');
+                                            }
+                                        }
+                                    });
+                                });
+                            }
+                            return false
+                        });
+                        this.$downBox.on(".input_downitem", "click", function () {
+                            var $this = $(this);
+                            self.$input.val($this.attr("data_text"));
+                            return false;
+                        });
+                    }
+                });
+                var emList = [
+                    '@qq.com',
+                    '@163.com',
+                    '@sina.com',
+                    '@gmail.com',
+                    '@yahoo.com',
+                    '@msn.com'
+                ];
+                var x2 = i.Create({
+                    input: $("#demo_input2"),
+                    listItemModel: [
+                       '<ul>',
+                       '{@each emList as item}',
+                           '<li class="input_downitem" data_text="${key}${item}">',
+                              '<b>${key}</b><span>${item}</span>',
+                           '</li>',
+                       '{@/each}',
+                       '</ul>'].join(''),
+                    updownCallback: function (curr) {
+                        this.val(curr.attr("data_text"));
+                    },
+                    callback: function () {
+                        var self = this;
+                        this.$input.on("focus", function () {
+                            if ($(this).val()) {
+                                self.showDownList();
+                            }
+                        });
+                        this.$input.on("blur", function () {
+                            self.hideDownList();
+                        });
+                        this.$input.on("keydown", function () {
+                            var $this = $(this);
+                            $this.attr("old_val", $this.val());
+                        });
+                        this.$input.on("keyup", function () {
+                            var $this = $(this), old_val = $this.attr("old_val"), val = $this.val();
+                            if (old_val != val) {
+                                var data = {
+                                    emList: emList,
+                                    key: val.indexOf('@') >-1 ? val.substr(0, val.indexOf('@')) : val
+                                }
+                                self.empty().append(data, function () { self.showDownList(); });
+                            }
+                        });
+                        this.$downBox.on(".input_downitem", "click", function () {
+                            var $this = $(this);
+                            self.$input.val($this.attr("data_text"));
+                            return false;
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
